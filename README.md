@@ -7,7 +7,9 @@
 glide is a SpriteKit and GameplayKit based engine for building 2d games easily, with a focus on side scrollers. glide is developed with Swift and works on iOS, macOS and tvOS. 
 
 <p align="center">
-    <img src="Docs/glide_devices.png" max-width="80%" alt="glide devices"/>
+	<a href="https://vimeo.com/334243593">
+    <img src="Docs/jump.gif" width="400" max-width="80%" alt="A glimpse of the glide's features">
+    </a>
 </p>
 
 <p align="center">
@@ -25,9 +27,7 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 </p>
 
 <p align="center">
-	<a href="https://vimeo.com/334243593">
-    <img src="Docs/video_thumb.png" max-width="80%" alt="A glimpse of the glide's features">
-    </a>
+    <img src="Docs/glide_devices.png" max-width="80%" alt="glide devices"/>
 </p>
 
 ## What is in glide?
