@@ -72,6 +72,9 @@ Scene update loop       |  Entity update loop     |  Component update loop
 ### Game genres
 Supporting other types of 2d games(e.g. top down) with glide is totally possible. However, that is not tested with enough demos yet, and side scrollers are the initial focus for the engine. Please feel free to contribute with your own demos and changes to glide for supporting other games.
 
+### 🐞🐜
+Bugs are expected since glide is in its early days and this is currently a solo developer project. Please report the bugs you find and give some patience 🙏
+
 ### Credits:
 
 - Animated Pixel Adventurer: https://rvros.itch.io/animated-pixel-hero
