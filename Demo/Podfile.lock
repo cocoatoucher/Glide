@@ -1,0 +1,16 @@
+PODS:
+  - GlideEngine (1.0.0)
+
+DEPENDENCIES:
+  - GlideEngine (from `../`)
+
+EXTERNAL SOURCES:
+  GlideEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GlideEngine: a4186160020e385052898abf9589454f0b9c51d2
+
+PODFILE CHECKSUM: 5fdb3a329fa8459700e6085fe15c017e2c53bd1e
+
+COCOAPODS: 1.6.1

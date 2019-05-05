@@ -1,0 +1,287 @@
+{
+    "sections": [
+        {
+            "name": "Abilities",
+            "info": "Playable abilities.",
+            "levels": [
+                {
+                    "file": "SimpleAdventurerScene",
+                    "scene": "SimpleAdventurerScene",
+                    "name": "Simple Adventurer",
+                    "info": "Walking and jumping adventurer."
+                },
+                {
+                    "file": "WallJumpScene",
+                    "scene": "WallJumpScene",
+                    "name": "Wall Jump",
+                    "info": "Adventurer clinging to walls and jumping on walls."
+                },
+                {
+                    "file": "CrouchAndLookUpwardsScene",
+                    "scene": "CrouchAndLookUpwardsScene",
+                    "name": "Crouch and Look Upwards",
+                    "info": "Adventurer crouching and looking upwards."
+                },
+                {
+                    "file": "DashScene",
+                    "scene": "DashScene",
+                    "name": "Dashing",
+                    "info": "Adventurer dashing."
+                },
+                {
+                    "file": "ParaglideScene",
+                    "scene": "ParaglideScene",
+                    "name": "Paragliding",
+                    "info": "Adventurer paragliding."
+                },
+                {
+                    "file": "JetpackScene",
+                    "scene": "JetpackScene",
+                    "name": "Jetpacking",
+                    "info": "Adventurer using a jetpack."
+                },
+                {
+                    "file": "ProjectileShootingScene",
+                    "scene": "ProjectileShootingScene",
+                    "name": "Projectile Shooting",
+                    "info": "Adventurer shooting projectiles."
+                },
+                {
+                    "file": "BlinkingScene",
+                    "scene": "BlinkingScene",
+                    "name": "Blinking",
+                    "info": "Adventurer blinking when hurt."
+                },
+                {
+                    "file": "BouncingScene",
+                    "scene": "BouncingScene",
+                    "name": "Bouncing",
+                    "info": "Adventurer bouncing and blinking when hurt."
+                },
+                {
+                    "file": "HealthComponentScene",
+                    "scene": "HealthComponentScene",
+                    "name": "Health Component",
+                    "info": "Adventurer with a health bar."
+                }
+            ]
+        },
+        {
+            "name": "Environment & Platforms",
+            "info": "Environment and platform components.",
+            "levels": [
+                {
+                    "file": "OneWayGroundsScene",
+                    "scene": "OneWayGroundsScene",
+                    "name": "One Way Grounds",
+                    "info": "Ground that can be collided only from top."
+                },
+                {
+                    "file": "SlopesScene",
+                    "scene": "SlopesScene",
+                    "name": "Slopes",
+                    "info": "Non rectangular surfaces."
+                },
+                {
+                    "file": "MovingPlatformsScene",
+                    "scene": "MovingPlatformsScene",
+                    "name": "Moving Platforms",
+                    "info": "Platforms that move with different kinds of logic."
+                },
+                {
+                    "file": "OscillatingPlatformsScene",
+                    "scene": "OscillatingPlatformsScene",
+                    "name": "Oscillating Platforms",
+                    "info": "Platform moving with an oscillating curve."
+                },
+                {
+                    "file": "FallingPlatformsScene",
+                    "scene": "FallingPlatformsScene",
+                    "name": "Falling Platforms",
+                    "info": "Platform that falls after contact."
+                },
+                {
+                    "file": "BouncingPlatformsScene",
+                    "scene": "BouncingPlatformsScene",
+                    "name": "Bouncing Platforms",
+                    "info": "Platform that makes the player jump after contact."
+                },
+                {
+                    "file": "LaddersScene",
+                    "scene": "LaddersScene",
+                    "name": "Ladders",
+                    "info": "Ladders as a shortcut upwards."
+                },
+                {
+                    "file": "SwingsScene",
+                    "scene": "SwingsScene",
+                    "name": "Swings",
+                    "info": "Fun to ride!"
+                },
+                {
+                    "file": "LightsScene",
+                    "scene": "LightsScene",
+                    "name": "Lights",
+                    "info": "Lights as theme setters."
+                }
+            ]
+        },
+        {
+            "name": "Contacts",
+            "info": "Entities interacting with each other.",
+            "levels": [
+                {
+                    "file": "CollectiblesScene",
+                    "scene": "CollectiblesScene",
+                    "name": "Collectibles",
+                    "info": "Collect some gems."
+                },
+                {
+                    "file": "ItemChestsScene",
+                    "scene": "ItemChestsScene",
+                    "name": "Item Chests",
+                    "info": "Chest with an item inside."
+                },
+                {
+                    "file": "EntityObservingScene",
+                    "scene": "EntityObservingScene",
+                    "name": "Entity Observing",
+                    "info": "Entities observing others."
+                },
+                {
+                    "file": "CameraFocusAreasScene",
+                    "scene": "CameraFocusAreasScene",
+                    "name": "Camera Focus Areas",
+                    "info": "Areas that control the camera."
+                }
+            ]
+        },
+        {
+            "name": "Autonomous Behavior",
+            "info": "Entities behaving on their own.",
+            "levels": [
+                {
+                    "file": "SelfPatrollingScene",
+                    "scene": "SelfPatrollingScene",
+                    "name": "Patrolling NPCs",
+                    "info": "NPCs patrolling with different profiles."
+                },
+                {
+                    "file": "SelfFollowWaypointsScene",
+                    "scene": "SelfFollowWaypointsScene",
+                    "name": "Self Follow Waypoints",
+                    "info": "NPCs following given waypoints."
+                },
+                {
+                    "file": "SelfShootOnObserveScene",
+                    "scene": "SelfShootOnObserveScene",
+                    "name": "Shoot when Observing",
+                    "info": "NPC shooting on its observed entities."
+                },
+                {
+                    "file": "SelfSpawnEntitiesScene",
+                    "scene": "SelfSpawnEntitiesScene",
+                    "name": "Self Spawn Entities",
+                    "info": "NPC that spawns other entities."
+                }
+            ]
+        },
+        {
+            "name": "Weapons & Combat",
+            "info": "Guns, swords and bumps.",
+            "levels": [
+                {
+                    "file": "ProjectileWeaponsScene",
+                    "scene": "ProjectileWeaponsScene",
+                    "name": "Projectile Weapons",
+                    "info": "A gun with projectiles."
+                },
+                {
+                    "file": "MeleeWeaponsScene",
+                    "scene": "MeleeWeaponsScene",
+                    "name": "Melee Weapons",
+                    "info": "A strong sword."
+                },
+                {
+                    "file": "BumpingOnTopScene",
+                    "scene": "BumpingOnTopScene",
+                    "name": "Bumping on Top",
+                    "info": "A familiar combat style."
+                }
+            ]
+        },
+        {
+            "name": "Gameplay UI",
+            "info": "Gameplay UI",
+            "levels": [
+                {
+                    "file": "SpeechBubblesScene",
+                    "scene": "SpeechBubblesScene",
+                    "name": "Speech Bubbles",
+                    "info": "Communication is the key."
+                }
+            ]
+        },
+        {
+            "name": "Camera",
+            "info": "Where everything makes sense.",
+            "levels": [
+                {
+                    "file": "CameraShakeScene",
+                    "scene": "CameraShakeScene",
+                    "name": "Camera Shake",
+                    "info": "Shaking the camera."
+                },
+                {
+                    "file": "ParallaxBackgroundScene",
+                    "scene": "ParallaxBackgroundScene",
+                    "name": "Parallax Background",
+                    "info": "Making your levels rich."
+                }
+            ]
+        },
+        {
+            "name": "Level Logic",
+            "info": "Checkpoints and finish lines.",
+            "levels": [
+                {
+                    "file": "CheckpointsScene",
+                    "scene": "CheckpointsScene",
+                    "name": "Checkpoints",
+                    "info": "A sample set of checkpoints."
+                },
+                {
+                    "file": "RestartAtCheckpointScene",
+                    "scene": "RestartAtCheckpointScene",
+                    "name": "Entities and checkpoints",
+                    "info": "Relating entities to checkpoints."
+                }
+            ]
+        },
+        {
+            "name": "Local Multiplayer",
+            "info": "Multiple players in the same scene.",
+            "levels": [
+                {
+                    "file": "LocalMultiplayerScene",
+                    "scene": "LocalMultiplayerScene",
+                    "name": "Local Multiplayer",
+                    "info": "Two playables in the same scene!"
+                }
+            ]
+        },
+        {
+            "name": "Level Loading",
+            "info": ".sks file loading",
+            "levels": [
+                {
+                    "file": "SKSLoadingScene",
+                    "scene": "SKSLoadingScene",
+                    "name": "SKS Loading",
+                    "info": "Loading your .sks level files.",
+                    "isSKS": true
+                }
+            ]
+        }
+    ]
+}

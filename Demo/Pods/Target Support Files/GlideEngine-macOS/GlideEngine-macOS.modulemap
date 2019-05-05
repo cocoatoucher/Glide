@@ -1,0 +1,6 @@
+framework module GlideEngine {
+  umbrella header "GlideEngine-macOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

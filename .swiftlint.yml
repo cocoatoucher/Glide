@@ -1,0 +1,27 @@
+disabled_rules:
+- trailing_whitespace
+- unused_setter_value
+- nesting
+- opening_brace
+
+opt_in_rules:
+- force_unwrapping
+
+line_length: 200
+
+function_parameter_count: 8
+
+file_length: 500
+
+identifier_name:
+    min_length: 1
+    max_length: 50
+
+type_name:
+    max_length:
+        warning: 80
+        error: 100
+
+type_body_length:
+    warning: 400
+    error: 600
