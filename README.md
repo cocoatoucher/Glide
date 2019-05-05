@@ -11,6 +11,12 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 </p>
 
 <p align="center">
+	<a href="https://app.bitrise.io/app/b14b754f747dc2fa">
+        <img src="https://app.bitrise.io/app/b14b754f747dc2fa/status.svg?token=2DJHooo6_IVnbLRAFbfxzQ" alt="iOS Build status"/>
+    </a>
+    <a href="https://app.bitrise.io/app/a302dd2ce8710bf2">
+        <img src="https://app.bitrise.io/app/a302dd2ce8710bf2/status.svg?token=I5JPNr5-g_hAj2kR6mtZaA" alt="macOS Build status"/>
+    </a>
     <img src="https://img.shields.io/badge/Swift-5.0-orange.svg"/>
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
     <a href="mailto:cocoatoucher@posteo.se">
