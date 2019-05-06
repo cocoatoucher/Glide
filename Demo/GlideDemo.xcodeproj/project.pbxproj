@@ -1651,16 +1651,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_iOS/Pods-GlideDemo_iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GlideEngine-iOS/GlideEngine.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_iOS/Pods-GlideDemo_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GlideEngine.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_iOS/Pods-GlideDemo_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1790,16 +1785,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_tvOS/Pods-GlideDemo_tvOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GlideEngine-tvOS/GlideEngine.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_tvOS/Pods-GlideDemo_tvOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GlideEngine.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_tvOS/Pods-GlideDemo_tvOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1812,16 +1802,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_macOS/Pods-GlideDemo_macOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GlideEngine-macOS/GlideEngine.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_macOS/Pods-GlideDemo_macOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GlideEngine.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GlideDemo_macOS/Pods-GlideDemo_macOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
