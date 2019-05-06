@@ -1,12 +1,12 @@
 <p align="center">
-    <img src="glide_logo_transparent.png" width="128" max-width="80%" alt="Glide"/>
+    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/glide_logo_transparent.png" width="128" max-width="80%" alt="glide"/>
 </p>
 
 # glide quick start guide
 
 ## 1. Create some map files and tile sets:
-- First step is to create your custom Tiled Map Editor map files to be a base for your game scene. See how [here](TiledMapEditorMaps.md). Or unzip and add these [sample ones](TiledMapEditor/TestMap.zip) to your Xcode project if you just want to see how it works.
-- Alternatively, create some SpriteKit scene files and tile sets to be used within your scene. See how [here](SpriteKitMaps.md).
+- First step is to create your custom Tiled Map Editor map files to be a base for your game scene. See how [here](https://github.com/cocoatoucher/Glide/raw/master/Docs/TiledMapEditorMaps.md). Or unzip and add these [sample ones](https://github.com/cocoatoucher/Glide/raw/master/Docs/TiledMapEditor/GlideColliderTileset.zip) to your Xcode project if you just want to see how it works.
+- Alternatively, create some SpriteKit scene files and tile sets to be used within your scene. See how [here](https://github.com/cocoatoucher/Glide/raw/master/Docs/SpriteKitMaps.md).
 
 ## 2. Have a view controller with a SKView
 - Depending on your target platform, setup a UIViewController or an NSViewController whose view is a SKView, or whose view has a SKView subview.
@@ -33,7 +33,7 @@ let scene = GlideScene(collisionTileMapNode: sceneTileMaps.collisionTileMap, zPo
 /// Then present your scene
 skView.presentScene(scene)
 ```
-- If you chose to use SpriteKit scene files, refer to [this document](SpriteKitMaps.md) to initialize your `GlideScene`, don't worry it's even easier than Tiled Map Editor map files.
+- If you chose to use SpriteKit scene files, refer to [this document](https://github.com/cocoatoucher/Glide/raw/master/Docs/SpriteKitMaps.md) to initialize your `GlideScene`, don't worry it's even easier than Tiled Map Editor map files.
 - It's recommended to implement a subclass of `GlideScene` and contain your level related logic and entities in there instead of directly initializing a `GlideScene`. However, for the sake of this short tutorial, we are directly instantiating it.
 
 ## 4. Add your first playable entity to your scene

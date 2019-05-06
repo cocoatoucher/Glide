@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="glide_logo_transparent.png" width="128" max-width="80%" alt="Glide"/>
+    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/glide_logo_transparent.png" width="128" max-width="80%" alt="Glide"/>
 </p>
 
 # glide engine components:

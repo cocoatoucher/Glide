@@ -1,11 +1,11 @@
 <p align="center">
-    <img src="glide_logo_transparent.png" width="128" max-width="80%" alt="Glide"/>
+    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/glide_logo_transparent.png" width="128" max-width="80%" alt="glide"/>
 </p>
 
 # Creating a `GlideScene` from a SpriteKit scene(sks) file:
 
 ### 1. Create some tile sets:
-- [Use the collider tile set provided by Glide for 16x16 tiles.](Sks/GlideColliderTileSet.sks.zip)
+- [Use the collider tile set provided by glide for 16x16 tiles.](https://github.com/cocoatoucher/Glide/raw/master/Docs/Sks/GlideColliderTileSet.sks.zip)
 - Create another SpriteKit Tile Set file for decoration tiles.
 - Populate the tile sets with your custom tile images from your assets folder.
 - You can also create and use a single Tile Set file for both.
