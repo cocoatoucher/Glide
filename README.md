@@ -30,7 +30,7 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 </p>
 
 <p align="center">
-    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/glide_devices.png" max-width="80%" alt="glide devices"/>
+    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/devices.png" max-width="80%" alt="glide devices"/>
 </p>
 
 ## What is in glide?
