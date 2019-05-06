@@ -38,7 +38,7 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 ### 1. Entity component system
 glide is developed with Entity-Component-System architecture. In short, this makes it easy to manage the code of your game. Loads of building components common to 2d platformers that will get you quickly started is also included in the engine. 
 
-#### See all the components [here](https://github.com/cocoatoucher/Glide/raw/master/Docs/Components.md). 👾
+#### See all the components [here](https://github.com/cocoatoucher/Glide/blob/master/Docs/Components.md). 👾
 
 ### 2. Tight collisions and contacts
 glide has its own collision and contact algorithms which is more suitable for precise platformer mechanics compared to using SpriteKit's physicsBody.
@@ -63,7 +63,7 @@ There is currently a work in progress for playing audio and music with ready mad
 glide comes with a fullly fledged demo project. Download this repository and run it in your favorite platform. Running on release configuration with a real device is recommended for experiencing the actual performance.
 
 ### Quick start guide
-Create your first scene with your first entity [here.](https://github.com/cocoatoucher/Glide/raw/master/Docs/QuickStartGuide.md)
+Create your first scene with your first entity [here.](https://github.com/cocoatoucher/Glide/blob/master/Docs/QuickStartGuide.md)
 
 ### Update loops
 Here are the update loop charts of glide that you might need as a handy reference.
@@ -82,4 +82,4 @@ Bugs are expected since glide is in its early days and this is currently a solo 
 
 - Animated Pixel Adventurer: https://rvros.itch.io/animated-pixel-hero
 - Classical ruin tiles: https://opengameart.org/content/classical-ruin-tiles
-- [All credits](https://github.com/cocoatoucher/Glide/raw/master/Docs/AssetCredits.md)
+- [All credits](https://github.com/cocoatoucher/Glide/blob/master/Docs/AssetCredits.md)

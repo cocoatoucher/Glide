@@ -4,7 +4,7 @@
 
 # glide documentation
 
-### [- Components](https://github.com/cocoatoucher/Glide/raw/master/Docs/Components.md)
-### [- Quick start guide](https://github.com/cocoatoucher/Glide/raw/master/Docs/QuickStartGuide.md)
-### [- Map files with Tiled Map Editor](https://github.com/cocoatoucher/Glide/raw/master/Docs/TiledMapEditorMaps.md)
-### [- Map files with SpriteKit](https://github.com/cocoatoucher/Glide/raw/master/Docs/SpriteKitMaps.md)
+### [- Components](https://github.com/cocoatoucher/Glide/blob/master/Docs/Components.md)
+### [- Quick start guide](https://github.com/cocoatoucher/Glide/blob/master/Docs/QuickStartGuide.md)
+### [- Map files with Tiled Map Editor](https://github.com/cocoatoucher/Glide/blob/master/Docs/TiledMapEditorMaps.md)
+### [- Map files with SpriteKit](https://github.com/cocoatoucher/Glide/blob/master/Docs/SpriteKitMaps.md)
