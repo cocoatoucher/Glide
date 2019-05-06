@@ -9,7 +9,7 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 Download the macOS demo app [here](https://github.com/cocoatoucher/Glide/raw/master/Docs/GlideDemo.zip) to give it a try.
 
 <p align="center">
-	<a href="https://vimeo.com/334243593">
+	<a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/334243593">
     <img src="Docs/jump.gif" width="400" max-width="80%" alt="A glimpse of the glide's features">
     </a>
 </p>
