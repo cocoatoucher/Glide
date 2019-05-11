@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/glide_logo_transparent.png" width="128" max-width="80%" alt="glide"/>
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/glide_logo_transparent.png" width="128" max-width="80%" alt="glide"/>
 </p>
 
 # glide engine
@@ -10,30 +10,35 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 - or watch a video of the features [here](https://vimeo.com/334243593). 
 
 <p align="center">
-	<a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/334243593">
-    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/jump.gif" width="400" max-width="80%" alt="A glimpse of the glide's features">
-    </a>
+<a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/334243593">
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/jump.gif" width="400" max-width="80%" alt="A glimpse of the glide's features">
+</a>
 </p>
 
 <p align="center">
-	<a href="https://app.bitrise.io/app/b14b754f747dc2fa">
-        <img src="https://app.bitrise.io/app/b14b754f747dc2fa/status.svg?token=2DJHooo6_IVnbLRAFbfxzQ" alt="iOS Build status"/>
-    </a>
-    <a href="https://app.bitrise.io/app/a302dd2ce8710bf2">
-        <img src="https://app.bitrise.io/app/a302dd2ce8710bf2/status.svg?token=I5JPNr5-g_hAj2kR6mtZaA" alt="macOS Build status"/>
-    </a>
-    <img src="https://img.shields.io/badge/Swift-5.0-orange.svg"/>
-    <a href="https://cocoapods.org/pods/GlideEngine">
-        <img src="https://img.shields.io/cocoapods/v/GlideEngine.svg" alt="cocoapods"/>
-    </a>
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
-    <a href="mailto:cocoatoucher@posteo.se">
-        <img src="https://img.shields.io/badge/contact-cocoatoucher-yellow.svg?style=flat"/>
-    </a>
+<a href="https://app.bitrise.io/app/b14b754f747dc2fa">
+<img src="https://app.bitrise.io/app/b14b754f747dc2fa/status.svg?token=2DJHooo6_IVnbLRAFbfxzQ" alt="iOS Build status"/>
+</a>
+<a href="https://app.bitrise.io/app/a302dd2ce8710bf2">
+<img src="https://app.bitrise.io/app/a302dd2ce8710bf2/status.svg?token=I5JPNr5-g_hAj2kR6mtZaA" alt="macOS Build status"/>
+</a>
+<img src="https://img.shields.io/badge/Swift-5.0-orange.svg"/>
+<a href="https://cocoapods.org/pods/GlideEngine">
+<img src="https://img.shields.io/cocoapods/v/GlideEngine.svg" alt="cocoapods"/>
+</a>
+</p>
+<p align="center">
+<a href="https://twitter.com/intent/follow?screen_name=glideengine">
+<img src="https://img.shields.io/twitter/follow/glideengine.svg?label=Follow"/>
+</a>
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
+<a href="mailto:cocoatoucher@posteo.se">
+<img src="https://img.shields.io/badge/contact-cocoatoucher-yellow.svg?style=flat"/>
+</a>
 </p>
 
 <p align="center">
-    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/devices.png" max-width="80%" alt="glide devices"/>
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/devices.png" max-width="80%" alt="glide devices"/>
 </p>
 
 ## What is in glide?
@@ -52,7 +57,7 @@ Support for Bluetooth and USB game controllers, keyboard, mouse, and touch contr
 ### 4. Native game menus
 
 <p align="center">
-    <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/navigatable.gif" width="444" max-width="80%"/>
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/navigatable.gif" width="444" max-width="80%"/>
 </p>
 
 You can't imagine a game without menus in most cases. A UIKit / AppKit based user interface library for making game menus is included in glide, so you don't have to give up from native Apple components in your games. Of course, those menus are controllable via game controllers on iOS, macOS and tvOS 🎮💃

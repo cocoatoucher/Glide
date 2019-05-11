@@ -33,14 +33,23 @@ extension Input {
             self.connectGCController(connectedController)
         }
         
-        gameControllerObserver.didDisconnectControllerHandler = { controller in
-            if let rawIdx = self.connectedGCControllerPlayerIndexes[controller.playerIndex] {
-                self.recollectGCControllerPlayerIndex(playerIndex: controller.playerIndex, rawIndex: rawIdx)
+        gameControllerObserver.didDisconnectControllerHandler = { removedController in
+            
+            let index = self.connectedGameControllers.firstIndex(where: { connectedController -> Bool in
+                connectedController.deviceHash == removedController.deviceHash || connectedController == removedController
+            })
+            guard let foundIndex = index else {
+                return
+            }
+            
+            let controller = self.connectedGameControllers[foundIndex]
+            if let rawIdx = self.connectedGCControllerPlayerIndices[controller.playerIndex] {
+                self.recollectGCControllerPlayerIndex(playerIndex: controller.playerIndex)
                 self.recollectControllerPlayerIndex(playerIndex: rawIdx)
             }
-            if let index = self.connectedGameControllers.firstIndex(of: controller) {
-                self.connectedGameControllers.remove(at: index)
-            }
+            self.connectedGameControllers.remove(at: foundIndex)
+            
+            
         }
         
         for controller in gameControllerObserver.connectedControllers {
@@ -301,8 +310,8 @@ extension Input {
     
     private var nextAvailableGCControllerPlayerIndex: (Int, GCControllerPlayerIndex)? {
         guard
-            let nextIndex = availableControllerPlayerIndexes.first,
-            let nextGCControllerPlayerIndex = availableGCControllerPlayerIndexes.first
+            let nextIndex = availableControllerPlayerIndices.first,
+            let nextGCControllerPlayerIndex = availableGCControllerPlayerIndices.first
             else {
                 return nil
         }
@@ -310,45 +319,50 @@ extension Input {
     }
     
     private var nextAvailableDDHidJoystickPlayerIndex: Int? {
-        return availableControllerPlayerIndexes.first
+        return availableControllerPlayerIndices.first
     }
     
     private func consumeGCControllerPlayerIndex(playerIndex: GCControllerPlayerIndex, rawIndex: Int) {
-        if let idx = availableGCControllerPlayerIndexes.firstIndex(of: playerIndex) {
-            availableGCControllerPlayerIndexes.remove(at: idx)
-            connectedGCControllerPlayerIndexes[playerIndex] = rawIndex
+        if let idx = availableGCControllerPlayerIndices.firstIndex(of: playerIndex) {
+            availableGCControllerPlayerIndices.remove(at: idx)
+            connectedGCControllerPlayerIndices[playerIndex] = rawIndex
         }
     }
     
     private func consumeControllerPlayerIndex(playerIndex: Int) {
-        if let idx = availableControllerPlayerIndexes.firstIndex(of: playerIndex) {
-            availableControllerPlayerIndexes.remove(at: idx)
-            connectedControllerPlayerIndexes.append(playerIndex)
+        if let idx = availableControllerPlayerIndices.firstIndex(of: playerIndex) {
+            availableControllerPlayerIndices.remove(at: idx)
+            connectedControllerPlayerIndices.append(playerIndex)
         }
     }
     
-    func recollectGCControllerPlayerIndex(playerIndex: GCControllerPlayerIndex, rawIndex: Int) {
-        connectedGCControllerPlayerIndexes[playerIndex] = nil
-        availableGCControllerPlayerIndexes.append(playerIndex)
-        availableGCControllerPlayerIndexes.sort { (leftIndex, rightIndex) -> Bool in
+    func recollectGCControllerPlayerIndex(playerIndex: GCControllerPlayerIndex) {
+        connectedGCControllerPlayerIndices[playerIndex] = nil
+        availableGCControllerPlayerIndices.append(playerIndex)
+        availableGCControllerPlayerIndices.sort { (leftIndex, rightIndex) -> Bool in
             leftIndex.rawValue < rightIndex.rawValue
         }
     }
     
     func recollectControllerPlayerIndex(playerIndex: Int) {
-        if let idx = connectedControllerPlayerIndexes.firstIndex(of: playerIndex) {
-            connectedControllerPlayerIndexes.remove(at: idx)
-            availableControllerPlayerIndexes.append(playerIndex)
-            availableControllerPlayerIndexes.sort()
+        if let idx = connectedControllerPlayerIndices.firstIndex(of: playerIndex) {
+            connectedControllerPlayerIndices.remove(at: idx)
+            availableControllerPlayerIndices.append(playerIndex)
+            availableControllerPlayerIndices.sort()
         }
     }
     
     func connectGCController(_ controller: GCController) {
-        if controller.vendorName?.hasPrefix("Joy-Con") == true {
+        guard shouldConnectControllerAsGCController(controller) else {
             return
         }
         
-        if connectedGameControllers.firstIndex(of: controller) == nil {
+        let existing = connectedGameControllers.first(where: { connectedController -> Bool in
+            connectedController.deviceHash == controller.deviceHash || connectedController == controller
+        })
+        if let existingController = existing {
+            controller.playerIndex = existingController.playerIndex
+        } else {
             guard let newPlayerIndex = self.nextAvailableGCControllerPlayerIndex else {
                 return
             }
@@ -365,10 +379,29 @@ extension Input {
         }
     }
     
+    private func shouldConnectControllerAsGCController(_ controller: GCController) -> Bool {
+        // This is a potential list for future.
+        
+        // Joy-cons
+        if controller.vendorName?.hasPrefix("Joy-Con") == true {
+            return false
+        }
+        return true
+    }
+    
     #if os(OSX)
-    private func connectDDHidJoystick(_ ddHidJoystick: DDHidJoystick) {
+    private func shouldConnectControllerAsCustomController(_ ddHidJoystick: DDHidJoystick) -> Bool {
+        // This is a potential list for future.
+        
         // SteelSeries Nimbus
         if ddHidJoystick.vendorId() == 273 && ddHidJoystick.productId() == 5152 {
+            return false
+        }
+        return true
+    }
+    
+    private func connectDDHidJoystick(_ ddHidJoystick: DDHidJoystick) {
+        guard shouldConnectControllerAsCustomController(ddHidJoystick) else {
             return
         }
         
@@ -555,7 +588,7 @@ extension Input {
         guard let playerIndex = gameController?.playerIndex else {
             return nil
         }
-        return controllerKeyGroup(for: connectedGCControllerPlayerIndexes[playerIndex])
+        return controllerKeyGroup(for: connectedGCControllerPlayerIndices[playerIndex])
     }
     
     #if os(OSX)

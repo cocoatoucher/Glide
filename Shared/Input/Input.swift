@@ -175,13 +175,13 @@ public class Input {
     // Game controller
     let gameControllerObserver = GameControllerObserver()
     
-    var availableControllerPlayerIndexes: [Int] = [0, 1, 2, 3, 4, 5, 6, 7, 8]
-    var availableGCControllerPlayerIndexes = [GCControllerPlayerIndex.index1,
+    var availableControllerPlayerIndices: [Int] = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    var availableGCControllerPlayerIndices = [GCControllerPlayerIndex.index1,
                                               GCControllerPlayerIndex.index2,
                                               GCControllerPlayerIndex.index3,
                                               GCControllerPlayerIndex.index4]
-    var connectedGCControllerPlayerIndexes: [GCControllerPlayerIndex: Int] = [:]
-    var connectedControllerPlayerIndexes: [Int] = []
+    var connectedGCControllerPlayerIndices: [GCControllerPlayerIndex: Int] = [:]
+    var connectedControllerPlayerIndices: [Int] = []
     var connectedGameControllers: [GCController] = [] {
         didSet {
             if connectedGameControllers.isEmpty {

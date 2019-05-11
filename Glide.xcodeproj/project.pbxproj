@@ -192,6 +192,9 @@
 		4E6A15432220465700744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */; };
 		4E6A15442220469400744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */; };
 		4E6A15452220469400744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */; };
+		4E6CB13922876DD60030CC4D /* GCController+DeviceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */; };
+		4E6CB13A22876DD80030CC4D /* GCController+DeviceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */; };
+		4E6CB13B22876DD90030CC4D /* GCController+DeviceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */; };
 		4E6F2E5621F5D58D004BB1D6 /* Glide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4E22DA217BA117009F5C3E /* Glide.framework */; };
 		4E6F2E6821F5D71F004BB1D6 /* Glide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7515562179F7EA0066DA2F /* Glide.framework */; };
 		4E6F2E7721F5D75A004BB1D6 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6F2E7521F5D75A004BB1D6 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -713,6 +716,7 @@
 		4E6A126E225DEAEC00DDB847 /* EntityObserverComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityObserverComponent.swift; sourceTree = "<group>"; };
 		4E6A1273225F511300DDB847 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+TileRepresentations.swift"; sourceTree = "<group>"; };
+		4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GCController+DeviceHash.swift"; sourceTree = "<group>"; };
 		4E6F2E5121F5D58D004BB1D6 /* Glide_macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F2E6321F5D71E004BB1D6 /* Glide_iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F2E7321F5D75A004BB1D6 /* Glide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Glide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1382,6 +1386,7 @@
 				4E002C6B22708EC600DE2357 /* SKTexture+NearestFilteringMode.swift */,
 				4E47BEC122746C2F009ED639 /* GKEntity+Name.swift */,
 				4E47BEED2276130C009ED639 /* Array+Difference.swift */,
+				4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -2003,6 +2008,7 @@
 				4EB800882192F78E0079EBFD /* JetpackOperatorComponent.swift in Sources */,
 				4EBF28692267676F00AE954B /* NavigatableButtonContentView.swift in Sources */,
 				4E002C6D22708EC600DE2357 /* SKTexture+NearestFilteringMode.swift in Sources */,
+				4E6CB13A22876DD80030CC4D /* GCController+DeviceHash.swift in Sources */,
 				4E7D7BB221C3BFC200D9E1BC /* GlideScene+Input.swift in Sources */,
 				4EF85469219EFC9600744807 /* GlideComponent.swift in Sources */,
 				4E5E8BE4218E0457002E183B /* TransformNodeComponent.swift in Sources */,
@@ -2251,6 +2257,7 @@
 				4E6F2EB621F5D86F004BB1D6 /* ColliderTileHolderComponent.swift in Sources */,
 				4E6F2E9A21F5D849004BB1D6 /* EntityFactory.swift in Sources */,
 				4E6F2E8F21F5D832004BB1D6 /* ColliderTile.swift in Sources */,
+				4E6CB13B22876DD90030CC4D /* GCController+DeviceHash.swift in Sources */,
 				4E6F2EB221F5D86F004BB1D6 /* KinematicsBodyComponent.swift in Sources */,
 				4EBF28AF226BB45300AE954B /* RespawnableEntityComponent.swift in Sources */,
 				4E47D24F223FB121007F4306 /* ZPositionContainerIndicatorComponent.swift in Sources */,
@@ -2486,6 +2493,7 @@
 				4E751575217A09FC0066DA2F /* TiledGeometry.swift in Sources */,
 				4E9C7ADD226266FA00082C99 /* GlideScene+ZPositionContainers.swift in Sources */,
 				4E75159F217A2DAD0066DA2F /* Slope_7_0.swift in Sources */,
+				4E6CB13922876DD60030CC4D /* GCController+DeviceHash.swift in Sources */,
 				4E9C7ACA22609E0600082C99 /* CategoryMask.swift in Sources */,
 				4E867A38217B4F010080394E /* CameraFocusAreaComponent.swift in Sources */,
 				4E3BD8B222590AB800110861 /* CircularMovementDirection.swift in Sources */,

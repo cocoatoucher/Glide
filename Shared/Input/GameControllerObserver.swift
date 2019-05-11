@@ -31,26 +31,49 @@ class GameControllerObserver {
     var didDisconnectControllerHandler: ((GCController) -> Void)?
     
     init() {
-        _ = NotificationCenter.default.addObserver(forName: .GCControllerDidConnect,
-                                                   object: nil,
-                                                   queue: nil) { notification in
-                                                    if let controller = notification.object as? GCController {
-                                                        if controller.vendorName != "Generic Controller" {
-                                                            self.didConnectControllerHandler?(controller)
-                                                        }
-                                                    }
+        connectObservation = NotificationCenter.default.addObserver(forName: .GCControllerDidConnect,
+                                                                    object: nil,
+                                                                    queue: nil) { [weak self] notification in
+                                                                        self?.handleConnect(notification: notification)
         }
         
-        _ = NotificationCenter.default.addObserver(forName: .GCControllerDidDisconnect,
-                                                   object: nil,
-                                                   queue: nil) { notification in
-                                                    if let controller = notification.object as? GCController {
-                                                        self.didDisconnectControllerHandler?(controller)
-                                                    }
+        disconnectObservation = NotificationCenter.default.addObserver(forName: .GCControllerDidDisconnect,
+                                                                       object: nil,
+                                                                       queue: nil) { [weak self] notification in
+                                                                        self?.handleDisconnect(notification: notification)
         }
     }
     
     var connectedControllers: [GCController] {
         return GCController.controllers().filter { $0.vendorName != "Generic Controller" }
+    }
+    
+    // MARK: - Private
+    
+    private var connectObservation: Any?
+    private var disconnectObservation: Any?
+    
+    private func handleConnect(notification: Notification) {
+        if let controller = notification.object as? GCController {
+            self.didConnectControllerHandler?(controller)
+            for controller in connectedControllers {
+                self.didConnectControllerHandler?(controller)
+            }
+        }
+    }
+    
+    private func handleDisconnect(notification: Notification) {
+        if let controller = notification.object as? GCController {
+            self.didDisconnectControllerHandler?(controller)
+        }
+    }
+    
+    deinit {
+        if let observation = connectObservation {
+            NotificationCenter.default.removeObserver(observation)
+        }
+        if let observation = disconnectObservation {
+            NotificationCenter.default.removeObserver(observation)
+        }
     }
 }
