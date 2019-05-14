@@ -68,7 +68,7 @@ There is currently a work in progress for playing audio and music with ready mad
 ## Get your hands on glide
 
 ### Demo scenes
-glide comes with a fullly fledged demo project. Download this repository and run it in your favorite platform. Running on release configuration with a real device is recommended for experiencing the actual performance.
+glide comes with a fully fledged demo project. Download this repository and run it in your favorite platform. Running on release configuration with a real device is recommended for experiencing the actual performance.
 
 ### Quick start guide
 Create your first scene with your first entity [here.](https://github.com/cocoatoucher/Glide/blob/master/Docs/QuickStartGuide.md)
