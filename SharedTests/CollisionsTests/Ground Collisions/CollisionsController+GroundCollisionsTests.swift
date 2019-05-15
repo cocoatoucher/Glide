@@ -38,7 +38,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: .zero, to: .zero)
 
-        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement)
+        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation)
 
         XCTAssertTrue(tileIntersections.count == 1)
         XCTAssertTrue(tileIntersections.first?.tileRepresentation == mapRepresentation.tileRepresentationAt(column: 0, row: 0))
@@ -53,7 +53,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
 
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: .zero, to: .zero)
 
-        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement)
+        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation)
 
         XCTAssertTrue(tileIntersections.count == 1)
         XCTAssertTrue(tileIntersections.first?.tileRepresentation == nil)
@@ -69,7 +69,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
 
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: .zero, to: CGPoint(x: 16, y: 16))
 
-        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement)
+        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation)
 
         XCTAssertTrue(tileIntersections.count == 4)
         XCTAssertTrue(tileIntersections.contains { $0.coordinates == TiledPoint(x: 0, y: 0) })
@@ -88,7 +88,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
         // Closer to the the ground at (1,0) and farther from ground at (0,0)
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 22, y: 0), to: CGPoint(x: 22, y: 0))
 
-        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement)
+        let tileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation)
 
         XCTAssertTrue(tileIntersections.count == 2)
         XCTAssertTrue(tileIntersections.first?.coordinates == TiledPoint(x: 1, y: 0))
@@ -107,13 +107,16 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
 
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 26), to: CGPoint(x: 16, y: 24))
 
-        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement).filter { $0.coordinates == colliderTileCoordinates }.first
+        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.coordinates == colliderTileCoordinates }.first
         guard let basicGroundIntersection = tileIntersection else {
             XCTFail("Doesn't intersect basic ground")
             return
         }
 
-        let contact = collisionsController.basicGroundAndOnewayTileContact(colliderMovement: colliderMovement, shouldCollideGround: true, tileIntersection: basicGroundIntersection)
+        let contact = collisionsController.basicGroundAndOnewayTileContact(colliderMovement: colliderMovement,
+                                                                           tileMapRepresentation: mapRepresentation,
+                                                                           shouldCollideGround: true,
+                                                                           tileIntersection: basicGroundIntersection)
         XCTAssertNotNil(contact)
     }
 
@@ -130,13 +133,16 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 26), to: CGPoint(x: 16, y: 24))
         colliderMovement.collider.didPushDown = true
 
-        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement).filter { $0.coordinates == oneWayTileCoordinates }.first
+        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.coordinates == oneWayTileCoordinates }.first
         guard let oneWayGroundIntersection = tileIntersection else {
             XCTFail("Doesn't intersect one way ground")
             return
         }
 
-        let contact = collisionsController.basicGroundAndOnewayTileContact(colliderMovement: colliderMovement, shouldCollideGround: true, tileIntersection: oneWayGroundIntersection)
+        let contact = collisionsController.basicGroundAndOnewayTileContact(colliderMovement: colliderMovement,
+                                                                           tileMapRepresentation: mapRepresentation,
+                                                                           shouldCollideGround: true,
+                                                                           tileIntersection: oneWayGroundIntersection)
         XCTAssertNil(contact)
     }
 
@@ -152,7 +158,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 26, y: 0), to: CGPoint(x: 26, y: 0))
 
-        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement).filter { $0.coordinates == jumpWallCoordinates }.first
+        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.coordinates == jumpWallCoordinates }.first
         guard let jumpWallIntersection = tileIntersection else {
             XCTFail("Doesn't intersect jump wall")
             return
@@ -174,7 +180,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 26, y: 0), to: CGPoint(x: 26, y: 0))
         
-        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement).filter { $0.coordinates == jumpWallCoordinates }.first
+        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.coordinates == jumpWallCoordinates }.first
         guard let jumpWallIntersection = tileIntersection else {
             XCTFail("Doesn't intersect jump wall")
             return

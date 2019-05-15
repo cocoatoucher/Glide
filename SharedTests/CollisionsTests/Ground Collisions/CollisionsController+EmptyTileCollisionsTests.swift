@@ -40,7 +40,9 @@ class CollisionsControllerEmptyTilesCollisionsTests: XCTestCase {
         let proposedPosition = CGPoint(x: 16, y: 24)
         let proposedObjectFrame = proposedPosition.centeredFrame(withSize: CGSize(width: 20, height: 20))
         
-        let contactsGap = collisionsController.doesContactGap(on: TiledPoint(x: 1, y: 0), proposedObjectFrame: proposedObjectFrame)
+        let contactsGap = collisionsController.doesContactGap(on: TiledPoint(x: 1, y: 0),
+                                                              tileMapRepresentation: mapRepresentation,
+                                                              proposedObjectFrame: proposedObjectFrame)
         XCTAssertTrue(contactsGap)
     }
     
@@ -54,7 +56,7 @@ class CollisionsControllerEmptyTilesCollisionsTests: XCTestCase {
         let proposedPosition = CGPoint(x: 16, y: 0)
         let proposedObjectFrame = proposedPosition.centeredFrame(withSize: CGSize(width: 20, height: 20))
         
-        let contactsGap = collisionsController.doesContactGap(on: TiledPoint(x: 1, y: 0), proposedObjectFrame: proposedObjectFrame)
+        let contactsGap = collisionsController.doesContactGap(on: TiledPoint(x: 1, y: 0), tileMapRepresentation: mapRepresentation, proposedObjectFrame: proposedObjectFrame)
         XCTAssertTrue(contactsGap == false)
     }
     
@@ -67,10 +69,13 @@ class CollisionsControllerEmptyTilesCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 30), to: CGPoint(x: 16, y: 24))
         
-        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement).filter { $0.tileRepresentation == nil }
+        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.tileRepresentation == nil }
         
         var nonCollisionContacts: [ContactContext] = []
-        collisionsController.emptyTilesContact(for: colliderMovement, emptyTileIntersections: emptyTileIntersections, nonCollisionContacts: &nonCollisionContacts)
+        collisionsController.emptyTilesContact(for: colliderMovement,
+                                               tileMapRepresentation: mapRepresentation,
+                                               emptyTileIntersections: emptyTileIntersections,
+                                               nonCollisionContacts: &nonCollisionContacts)
         XCTAssertTrue(colliderMovement.collider.onGap)
         XCTAssertFalse(nonCollisionContacts.isEmpty)
     }
@@ -86,10 +91,13 @@ class CollisionsControllerEmptyTilesCollisionsTests: XCTestCase {
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 24), to: CGPoint(x: 16, y: 24))
         colliderMovement.collider.wasOnGround = true
         
-        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement).filter { $0.tileRepresentation == nil }
+        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.tileRepresentation == nil }
         
         var nonCollisionContacts: [ContactContext] = []
-        collisionsController.emptyTilesContact(for: colliderMovement, emptyTileIntersections: emptyTileIntersections, nonCollisionContacts: &nonCollisionContacts)
+        collisionsController.emptyTilesContact(for: colliderMovement,
+                                               tileMapRepresentation: mapRepresentation,
+                                               emptyTileIntersections: emptyTileIntersections,
+                                               nonCollisionContacts: &nonCollisionContacts)
         XCTAssertTrue(colliderMovement.collider.onCornerJump)
     }
     
@@ -103,10 +111,13 @@ class CollisionsControllerEmptyTilesCollisionsTests: XCTestCase {
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 24), to: CGPoint(x: 16, y: 24))
         colliderMovement.collider.wasOnCornerJump = true
         
-        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement).filter { $0.tileRepresentation == nil }
+        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.tileRepresentation == nil }
         
         var nonCollisionContacts: [ContactContext] = []
-        collisionsController.emptyTilesContact(for: colliderMovement, emptyTileIntersections: emptyTileIntersections, nonCollisionContacts: &nonCollisionContacts)
+        collisionsController.emptyTilesContact(for: colliderMovement,
+                                               tileMapRepresentation: mapRepresentation,
+                                               emptyTileIntersections: emptyTileIntersections,
+                                               nonCollisionContacts: &nonCollisionContacts)
         XCTAssertTrue(colliderMovement.collider.onCornerJump)
     }
     
@@ -119,10 +130,13 @@ class CollisionsControllerEmptyTilesCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 24), to: CGPoint(x: 16, y: 0))
         
-        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement).filter { $0.tileRepresentation == nil }
+        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.tileRepresentation == nil }
         
         var nonCollisionContacts: [ContactContext] = []
-        collisionsController.emptyTilesContact(for: colliderMovement, emptyTileIntersections: emptyTileIntersections, nonCollisionContacts: &nonCollisionContacts)
+        collisionsController.emptyTilesContact(for: colliderMovement,
+                                               tileMapRepresentation: mapRepresentation,
+                                               emptyTileIntersections: emptyTileIntersections,
+                                               nonCollisionContacts: &nonCollisionContacts)
         XCTAssertTrue(colliderMovement.collider.discardsCornerJump)
         XCTAssertTrue(nonCollisionContacts.isEmpty)
     }
@@ -137,10 +151,13 @@ class CollisionsControllerEmptyTilesCollisionsTests: XCTestCase {
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 24), to: CGPoint(x: 16, y: 24))
         colliderMovement.collider.discardsCornerJump = true
         
-        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement).filter { $0.tileRepresentation == nil }
+        let emptyTileIntersections = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.tileRepresentation == nil }
         
         var nonCollisionContacts: [ContactContext] = []
-        collisionsController.emptyTilesContact(for: colliderMovement, emptyTileIntersections: emptyTileIntersections, nonCollisionContacts: &nonCollisionContacts)
+        collisionsController.emptyTilesContact(for: colliderMovement,
+                                               tileMapRepresentation: mapRepresentation,
+                                               emptyTileIntersections: emptyTileIntersections,
+                                               nonCollisionContacts: &nonCollisionContacts)
         XCTAssertTrue(colliderMovement.collider.onCornerJump == false)
     }
 }

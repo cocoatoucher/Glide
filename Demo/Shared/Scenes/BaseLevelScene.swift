@@ -59,12 +59,15 @@ class BaseLevelScene: GlideScene {
     }
     
     override func setupScene() {
+        
+        cameraEntity.component(ofType: CameraComponent.self)?.configuration.fieldOfViewWidth = 300.0
+        
         let groundBackground = tileMaps.decorationTileMaps[0]
-        groundBackground.position = collisionTileMapNode.position
+        groundBackground.position = collisionTileMapNode?.position ?? .zero
         addChild(groundBackground, in: DemoZPositionContainer.background)
         if tileMaps.decorationTileMaps.count > 1 {
             let frontDecorationBackground = tileMaps.decorationTileMaps[1]
-            frontDecorationBackground.position = collisionTileMapNode.position
+            frontDecorationBackground.position = collisionTileMapNode?.position ?? .zero
             addChild(frontDecorationBackground, in: DemoZPositionContainer.frontDecoration)
         }
         

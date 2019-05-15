@@ -70,6 +70,7 @@ class ContainerViewController: GCEventViewController {
         contentViewController = children.first
         
         goToFullScreen()
+        NSApp.activate(ignoringOtherApps: true)
     }
     
     func goToFullScreen() {

@@ -55,7 +55,9 @@ class GameControllerObserver {
     
     private func handleConnect(notification: Notification) {
         if let controller = notification.object as? GCController {
-            self.didConnectControllerHandler?(controller)
+            if controller.vendorName != "Generic Controller" {
+                self.didConnectControllerHandler?(controller)
+            }
             for controller in connectedControllers {
                 self.didConnectControllerHandler?(controller)
             }

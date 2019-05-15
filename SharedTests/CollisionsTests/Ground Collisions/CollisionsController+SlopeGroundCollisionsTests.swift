@@ -47,7 +47,7 @@ class CollisionsControllerSlopeGroundCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 26), to: CGPoint(x: 16, y: 26))
         
-        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement).filter { $0.coordinates == slopeTileCoordinates }.first
+        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.coordinates == slopeTileCoordinates }.first
         guard let slopeIntersection = tileIntersection else {
             XCTFail("Doesn't intersect slope")
             return
@@ -85,7 +85,7 @@ class CollisionsControllerSlopeGroundCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 26), to: CGPoint(x: 32, y: 26))
         
-        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement).filter { $0.coordinates == slopeTileCoordinates }.first
+        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.coordinates == slopeTileCoordinates }.first
         guard let slopeIntersection = tileIntersection else {
             XCTFail("Doesn't intersect slope")
             return
@@ -116,7 +116,7 @@ class CollisionsControllerSlopeGroundCollisionsTests: XCTestCase {
         
         let colliderMovement = CollisionsControllerTestsHelper.colliderMovement(from: CGPoint(x: 16, y: 42), to: CGPoint(x: 16, y: 32))
         
-        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement).filter { $0.coordinates == slopeTileCoordinates }.first
+        let tileIntersection = collisionsController.tileIntersections(for: colliderMovement, tileMapRepresentation: mapRepresentation).filter { $0.coordinates == slopeTileCoordinates }.first
         guard let slopeIntersection = tileIntersection else {
             XCTFail("Doesn't intersect slope")
             return

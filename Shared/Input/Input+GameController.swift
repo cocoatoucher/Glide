@@ -48,8 +48,6 @@ extension Input {
                 self.recollectControllerPlayerIndex(playerIndex: rawIdx)
             }
             self.connectedGameControllers.remove(at: foundIndex)
-            
-            
         }
         
         for controller in gameControllerObserver.connectedControllers {

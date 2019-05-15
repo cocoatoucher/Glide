@@ -816,7 +816,7 @@
 		4EBF28672267676F00AE954B /* NavigatableButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatableButtonContentView.swift; sourceTree = "<group>"; };
 		4EBF286C2267B74A00AE954B /* InputMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMethod.swift; sourceTree = "<group>"; };
 		4EBF28702267B98400AE954B /* Input+KeyboardAndMouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Input+KeyboardAndMouse.swift"; sourceTree = "<group>"; };
-		4EBF28742267D48400AE954B /* GlideEngine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GlideEngine.podspec; sourceTree = SOURCE_ROOT; };
+		4EBF28742267D48400AE954B /* GlideEngine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GlideEngine.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4EBF28752268E5DC00AE954B /* GameControllerKeyGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerKeyGroup.swift; sourceTree = "<group>"; };
 		4EBF28792268E75400AE954B /* DefaultGameControllerKeyGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultGameControllerKeyGroups.swift; sourceTree = "<group>"; };
 		4EBF28AC226BB45300AE954B /* RespawnableEntityComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespawnableEntityComponent.swift; sourceTree = "<group>"; };

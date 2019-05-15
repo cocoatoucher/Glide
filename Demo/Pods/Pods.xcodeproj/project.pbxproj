@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -620,6 +620,7 @@
 
 /* Begin PBXFileReference section */
 		0192CF7977BFBE226AF62F18BA03AC6F /* DDHidLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidLib.h; sourceTree = "<group>"; };
+		026CF0D79D06ECB3D6E78463ADE04EE2 /* slope_15_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_15_0.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_15_0.png; sourceTree = "<group>"; };
 		02951983AE6E9A221E92DE730B2A6E4C /* Pods-GlideDemo_tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlideDemo_tvOS.modulemap"; sourceTree = "<group>"; };
 		03EE3BFFB0C93AFD17DF515AEE638503 /* SpeechBubbleTemplateEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpeechBubbleTemplateEntity.swift; sourceTree = "<group>"; };
 		04248CDC1D29AFDE5A5BF627FEE1A18F /* CollisionsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollisionsController.swift; sourceTree = "<group>"; };
@@ -627,139 +628,143 @@
 		05AC1ABD62540E4D16E1BBA13A346143 /* Pods-GlideDemo_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlideDemo_iOS-Info.plist"; sourceTree = "<group>"; };
 		079CCDCBBE766FC0B4BA5BC784D81059 /* OscillatingMovementComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OscillatingMovementComponent.swift; sourceTree = "<group>"; };
 		07EE808E831052A559AE128A2EC6D7B7 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09E41167DF2CA63619BE35FF3439542E /* TestMap.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = TestMap.zip; path = Docs/TiledMapEditor/TestMap.zip; sourceTree = "<group>"; };
 		0A183E6EFB3D26B3CEE6CADE87A48D9F /* DDHidUsageTables.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidUsageTables.h; sourceTree = "<group>"; };
 		0AD7CDCDF1C396E50F1F399A460C1BC1 /* SKAction+TextureAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKAction+TextureAnimation.swift"; sourceTree = "<group>"; };
 		0BE14C985449422C3642521B49144EAC /* UpdateControllingComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpdateControllingComponent.swift; sourceTree = "<group>"; };
-		0C6D68129E885236B5F2024EFAEEDB5A /* slope_3_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_3_0.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_3_0.png; sourceTree = "<group>"; };
-		0CB54DCF4E2C22AB0B73F895913C743F /* navigatable.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = navigatable.gif; path = Docs/navigatable.gif; sourceTree = "<group>"; };
 		0DB609648943D28A17F25C8EFBF6FFDF /* CollisionsController+DefinedCollisions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CollisionsController+DefinedCollisions.swift"; sourceTree = "<group>"; };
 		0DB794B8F8DFFE57DD23F7AC09775A5C /* CollisionsController+GroundCollisions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CollisionsController+GroundCollisions.swift"; sourceTree = "<group>"; };
-		105190F4FC6C073B9C6F75520053AD40 /* glide-update-cycle-component.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "glide-update-cycle-component.png"; path = "Docs/glide-update-cycle-component.png"; sourceTree = "<group>"; };
+		0E0652D9B8153C46E58E335705AB72B8 /* 1.2.mapJson.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 1.2.mapJson.png; path = Docs/TiledMapEditor/Screenshots/1.2.mapJson.png; sourceTree = "<group>"; };
 		1078661DFA39D5062501093CEE25602A /* GlideEngine-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideEngine-tvOS-umbrella.h"; path = "../GlideEngine-tvOS/GlideEngine-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		108DCB971F7C437335FC3CB538C4BC4B /* DDHidQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDHidQueue.m; sourceTree = "<group>"; };
-		10CD1239398DEBAF4BC2D0A6430BDC0F /* 3.1.newTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.1.newTileset.png; path = Docs/TiledMapEditor/Screenshots/3.1.newTileset.png; sourceTree = "<group>"; };
 		1135B8193CDA7A08503AB0609D3C3791 /* GlideEngine-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "GlideEngine-tvOS.modulemap"; path = "../GlideEngine-tvOS/GlideEngine-tvOS.modulemap"; sourceTree = "<group>"; };
+		116A71ED3F5DB81C89F048C802F118A3 /* MyDecorationTileset.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MyDecorationTileset.json; path = Docs/TiledMapEditor/MyDecorationTileSet/MyDecorationTileset.json; sourceTree = "<group>"; };
 		11893A5749E3A5767B3413DCF899B65E /* Slope_0_7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_0_7.swift; sourceTree = "<group>"; };
 		11A362CC0488715E297C1F7F408D496F /* FocusableEntitiesControllerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FocusableEntitiesControllerComponent.swift; sourceTree = "<group>"; };
 		142F73F2087634CD9695AA16E7204A94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		164F7392E24BEDEA0CAF6C9FF896609E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		16DE1DD04ACBF3911D63626F801050F7 /* NavigatableElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatableElement.swift; sourceTree = "<group>"; };
 		16E2194FA732D1219D4B04C8587CD037 /* ZPositionContainerIndicatorComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPositionContainerIndicatorComponent.swift; sourceTree = "<group>"; };
 		16EAACEBC980740C0FDA27D7846ED433 /* GlideCategoryMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlideCategoryMask.swift; sourceTree = "<group>"; };
 		1721F83EB2BB60041C71412901F82761 /* DDHidUsage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDHidUsage.m; sourceTree = "<group>"; };
 		186D429921DA047DFB24C73EC5B85DE3 /* TouchReceiverComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchReceiverComponent.swift; sourceTree = "<group>"; };
+		18BC8170DE6564078E48833A493553A8 /* QuickStartGuide.md */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickStartGuide.md; path = Docs/QuickStartGuide.md; sourceTree = "<group>"; };
 		19C4D94CAAB5D3645BB142A0B1F54829 /* Pods-GlideDemo_tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlideDemo_tvOS-frameworks.sh"; sourceTree = "<group>"; };
 		19C59F837A298649E31FE53E6EC74942 /* ColliderComponent+Debuggable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ColliderComponent+Debuggable.swift"; sourceTree = "<group>"; };
-		19DE07308FBC78D7F2B61AC03C4D4F7B /* TestMap.json */ = {isa = PBXFileReference; includeInIndex = 1; name = TestMap.json; path = Docs/TiledMapEditor/TestMap.json; sourceTree = "<group>"; };
 		1A1F5E20D9F0658B12B5F7B0111BD0C8 /* ZPositionContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZPositionContainer.swift; sourceTree = "<group>"; };
 		1AF30B366A5474B02DA9FB0E4A26A04A /* Glide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		1D40A70D5ABBEDE8F585ABEAC09A496F /* ApproachingMovementComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApproachingMovementComponent.swift; sourceTree = "<group>"; };
 		1DDDB78738B11BC2D7053919AF253863 /* Pods-GlideDemo_tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlideDemo_tvOS-umbrella.h"; sourceTree = "<group>"; };
+		1E843D1CA0A05BB654B2825E2C91BB7B /* GlideEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GlideEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EA5717FAE2A47CE16B06E42031FB9B1 /* 2.3.newGroundLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.3.newGroundLayer.png; path = Docs/TiledMapEditor/Screenshots/2.3.newGroundLayer.png; sourceTree = "<group>"; };
 		1EB604DFD67B6A8B00CBE79BDC079ECE /* RemovalControllingComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemovalControllingComponent.swift; sourceTree = "<group>"; };
-		1F34CD50081FC9198E39C69527654AB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1EEE5EE9EF2300468610A69CC311374F /* oneway.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = oneway.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/oneway.png; sourceTree = "<group>"; };
 		1FB77CC23C1497C5544939D69E14BA3A /* ActionsEvaluatorComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActionsEvaluatorComponent.swift; sourceTree = "<group>"; };
+		1FE0918E994AD5D40655B7673F71C823 /* slope_15_8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_15_8.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_15_8.png; sourceTree = "<group>"; };
 		1FF858C1918AC236394A8527ED9CB4D0 /* SKTexture+NearestFilteringMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKTexture+NearestFilteringMode.swift"; sourceTree = "<group>"; };
+		216C3EDDF2DC026892890CF004DC439E /* 3.2.newTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.2.newTileset.png; path = Docs/TiledMapEditor/Screenshots/3.2.newTileset.png; sourceTree = "<group>"; };
+		22B12E2B01706E6996C9E3752CB3D512 /* Glide Demo.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = "Glide Demo.zip"; path = "Docs/Glide Demo.zip"; sourceTree = "<group>"; };
+		22F2B96CD138E274ACD54ED105226A2A /* decoration_tile_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = decoration_tile_blue.png; path = Docs/TiledMapEditor/MyDecorationTileSet/Tiles/decoration_tile_blue.png; sourceTree = "<group>"; };
 		24E23EF90420E3A3D41DAA00FEE0902F /* LightNodeComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LightNodeComponent.swift; sourceTree = "<group>"; };
 		251C6FC93870F67BF691CB2ACE4A7505 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		252DF99DC39088B5C9C840C0E11C71B8 /* ProjectileTemplateEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProjectileTemplateEntity.swift; sourceTree = "<group>"; };
-		2552170744CFE656EAF4A95E7C09B209 /* 1.1.newMap.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 1.1.newMap.png; path = Docs/TiledMapEditor/Screenshots/1.1.newMap.png; sourceTree = "<group>"; };
 		256631C830FC150B64BC9E3F769C3E25 /* BlinkerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkerComponent.swift; sourceTree = "<group>"; };
 		25AB3F99A7A368D1C242D7BB479086A5 /* NSXReturnThrowError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NSXReturnThrowError.h; sourceTree = "<group>"; };
-		2635B4E3426703F865F65EDC8269CE9E /* slope_7_4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_7_4.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_7_4.png; sourceTree = "<group>"; };
 		27420598E077A8EF5D474B49C4B48C0D /* BouncerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BouncerComponent.swift; sourceTree = "<group>"; };
+		27A50BEE235B5938BF4C72F2D03BDA53 /* GlideColliderTileSet.sks.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = GlideColliderTileSet.sks.zip; path = Docs/Sks/GlideColliderTileSet.sks.zip; sourceTree = "<group>"; };
 		27EC8C1DA6E5645606B8C478C9B0F00B /* GlideEngine-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GlideEngine-iOS-dummy.m"; sourceTree = "<group>"; };
-		29840DD23821847B115CD35821068C84 /* GlideColliderTileSet.sks.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = GlideColliderTileSet.sks.zip; path = Docs/Sks/GlideColliderTileSet.sks.zip; sourceTree = "<group>"; };
+		28857167F9055763802930586E3B66AD /* slope_7_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_7_0.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_7_0.png; sourceTree = "<group>"; };
 		299285058A7E84FFD6091EC458AD1E7E /* VerticalMovementComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VerticalMovementComponent.swift; sourceTree = "<group>"; };
 		2A0D06144F4F88C84637F96BB11F5726 /* PlayableCharacterComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlayableCharacterComponent.swift; sourceTree = "<group>"; };
+		2A6EE0745982660A3146D9DA4BCEC7CF /* TiledMapEditorMaps.md */ = {isa = PBXFileReference; includeInIndex = 1; name = TiledMapEditorMaps.md; path = Docs/TiledMapEditorMaps.md; sourceTree = "<group>"; };
+		2B66095D65A9360F0351E3F04136E4D6 /* jump.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = jump.gif; path = Docs/jump.gif; sourceTree = "<group>"; };
 		2C83C4AD1C8B764B8B6070E7F0CB86F3 /* GlideEngine-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GlideEngine-iOS.modulemap"; sourceTree = "<group>"; };
-		2C9F16150FFE2836444F6F51104ECE49 /* 3.2.newTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.2.newTileset.png; path = Docs/TiledMapEditor/Screenshots/3.2.newTileset.png; sourceTree = "<group>"; };
 		2E4C3EE7613D61CF78488F7CF1678421 /* Image+macOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Image+macOS.m"; sourceTree = "<group>"; };
+		2F0C32D0DEAB7C67C35AF70F5062A86D /* slope_12_15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_12_15.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_12_15.png; sourceTree = "<group>"; };
 		2F3DA86D1D8BDA074B2EA32DDAD8470D /* Slope_11_8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_11_8.swift; sourceTree = "<group>"; };
 		2FBD36D79185CAF44180C98A0F0BA88A /* SlopeBitmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlopeBitmap.swift; sourceTree = "<group>"; };
+		2FECBF1AC2AD022B948942E8A5BCA49D /* navigatable.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = navigatable.gif; path = Docs/navigatable.gif; sourceTree = "<group>"; };
 		30CE2CB962A8590C0EFF17717961338B /* FallingPlatformComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FallingPlatformComponent.swift; sourceTree = "<group>"; };
 		30DA54C0AF4623EB5CEB8A1ABD169C3F /* SpeechFlowControllerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpeechFlowControllerComponent.swift; sourceTree = "<group>"; };
 		30F2DD1A35CF825EE7EE40153833055B /* ProjectileShooterComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProjectileShooterComponent.swift; sourceTree = "<group>"; };
 		30F633B2EA3839022141308900027D5F /* HorizontalMovementComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HorizontalMovementComponent.swift; sourceTree = "<group>"; };
-		31022DE0694BA6A8A649C04DC3F02DB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = Docs/README.md; sourceTree = "<group>"; };
-		3171BA770563DD7652A6DB88017CB2F3 /* TiledMapEditorMaps.md */ = {isa = PBXFileReference; includeInIndex = 1; name = TiledMapEditorMaps.md; path = Docs/TiledMapEditorMaps.md; sourceTree = "<group>"; };
 		323D271128E78633542E822CC7217D61 /* NSXReturnThrowError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSXReturnThrowError.m; sourceTree = "<group>"; };
 		32A2156F4A0E3E0DA8FD68066B5562A8 /* GlideScene+ContactTestMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GlideScene+ContactTestMap.swift"; sourceTree = "<group>"; };
-		3303325752F5C4D5965B0A353AD2DC17 /* decorationLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = decorationLayer.png; path = Docs/TiledMapEditor/Screenshots/decorationLayer.png; sourceTree = "<group>"; };
+		333AF69CC8711E9E894D4004691DC6D5 /* GlideColliderTileSet.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; name = GlideColliderTileSet.sks; path = Docs/Sks/GlideColliderTileSet.sks; sourceTree = "<group>"; };
 		349B20734BCCA6CE97ABCF30B7F44379 /* RespawnAtCheckpointOnRestartComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RespawnAtCheckpointOnRestartComponent.swift; sourceTree = "<group>"; };
 		3504FAC38C7CE4F3A7BECC319BE2238C /* TiledMapEditorModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TiledMapEditorModels.swift; sourceTree = "<group>"; };
 		3525F79AC81E957142BC336E1D33F333 /* SelfMoveComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelfMoveComponent.swift; sourceTree = "<group>"; };
 		37DAC48B0180C7B16ADBBF6DE7F2E371 /* GlideEngine-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideEngine-macOS-umbrella.h"; path = "../GlideEngine-macOS/GlideEngine-macOS-umbrella.h"; sourceTree = "<group>"; };
 		383FD7D4AB64AF0B193B53A1D9E4DBED /* GameControllerObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameControllerObserver.swift; sourceTree = "<group>"; };
 		38BC4A3078952D1EFBE7D4DC68CC5F92 /* BouncingPlatformComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BouncingPlatformComponent.swift; sourceTree = "<group>"; };
-		39E6BBC5AF2514C2C3E55766AB4ABD9D /* collidableLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = collidableLayer.png; path = Docs/TiledMapEditor/Screenshots/collidableLayer.png; sourceTree = "<group>"; };
 		3A1820AC1E3775A9B2B8DA41776A6C35 /* CameraFocusAreaRecognizerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraFocusAreaRecognizerComponent.swift; sourceTree = "<group>"; };
-		3A5C8FEB05FABFDE19EBC4525C1DEDB8 /* MyDecorationTileset.json */ = {isa = PBXFileReference; includeInIndex = 1; name = MyDecorationTileset.json; path = Docs/TiledMapEditor/MyDecorationTileSet/MyDecorationTileset.json; sourceTree = "<group>"; };
 		3AAE687930424408C2A5493CB66503F7 /* GlideScene+ZPositionContainers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GlideScene+ZPositionContainers.swift"; sourceTree = "<group>"; };
 		3D53BBCAB48D4634A42A9CB1F02B93F3 /* DDHidQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidQueue.h; sourceTree = "<group>"; };
+		3E9978FC7006C29A16D17E89323F46E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = Docs/README.md; sourceTree = "<group>"; };
 		40749DFE660A99CAC6A242AF9209A027 /* Label.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		418F7C1120889FE3959E71F0BE0E830F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
 		41ED7F7E7D3CA7A9D68438208E9B72AE /* Checkpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Checkpoint.swift; sourceTree = "<group>"; };
+		43DF926D0EE7EBD3B7FE8B3506A4C003 /* 3.7.collidableLayerOffsets.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.7.collidableLayerOffsets.png; path = Docs/TiledMapEditor/Screenshots/3.7.collidableLayerOffsets.png; sourceTree = "<group>"; };
 		44901F08B2E1EB3C7AE9A24850A5FC2A /* DDHidElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDHidElement.m; sourceTree = "<group>"; };
+		47E472D4C5C7811E16592DF9129457FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		47E59E99DD3A2A59EF58FBA80CFE7C53 /* 2.1.dragColliderTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.1.dragColliderTileset.png; path = Docs/TiledMapEditor/Screenshots/2.1.dragColliderTileset.png; sourceTree = "<group>"; };
 		48D0BCC45E2E381DAE03BDB30052D7A8 /* CameraComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraComponent.swift; sourceTree = "<group>"; };
 		4A6CD060B9A067299862AAFE7550276B /* KinematicsBodyComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KinematicsBodyComponent.swift; sourceTree = "<group>"; };
 		4B5416EF17C57028B2D3440C1007BC3A /* NavigatableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatableViewController.swift; sourceTree = "<group>"; };
 		4BF1D85B49917A2CF416CB812D0E05D0 /* InputProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputProfile.swift; sourceTree = "<group>"; };
-		4BF9764CEC12768D71DC9B8AD312DD88 /* decoration_tile_yellow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = decoration_tile_yellow.png; path = Docs/TiledMapEditor/MyDecorationTileSet/Tiles/decoration_tile_yellow.png; sourceTree = "<group>"; };
 		4C20F8E15F162A0EA906E5A99EE6DFB8 /* DDHidDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDHidDevice.m; sourceTree = "<group>"; };
+		4C2F535270350D841B0230AE31342E6E /* SpriteKitMaps.md */ = {isa = PBXFileReference; includeInIndex = 1; name = SpriteKitMaps.md; path = Docs/SpriteKitMaps.md; sourceTree = "<group>"; };
 		4CB29285E766219BD2C6C4A0EA0318BE /* GKEntity+Name.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GKEntity+Name.swift"; sourceTree = "<group>"; };
 		4CFCBBAC3F4AC8C1C795C0500030B742 /* TiledMapEditorSceneLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TiledMapEditorSceneLoader.swift; sourceTree = "<group>"; };
 		4DEF934D5C6C95E209B21BB1B435A4C2 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
 		507E1AC46D4F0ABFA8FF98C8C436864A /* GlideScene+Input.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GlideScene+Input.swift"; sourceTree = "<group>"; };
-		5099211A21E7000E117D9C6379E207DA /* devices.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = devices.png; path = Docs/devices.png; sourceTree = "<group>"; };
+		50B206EF9EBD9243A0E1D25C967E51FC /* jump_wall_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jump_wall_left.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/jump_wall_left.png; sourceTree = "<group>"; };
+		51120529AB22CF74BD6A06CFF9EC45C6 /* TestMap.json */ = {isa = PBXFileReference; includeInIndex = 1; name = TestMap.json; path = Docs/TiledMapEditor/TestMap.json; sourceTree = "<group>"; };
 		511B2169EC0C6F94153083A41AB8D4C2 /* RoundedAngle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RoundedAngle.swift; sourceTree = "<group>"; };
 		517B391F5E77C0A4DA9BB52568157B51 /* HealthComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HealthComponent.swift; sourceTree = "<group>"; };
 		52721305A2EC73E163173490CD77B44F /* TransformNodeComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformNodeComponent.swift; sourceTree = "<group>"; };
 		5276C10A0C3B97C5DD5132AE869BCCB4 /* DDHidJoystick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDHidJoystick.m; sourceTree = "<group>"; };
 		5338677C02D8EFC9E3E30C65B6B3ECF5 /* Pods-GlideDemo_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlideDemo_iOS-dummy.m"; sourceTree = "<group>"; };
 		5393DA5BB1D6860AD17C00A8EB1ABAD3 /* ImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		539FC134DA15B187F7F91C24FCDA473E /* slope_11_8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_11_8.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_11_8.png; sourceTree = "<group>"; };
 		53DC91C29D6D3DCD93261AABAD2B3A76 /* Conversation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 		548102063909E6AF3BEC358E6A8DAB05 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
 		55894709F5075CE976783F4E03F2DF74 /* SnappableComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnappableComponent.swift; sourceTree = "<group>"; };
 		564F4B0DC0F019F68733E4D8DCE4C43B /* DisplayLinkObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DisplayLinkObserver.swift; sourceTree = "<group>"; };
-		56868D63FA3FE6AD0F2E29CCFA57170F /* slope_15_12.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_15_12.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_15_12.png; sourceTree = "<group>"; };
 		57876A66950E021AB5A76F95D06AB6B6 /* ConversationFlowControllerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConversationFlowControllerComponent.swift; sourceTree = "<group>"; };
 		592C554C5381D67E31F8431FFE802EA2 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
 		5971701228A55A4EDFC6755E7B6163DC /* DDHidUsage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidUsage.h; sourceTree = "<group>"; };
-		5A089AFF11496FC758AFEE8538C897C3 /* GlideDemo.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = GlideDemo.zip; path = Docs/GlideDemo.zip; sourceTree = "<group>"; };
 		5A2EBB7D4EA2B0AE6A133F0DD52B9426 /* ColliderTileIntersection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColliderTileIntersection.swift; sourceTree = "<group>"; };
 		5B01CCC002945390BC67091ECEC41B8C /* WallJumpComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WallJumpComponent.swift; sourceTree = "<group>"; };
 		5C32A02CADE98CAF4A9490BD400A6F8D /* Pods-GlideDemo_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlideDemo_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5C708730512D0C8E867EE1BEFCE6DB2D /* SKSLoadingScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; name = SKSLoadingScene.sks; path = Docs/Sks/SKSLoadingScene.sks; sourceTree = "<group>"; };
 		5CC916E9D2497FEED705AFC53F8BD922 /* GlideEngine-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GlideEngine-macOS-Info.plist"; path = "../GlideEngine-macOS/GlideEngine-macOS-Info.plist"; sourceTree = "<group>"; };
+		5CEDD6873997DFBF81975C6EAFC09114 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5EC9D568A41BE6DE9E2FF02F28D61244 /* DDHidEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDHidEvent.m; sourceTree = "<group>"; };
+		607937C7ACB906FA3F5DCE24CA65F5F7 /* decoration_tile_yellow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = decoration_tile_yellow.png; path = Docs/TiledMapEditor/MyDecorationTileSet/Tiles/decoration_tile_yellow.png; sourceTree = "<group>"; };
 		60FD0CC237376719242CFAF9DCC38D34 /* GlideEngine-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlideEngine-iOS-prefix.pch"; sourceTree = "<group>"; };
 		610472C7FE6727D564F3997C6564DBD8 /* GlideEngine-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GlideEngine-iOS-Info.plist"; sourceTree = "<group>"; };
 		61A25D39A1ABA11E7DF25017DF863E28 /* DDHidDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidDevice.h; sourceTree = "<group>"; };
 		6220D2042CB1C266D61C6B2F9324E715 /* Glide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
-		6310C4C9F479C41075C76E0A70E8F23D /* 2.4.paintTiles.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.4.paintTiles.png; path = Docs/TiledMapEditor/Screenshots/2.4.paintTiles.png; sourceTree = "<group>"; };
 		634066CF24443B30BCFE06ACAF4D467B /* TextureAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextureAnimation.swift; sourceTree = "<group>"; };
-		64D9CBC0343632E29F037918C4A5E62E /* 3.4.editTileSet.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.4.editTileSet.png; path = Docs/TiledMapEditor/Screenshots/3.4.editTileSet.png; sourceTree = "<group>"; };
-		64FF6270C500F73C9B8D411D6834358E /* slope_8_15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_8_15.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_8_15.png; sourceTree = "<group>"; };
-		671B6D2BD6AEF7B66C2DEB107BEE1123 /* 3.3.newTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.3.newTileset.png; path = Docs/TiledMapEditor/Screenshots/3.3.newTileset.png; sourceTree = "<group>"; };
-		676F63AE265D6D55CFD0BEA77FC8FA61 /* slope_15_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_15_0.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_15_0.png; sourceTree = "<group>"; };
+		63B62EBBB0302B9CAA0142D511821EF5 /* glide-update-cycle-scene.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "glide-update-cycle-scene.png"; path = "Docs/glide-update-cycle-scene.png"; sourceTree = "<group>"; };
+		6620FB715BABCDD313E1809EC7E1AB75 /* slope_0_15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_0_15.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_0_15.png; sourceTree = "<group>"; };
+		676DF6964AB3B9E82D7DD9DC3AFD3327 /* glide-update-cycle-component.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "glide-update-cycle-component.png"; path = "Docs/glide-update-cycle-component.png"; sourceTree = "<group>"; };
 		67978A81AA1AE892DB984DE5BE7FE1F9 /* RespawnableEntityComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RespawnableEntityComponent.swift; sourceTree = "<group>"; };
 		67EB2119B095731EB733537C27A0780A /* NavigatableButtonPlaceholderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatableButtonPlaceholderView.swift; sourceTree = "<group>"; };
 		6815EB6B472F01CCBBA57EBDFA5B9F1F /* GlideEngine-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideEngine-tvOS-prefix.pch"; path = "../GlideEngine-tvOS/GlideEngine-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		6871FB923519075B41B78351F3DEF118 /* ground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ground.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/ground.png; sourceTree = "<group>"; };
 		68B8B6403E10C991447B22D9EBBA8922 /* Contact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		6A07E2E05ABCB9B5B1BAD4AF8DA03BB3 /* ProjectileShootingProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProjectileShootingProperties.swift; sourceTree = "<group>"; };
 		6A0885DCEDE8AFA3EF5266D159EA44EB /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		6A9EB6477A90D36618399654ADA3ED66 /* 2.2.createTileLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.2.createTileLayer.png; path = Docs/TiledMapEditor/Screenshots/2.2.createTileLayer.png; sourceTree = "<group>"; };
 		6AD26AC00FE0291226C5537383634A2D /* DDHidJoystick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidJoystick.h; sourceTree = "<group>"; };
-		6B0DB62E06410B9B0119CA05F8CC96C9 /* 3.5.populate_tileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.5.populate_tileset.png; path = Docs/TiledMapEditor/Screenshots/3.5.populate_tileset.png; sourceTree = "<group>"; };
 		6C63C5C7CCACF5D955599831537E76AA /* Pods-GlideDemo_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlideDemo_macOS-umbrella.h"; sourceTree = "<group>"; };
 		6C6C28397B71298FB1013D2C7A25B547 /* DDHidEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidEvent.h; sourceTree = "<group>"; };
-		6C7D183C059A3EE8DCEC58BCD515056A /* SKSLoadingScene.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; name = SKSLoadingScene.sks; path = Docs/Sks/SKSLoadingScene.sks; sourceTree = "<group>"; };
 		6CBCD4349A2C855ABF71090CAD1B9559 /* CameraFocusAreaComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraFocusAreaComponent.swift; sourceTree = "<group>"; };
 		6CF8B4E07F973E23C960B96FC8D025F5 /* Button.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		6F690808E60F874E1B8F0CC5F281C630 /* Slope_7_0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_7_0.swift; sourceTree = "<group>"; };
+		6F8F4C7D2006A157FDF91CB262C07E86 /* 3.6.shouldSkip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.6.shouldSkip.png; path = Docs/TiledMapEditor/Screenshots/3.6.shouldSkip.png; sourceTree = "<group>"; };
 		6F905CF7D962125AF6CF9827A4D7FF92 /* MovingPlatformEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MovingPlatformEntity.swift; sourceTree = "<group>"; };
 		6FDCCEC867F48179EE3A5D03F0D57B8D /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		709A08FBACDBBB4A0F1444B68D052BE5 /* slope_4_7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_4_7.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_4_7.png; sourceTree = "<group>"; };
+		704839005705E88D61D67AEDB8847A26 /* slope_8_15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_8_15.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_8_15.png; sourceTree = "<group>"; };
 		72358496925ADD57B17ED793E0924075 /* GlideEngine-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "GlideEngine-macOS.modulemap"; path = "../GlideEngine-macOS/GlideEngine-macOS.modulemap"; sourceTree = "<group>"; };
 		738126C3EA339B1E26655D8B10A3C5AB /* GlideScene+Checkpoints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GlideScene+Checkpoints.swift"; sourceTree = "<group>"; };
 		73B0AADBFF6123DC19010F1F20DD4FBB /* Pods_GlideDemo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GlideDemo_iOS.framework; path = "Pods-GlideDemo_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -768,7 +773,6 @@
 		740C7E7717854397AF9170607DFD8801 /* NavigatableButtonScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatableButtonScrollView.swift; sourceTree = "<group>"; };
 		7608087217BC741ED4F017824451B17C /* GlideEngine-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideEngine-macOS-prefix.pch"; path = "../GlideEngine-macOS/GlideEngine-macOS-prefix.pch"; sourceTree = "<group>"; };
 		76C115E7D54D9C8B16C283A4354BBB32 /* GlideEngine-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GlideEngine-iOS-umbrella.h"; sourceTree = "<group>"; };
-		76FC1E03E5D664021840AC9F2D5C0273 /* ground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ground.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/ground.png; sourceTree = "<group>"; };
 		791BB0319E8D69F1E12FE45A2539AEFE /* CircularMovementComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularMovementComponent.swift; sourceTree = "<group>"; };
 		795E2263EC8E837FEE34348577F6D2AD /* Pods-GlideDemo_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlideDemo_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7999110F0BBC776276DE4A0D17D30E98 /* GlideEngine-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideEngine-macOS-dummy.m"; path = "../GlideEngine-macOS/GlideEngine-macOS-dummy.m"; sourceTree = "<group>"; };
@@ -787,7 +791,6 @@
 		808DA8FD79CD6170234CA34C3A874747 /* Pods_GlideDemo_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GlideDemo_macOS.framework; path = "Pods-GlideDemo_macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		815B7AE011AD3A54E81371248BC7FFA9 /* NSDictionary+DDHidExtras.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DDHidExtras.m"; sourceTree = "<group>"; };
 		81A18D55F88B299B1D8FC84D1F30B7A5 /* Pods-GlideDemo_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlideDemo_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		81D715CBAFBB57FF38C1624182A3436A /* glide-update-cycle-entity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "glide-update-cycle-entity.png"; path = "Docs/glide-update-cycle-entity.png"; sourceTree = "<group>"; };
 		825BA1613B82FB620A7A34C98D942286 /* HitPoints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HitPoints.swift; sourceTree = "<group>"; };
 		8306CCC81B91A6E1BF8A04737C096C63 /* GlideScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlideScene.swift; sourceTree = "<group>"; };
 		830B1A261846B6C7122D21E5718EDB54 /* DDHidElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DDHidElement.h; sourceTree = "<group>"; };
@@ -798,8 +801,10 @@
 		865AD33B506754774E527EF12CE278CC /* Pods-GlideDemo_tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlideDemo_tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		867E46EA23518B8B147D028B8F76436E /* GlideSceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlideSceneDelegate.swift; sourceTree = "<group>"; };
 		869E48E99EF24CD1BAA02034DCD94348 /* DDHidUsageTables.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DDHidUsageTables.m; sourceTree = "<group>"; };
+		86F352EA858B12573223C3B2B36B46DE /* slope_8_11.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_8_11.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_8_11.png; sourceTree = "<group>"; };
 		878AEED5C204697918B3ED286B235AF5 /* NodeLayoutableComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeLayoutableComponent.swift; sourceTree = "<group>"; };
 		8915369BFAEE7C781FC5017319067E5B /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		8A4DDEA8683A3F8689F203BFADF6073A /* slope_4_7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_4_7.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_4_7.png; sourceTree = "<group>"; };
 		8A5A08A819FFC22128AFC06553BFBAFF /* SKTileMapNode+SetNormalTextures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+SetNormalTextures.swift"; sourceTree = "<group>"; };
 		8AE539AAD0F9C1CB5547019FECDEE433 /* LerpingMovementComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LerpingMovementComponent.swift; sourceTree = "<group>"; };
 		8B1BDF3180FB9DF4C4C7179C790E768F /* Pods-GlideDemo_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlideDemo_iOS-umbrella.h"; sourceTree = "<group>"; };
@@ -809,6 +814,7 @@
 		8DD2DBC8F7EED23701DE2C26879377AC /* Pods-GlideDemo_tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlideDemo_tvOS-Info.plist"; sourceTree = "<group>"; };
 		8DD5528F16BD71015B629D1535065988 /* Pods-GlideDemo_macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlideDemo_macOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E31A25C3AD2A883D0504A7DE58E544C /* DamageControllingComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DamageControllingComponent.swift; sourceTree = "<group>"; };
+		8E5685A270F1659FEC7C60EBEA3BB600 /* slope_15_12.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_15_12.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_15_12.png; sourceTree = "<group>"; };
 		8F5F9EEA8B20098E612331F1671248BB /* SceneAnchoredSpriteLayoutComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneAnchoredSpriteLayoutComponent.swift; sourceTree = "<group>"; };
 		91C61DBE42A9D3C2B61F98A12BD147AB /* WallClingerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WallClingerComponent.swift; sourceTree = "<group>"; };
 		9220C800A4DC12E2D15F816D9C64EEAF /* LadderClimberComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LadderClimberComponent.swift; sourceTree = "<group>"; };
@@ -816,45 +822,46 @@
 		93B35F687D1A612D3AFC68E214987438 /* NSDictionary+DDHidExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DDHidExtras.h"; sourceTree = "<group>"; };
 		940448BC0F922F95563E6FA9FB8AD5E5 /* CircularMovementDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CircularMovementDirection.swift; sourceTree = "<group>"; };
 		9446244E6A000D8AB011693A2D124CFC /* Slope_8_11.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_8_11.swift; sourceTree = "<group>"; };
+		94610B19AF050CB83E4E9B22AFFBC2CB /* collidableLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = collidableLayer.png; path = Docs/TiledMapEditor/Screenshots/collidableLayer.png; sourceTree = "<group>"; };
 		946A623D9081623E4C08FE33BEFB87CC /* Slope_8_15.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_8_15.swift; sourceTree = "<group>"; };
 		950734EE587E1913684D233675521D54 /* SceneTileMaps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneTileMaps.swift; sourceTree = "<group>"; };
 		95D352B901DCE38DD52C52812A9F01D7 /* InputResponder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputResponder.swift; sourceTree = "<group>"; };
 		95F8BD23D1EBB629AC04F668D8C72692 /* ColliderMovement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColliderMovement.swift; sourceTree = "<group>"; };
 		965BA6A5CF6508999186B09D697D3C47 /* DefaultGameControllerKeyGroups.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultGameControllerKeyGroups.swift; sourceTree = "<group>"; };
-		96B3668BCF4550346F7FB8B213B3375A /* slope_8_11.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_8_11.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_8_11.png; sourceTree = "<group>"; };
 		97788B9BE8E539478DB13BA5827F3357 /* Slope_15_8.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_15_8.swift; sourceTree = "<group>"; };
 		98A9061019672D74892BD1F71ACE8E6F /* Image+macOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Image+macOS.h"; sourceTree = "<group>"; };
 		994015B112D4C3777127DA5542FA86D3 /* SelfChangeDirectionComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelfChangeDirectionComponent.swift; sourceTree = "<group>"; };
 		9AAA05DD4A830E4FCA4B12DAC76716DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9AD4AA8A15876E5E2FCDA63575063A86 /* GlideColliderTileSet.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; name = GlideColliderTileSet.sks; path = Docs/Sks/GlideColliderTileSet.sks; sourceTree = "<group>"; };
 		9B3389DEDF5F5EC09CD70057C86C182E /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9BA18D64E0736C402B3D96A7FCB0AAD7 /* SelfSpawnEntitiesComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelfSpawnEntitiesComponent.swift; sourceTree = "<group>"; };
+		9C42DD8775119F809B9FA51188DD3467 /* slope_3_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_3_0.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_3_0.png; sourceTree = "<group>"; };
 		9D889EFA85B351556B24078698B26433 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCC8E422C95DE5B1FACEA1A7E3660ED /* TestMap.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = TestMap.zip; path = Docs/TiledMapEditor/TestMap.zip; sourceTree = "<group>"; };
 		9DD33FFABD093E09EF32A511AF5DB65D /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		9FE75B72CFD7599A824179944748E3FB /* InfiniteSpriteScrollerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InfiniteSpriteScrollerComponent.swift; sourceTree = "<group>"; };
 		9FF640FCEB764750322D09A833A42D0E /* TalkerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TalkerComponent.swift; sourceTree = "<group>"; };
+		A03E83FF213C5DA20A8C53233BB246A8 /* slope_0_7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_0_7.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_0_7.png; sourceTree = "<group>"; };
 		A2DB797E38D076F87F0F3D9C3A5001C2 /* Slope_12_15.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_12_15.swift; sourceTree = "<group>"; };
 		A3A3737B4B7E6230913078849E590F0E /* GlideEngine-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "GlideEngine-tvOS-Info.plist"; path = "../GlideEngine-tvOS/GlideEngine-tvOS-Info.plist"; sourceTree = "<group>"; };
 		A3BFA40E637005859F96CBD1E54F1A23 /* Pods-GlideDemo_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlideDemo_iOS.modulemap"; sourceTree = "<group>"; };
-		A40835A09EA8DFEC01A9FA2E346509F3 /* 2.3.newGroundLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.3.newGroundLayer.png; path = Docs/TiledMapEditor/Screenshots/2.3.newGroundLayer.png; sourceTree = "<group>"; };
+		A3FAF5BCC34F9F7691CB7A918D8ED50F /* GlideColliderTileset.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = GlideColliderTileset.zip; path = Docs/TiledMapEditor/GlideColliderTileset.zip; sourceTree = "<group>"; };
 		A5FA15B58E85E11382124C4D090658C0 /* Pods-GlideDemo_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlideDemo_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A7367F9873251B540F0667CE44604147 /* NavigatableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatableButton.swift; sourceTree = "<group>"; };
 		A7B682EC5CA41B0E48A94727EA78FC7E /* SpriteNodeComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpriteNodeComponent.swift; sourceTree = "<group>"; };
-		A8B9C5776CFDA7CBB9CB051D738E9832 /* slope_0_15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_0_15.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_0_15.png; sourceTree = "<group>"; };
 		A8F1873B2EC35878B9CCA93B125326DC /* DasherComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DasherComponent.swift; sourceTree = "<group>"; };
-		ACB41FC18B611AA0B1A06865B26CFB2B /* 2.1.dragColliderTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.1.dragColliderTileset.png; path = Docs/TiledMapEditor/Screenshots/2.1.dragColliderTileset.png; sourceTree = "<group>"; };
-		AD51F12BCD6F43D6B66835FFD070C56C /* decoration_tile_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = decoration_tile_blue.png; path = Docs/TiledMapEditor/MyDecorationTileSet/Tiles/decoration_tile_blue.png; sourceTree = "<group>"; };
+		ACDE9594F24323334A6FC105DDD963AD /* decorationLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = decorationLayer.png; path = Docs/TiledMapEditor/Screenshots/decorationLayer.png; sourceTree = "<group>"; };
 		ADA1CF315C09DEC822DA02CB43A820E2 /* NavigatableButtonScrollViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatableButtonScrollViewController.swift; sourceTree = "<group>"; };
 		B0FC69406B26D957564189E5956017D8 /* ParagliderComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParagliderComponent.swift; sourceTree = "<group>"; };
-		B209947231FFB0D300C09434A13CE7F6 /* GlideColliderTileset.zip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.zip; name = GlideColliderTileset.zip; path = Docs/TiledMapEditor/GlideColliderTileset.zip; sourceTree = "<group>"; };
+		B18CE372DBA76B92B8ADD2E8D42BC44C /* 3.4.editTileSet.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.4.editTileSet.png; path = Docs/TiledMapEditor/Screenshots/3.4.editTileSet.png; sourceTree = "<group>"; };
 		B41367031BFA035304F605758D685237 /* GlideEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlideEntity.swift; sourceTree = "<group>"; };
 		B464739330C500B1C0C45A5C8D3E87F4 /* GlideEngine-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideEngine-tvOS-dummy.m"; path = "../GlideEngine-tvOS/GlideEngine-tvOS-dummy.m"; sourceTree = "<group>"; };
 		B49093B5210D08ED29864BD4F3832FF4 /* Pods_GlideDemo_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GlideDemo_tvOS.framework; path = "Pods-GlideDemo_tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B552C7AEFFBC77F0EF5189B633D080B3 /* GlideSceneEndReason.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlideSceneEndReason.swift; sourceTree = "<group>"; };
 		B6DA8AD25B6481C4BE996192B7E2402D /* StackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		B6EF888B880B083A5A779CE4194AEEBC /* GlideEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GlideEngine.framework; path = "GlideEngine-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B73CF25C98B823E698A11A5DD301A2DD /* slope_0_7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_0_7.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_0_7.png; sourceTree = "<group>"; };
+		B73026C8E683387B9C632056B4C2A7A1 /* devices.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = devices.png; path = Docs/devices.png; sourceTree = "<group>"; };
+		B73A6BBF65D0D29B228C9E80784EDD1B /* Components.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Components.md; path = Docs/Components.md; sourceTree = "<group>"; };
 		B7F27C371527592641528B644501B354 /* ColliderComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColliderComponent.swift; sourceTree = "<group>"; };
 		B889482CE4C1983A9CB7E5F57E846C6F /* SwingHolderComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwingHolderComponent.swift; sourceTree = "<group>"; };
 		B97BD26463E5BAD1302BD4ABF2AE683D /* TileMapNodeComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TileMapNodeComponent.swift; sourceTree = "<group>"; };
@@ -862,14 +869,15 @@
 		BACCD90F893FF248056647A918E02590 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
 		BBACF55232825BFB534EE88ACEEF2D50 /* Pods-GlideDemo_macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlideDemo_macOS-Info.plist"; sourceTree = "<group>"; };
 		BC1C2207ED01E44463446305921A5048 /* Speech.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
-		BC3FCBBC9CFA72D88EE5990167918920 /* AssetCredits.md */ = {isa = PBXFileReference; includeInIndex = 1; name = AssetCredits.md; path = Docs/AssetCredits.md; sourceTree = "<group>"; };
+		BC63B4A9CDB4C55CEA22F5F3DB7A172A /* 1.1.newMap.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 1.1.newMap.png; path = Docs/TiledMapEditor/Screenshots/1.1.newMap.png; sourceTree = "<group>"; };
 		BE4BBD5CF722EACB4DC1AF6EB2E40249 /* GCController+DeviceHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GCController+DeviceHash.swift"; sourceTree = "<group>"; };
 		BFCC9DBEAE709FD76A44D4B850963BF7 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutGuide.swift; sourceTree = "<group>"; };
 		BFDCD870AE789E58FD5C34296D8AA763 /* ColliderTileRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColliderTileRepresentation.swift; sourceTree = "<group>"; };
 		C02B15D8A1D5AE8F801E3596980AB8E6 /* StateResettingComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StateResettingComponent.swift; sourceTree = "<group>"; };
-		C1119D1EF8B33C9D2EAB4E8774DD699E /* slope_0_3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_0_3.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_0_3.png; sourceTree = "<group>"; };
 		C1D6608EE1D83B7BD34DD8F47B67C9A1 /* Slope_3_0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_3_0.swift; sourceTree = "<group>"; };
+		C239D007D70EA8B6171B091431BCF21E /* slope_0_3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_0_3.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_0_3.png; sourceTree = "<group>"; };
 		C348476FF25682AB48E415C9D4E9C653 /* ContactContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContactContext.swift; sourceTree = "<group>"; };
+		C3ABF4B1BA091682C3F40460D6263036 /* 2.2.createTileLayer.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.2.createTileLayer.png; path = Docs/TiledMapEditor/Screenshots/2.2.createTileLayer.png; sourceTree = "<group>"; };
 		C4073492657AE360D1723F2D624FDA64 /* Pods-GlideDemo_tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlideDemo_tvOS-dummy.m"; sourceTree = "<group>"; };
 		C4529B12337BEBBABD2DF3E17242F9EE /* CollisionsController+ContactSides.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CollisionsController+ContactSides.swift"; sourceTree = "<group>"; };
 		C47095C474BE651C8D4917F86D4E343E /* GameControllerKeyGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameControllerKeyGroup.swift; sourceTree = "<group>"; };
@@ -878,58 +886,53 @@
 		C8A96860DA725ED01D2344AC086D680B /* GlideEntity+TouchInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "GlideEntity+TouchInput.swift"; sourceTree = "<group>"; };
 		C92605D2B27FD53E94485BADADDEE6F6 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		C95C01182F321ACD6670FB8C85E5A4CA /* GlideZPositionContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlideZPositionContainer.swift; sourceTree = "<group>"; };
-		C9B44505F479AEF2F3BB6507D1E35069 /* SpriteKitMaps.md */ = {isa = PBXFileReference; includeInIndex = 1; name = SpriteKitMaps.md; path = Docs/SpriteKitMaps.md; sourceTree = "<group>"; };
+		C9AC2A934959BEE60CC293CD583CEF83 /* AssetCredits.md */ = {isa = PBXFileReference; includeInIndex = 1; name = AssetCredits.md; path = Docs/AssetCredits.md; sourceTree = "<group>"; };
 		C9FE0C0BB359EDE4C809307A484D2A04 /* CollisionTileMapRepresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollisionTileMapRepresentation.swift; sourceTree = "<group>"; };
 		CAF9F22888BDF606D50640AA366F47B5 /* Pods-GlideDemo_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlideDemo_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB87406A8FF47E47C411011C055B9565 /* jump_wall_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jump_wall_right.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/jump_wall_right.png; sourceTree = "<group>"; };
+		CB474505D034962385A290ACCF9E0774 /* jump_wall_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jump_wall_right.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/jump_wall_right.png; sourceTree = "<group>"; };
 		CC21A0FA2D0E994B91034329ACC56EAD /* NavigatablePopoverViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NavigatablePopoverViewController.swift; sourceTree = "<group>"; };
 		CC366833A7932F1DDEBD8AA3E2C27961 /* CustomGameController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomGameController.swift; sourceTree = "<group>"; };
 		CCE8AA0890496CC140FFE67F6AF6D056 /* TextureAnimatorComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextureAnimatorComponent.swift; sourceTree = "<group>"; };
 		CCFA2F7E77EEF56807490703F8DF183A /* SnapperComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapperComponent.swift; sourceTree = "<group>"; };
 		CDFBA31980F6169685E70FB53F5B63BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		CED804314452D81B53D33DE77A43F2DF /* Slope_15_0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_15_0.swift; sourceTree = "<group>"; };
+		CF0C7B3C768957418FABB1A812000B4D /* 2.4.paintTiles.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.4.paintTiles.png; path = Docs/TiledMapEditor/Screenshots/2.4.paintTiles.png; sourceTree = "<group>"; };
 		CF40A89978BEB1757C6E0D896F6C04E0 /* SwingComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwingComponent.swift; sourceTree = "<group>"; };
 		CF4EEB2698BF5CA6C0ED084423DAB700 /* Pods-GlideDemo_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlideDemo_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D221DFDC8F64D08BB1488D47B20F74B9 /* UpwardsLookerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UpwardsLookerComponent.swift; sourceTree = "<group>"; };
 		D33014DF2DF09FEB2AE3E399E73CBB10 /* FocusableComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FocusableComponent.swift; sourceTree = "<group>"; };
 		D4480CF79274861797558B356700EA9E /* DebuggableComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebuggableComponent.swift; sourceTree = "<group>"; };
+		D4E73A9A6AB9F4EE18C9D7A9D2428F39 /* 3.1.newTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.1.newTileset.png; path = Docs/TiledMapEditor/Screenshots/3.1.newTileset.png; sourceTree = "<group>"; };
 		D4EC119F97A117F0DEA4ABB37F29E0E6 /* InputMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InputMethod.swift; sourceTree = "<group>"; };
 		D5B160168DAC9E3B9FD4359AB60D61B2 /* BezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BezierPath.swift; sourceTree = "<group>"; };
 		D5DED6A6335420E0250AF3EDE8755B0C /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
-		D6E5E1122C793BA718BFEDBED6CF0121 /* jump_wall_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = jump_wall_left.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/jump_wall_left.png; sourceTree = "<group>"; };
-		D730C053F0D8CF8FF32959487F48F5B9 /* GlideEngine.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GlideEngine.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D77E18A4E9CCEFD1EEE66DC1C6AF1070 /* 1.2.mapJson.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 1.2.mapJson.png; path = Docs/TiledMapEditor/Screenshots/1.2.mapJson.png; sourceTree = "<group>"; };
-		D7BF83ED5318800085A0215905FAB364 /* 3.7.collidableLayerOffsets.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.7.collidableLayerOffsets.png; path = Docs/TiledMapEditor/Screenshots/3.7.collidableLayerOffsets.png; sourceTree = "<group>"; };
+		D6F33F20A6C7BB51CFD4988D050EF949 /* glide_logo_transparent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = glide_logo_transparent.png; path = Docs/glide_logo_transparent.png; sourceTree = "<group>"; };
 		D9876BA6AC679C42A52E84A8BFF40213 /* CheckpointComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckpointComponent.swift; sourceTree = "<group>"; };
 		DA00812128B12E4A0B0A1A2589316D14 /* Input+KeyboardAndMouse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Input+KeyboardAndMouse.swift"; sourceTree = "<group>"; };
 		DAB235EDD40298B1A9052FB4C8F32DCB /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		DAE72A4730B7A467CC1F3AB90A408AFF /* Slope_15_12.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_15_12.swift; sourceTree = "<group>"; };
 		DBF378E29E66C392E5BD32B786274B6C /* PlatformComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformComponent.swift; sourceTree = "<group>"; };
-		DC49BE99A5C566B5C4C4BF11E79972D6 /* slope_11_8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_11_8.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_11_8.png; sourceTree = "<group>"; };
+		DD7ECB3BAF7FEA6A4A4269B9E9ABC02E /* 3.5.populate_tileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.5.populate_tileset.png; path = Docs/TiledMapEditor/Screenshots/3.5.populate_tileset.png; sourceTree = "<group>"; };
 		DD8F8AD1C6649D57D8D429B17940B093 /* Pods-GlideDemo_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlideDemo_tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		DDD3FDEAE6A0DEE1735C3AB734B68901 /* QuickStartGuide.md */ = {isa = PBXFileReference; includeInIndex = 1; name = QuickStartGuide.md; path = Docs/QuickStartGuide.md; sourceTree = "<group>"; };
+		DDF17486C4A0E4F76B5977615786D70A /* 3.3.newTileset.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.3.newTileset.png; path = Docs/TiledMapEditor/Screenshots/3.3.newTileset.png; sourceTree = "<group>"; };
 		DDFCFBE38F6E5042D8FE41665EF77571 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E04C427FC6CC0AD0BE61835445BFF0B8 /* jump.gif */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.gif; name = jump.gif; path = Docs/jump.gif; sourceTree = "<group>"; };
 		E39CA874DA114E4551AC1374909255CB /* Glide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		E430C30200692C8EDBF25D774870BE7C /* DefaultInputProfiles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultInputProfiles.swift; sourceTree = "<group>"; };
-		E49B145BE674A5AFEE45F7495F9FD2A1 /* glide-update-cycle-scene.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "glide-update-cycle-scene.png"; path = "Docs/glide-update-cycle-scene.png"; sourceTree = "<group>"; };
+		E4963DE8D668C805F895AF93743A7AEA /* GlideColliderTileSet.json */ = {isa = PBXFileReference; includeInIndex = 1; name = GlideColliderTileSet.json; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTileSet.json; sourceTree = "<group>"; };
+		E4E00935107071D0C05D4D4B94CFB45A /* glide-update-cycle-entity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "glide-update-cycle-entity.png"; path = "Docs/glide-update-cycle-entity.png"; sourceTree = "<group>"; };
 		E5A7F310191CDDCA38F252EEFA0A828C /* JetpackOperatorComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JetpackOperatorComponent.swift; sourceTree = "<group>"; };
 		E5CDBD32CCD8FEE567812FD1B454A0C0 /* GlideEngine-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GlideEngine-iOS.xcconfig"; sourceTree = "<group>"; };
 		E69A96E09BB455893544A56BE5B49756 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
 		E6EBA816E001CEE64FA60BC30D0D7F4C /* GlideEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GlideEngine.framework; path = "GlideEngine-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FFCB135721BC8E0CE5F36E2F86F0E6 /* CameraFollowerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraFollowerComponent.swift; sourceTree = "<group>"; };
 		E797C4485A83F9F53704368111E25144 /* Pods-GlideDemo_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GlideDemo_macOS.modulemap"; sourceTree = "<group>"; };
-		E855AFBAB67FA7D75BC525DA71AD4704 /* slope_15_8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_15_8.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_15_8.png; sourceTree = "<group>"; };
 		E8DA5B61B7657EF73907519175ADE226 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		E90DD01D512F4AC299F515294719427E /* RemoveAfterTimeIntervalComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoveAfterTimeIntervalComponent.swift; sourceTree = "<group>"; };
 		E922E1FA13D4BA8FC2DAFFA304E222D3 /* SlopeContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlopeContext.swift; sourceTree = "<group>"; };
 		ED3251BDE8542CB36C98B09BBAE59F00 /* ColliderTileHolderComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColliderTileHolderComponent.swift; sourceTree = "<group>"; };
 		ED3A28DC6410FB74E896F6725F1DB5D6 /* SKTileMapNode+TileRepresentations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+TileRepresentations.swift"; sourceTree = "<group>"; };
-		EE65A5307B8F0ABD41E2E97AEEE00EF3 /* 3.6.shouldSkip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 3.6.shouldSkip.png; path = Docs/TiledMapEditor/Screenshots/3.6.shouldSkip.png; sourceTree = "<group>"; };
-		F0F2616C29481D8509B4B1BC7F15D4EB /* glide_logo_transparent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = glide_logo_transparent.png; path = Docs/glide_logo_transparent.png; sourceTree = "<group>"; };
 		F1125300168E190F6C08E08E1E998E86 /* TextureAnimationAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextureAnimationAction.swift; sourceTree = "<group>"; };
 		F1200A1D1D9AB7549827E132E642648C /* GlideEngine-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GlideEngine-tvOS.xcconfig"; path = "../GlideEngine-tvOS/GlideEngine-tvOS.xcconfig"; sourceTree = "<group>"; };
-		F17D14EA5CE88287211FD4BE42BF885D /* oneway.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = oneway.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/oneway.png; sourceTree = "<group>"; };
 		F188DF3EAEB342098E96B4BF250CCD0D /* TiledGeometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TiledGeometry.swift; sourceTree = "<group>"; };
 		F20A4AC652B135EC6924DE92B348D495 /* LadderComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LadderComponent.swift; sourceTree = "<group>"; };
 		F2265653B8FB3DCB021F2272D25FD479 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -939,13 +942,10 @@
 		F50EB304DFE70E62FA07B51C74092CFA /* Slope_4_7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Slope_4_7.swift; sourceTree = "<group>"; };
 		F6FF728F9AB659150B1E0E3FF78685C0 /* Pods-GlideDemo_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlideDemo_macOS-dummy.m"; sourceTree = "<group>"; };
 		F7D009871DF8CA46D55E9D5CAB5A993D /* KeyCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyCode.swift; sourceTree = "<group>"; };
+		F952F2BDC8B0CAF0CCB4728038E6822D /* slope_7_4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_7_4.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_7_4.png; sourceTree = "<group>"; };
 		FA0FA509D58AFB874CD5922C3465AC84 /* Lerping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Lerping.swift; sourceTree = "<group>"; };
-		FAC465F96558A5517E521256D3C8FE04 /* slope_7_0.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_7_0.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_7_0.png; sourceTree = "<group>"; };
 		FC5F0928DF96DAA335C3AD30EA4E55FF /* CategoryMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CategoryMask.swift; sourceTree = "<group>"; };
-		FD5D01EFAA57CC4A72F462702A9B548A /* GlideColliderTileSet.json */ = {isa = PBXFileReference; includeInIndex = 1; name = GlideColliderTileSet.json; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTileSet.json; sourceTree = "<group>"; };
 		FDA189AC629445374662F7B6792763D2 /* GlideEngine-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "GlideEngine-macOS.xcconfig"; path = "../GlideEngine-macOS/GlideEngine-macOS.xcconfig"; sourceTree = "<group>"; };
-		FE89BD7E1CA3F0001FD5571AEA7DFC45 /* slope_12_15.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = slope_12_15.png; path = Docs/TiledMapEditor/GlideColliderTileset/GlideColliderTiles/slope_12_15.png; sourceTree = "<group>"; };
-		FECCFB1610E89686C06FEC655C0FC2E5 /* Components.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Components.md; path = Docs/Components.md; sourceTree = "<group>"; };
 		FED10323742415D6465CA1B97DC23CDA /* EntityObserverComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EntityObserverComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1165,6 +1165,73 @@
 				E103B13B7C76B78AA6D3C4A616857A35 /* GlideEngine */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6BA2C811F298F2863BC631B995AFA5ED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BC63B4A9CDB4C55CEA22F5F3DB7A172A /* 1.1.newMap.png */,
+				0E0652D9B8153C46E58E335705AB72B8 /* 1.2.mapJson.png */,
+				47E59E99DD3A2A59EF58FBA80CFE7C53 /* 2.1.dragColliderTileset.png */,
+				C3ABF4B1BA091682C3F40460D6263036 /* 2.2.createTileLayer.png */,
+				1EA5717FAE2A47CE16B06E42031FB9B1 /* 2.3.newGroundLayer.png */,
+				CF0C7B3C768957418FABB1A812000B4D /* 2.4.paintTiles.png */,
+				D4E73A9A6AB9F4EE18C9D7A9D2428F39 /* 3.1.newTileset.png */,
+				216C3EDDF2DC026892890CF004DC439E /* 3.2.newTileset.png */,
+				DDF17486C4A0E4F76B5977615786D70A /* 3.3.newTileset.png */,
+				B18CE372DBA76B92B8ADD2E8D42BC44C /* 3.4.editTileSet.png */,
+				DD7ECB3BAF7FEA6A4A4269B9E9ABC02E /* 3.5.populate_tileset.png */,
+				6F8F4C7D2006A157FDF91CB262C07E86 /* 3.6.shouldSkip.png */,
+				43DF926D0EE7EBD3B7FE8B3506A4C003 /* 3.7.collidableLayerOffsets.png */,
+				C9AC2A934959BEE60CC293CD583CEF83 /* AssetCredits.md */,
+				94610B19AF050CB83E4E9B22AFFBC2CB /* collidableLayer.png */,
+				B73A6BBF65D0D29B228C9E80784EDD1B /* Components.md */,
+				22F2B96CD138E274ACD54ED105226A2A /* decoration_tile_blue.png */,
+				607937C7ACB906FA3F5DCE24CA65F5F7 /* decoration_tile_yellow.png */,
+				ACDE9594F24323334A6FC105DDD963AD /* decorationLayer.png */,
+				B73026C8E683387B9C632056B4C2A7A1 /* devices.png */,
+				22B12E2B01706E6996C9E3752CB3D512 /* Glide Demo.zip */,
+				676DF6964AB3B9E82D7DD9DC3AFD3327 /* glide-update-cycle-component.png */,
+				E4E00935107071D0C05D4D4B94CFB45A /* glide-update-cycle-entity.png */,
+				63B62EBBB0302B9CAA0142D511821EF5 /* glide-update-cycle-scene.png */,
+				D6F33F20A6C7BB51CFD4988D050EF949 /* glide_logo_transparent.png */,
+				E4963DE8D668C805F895AF93743A7AEA /* GlideColliderTileSet.json */,
+				333AF69CC8711E9E894D4004691DC6D5 /* GlideColliderTileSet.sks */,
+				A3FAF5BCC34F9F7691CB7A918D8ED50F /* GlideColliderTileset.zip */,
+				27A50BEE235B5938BF4C72F2D03BDA53 /* GlideColliderTileSet.sks.zip */,
+				1E843D1CA0A05BB654B2825E2C91BB7B /* GlideEngine.podspec */,
+				6871FB923519075B41B78351F3DEF118 /* ground.png */,
+				2B66095D65A9360F0351E3F04136E4D6 /* jump.gif */,
+				50B206EF9EBD9243A0E1D25C967E51FC /* jump_wall_left.png */,
+				CB474505D034962385A290ACCF9E0774 /* jump_wall_right.png */,
+				47E472D4C5C7811E16592DF9129457FE /* LICENSE */,
+				116A71ED3F5DB81C89F048C802F118A3 /* MyDecorationTileset.json */,
+				2FECBF1AC2AD022B948942E8A5BCA49D /* navigatable.gif */,
+				1EEE5EE9EF2300468610A69CC311374F /* oneway.png */,
+				18BC8170DE6564078E48833A493553A8 /* QuickStartGuide.md */,
+				5CEDD6873997DFBF81975C6EAFC09114 /* README.md */,
+				3E9978FC7006C29A16D17E89323F46E6 /* README.md */,
+				5C708730512D0C8E867EE1BEFCE6DB2D /* SKSLoadingScene.sks */,
+				6620FB715BABCDD313E1809EC7E1AB75 /* slope_0_15.png */,
+				C239D007D70EA8B6171B091431BCF21E /* slope_0_3.png */,
+				A03E83FF213C5DA20A8C53233BB246A8 /* slope_0_7.png */,
+				539FC134DA15B187F7F91C24FCDA473E /* slope_11_8.png */,
+				2F0C32D0DEAB7C67C35AF70F5062A86D /* slope_12_15.png */,
+				026CF0D79D06ECB3D6E78463ADE04EE2 /* slope_15_0.png */,
+				8E5685A270F1659FEC7C60EBEA3BB600 /* slope_15_12.png */,
+				1FE0918E994AD5D40655B7673F71C823 /* slope_15_8.png */,
+				9C42DD8775119F809B9FA51188DD3467 /* slope_3_0.png */,
+				8A4DDEA8683A3F8689F203BFADF6073A /* slope_4_7.png */,
+				28857167F9055763802930586E3B66AD /* slope_7_0.png */,
+				F952F2BDC8B0CAF0CCB4728038E6822D /* slope_7_4.png */,
+				86F352EA858B12573223C3B2B36B46DE /* slope_8_11.png */,
+				704839005705E88D61D67AEDB8847A26 /* slope_8_15.png */,
+				4C2F535270350D841B0230AE31342E6E /* SpriteKitMaps.md */,
+				51120529AB22CF74BD6A06CFF9EC45C6 /* TestMap.json */,
+				9DCC8E422C95DE5B1FACEA1A7E3660ED /* TestMap.zip */,
+				2A6EE0745982660A3146D9DA4BCEC7CF /* TiledMapEditorMaps.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6FA5A01DF9BC7C8D528C9330F6095507 /* Image */ = {
@@ -1447,73 +1514,6 @@
 			path = "Gameplay UI";
 			sourceTree = "<group>";
 		};
-		BAC00E338CFF13F3367C95DB4B1BC8B6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2552170744CFE656EAF4A95E7C09B209 /* 1.1.newMap.png */,
-				D77E18A4E9CCEFD1EEE66DC1C6AF1070 /* 1.2.mapJson.png */,
-				ACB41FC18B611AA0B1A06865B26CFB2B /* 2.1.dragColliderTileset.png */,
-				6A9EB6477A90D36618399654ADA3ED66 /* 2.2.createTileLayer.png */,
-				A40835A09EA8DFEC01A9FA2E346509F3 /* 2.3.newGroundLayer.png */,
-				6310C4C9F479C41075C76E0A70E8F23D /* 2.4.paintTiles.png */,
-				10CD1239398DEBAF4BC2D0A6430BDC0F /* 3.1.newTileset.png */,
-				2C9F16150FFE2836444F6F51104ECE49 /* 3.2.newTileset.png */,
-				671B6D2BD6AEF7B66C2DEB107BEE1123 /* 3.3.newTileset.png */,
-				64D9CBC0343632E29F037918C4A5E62E /* 3.4.editTileSet.png */,
-				6B0DB62E06410B9B0119CA05F8CC96C9 /* 3.5.populate_tileset.png */,
-				EE65A5307B8F0ABD41E2E97AEEE00EF3 /* 3.6.shouldSkip.png */,
-				D7BF83ED5318800085A0215905FAB364 /* 3.7.collidableLayerOffsets.png */,
-				BC3FCBBC9CFA72D88EE5990167918920 /* AssetCredits.md */,
-				39E6BBC5AF2514C2C3E55766AB4ABD9D /* collidableLayer.png */,
-				FECCFB1610E89686C06FEC655C0FC2E5 /* Components.md */,
-				AD51F12BCD6F43D6B66835FFD070C56C /* decoration_tile_blue.png */,
-				4BF9764CEC12768D71DC9B8AD312DD88 /* decoration_tile_yellow.png */,
-				3303325752F5C4D5965B0A353AD2DC17 /* decorationLayer.png */,
-				5099211A21E7000E117D9C6379E207DA /* devices.png */,
-				105190F4FC6C073B9C6F75520053AD40 /* glide-update-cycle-component.png */,
-				81D715CBAFBB57FF38C1624182A3436A /* glide-update-cycle-entity.png */,
-				E49B145BE674A5AFEE45F7495F9FD2A1 /* glide-update-cycle-scene.png */,
-				F0F2616C29481D8509B4B1BC7F15D4EB /* glide_logo_transparent.png */,
-				FD5D01EFAA57CC4A72F462702A9B548A /* GlideColliderTileSet.json */,
-				9AD4AA8A15876E5E2FCDA63575063A86 /* GlideColliderTileSet.sks */,
-				B209947231FFB0D300C09434A13CE7F6 /* GlideColliderTileset.zip */,
-				29840DD23821847B115CD35821068C84 /* GlideColliderTileSet.sks.zip */,
-				5A089AFF11496FC758AFEE8538C897C3 /* GlideDemo.zip */,
-				D730C053F0D8CF8FF32959487F48F5B9 /* GlideEngine.podspec */,
-				76FC1E03E5D664021840AC9F2D5C0273 /* ground.png */,
-				E04C427FC6CC0AD0BE61835445BFF0B8 /* jump.gif */,
-				D6E5E1122C793BA718BFEDBED6CF0121 /* jump_wall_left.png */,
-				CB87406A8FF47E47C411011C055B9565 /* jump_wall_right.png */,
-				1F34CD50081FC9198E39C69527654AB9 /* LICENSE */,
-				3A5C8FEB05FABFDE19EBC4525C1DEDB8 /* MyDecorationTileset.json */,
-				0CB54DCF4E2C22AB0B73F895913C743F /* navigatable.gif */,
-				F17D14EA5CE88287211FD4BE42BF885D /* oneway.png */,
-				DDD3FDEAE6A0DEE1735C3AB734B68901 /* QuickStartGuide.md */,
-				164F7392E24BEDEA0CAF6C9FF896609E /* README.md */,
-				31022DE0694BA6A8A649C04DC3F02DB6 /* README.md */,
-				6C7D183C059A3EE8DCEC58BCD515056A /* SKSLoadingScene.sks */,
-				A8B9C5776CFDA7CBB9CB051D738E9832 /* slope_0_15.png */,
-				C1119D1EF8B33C9D2EAB4E8774DD699E /* slope_0_3.png */,
-				B73CF25C98B823E698A11A5DD301A2DD /* slope_0_7.png */,
-				DC49BE99A5C566B5C4C4BF11E79972D6 /* slope_11_8.png */,
-				FE89BD7E1CA3F0001FD5571AEA7DFC45 /* slope_12_15.png */,
-				676F63AE265D6D55CFD0BEA77FC8FA61 /* slope_15_0.png */,
-				56868D63FA3FE6AD0F2E29CCFA57170F /* slope_15_12.png */,
-				E855AFBAB67FA7D75BC525DA71AD4704 /* slope_15_8.png */,
-				0C6D68129E885236B5F2024EFAEEDB5A /* slope_3_0.png */,
-				709A08FBACDBBB4A0F1444B68D052BE5 /* slope_4_7.png */,
-				FAC465F96558A5517E521256D3C8FE04 /* slope_7_0.png */,
-				2635B4E3426703F865F65EDC8269CE9E /* slope_7_4.png */,
-				96B3668BCF4550346F7FB8B213B3375A /* slope_8_11.png */,
-				64FF6270C500F73C9B8D411D6834358E /* slope_8_15.png */,
-				C9B44505F479AEF2F3BB6507D1E35069 /* SpriteKitMaps.md */,
-				19DE07308FBC78D7F2B61AC03C4D4F7B /* TestMap.json */,
-				09E41167DF2CA63619BE35FF3439542E /* TestMap.zip */,
-				3171BA770563DD7652A6DB88017CB2F3 /* TiledMapEditorMaps.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C1BB02D719F807EEC9BC7F1B3F8E8A18 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -1687,7 +1687,7 @@
 				DEC40BFC12465457ED8AAEA3907E21B8 /* Glide_iOS */,
 				59AC785E98E020AB3EA44C90AE64AAEA /* Glide_macOS */,
 				8B0865418E0D3BF49C8011A925C7761B /* Glide_tvOS */,
-				BAC00E338CFF13F3367C95DB4B1BC8B6 /* Pod */,
+				6BA2C811F298F2863BC631B995AFA5ED /* Pod */,
 				C1BB02D719F807EEC9BC7F1B3F8E8A18 /* Shared */,
 				E3F9333F1E84663BDF5013F2EFBAEB32 /* Support Files */,
 			);
@@ -1991,7 +1991,7 @@
 				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (

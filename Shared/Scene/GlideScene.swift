@@ -34,10 +34,10 @@ open class GlideScene: SKScene {
     
     /// Tile map node that is populated with collider tiles.
     /// See `ColliderTile` for more information on recognized collider tile definitions.
-    public let collisionTileMapNode: SKTileMapNode
+    public let collisionTileMapNode: SKTileMapNode?
     
     public var tileSize: CGSize {
-        return collisionTileMapNode.tileSize
+        return collisionTileMapNode?.tileSize ?? .zero
     }
     
     /// Definitions for container nodes that will be created in the scene.
@@ -49,7 +49,7 @@ open class GlideScene: SKScene {
     public lazy var cameraEntity: GlideEntity = {
         let cameraNode = SKCameraNode()
         camera = cameraNode
-        let entity = EntityFactory.cameraEntity(cameraNode: cameraNode, boundingBoxSize: collisionTileMapNode.mapSize)
+        let entity = EntityFactory.cameraEntity(cameraNode: cameraNode, boundingBoxSize: collisionTileMapNode?.mapSize ?? size)
         entity.name = zPositionContainerNodeName(GlideZPositionContainer.camera)
         entity.transform.node.zPosition = CGFloat.greatestFiniteMagnitude
         entity.transform.usesProposedPosition = false
@@ -78,6 +78,9 @@ open class GlideScene: SKScene {
         entity.addComponent(focusableEntitiesController)
         return entity
     }()
+    
+    /// `true` if this scene should be paused when the app goes to background.
+    public var shouldPauseWhenAppIsInBackground: Bool = true
     
     open override var isPaused: Bool {
         willSet {
@@ -115,14 +118,19 @@ open class GlideScene: SKScene {
     ///     - collisionTileMapNode: Tile map node that is populated with collidable tiles.
     /// See `ColliderTile` for more information on recognized collider tile definitions.
     ///     - zPositionContainers: Definitions for container nodes that will be created in the scene.
-    public init(collisionTileMapNode: SKTileMapNode,
+    public init(collisionTileMapNode: SKTileMapNode?,
                 zPositionContainers: [ZPositionContainer]) {
         
         ComponentPriorityRegistry.shared.initializeIfNeeded()
         self.zPositionContainers = zPositionContainers
         self.collisionTileMapNode = collisionTileMapNode
-        let tileMapRepresentation = CollisionTileMapRepresentation(tileMap: collisionTileMapNode)
+        
+        var tileMapRepresentation: CollisionTileMapRepresentation?
+        if let collisionTileMapNode = collisionTileMapNode {
+            tileMapRepresentation = CollisionTileMapRepresentation(tileMap: collisionTileMapNode)
+        }
         self.collisionsController = CollisionsController(tileMapRepresentation: tileMapRepresentation)
+        
         super.init(size: .zero)
         
         constructZPositionContainerNodes()
@@ -138,8 +146,10 @@ open class GlideScene: SKScene {
     open override func sceneDidLoad() {
         super.sceneDidLoad()
         
-        collisionTileMapNode.position = CGPoint(x: collisionTileMapNode.mapSize.width / 2,
-                                                y: collisionTileMapNode.mapSize.height / 2)
+        if let collisionTileMapNode = collisionTileMapNode {
+            collisionTileMapNode.position = CGPoint(x: collisionTileMapNode.mapSize.width / 2,
+                                                    y: collisionTileMapNode.mapSize.height / 2)
+        }
         
         scene?.addChild(defaultContainerNode)
         
@@ -159,6 +169,10 @@ open class GlideScene: SKScene {
     
     #if DEBUG
     func updateCollisionTileMapNodeDebug() {
+        guard let collisionTileMapNode = collisionTileMapNode else {
+            return
+        }
+        
         if isDebuggingCollisionTileMapNode {
             if collisionTileMapNode.parent == nil {
                 zPositionContainerNode(with: GlideZPositionContainer.debug)?.addChild(collisionTileMapNode)
@@ -176,6 +190,9 @@ open class GlideScene: SKScene {
     }
     
     open override func didChangeSize(_ oldSize: CGSize) {
+        if collisionTileMapNode == nil {
+            cameraEntity.component(ofType: CameraComponent.self)?.boundingBoxSize = size
+        }
         layoutOnScreenItems()
     }
     
@@ -766,12 +783,20 @@ open class GlideScene: SKScene {
         appWillResignActiveObservation = NotificationCenter.default.addObserver(forName: Application.willResignActiveNotification,
                                                                                 object: nil,
                                                                                 queue: nil) { [weak self] _ in
+                                                                                    guard self?.shouldPauseWhenAppIsInBackground == true else {
+                                                                                        return
+                                                                                    }
                                                                                     self?.isPaused = true
         }
         
+        // Pausing also in app did become active, because on iOS, scene is automatically set
+        // to `isPaused` = `false` when the app becomes active.
         appDidBecomeActiveObservation = NotificationCenter.default.addObserver(forName: Application.didBecomeActiveNotification,
                                                                                object: nil,
                                                                                queue: nil) { [weak self] _ in
+                                                                                guard self?.shouldPauseWhenAppIsInBackground == true else {
+                                                                                    return
+                                                                                }
                                                                                 self?.isPaused = true
         }
     }

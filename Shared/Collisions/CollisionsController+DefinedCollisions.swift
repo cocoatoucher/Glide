@@ -110,6 +110,9 @@ extension CollisionsController {
         let collider = colliderMovement.collider
         let proposedObjectFrame = colliderMovement.proposedObjectFrame
         
+        guard let tileMapRepresentation = tileMapRepresentation else {
+            return
+        }
         guard collider.onCornerJump == false && collider.discardsCornerJump == false else {
             return
         }

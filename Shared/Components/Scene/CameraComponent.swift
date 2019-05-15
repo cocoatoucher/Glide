@@ -32,7 +32,9 @@ import SpriteKit
 public final class CameraComponent: GKComponent, GlideComponent {
     
     public let cameraNode: SKCameraNode
-    public let boundingBoxSize: CGSize
+    
+    /// Size of the boundaries of the camera's display area, centered on the scene.
+    public var boundingBoxSize: CGSize
     
     /// Position of the camera in the last frame
     public private(set) var previousCameraPosition: CGPoint = .zero
@@ -67,10 +69,22 @@ public final class CameraComponent: GKComponent, GlideComponent {
         
         /// Smoothness of camera following its target focus position.
         public var followPositionSmoothness: CGFloat = 0.15
+        
+        /// Width of the visible portion of the scene that is seen at any given moment.
+        /// Camera will be scaled according to this formula:
+        /// `fieldOfViewWidth` / `scene.width`
+        public var fieldOfViewWidth: CGFloat? // In screen points
+        
+        /// This value should be between 0 and 1.
+        /// Smaller value means that the camera will be zoomed in more.
+        public var maximumZoom: CGFloat = 0.3
     }
     
     public var configuration = Configuration() {
         didSet {
+            if oldValue.fieldOfViewWidth != configuration.fieldOfViewWidth {
+                isFieldOfViewUpdated = true
+            }
             validateConfigurationBoundaries()
         }
     }
@@ -142,6 +156,7 @@ public final class CameraComponent: GKComponent, GlideComponent {
             targetScale = baseScale
         }
     }
+    private var isFieldOfViewUpdated: Bool = false
     
     private var boundingBoxFrame: CGRect {
         return CGRect(x: 0, y: 0, width: boundingBoxSize.width, height: boundingBoxSize.height)
@@ -358,15 +373,19 @@ public final class CameraComponent: GKComponent, GlideComponent {
 extension CameraComponent: NodeLayoutableComponent {
     
     public func layout(scene: GlideScene, previousSceneSize: CGSize) {
-        guard previousSceneSize != scene.size else {
+        guard previousSceneSize != scene.size || isFieldOfViewUpdated else {
             return
         }
         
+        isFieldOfViewUpdated = false
         sceneSize = scene.size
         
-        if let windowWidth = scene.view?.window?.frame.width {
-            let scale = fmin(fmax(300.0 / windowWidth, 0.3), 1.0)
+        if let fieldOfViewWidth = configuration.fieldOfViewWidth {
+            let maxZoom = fmin(fmax(configuration.maximumZoom, 0.0), 1.0)
+            let scale = fmin(fmax(fieldOfViewWidth / sceneSize.width, maxZoom), 1.0)
             baseScale = CGVector(dx: scale, dy: scale)
+        } else {
+            baseScale = CGVector(dx: 1.0, dy: 1.0)
         }
     }
 }

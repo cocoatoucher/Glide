@@ -33,14 +33,14 @@ extension CollisionsController {
 }
 
 class CollisionsController {
-    let tileMapRepresentation: CollisionTileMapRepresentation
+    let tileMapRepresentation: CollisionTileMapRepresentation?
     private(set) var previousContacts: [ContactContext] = []
     private(set) var contacts: [ContactContext] = []
     var exitContacts: [ContactContext] {
         return previousContacts.filter { contacts.contains($0) == false }
     }
     
-    init(tileMapRepresentation: CollisionTileMapRepresentation) {
+    init(tileMapRepresentation: CollisionTileMapRepresentation?) {
         self.tileMapRepresentation = tileMapRepresentation
     }
     
@@ -198,10 +198,13 @@ class CollisionsController {
         
         ////////////////////////////////////
         // Ground
-        if let contact = groundContact(for: colliderMovement,
-                                       contacts: contacts,
-                                       nonCollisionContacts: &nonCollisionContacts) {
-            return contact
+        if let tileMapRepresentation = tileMapRepresentation {
+            if let contact = groundContact(for: colliderMovement,
+                                           tileMapRepresentation: tileMapRepresentation,
+                                           contacts: contacts,
+                                           nonCollisionContacts: &nonCollisionContacts) {
+                return contact
+            }
         }
         
         ////////////////////////////////////
@@ -313,6 +316,10 @@ class CollisionsController {
     }
     
     private func isColliderWithinCollisionMapBoundaries(collider: ColliderComponent) -> Bool {
+        guard let tileMapRepresentation = tileMapRepresentation else {
+            return true
+        }
+        
         let colliderFrame = collider.colliderFrameInScene
         let isOutsideCollisionMapBounds = colliderFrame.maxX < 0 ||
             colliderFrame.minX > tileMapRepresentation.mapSize.width ||

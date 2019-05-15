@@ -28,6 +28,7 @@ import CoreGraphics
 extension CollisionsController {
     
     func groundContact(for colliderMovement: ColliderMovement,
+                       tileMapRepresentation: CollisionTileMapRepresentation,
                        contacts: [ContactContext],
                        nonCollisionContacts: inout [ContactContext]) -> ContactContext? {
         let collider = colliderMovement.collider
@@ -45,11 +46,13 @@ extension CollisionsController {
             return nil
         }
         
-        let allTileIntersections = self.tileIntersections(for: colliderMovement)
+        let allTileIntersections = self.tileIntersections(for: colliderMovement,
+                                                          tileMapRepresentation: tileMapRepresentation)
         let tileIntersections = allTileIntersections.filter { $0.tileRepresentation != nil }
         let emptyTileIntersections = allTileIntersections.filter { $0.tileRepresentation == nil }
         
         if let contact = colliderTileContacts(for: colliderMovement,
+                                              tileMapRepresentation: tileMapRepresentation,
                                               tileIntersections: tileIntersections,
                                               shouldCollideGround: shouldCollideGround,
                                               nonCollisionContacts: &nonCollisionContacts) {
@@ -61,6 +64,7 @@ extension CollisionsController {
         }
         
         emptyTilesContact(for: colliderMovement,
+                          tileMapRepresentation: tileMapRepresentation,
                           emptyTileIntersections: emptyTileIntersections,
                           nonCollisionContacts: &nonCollisionContacts)
         
@@ -68,6 +72,7 @@ extension CollisionsController {
     }
     
     func colliderTileContacts(for colliderMovement: ColliderMovement,
+                              tileMapRepresentation: CollisionTileMapRepresentation,
                               tileIntersections: [ColliderTileIntersection],
                               shouldCollideGround: Bool,
                               nonCollisionContacts: inout [ContactContext]) -> ContactContext? {
@@ -76,6 +81,7 @@ extension CollisionsController {
                 continue
             }
             let tileContact = colliderTileContact(for: colliderMovement,
+                                                  tileMapRepresentation: tileMapRepresentation,
                                                   shouldCollideGround: shouldCollideGround,
                                                   colliderTile: tileRepresentation.tile,
                                                   tileIntersection: tileIntersection,
@@ -89,6 +95,7 @@ extension CollisionsController {
     }
     
     func colliderTileContact(for colliderMovement: ColliderMovement,
+                             tileMapRepresentation: CollisionTileMapRepresentation,
                              shouldCollideGround: Bool,
                              colliderTile: ColliderTile,
                              tileIntersection: ColliderTileIntersection,
@@ -97,6 +104,7 @@ extension CollisionsController {
         switch colliderTile {
         case .ground, .oneWay:
             if let contact = basicGroundAndOnewayTileContact(colliderMovement: colliderMovement,
+                                                             tileMapRepresentation: tileMapRepresentation,
                                                              shouldCollideGround: shouldCollideGround,
                                                              tileIntersection: tileIntersection) {
                 if contact.isCollision {
@@ -138,6 +146,7 @@ extension CollisionsController {
     }
     
     func basicGroundAndOnewayTileContact(colliderMovement: ColliderMovement,
+                                         tileMapRepresentation: CollisionTileMapRepresentation,
                                          shouldCollideGround: Bool,
                                          tileIntersection: ColliderTileIntersection) -> ContactContext? {
         let intersection = tileIntersection.intersection
@@ -268,6 +277,7 @@ extension CollisionsController {
     }
     
     func emptyTilesContact(for colliderMovement: ColliderMovement,
+                           tileMapRepresentation: CollisionTileMapRepresentation,
                            emptyTileIntersections: [ColliderTileIntersection],
                            nonCollisionContacts: inout [ContactContext]) {
         let collider = colliderMovement.collider
@@ -308,7 +318,9 @@ extension CollisionsController {
                     }
                 }
                 
-                let contactsGap = doesContactGap(on: TiledPoint(column, row), proposedObjectFrame: proposedObjectFrame)
+                let contactsGap = doesContactGap(on: TiledPoint(column, row),
+                                                 tileMapRepresentation: tileMapRepresentation,
+                                                 proposedObjectFrame: proposedObjectFrame)
                 if contactsGap {
                     if collider.onGap {
                         continue
@@ -321,7 +333,9 @@ extension CollisionsController {
         }
     }
     
-    func doesContactGap(on tiledPoint: TiledPoint, proposedObjectFrame: CGRect) -> Bool {
+    func doesContactGap(on tiledPoint: TiledPoint,
+                        tileMapRepresentation: CollisionTileMapRepresentation,
+                        proposedObjectFrame: CGRect) -> Bool {
         guard let gaps = tileMapRepresentation.columnsToGaps[tiledPoint.x] else {
             return false
         }
@@ -341,7 +355,8 @@ extension CollisionsController {
         return false
     }
     
-    func tileIntersections(for colliderMovement: ColliderMovement) -> [ColliderTileIntersection] {
+    func tileIntersections(for colliderMovement: ColliderMovement,
+                           tileMapRepresentation: CollisionTileMapRepresentation) -> [ColliderTileIntersection] {
         let tileRange = tileMapRepresentation.tileRangeAroundFrame(colliderMovement.proposedObjectFrame)
         
         var result = [ColliderTileIntersection]()
