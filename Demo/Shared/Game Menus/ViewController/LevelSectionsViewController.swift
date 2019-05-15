@@ -149,7 +149,9 @@ class LevelSectionsViewController: NavigatableViewController {
         view.addLayoutGuide(accessoriesLayoutGuide)
         view.addSubview(sectionInfoLabel)
         view.addSubview(creditsButton)
+        #if os(OSX)
         view.addSubview(quitGameButton)
+        #endif
         
         setupConstraints()
     }
@@ -181,11 +183,14 @@ class LevelSectionsViewController: NavigatableViewController {
             sectionInfoLabel.bottomAnchor.constraint(equalTo: accessoriesLayoutGuide.bottomAnchor, constant: -20.0),
             
             creditsButton.centerXAnchor.constraint(equalTo: logoImageView.centerXAnchor),
-            creditsButton.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: -20.0),
-            
+            creditsButton.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: -20.0)
+            ])
+        #if os(OSX)
+        NSLayoutConstraint.activate([
             quitGameButton.centerXAnchor.constraint(equalTo: creditsButton.centerXAnchor),
             quitGameButton.topAnchor.constraint(equalTo: creditsButton.bottomAnchor, constant: 20.0)
             ])
+        #endif
         
         NSLayoutConstraint.activate([
             negativeSideIndicatorView.leadingAnchor.constraint(equalTo: sectionsLayoutGuide.leadingAnchor),
@@ -238,12 +243,20 @@ class LevelSectionsViewController: NavigatableViewController {
                                                                             self?.negativeSideIndicatorView.animateSelect()
         }
         
+        #if os(OSX)
         append(children: [creditsButton, quitGameButton])
+        #else
+        append(children: [creditsButton])
+        #endif
+        
         creditsButton.rightElement = sectionsScrollViewController
+        sectionsScrollViewController.leftElement = creditsButton
+        
+        #if os(OSX)
         quitGameButton.rightElement = sectionsScrollViewController
         creditsButton.downElement = quitGameButton
         quitGameButton.upElement = creditsButton
-        sectionsScrollViewController.leftElement = creditsButton
+        #endif
     }
     
     func displayLevels(_ sectionViewModel: SingleLevelSectionViewModel, fromButton: NavigatableButton) {
@@ -296,7 +309,9 @@ class LevelSectionsViewController: NavigatableViewController {
             let creditsViewController = CreditsViewController()
             AppDelegate.shared.containerViewController?.placeContentViewController(creditsViewController)
         } else if focusedChild === quitGameButton {
+            #if os(OSX)
             NSApp.terminate(self)
+            #endif
         }
     }
     
