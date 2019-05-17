@@ -96,6 +96,7 @@ Bugs are expected since glide is in its early days and this is currently a solo 
 
 ### Credits:
 
-- Animated Pixel Adventurer: https://rvros.itch.io/animated-pixel-hero
-- Classical ruin tiles: https://opengameart.org/content/classical-ruin-tiles
+- Animated Pixel Adventurer: [https://rvros.itch.io/animated-pixel-hero](https://rvros.itch.io/animated-pixel-hero)
+- Classical ruin tiles: [https://opengameart.org/content/classical-ruin-tiles](https://opengameart.org/content/classical-ruin-tiles)
+- Original trailer video music by John Walden: [https://soundcloud.com/jwaldenmusic](https://soundcloud.com/jwaldenmusic)
 - [All credits](https://github.com/cocoatoucher/Glide/blob/master/Docs/AssetCredits.md)
