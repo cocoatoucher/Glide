@@ -15,6 +15,14 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 </a>
 </p>
 
+- Make a simple 2d platformer in half an hour, tutorial on YouTube:
+
+<p align="center">
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Fx7Cv6-WjMQ">
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/tutorialthumb.png" width="400" max-width="80%" alt="Starter Tutorial">
+</a>
+</p>
+
 <p align="center">
 <a href="https://app.bitrise.io/app/b14b754f747dc2fa">
 <img src="https://app.bitrise.io/app/b14b754f747dc2fa/status.svg?token=2DJHooo6_IVnbLRAFbfxzQ" alt="iOS Build status"/>
