@@ -73,6 +73,9 @@ You can't imagine a game without menus in most cases. A UIKit / AppKit based use
 ### 5. Audio and music 🔊
 There is currently a work in progress for playing audio and music with ready made components in glide. In the mean time, you can go ahead and use `SKAudioNode`s directly with your entities and components as glide is seamlessly integrated with SpriteKit.
 
+## Inspiration
+glide naturally draws inspiration from the approaches of other popular and smaller game engines on different platforms. However, these are theoretical inspirations and glide has a bunch of tailored solutions towards making it easier to create SpriteKit platformers. 
+
 ## Get your hands on glide
 
 ### Demo scenes
