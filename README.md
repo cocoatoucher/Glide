@@ -40,9 +40,6 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 <img src="https://img.shields.io/twitter/follow/glideengine.svg?label=Follow"/>
 </a>
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
-<a href="mailto:cocoatoucher@posteo.se">
-<img src="https://img.shields.io/badge/contact-cocoatoucher-yellow.svg?style=flat"/>
-</a>
 </p>
 
 <p align="center">
