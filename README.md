@@ -52,7 +52,7 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 ## What is in glide?
 
 ### 1. Entity component system
-glide is developed with Entity-Component-System architecture. In short, this makes it easy to manage the code of your game. Loads of building components common to 2d platformers that will get you quickly started is also included in the engine. 
+glide is developed with [Entity-Component-System architecture](https://en.wikipedia.org/wiki/Entity_component_system). In short, this makes it easy to manage the code of your game, which might quickly get messy as you add more stuff. In addition to that, loads of building components common to 2d platformers that will get you quickly started is also included in the engine. 
 
 #### See all the components [here](https://github.com/cocoatoucher/Glide/blob/master/Docs/Components.md). 👾
 
