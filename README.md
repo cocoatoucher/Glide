@@ -40,9 +40,6 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 <img src="https://img.shields.io/twitter/follow/glideengine.svg?label=Follow"/>
 </a>
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
-<a href="mailto:cocoatoucher@posteo.se">
-<img src="https://img.shields.io/badge/contact-cocoatoucher-yellow.svg?style=flat"/>
-</a>
 </p>
 
 <p align="center">
@@ -72,6 +69,9 @@ You can't imagine a game without menus in most cases. A UIKit / AppKit based use
 
 ### 5. Audio and music 🔊
 There is currently a work in progress for playing audio and music with ready made components in glide. In the mean time, you can go ahead and use `SKAudioNode`s directly with your entities and components as glide is seamlessly integrated with SpriteKit.
+
+## Inspiration
+glide naturally draws inspiration from the approaches of other popular and smaller game engines on different platforms. Those inspirations are also rooted in the usage of certain architectural patterns like entity-component-system. On top of that, glide has a bunch of tailored solutions towards making it easier to create more professional platformers and 2d games in general on Apple platforms.
 
 ## Get your hands on glide
 
