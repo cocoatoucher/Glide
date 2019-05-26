@@ -46,7 +46,7 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 </a>
 </p>
 
-- Tutorial 2: Make a simple 2d platformer in half an hour, tutorial on YouTube:
+- Tutorial 2: Make a simple 2d platformer in half an hour, on YouTube:
 
 <p align="center">
 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Ru87AxgsLKQ">
