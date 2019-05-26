@@ -6,20 +6,16 @@
 
 glide is a SpriteKit and GameplayKit based engine for building 2d games easily, with a focus on side scrollers. glide is developed with Swift and works on iOS, macOS and tvOS. 
 
+<p align="center">
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/devices.png" max-width="80%" alt="glide devices"/>
+</p>
+
 - Download the macOS demo app [here](https://github.com/cocoatoucher/Glide/raw/master/Docs/GlideDemo.zip) to give it a try. 
 - or watch a video of the features [here](https://vimeo.com/334243593). 
 
 <p align="center">
 <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/334243593">
 <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/jump.gif" width="400" max-width="80%" alt="A glimpse of the glide's features">
-</a>
-</p>
-
-- Make a simple 2d platformer in half an hour, tutorial on YouTube 👇:
-
-<p align="center">
-<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Fx7Cv6-WjMQ">
-<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/tutorialthumb.png" width="400" max-width="80%" alt="Starter Tutorial">
 </a>
 </p>
 
@@ -42,8 +38,20 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
 </p>
 
+- Make a simple 2d platformer in half an hour, tutorial on YouTube:
+
 <p align="center">
-<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/devices.png" max-width="80%" alt="glide devices"/>
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Fx7Cv6-WjMQ">
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/tutorialthumb.png" width="400" max-width="80%" alt="Starter Tutorial">
+</a>
+</p>
+
+- Tutorial 2: Make a simple 2d platformer in half an hour, tutorial on YouTube:
+
+<p align="center">
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Ru87AxgsLKQ">
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/tutorial2thumb.png" width="400" max-width="80%" alt="Tutorial 2">
+</a>
 </p>
 
 ## What is in glide?
