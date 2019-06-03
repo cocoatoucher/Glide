@@ -54,6 +54,8 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 </a>
 </p>
 
+- More tutorials are on the way! Stay tuned for updates in a couple of weeks. (Updated 3rd June 2019) [Follow on YouTube](https://www.youtube.com/channel/UCKB7inlaMD2CvyaQKQ2snZw)
+
 ## What is in glide?
 
 ### 1. Entity component system
