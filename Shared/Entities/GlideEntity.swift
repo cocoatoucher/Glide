@@ -181,11 +181,11 @@ open class GlideEntity: GKEntity {
     }
     
     /// Use this method to remove components from your entity.
-    /// Since `removeComponent(ofType:)` method of `GKEntity` is not implemented with an open.
+    /// Since `removeComponent(ofType:)` method of `GKEntity` is not implemented with an open
     /// modifier, this method is implemented as a replacement.
     public func removeGlideComponent<ComponentType>(ofType componentClass: ComponentType.Type) where ComponentType: (GlideComponent & GKComponent) {
         
-        if let glideComponent = component as? GlideComponent {
+        if let glideComponent = component(ofType: componentClass) {
             glideComponent.willBeRemovedFromEntity()
         }
         
