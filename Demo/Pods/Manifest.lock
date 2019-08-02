@@ -1,5 +1,5 @@
 PODS:
-  - GlideEngine (1.0.3)
+  - GlideEngine (1.0.4)
 
 DEPENDENCIES:
   - GlideEngine (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GlideEngine: 7b196205a4c02c6c01a94c53da1dfc5531082d66
+  GlideEngine: b413e76f74b6013ded033593edb8bf1e7ba4a2cf
 
 PODFILE CHECKSUM: 5fdb3a329fa8459700e6085fe15c017e2c53bd1e
 

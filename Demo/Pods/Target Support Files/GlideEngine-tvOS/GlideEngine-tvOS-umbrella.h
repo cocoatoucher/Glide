@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "Glide.h"
 
 FOUNDATION_EXPORT double GlideEngineVersionNumber;
 FOUNDATION_EXPORT const unsigned char GlideEngineVersionString[];

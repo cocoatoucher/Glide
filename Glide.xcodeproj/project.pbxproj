@@ -104,8 +104,6 @@
 		4E3A499C21F083C7006C5916 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A498A21F083C7006C5916 /* Button.swift */; };
 		4E3A499D21F0849D006C5916 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A498821F083C7006C5916 /* ImageView.swift */; };
 		4E3A4A4621F09DEA006C5916 /* ResponderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A4A4421F09DEA006C5916 /* ResponderView.swift */; };
-		4E3A4A5521F0A1A0006C5916 /* Image+macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3A4A5321F0A1A0006C5916 /* Image+macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E3A4A5821F0A1B6006C5916 /* Image+macOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A4A5621F0A1B5006C5916 /* Image+macOS.m */; };
 		4E3A4A9321F0CA8F006C5916 /* InputResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A4A9121F0CA72006C5916 /* InputResponder.swift */; };
 		4E3A4AB421F1DB18006C5916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A4AB321F1DB18006C5916 /* ViewController.swift */; };
 		4E3A4AB521F1DB18006C5916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A4AB321F1DB18006C5916 /* ViewController.swift */; };
@@ -192,6 +190,14 @@
 		4E6A15432220465700744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */; };
 		4E6A15442220469400744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */; };
 		4E6A15452220469400744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */; };
+		4E6C4D5822F476C700530599 /* GCController+GameControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D5722F476C700530599 /* GCController+GameControllerInterface.swift */; };
+		4E6C4D5922F476C700530599 /* GCController+GameControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D5722F476C700530599 /* GCController+GameControllerInterface.swift */; };
+		4E6C4D5A22F476C700530599 /* GCController+GameControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D5722F476C700530599 /* GCController+GameControllerInterface.swift */; };
+		4E6C4D5D22F4773300530599 /* EventQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D5B22F4773300530599 /* EventQueue.swift */; };
+		4E6C4D6122F4774B00530599 /* USBGameController+GameControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D5F22F4774B00530599 /* USBGameController+GameControllerInterface.swift */; };
+		4E6C4D6422F4778700530599 /* GameControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D6322F4778700530599 /* GameControllerInterface.swift */; };
+		4E6C4D6522F4778700530599 /* GameControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D6322F4778700530599 /* GameControllerInterface.swift */; };
+		4E6C4D6622F4778700530599 /* GameControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C4D6322F4778700530599 /* GameControllerInterface.swift */; };
 		4E6CB13922876DD60030CC4D /* GCController+DeviceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */; };
 		4E6CB13A22876DD80030CC4D /* GCController+DeviceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */; };
 		4E6CB13B22876DD90030CC4D /* GCController+DeviceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */; };
@@ -273,6 +279,14 @@
 		4E6F2EDD21F5D8AA004BB1D6 /* Slope_3_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E75159B217A2DAD0066DA2F /* Slope_3_0.swift */; };
 		4E6F2EDE21F5D8AA004BB1D6 /* Slope_0_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E75159C217A2DAD0066DA2F /* Slope_0_3.swift */; };
 		4E6F2EDF21F5D8AD004BB1D6 /* SlopeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751589217A2A4C0066DA2F /* SlopeContext.swift */; };
+		4E72C02322F31E7300D68F52 /* USBGameControllerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01A22F31E7200D68F52 /* USBGameControllerObserver.swift */; };
+		4E72C02422F31E7300D68F52 /* USBGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01B22F31E7200D68F52 /* USBGameController.swift */; };
+		4E72C02522F31E7300D68F52 /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01C22F31E7200D68F52 /* Stick.swift */; };
+		4E72C02722F31E7300D68F52 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01E22F31E7200D68F52 /* Event.swift */; };
+		4E72C02822F31E7300D68F52 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01F22F31E7300D68F52 /* Element.swift */; };
+		4E72C02922F31E7300D68F52 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C02022F31E7300D68F52 /* Usage.swift */; };
+		4E72C02A22F31E7300D68F52 /* EventHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C02122F31E7300D68F52 /* EventHandling.swift */; };
+		4E72C02B22F31E7300D68F52 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C02222F31E7300D68F52 /* Device.swift */; };
 		4E73161A2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
 		4E73161B2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
 		4E73161C2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
@@ -540,26 +554,6 @@
 		4ECB19A5222FC1FD00C0C38C /* NavigatableButtonScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A496621F08341006C5916 /* NavigatableButtonScrollView.swift */; };
 		4ECB19A6222FC20400C0C38C /* NavigatablePopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A496921F08341006C5916 /* NavigatablePopoverViewController.swift */; };
 		4ECB19A7222FC20700C0C38C /* NavigatableButtonScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A496A21F08341006C5916 /* NavigatableButtonScrollViewController.swift */; };
-		4ECE2A3721B816E400C309A9 /* DDHidQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A2421B816E200C309A9 /* DDHidQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A3821B816E400C309A9 /* NSXReturnThrowError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A2521B816E200C309A9 /* NSXReturnThrowError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A3921B816E400C309A9 /* DDHidDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A2621B816E200C309A9 /* DDHidDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A3A21B816E400C309A9 /* DDHidLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A2721B816E200C309A9 /* DDHidLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A3B21B816E400C309A9 /* DDHidJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A2821B816E200C309A9 /* DDHidJoystick.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A3C21B816E400C309A9 /* DDHidElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A2921B816E200C309A9 /* DDHidElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A3D21B816E400C309A9 /* DDHidUsageTables.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A2A21B816E200C309A9 /* DDHidUsageTables.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A3E21B816E400C309A9 /* NSDictionary+DDHidExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A2B21B816E200C309A9 /* NSDictionary+DDHidExtras.h */; };
-		4ECE2A3F21B816E400C309A9 /* DDHidJoystick.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A2C21B816E200C309A9 /* DDHidJoystick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A4021B816E400C309A9 /* DDHidUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A2D21B816E300C309A9 /* DDHidUsage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A4121B816E400C309A9 /* NSDictionary+DDHidExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A2E21B816E300C309A9 /* NSDictionary+DDHidExtras.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A4221B816E400C309A9 /* NSXReturnThrowError.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A2F21B816E300C309A9 /* NSXReturnThrowError.h */; };
-		4ECE2A4321B816E400C309A9 /* DDHidElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A3021B816E300C309A9 /* DDHidElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A4421B816E400C309A9 /* DDHidUsage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A3121B816E300C309A9 /* DDHidUsage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A4521B816E400C309A9 /* DDHidEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A3221B816E300C309A9 /* DDHidEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A4621B816E400C309A9 /* DDHidQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A3321B816E300C309A9 /* DDHidQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A4721B816E400C309A9 /* DDHidDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A3421B816E300C309A9 /* DDHidDevice.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A4821B816E400C309A9 /* DDHidUsageTables.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECE2A3521B816E300C309A9 /* DDHidUsageTables.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE2A4921B816E400C309A9 /* DDHidEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A3621B816E400C309A9 /* DDHidEvent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4ECE2A4B21B81CBC00C309A9 /* CustomGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE2A4A21B81CBC00C309A9 /* CustomGameController.swift */; };
 		4ECFFD6622401EE700525DE2 /* LabelNodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFFD6522401EE700525DE2 /* LabelNodeComponent.swift */; };
 		4ECFFD6722401EE700525DE2 /* LabelNodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFFD6522401EE700525DE2 /* LabelNodeComponent.swift */; };
 		4ECFFD6822401EE700525DE2 /* LabelNodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECFFD6522401EE700525DE2 /* LabelNodeComponent.swift */; };
@@ -673,8 +667,6 @@
 		4E3A498921F083C7006C5916 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		4E3A498A21F083C7006C5916 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		4E3A4A4421F09DEA006C5916 /* ResponderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponderView.swift; sourceTree = "<group>"; };
-		4E3A4A5321F0A1A0006C5916 /* Image+macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+macOS.h"; sourceTree = "<group>"; };
-		4E3A4A5621F0A1B5006C5916 /* Image+macOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+macOS.m"; sourceTree = "<group>"; };
 		4E3A4A9121F0CA72006C5916 /* InputResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputResponder.swift; sourceTree = "<group>"; };
 		4E3A4AB321F1DB18006C5916 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E3A70AE22310E1E0060AF20 /* LightNodeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightNodeComponent.swift; sourceTree = "<group>"; };
@@ -716,6 +708,10 @@
 		4E6A126E225DEAEC00DDB847 /* EntityObserverComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityObserverComponent.swift; sourceTree = "<group>"; };
 		4E6A1273225F511300DDB847 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+TileRepresentations.swift"; sourceTree = "<group>"; };
+		4E6C4D5722F476C700530599 /* GCController+GameControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GCController+GameControllerInterface.swift"; sourceTree = "<group>"; };
+		4E6C4D5B22F4773300530599 /* EventQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventQueue.swift; sourceTree = "<group>"; };
+		4E6C4D5F22F4774B00530599 /* USBGameController+GameControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "USBGameController+GameControllerInterface.swift"; sourceTree = "<group>"; };
+		4E6C4D6322F4778700530599 /* GameControllerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerInterface.swift; sourceTree = "<group>"; };
 		4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GCController+DeviceHash.swift"; sourceTree = "<group>"; };
 		4E6F2E5121F5D58D004BB1D6 /* Glide_macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F2E6321F5D71E004BB1D6 /* Glide_iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -723,6 +719,14 @@
 		4E6F2E7521F5D75A004BB1D6 /* Glide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		4E6F2E7621F5D75A004BB1D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E6F2E7F21F5D78E004BB1D6 /* Glide_tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E72C01A22F31E7200D68F52 /* USBGameControllerObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USBGameControllerObserver.swift; sourceTree = "<group>"; };
+		4E72C01B22F31E7200D68F52 /* USBGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USBGameController.swift; sourceTree = "<group>"; };
+		4E72C01C22F31E7200D68F52 /* Stick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
+		4E72C01E22F31E7200D68F52 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		4E72C01F22F31E7300D68F52 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		4E72C02022F31E7300D68F52 /* Usage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
+		4E72C02122F31E7300D68F52 /* EventHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventHandling.swift; sourceTree = "<group>"; };
+		4E72C02222F31E7300D68F52 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		4E7316192239B4F0004FFDDB /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		4E7515562179F7EA0066DA2F /* Glide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Glide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7515592179F7EA0066DA2F /* Glide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
@@ -827,26 +831,6 @@
 		4EC50DD1217FBD21005D66FC /* PlatformComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformComponent.swift; sourceTree = "<group>"; };
 		4EC81BD621A57F890017C2E2 /* EntityFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityFactory.swift; sourceTree = "<group>"; };
 		4EC8E4642256738A00218CFD /* TouchReceiverComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchReceiverComponent.swift; sourceTree = "<group>"; };
-		4ECE2A2421B816E200C309A9 /* DDHidQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidQueue.m; sourceTree = "<group>"; };
-		4ECE2A2521B816E200C309A9 /* NSXReturnThrowError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSXReturnThrowError.m; sourceTree = "<group>"; };
-		4ECE2A2621B816E200C309A9 /* DDHidDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidDevice.h; sourceTree = "<group>"; };
-		4ECE2A2721B816E200C309A9 /* DDHidLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidLib.h; sourceTree = "<group>"; };
-		4ECE2A2821B816E200C309A9 /* DDHidJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidJoystick.m; sourceTree = "<group>"; };
-		4ECE2A2921B816E200C309A9 /* DDHidElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidElement.m; sourceTree = "<group>"; };
-		4ECE2A2A21B816E200C309A9 /* DDHidUsageTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidUsageTables.m; sourceTree = "<group>"; };
-		4ECE2A2B21B816E200C309A9 /* NSDictionary+DDHidExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DDHidExtras.h"; sourceTree = "<group>"; };
-		4ECE2A2C21B816E200C309A9 /* DDHidJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidJoystick.h; sourceTree = "<group>"; };
-		4ECE2A2D21B816E300C309A9 /* DDHidUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidUsage.m; sourceTree = "<group>"; };
-		4ECE2A2E21B816E300C309A9 /* NSDictionary+DDHidExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DDHidExtras.m"; sourceTree = "<group>"; };
-		4ECE2A2F21B816E300C309A9 /* NSXReturnThrowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSXReturnThrowError.h; sourceTree = "<group>"; };
-		4ECE2A3021B816E300C309A9 /* DDHidElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidElement.h; sourceTree = "<group>"; };
-		4ECE2A3121B816E300C309A9 /* DDHidUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsage.h; sourceTree = "<group>"; };
-		4ECE2A3221B816E300C309A9 /* DDHidEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidEvent.h; sourceTree = "<group>"; };
-		4ECE2A3321B816E300C309A9 /* DDHidQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidQueue.h; sourceTree = "<group>"; };
-		4ECE2A3421B816E300C309A9 /* DDHidDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidDevice.m; sourceTree = "<group>"; };
-		4ECE2A3521B816E300C309A9 /* DDHidUsageTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHidUsageTables.h; sourceTree = "<group>"; };
-		4ECE2A3621B816E400C309A9 /* DDHidEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHidEvent.m; sourceTree = "<group>"; };
-		4ECE2A4A21B81CBC00C309A9 /* CustomGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGameController.swift; sourceTree = "<group>"; };
 		4ECFFD6522401EE700525DE2 /* LabelNodeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelNodeComponent.swift; sourceTree = "<group>"; };
 		4ECFFD71224048B400525DE2 /* TalkerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkerComponent.swift; sourceTree = "<group>"; };
 		4ED750862242E4D7004748B7 /* InfiniteSpriteScrollerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSpriteScrollerComponent.swift; sourceTree = "<group>"; };
@@ -1094,24 +1078,13 @@
 			path = "Gameplay UI";
 			sourceTree = "<group>";
 		};
-		4E4D61CA223804C9006BFDA7 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				4E3A4A5321F0A1A0006C5916 /* Image+macOS.h */,
-				4E3A4A5621F0A1B5006C5916 /* Image+macOS.m */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
 		4E4E22DB217BA117009F5C3E /* Glide_macOS */ = {
 			isa = PBXGroup;
 			children = (
 				4E4E22DC217BA117009F5C3E /* Glide.h */,
 				4E3A4A9121F0CA72006C5916 /* InputResponder.swift */,
-				4ECE2A4A21B81CBC00C309A9 /* CustomGameController.swift */,
 				4EBF28702267B98400AE954B /* Input+KeyboardAndMouse.swift */,
-				4E4D61CA223804C9006BFDA7 /* Image */,
-				4ECE2A2321B816D500C309A9 /* DDHid */,
+				4E72C01922F31E5900D68F52 /* USBGameController */,
 			);
 			path = Glide_macOS;
 			sourceTree = "<group>";
@@ -1244,6 +1217,23 @@
 				4E6F2E7621F5D75A004BB1D6 /* Info.plist */,
 			);
 			path = Glide_tvOS;
+			sourceTree = "<group>";
+		};
+		4E72C01922F31E5900D68F52 /* USBGameController */ = {
+			isa = PBXGroup;
+			children = (
+				4E72C01A22F31E7200D68F52 /* USBGameControllerObserver.swift */,
+				4E72C01B22F31E7200D68F52 /* USBGameController.swift */,
+				4E6C4D5F22F4774B00530599 /* USBGameController+GameControllerInterface.swift */,
+				4E72C02222F31E7300D68F52 /* Device.swift */,
+				4E72C01F22F31E7300D68F52 /* Element.swift */,
+				4E72C01E22F31E7200D68F52 /* Event.swift */,
+				4E72C02122F31E7300D68F52 /* EventHandling.swift */,
+				4E6C4D5B22F4773300530599 /* EventQueue.swift */,
+				4E72C01C22F31E7200D68F52 /* Stick.swift */,
+				4E72C02022F31E7300D68F52 /* Usage.swift */,
+			);
+			path = USBGameController;
 			sourceTree = "<group>";
 		};
 		4E75154C2179F7EA0066DA2F = {
@@ -1387,6 +1377,7 @@
 				4E47BEC122746C2F009ED639 /* GKEntity+Name.swift */,
 				4E47BEED2276130C009ED639 /* Array+Difference.swift */,
 				4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */,
+				4E6C4D5722F476C700530599 /* GCController+GameControllerInterface.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1521,6 +1512,7 @@
 				4EBF28792268E75400AE954B /* DefaultGameControllerKeyGroups.swift */,
 				4E2F22E721B5534700936E3E /* InputProfile.swift */,
 				4E8EF89022235A6A009077C9 /* DefaultInputProfiles.swift */,
+				4E6C4D6322F4778700530599 /* GameControllerInterface.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1534,32 +1526,6 @@
 				4E867A1A217B39C90080394E /* GameControllerObserver.swift */,
 			);
 			path = Input;
-			sourceTree = "<group>";
-		};
-		4ECE2A2321B816D500C309A9 /* DDHid */ = {
-			isa = PBXGroup;
-			children = (
-				4ECE2A2621B816E200C309A9 /* DDHidDevice.h */,
-				4ECE2A3421B816E300C309A9 /* DDHidDevice.m */,
-				4ECE2A3021B816E300C309A9 /* DDHidElement.h */,
-				4ECE2A2921B816E200C309A9 /* DDHidElement.m */,
-				4ECE2A3221B816E300C309A9 /* DDHidEvent.h */,
-				4ECE2A3621B816E400C309A9 /* DDHidEvent.m */,
-				4ECE2A2C21B816E200C309A9 /* DDHidJoystick.h */,
-				4ECE2A2821B816E200C309A9 /* DDHidJoystick.m */,
-				4ECE2A2721B816E200C309A9 /* DDHidLib.h */,
-				4ECE2A3321B816E300C309A9 /* DDHidQueue.h */,
-				4ECE2A2421B816E200C309A9 /* DDHidQueue.m */,
-				4ECE2A3121B816E300C309A9 /* DDHidUsage.h */,
-				4ECE2A2D21B816E300C309A9 /* DDHidUsage.m */,
-				4ECE2A3521B816E300C309A9 /* DDHidUsageTables.h */,
-				4ECE2A2A21B816E200C309A9 /* DDHidUsageTables.m */,
-				4ECE2A2B21B816E200C309A9 /* NSDictionary+DDHidExtras.h */,
-				4ECE2A2E21B816E300C309A9 /* NSDictionary+DDHidExtras.m */,
-				4ECE2A2F21B816E300C309A9 /* NSXReturnThrowError.h */,
-				4ECE2A2521B816E200C309A9 /* NSXReturnThrowError.m */,
-			);
-			path = DDHid;
 			sourceTree = "<group>";
 		};
 		4EE856A322326D6D00C2848A /* Reference gifs */ = {
@@ -1660,18 +1626,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ECE2A3A21B816E400C309A9 /* DDHidLib.h in Headers */,
-				4ECE2A4821B816E400C309A9 /* DDHidUsageTables.h in Headers */,
-				4ECE2A4421B816E400C309A9 /* DDHidUsage.h in Headers */,
-				4ECE2A4521B816E400C309A9 /* DDHidEvent.h in Headers */,
-				4ECE2A3F21B816E400C309A9 /* DDHidJoystick.h in Headers */,
-				4ECE2A3921B816E400C309A9 /* DDHidDevice.h in Headers */,
-				4ECE2A4321B816E400C309A9 /* DDHidElement.h in Headers */,
-				4ECE2A4621B816E400C309A9 /* DDHidQueue.h in Headers */,
-				4E3A4A5521F0A1A0006C5916 /* Image+macOS.h in Headers */,
 				4E4E22EA217BA117009F5C3E /* Glide.h in Headers */,
-				4ECE2A4221B816E400C309A9 /* NSXReturnThrowError.h in Headers */,
-				4ECE2A3E21B816E400C309A9 /* NSDictionary+DDHidExtras.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1977,7 +1932,6 @@
 				4E6A1270225DEAEC00DDB847 /* EntityObserverComponent.swift in Sources */,
 				4EC50D7E217DEABD005D66FC /* JumpComponent.swift in Sources */,
 				4E3A70B5223123C50060AF20 /* SKTileMapNode+SetNormalTextures.swift in Sources */,
-				4ECE2A3821B816E400C309A9 /* NSXReturnThrowError.m in Sources */,
 				4EC50DC1217F2CCF005D66FC /* TextureAnimatorComponent.swift in Sources */,
 				4E9C1E6421948E5F0085B808 /* WallClingerComponent.swift in Sources */,
 				4E47D24E223FB121007F4306 /* ZPositionContainerIndicatorComponent.swift in Sources */,
@@ -1993,13 +1947,10 @@
 				4EC50D75217DEABD005D66FC /* Input.swift in Sources */,
 				4EF59863224193290028EF17 /* FocusableComponent.swift in Sources */,
 				4E105406225B38C70059CFEE /* CameraFocusingComponent.swift in Sources */,
-				4ECE2A3B21B816E400C309A9 /* DDHidJoystick.m in Sources */,
 				4E9C7ADA2261C95C00082C99 /* ColliderComponent+Debuggable.swift in Sources */,
 				4EC50D78217DEABD005D66FC /* CameraComponent.swift in Sources */,
 				4E47BEC322746C2F009ED639 /* GKEntity+Name.swift in Sources */,
-				4ECE2A4B21B81CBC00C309A9 /* CustomGameController.swift in Sources */,
 				4E3BD8AF2258FBFC00110861 /* Direction.swift in Sources */,
-				4ECE2A3721B816E400C309A9 /* DDHidQueue.m in Sources */,
 				4EC50D88217DEABD005D66FC /* RespawnAtCheckpointOnRestartComponent.swift in Sources */,
 				4ED750882242E4D7004748B7 /* InfiniteSpriteScrollerComponent.swift in Sources */,
 				4E9AD17921A2B8F700F409B5 /* ProjectileShooterComponent.swift in Sources */,
@@ -2008,6 +1959,7 @@
 				4EB800882192F78E0079EBFD /* JetpackOperatorComponent.swift in Sources */,
 				4EBF28692267676F00AE954B /* NavigatableButtonContentView.swift in Sources */,
 				4E002C6D22708EC600DE2357 /* SKTexture+NearestFilteringMode.swift in Sources */,
+				4E72C02A22F31E7300D68F52 /* EventHandling.swift in Sources */,
 				4E6CB13A22876DD80030CC4D /* GCController+DeviceHash.swift in Sources */,
 				4E7D7BB221C3BFC200D9E1BC /* GlideScene+Input.swift in Sources */,
 				4EF85469219EFC9600744807 /* GlideComponent.swift in Sources */,
@@ -2020,6 +1972,7 @@
 				4EC50D95217DEABD005D66FC /* Slope_15_8.swift in Sources */,
 				4EC50D80217DEABD005D66FC /* ParagliderComponent.swift in Sources */,
 				4E3A70B022310E1E0060AF20 /* LightNodeComponent.swift in Sources */,
+				4E6C4D5922F476C700530599 /* GCController+GameControllerInterface.swift in Sources */,
 				4E4FA56E21E92820003E9E9D /* ShakerComponent.swift in Sources */,
 				4EBF285C22651BCD00AE954B /* Int+Extensions.swift in Sources */,
 				4EC81BD821A5A3980017C2E2 /* EntityFactory.swift in Sources */,
@@ -2027,11 +1980,11 @@
 				4E2A24A02201C2BF00D8605B /* SnappableComponent.swift in Sources */,
 				4EBF284C2264832900AE954B /* SceneTileMaps.swift in Sources */,
 				4E3A499C21F083C7006C5916 /* Button.swift in Sources */,
+				4E6C4D6522F4778700530599 /* GameControllerInterface.swift in Sources */,
 				4E3A4A9321F0CA8F006C5916 /* InputResponder.swift in Sources */,
 				4E3A497E21F08341006C5916 /* NavigatablePopoverViewController.swift in Sources */,
 				4EC50D9D217DEABD005D66FC /* Slope_0_3.swift in Sources */,
 				4EC50D73217DEABD005D66FC /* CollisionsController.swift in Sources */,
-				4ECE2A3D21B816E400C309A9 /* DDHidUsageTables.m in Sources */,
 				4E9ED37821FB5C2400D59A68 /* LayoutConstraint.swift in Sources */,
 				4E3A496C21F08341006C5916 /* NavigatableElement.swift in Sources */,
 				4EC50D8C217DEABD005D66FC /* CGVector+Extensions.swift in Sources */,
@@ -2062,6 +2015,8 @@
 				4EC50D7D217DEABD005D66FC /* PlayableCharacterComponent.swift in Sources */,
 				4EF4535721E35D6800EF07EC /* CroucherComponent.swift in Sources */,
 				4E1C0A85220B339700198B62 /* DisplayLinkObserver.swift in Sources */,
+				4E72C02522F31E7300D68F52 /* Stick.swift in Sources */,
+				4E72C02822F31E7300D68F52 /* Element.swift in Sources */,
 				4EB336BE224AB2C500326C44 /* SceneAnchoredSpriteLayoutComponent.swift in Sources */,
 				4E1F08CA2204780700255203 /* FallingPlatformComponent.swift in Sources */,
 				4EB8007F2190AFB00079EBFD /* LadderComponent.swift in Sources */,
@@ -2081,7 +2036,6 @@
 				4EB800822190B18B0079EBFD /* LadderClimberComponent.swift in Sources */,
 				4EBF28322263E47A00AE954B /* ContactContext.swift in Sources */,
 				4EC50D82217DEABD005D66FC /* SpriteNodeComponent.swift in Sources */,
-				4ECE2A4121B816E400C309A9 /* NSDictionary+DDHidExtras.m in Sources */,
 				4EBF28502265023600AE954B /* CGFloat+Extensions.swift in Sources */,
 				4E981B1022144B7200443910 /* SelfFollowWaypointsComponent.swift in Sources */,
 				4EC50DBF217F2CB5005D66FC /* TextureAnimation.swift in Sources */,
@@ -2098,6 +2052,7 @@
 				4E9C7AC7226092ED00082C99 /* HitPoints.swift in Sources */,
 				4E6A15442220469400744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */,
 				4E47BEFC22762541009ED639 /* GlideSceneDelegate.swift in Sources */,
+				4E72C02322F31E7300D68F52 /* USBGameControllerObserver.swift in Sources */,
 				4E3A4AB521F1DB18006C5916 /* ViewController.swift in Sources */,
 				4EC50D79217DEABD005D66FC /* CheckpointComponent.swift in Sources */,
 				4EC50D71217DEABD005D66FC /* Color.swift in Sources */,
@@ -2106,19 +2061,19 @@
 				4EC50D7B217DEABD005D66FC /* StateResettingComponent.swift in Sources */,
 				4EC50D84217DEABD005D66FC /* ColliderComponent.swift in Sources */,
 				4E8EF88E222356C5009077C9 /* CollisionsController+ContactSides.swift in Sources */,
+				4E72C02B22F31E7300D68F52 /* Device.swift in Sources */,
 				4EBF28BD226DEC9500AE954B /* RoundedAngle.swift in Sources */,
-				4ECE2A3C21B816E400C309A9 /* DDHidElement.m in Sources */,
 				4E306AF622332ADB009E907D /* ColliderMovement.swift in Sources */,
+				4E72C02422F31E7300D68F52 /* USBGameController.swift in Sources */,
 				4E4FA51721E4CF9E003E9E9D /* VerticalMovementComponent.swift in Sources */,
+				4E6C4D5D22F4773300530599 /* EventQueue.swift in Sources */,
 				4E1C0A78220B271600198B62 /* Speech.swift in Sources */,
-				4ECE2A4921B816E400C309A9 /* DDHidEvent.m in Sources */,
 				4EBF2840226480D900AE954B /* TiledMapEditorModels.swift in Sources */,
 				4E8EF8CB22268F65009077C9 /* LerpingMovementComponent.swift in Sources */,
 				4E3A499221F083C7006C5916 /* StackView.swift in Sources */,
 				4EF4535921E3CAC900EF07EC /* BouncerComponent.swift in Sources */,
 				4E9C7AD32260C27300082C99 /* SpeechBubbleTemplateEntity.swift in Sources */,
 				4EC50D89217DEABD005D66FC /* BlinkerComponent.swift in Sources */,
-				4ECE2A4021B816E400C309A9 /* DDHidUsage.m in Sources */,
 				4EC50D93217DEABD005D66FC /* Slope_0_7.swift in Sources */,
 				4ED8F1C622540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */,
 				4E10541B225C9B510059CFEE /* MovementAxes.swift in Sources */,
@@ -2136,21 +2091,22 @@
 				4E5D9EEF221B7FEB00B62391 /* Contact.swift in Sources */,
 				4E3A4A4621F09DEA006C5916 /* ResponderView.swift in Sources */,
 				4EC50D72217DEABD005D66FC /* TiledGeometry.swift in Sources */,
+				4E72C02722F31E7300D68F52 /* Event.swift in Sources */,
 				4EC50D77217DEABD005D66FC /* GlideEntity.swift in Sources */,
 				4EB8009E2193A4270079EBFD /* HealthComponent.swift in Sources */,
 				4EC50D92217DEABD005D66FC /* Slope_7_0.swift in Sources */,
+				4E72C02922F31E7300D68F52 /* Usage.swift in Sources */,
 				4EC50D9C217DEABD005D66FC /* Slope_3_0.swift in Sources */,
 				4E8EF89222235A7F009077C9 /* DefaultInputProfiles.swift in Sources */,
 				4E3A497C21F08341006C5916 /* NavigatableViewController.swift in Sources */,
 				4E3A497221F08341006C5916 /* NavigatableButton.swift in Sources */,
+				4E6C4D6122F4774B00530599 /* USBGameController+GameControllerInterface.swift in Sources */,
 				4EF4534E21E359B800EF07EC /* DasherComponent.swift in Sources */,
 				4E3A497A21F08341006C5916 /* NavigatableButtonScrollView.swift in Sources */,
 				4EF4533E21DF7F4F00EF07EC /* SwingHolderComponent.swift in Sources */,
 				4E9C1E4C21943A700085B808 /* TileMapNodeComponent.swift in Sources */,
 				4E3BD8AB2258E76000110861 /* MovementStyle.swift in Sources */,
-				4E3A4A5821F0A1B6006C5916 /* Image+macOS.m in Sources */,
 				4E4FA51B21E5E790003E9E9D /* SelfMoveComponent.swift in Sources */,
-				4ECE2A4721B816E400C309A9 /* DDHidDevice.m in Sources */,
 				4E26AEFE2235B54600F313F3 /* DebuggableComponent.swift in Sources */,
 				4E1F08B82204604100255203 /* MovingPlatformEntity.swift in Sources */,
 				4EC50D74217DEABD005D66FC /* GameControllerObserver.swift in Sources */,
@@ -2288,6 +2244,7 @@
 				4E10541C225C9B510059CFEE /* MovementAxes.swift in Sources */,
 				4ECB1999222FBD7500C0C38C /* Color.swift in Sources */,
 				4E6F2EAF21F5D86F004BB1D6 /* SpriteNodeComponent.swift in Sources */,
+				4E6C4D5A22F476C700530599 /* GCController+GameControllerInterface.swift in Sources */,
 				4EBF28782268E5DC00AE954B /* GameControllerKeyGroup.swift in Sources */,
 				4E6F2EC421F5D87C004BB1D6 /* BlinkerComponent.swift in Sources */,
 				4E6F2EC721F5D883004BB1D6 /* SelfChangeDirectionComponent.swift in Sources */,
@@ -2314,6 +2271,7 @@
 				4E105407225B38C70059CFEE /* CameraFocusingComponent.swift in Sources */,
 				4E002C55226F28BF00DE2357 /* ProjectileShootingProperties.swift in Sources */,
 				4E6F2EBD21F5D87C004BB1D6 /* JumpComponent.swift in Sources */,
+				4E6C4D6622F4778700530599 /* GameControllerInterface.swift in Sources */,
 				4ECB199C222FBD8B00C0C38C /* StackView.swift in Sources */,
 				4E6F2ED621F5D8A7004BB1D6 /* Slope_15_8.swift in Sources */,
 				4E6F2E9E21F5D850004BB1D6 /* SwingComponent.swift in Sources */,
@@ -2452,6 +2410,7 @@
 				4EF85468219EFC8200744807 /* GlideComponent.swift in Sources */,
 				4EF4534D21E359B800EF07EC /* DasherComponent.swift in Sources */,
 				4EBF28762268E5DC00AE954B /* GameControllerKeyGroup.swift in Sources */,
+				4E6C4D5822F476C700530599 /* GCController+GameControllerInterface.swift in Sources */,
 				4E9ED37C21FB5F4100D59A68 /* BezierPath.swift in Sources */,
 				4E8EF88D22235699009077C9 /* CollisionsController+ContactSides.swift in Sources */,
 				4E3A499B21F083C7006C5916 /* Button.swift in Sources */,
@@ -2560,6 +2519,7 @@
 				4E73161A2239B4F0004FFDDB /* Application.swift in Sources */,
 				4E87C6DC22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift in Sources */,
 				4E2A249F2201C2BF00D8605B /* SnappableComponent.swift in Sources */,
+				4E6C4D6422F4778700530599 /* GameControllerInterface.swift in Sources */,
 				4EBF28572265043300AE954B /* Lerping.swift in Sources */,
 				4E8CCFCE221437C1005151D8 /* SelfFollowWaypointsComponent.swift in Sources */,
 				4E7515B3217A2F2F0066DA2F /* ColliderComponent.swift in Sources */,

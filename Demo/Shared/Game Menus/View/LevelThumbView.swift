@@ -41,7 +41,7 @@ class LevelThumbView: SelectionButtonContentView {
         self.viewModel = viewModel
         super.init(normalBackgroundColor: Color.levelThumbBackgroundColor)
         
-        imageView.image = Image(named: "level_thumb", in: nil)
+        imageView.image = Image(named: "level_thumb")
         
         imageView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(imageView)

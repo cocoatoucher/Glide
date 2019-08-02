@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'GlideEngine'
-  s.version = '1.0.3'
+  s.version = '1.0.4'
   s.license = 'MIT'
   s.summary = 'Game engine for making 2d games on iOS, macOS and tvOS'
   s.homepage = 'https://github.com/cocoatoucher/Glide'
@@ -16,13 +16,8 @@ Pod::Spec.new do |s|
   
   s.source = { :git => 'https://github.com/cocoatoucher/Glide.git', :tag => s.version }
   s.source_files = "Shared/**/*.swift"
-  s.ios.source_files = ["Glide_iOS/*.swift",
-                        "Glide_iOS/*.h"]
-  s.osx.source_files = ["Glide_macOS/*.swift",
-                        "Glide_macOS/*.h",
-                        "Glide_macOS/DDHid/*.{h,m}",
-                        "Glide_macOS/Image/*.{h,m}"]
-  s.tvos.source_files = "Glide_tvOS/*.h"
+  s.ios.source_files = ["Glide_iOS/*.swift"]
+  s.osx.source_files = ["Glide_macOS/**/*.swift"]
   
   s.frameworks  = "Foundation", "CoreGraphics", "SpriteKit"
 end

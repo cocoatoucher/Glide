@@ -35,7 +35,7 @@ class CheckmarkSelectedView: ImageView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        image = Image(named: "check", in: nil)
+        image = Image(named: "check")
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -1,8 +1,8 @@
 //
-//  Image+macOS.m
+//  Event.swift
 //  glide
 //
-//  Based on https://github.com/soffes/X
+//  Ported from https://www.dribin.org/dave/software/#ddhidlib
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
 //
@@ -25,23 +25,26 @@
 //  SOFTWARE.
 //
 
-#import "Image+macOS.h"
+import IOKit
 
-@implementation NSImage (ImageNamedInBundle)
-
-+ (nullable NSImage *)imageNamed:(nonnull NSString *)name inBundle:(nullable NSBundle *)bundle {
-    NSImage *image = [NSImage imageNamed:name];
-    if (image != nil) {
-        return image;
+extension USBGameController.Device.EventQueue {
+    internal class Event {
+        
+        let hidEvent: IOHIDEventStruct
+        
+        var elementCookie: IOHIDElementCookie {
+            return hidEvent.elementCookie
+        }
+        
+        var value: Int32 {
+            return hidEvent.value
+        }
+        
+        init?(_ hidEvent: IOHIDEventStruct) {
+            guard hidEvent.elementCookie != 0 else {
+                return nil
+            }
+            self.hidEvent = hidEvent
+        }
     }
-    
-    image = [bundle imageForResource:name];
-    if (image != nil) {
-        [image setName:name];
-        return image;
-    }
-    
-    return nil;
 }
-
-@end

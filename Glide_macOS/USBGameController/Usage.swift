@@ -1,6 +1,8 @@
 //
-//  Glide.h
+//  Usage.swift
 //  glide
+//
+//  Ported from https://www.dribin.org/dave/software/#ddhidlib
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
 //
@@ -23,14 +25,35 @@
 //  SOFTWARE.
 //
 
-#import <Cocoa/Cocoa.h>
+import Foundation
+import IOKit
+// swiftlint:disable:next duplicate_imports
+import IOKit.hid
 
-//! Project version number for Glide.
-FOUNDATION_EXPORT double Glide_macOSVersionNumber;
+extension USBGameController.Device {
+    internal struct Usage {
+        
+        enum Variant {
+            case element
+            case primary
+            case device
+        }
+        
+        let page: UInt
+        let id: UInt
 
-//! Project version string for Glide.
-FOUNDATION_EXPORT const unsigned char Glide_macOSVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <Glide_macOS/PublicHeader.h>
-
-
+        init(properties: [String: AnyObject], variant: Variant) {
+            switch variant {
+            case .element:
+                page = (properties[kIOHIDElementUsagePageKey] as? NSNumber)?.uintValue ?? 0
+                id = (properties[kIOHIDElementUsageKey] as? NSNumber)?.uintValue ?? 0
+            case .primary:
+                page = (properties[kIOHIDPrimaryUsagePageKey] as? NSNumber)?.uintValue ?? 0
+                id = (properties[kIOHIDPrimaryUsageKey] as? NSNumber)?.uintValue ?? 0
+            case .device:
+                page = (properties[kIOHIDDeviceUsagePageKey] as? NSNumber)?.uintValue ?? 0
+                id = (properties[kIOHIDDeviceUsageKey] as? NSNumber)?.uintValue ?? 0
+            }
+        }
+    }
+}

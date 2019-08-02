@@ -175,31 +175,29 @@ public class Input {
     // Game controller
     let gameControllerObserver = GameControllerObserver()
     
-    var availableControllerPlayerIndices: [Int] = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    var availableControllerPlayerIndices: [Int] = Array(0..<9)
+    var connectedControllerPlayerIndices: [Int] = []
+    
+    // GCController
     var availableGCControllerPlayerIndices = [GCControllerPlayerIndex.index1,
                                               GCControllerPlayerIndex.index2,
                                               GCControllerPlayerIndex.index3,
                                               GCControllerPlayerIndex.index4]
     var connectedGCControllerPlayerIndices: [GCControllerPlayerIndex: Int] = [:]
-    var connectedControllerPlayerIndices: [Int] = []
-    var connectedGameControllers: [GCController] = [] {
+    
+    var connectedGCControllers: [GCController] = [] {
         didSet {
-            if connectedGameControllers.isEmpty {
-                inputMethod = .native
-            } else {
-                inputMethod = .gameController
-            }
+            updateInputMethod()
         }
     }
     
     #if os(OSX)
-    var connectedCustomGameControllers: [CustomGameController] = [] {
+    // USBController
+    let usbGameControllerObserver = USBGameControllerObserver()
+    
+    var connectedUSBGameControllers: [USBGameController] = [] {
         didSet {
-            if connectedGameControllers.isEmpty == false {
-                inputMethod = .native
-            } else {
-                inputMethod = .gameController
-            }
+            updateInputMethod()
         }
     }
     #endif
@@ -213,8 +211,20 @@ public class Input {
         setupGameControllers()
     }
     
+    private func updateInputMethod() {
+        var hasCustomControllers: Bool = false
+        #if os(OSX)
+        hasCustomControllers = connectedUSBGameControllers.isEmpty == false
+        #endif
+        if connectedGCControllers.isEmpty && hasCustomControllers == false {
+            inputMethod = .native
+        } else {
+            inputMethod = .gameController
+        }
+    }
+    
     func update() {
-        self.currentTime = mach_absolute_time()
+        currentTime = mach_absolute_time()
         keysSnapshot = pressedKeys
         mouseDeltaSnapshot = mouseDelta
         inputProfiles.forEach { $0.update() }
