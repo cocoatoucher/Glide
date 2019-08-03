@@ -15,9 +15,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '12.0'
   
   s.source = { :git => 'https://github.com/cocoatoucher/Glide.git', :tag => s.version }
-  s.source_files = "Shared/**/*.swift"
-  s.ios.source_files = ["Glide_iOS/*.swift"]
-  s.osx.source_files = ["Glide_macOS/**/*.swift"]
+  s.source_files = "Sources/**/*.swift"
   
   s.frameworks  = "Foundation", "CoreGraphics", "SpriteKit"
 end
