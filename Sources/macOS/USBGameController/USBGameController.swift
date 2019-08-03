@@ -111,6 +111,7 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         leftThumbstick.valueChangedHandler?(leftThumbstick, leftThumbstick.x, leftThumbstick.y)
     }
 
+    // swiftlint:disable:next cyclomatic_complexity
     func deviceDidPressButton(_ device: USBGameController.Device, buttonIndex: Int) {
         switch buttonIndex {
         case 0:
@@ -144,6 +145,7 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         }
     }
 
+    // swiftlint:disable:next cyclomatic_complexity
     func deviceDidReleaseButton(_ device: USBGameController.Device, buttonIndex: Int) {
         switch buttonIndex {
         case 0:

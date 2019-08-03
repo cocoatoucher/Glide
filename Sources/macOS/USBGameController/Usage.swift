@@ -28,7 +28,6 @@
 #if os(macOS)
 import Foundation
 import IOKit
-// swiftlint:disable:next duplicate_imports
 import IOKit.hid
 
 extension USBGameController.Device {

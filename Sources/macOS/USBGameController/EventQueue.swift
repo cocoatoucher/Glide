@@ -43,7 +43,8 @@ extension USBGameController.Device {
         
         var nextEvent: Event? {
             var event = IOHIDEventStruct()
-            // swiftlint:disable:next identifier_name
+            // This is required because "AbsoluteTime" is currently not
+            // defined for swift.
             let absoluteTime = type(of: event.timestamp)
             let zeroTime = absoluteTime.init(lo: 0, hi: 0)
 
@@ -52,8 +53,7 @@ extension USBGameController.Device {
             return Event(event)
         }
 
-        init?(hidQueue: UnsafeMutablePointer<UnsafeMutablePointer<IOHIDQueueInterface>?>,
-             size: UInt32) {
+        init?(hidQueue: UnsafeMutablePointer<UnsafeMutablePointer<IOHIDQueueInterface>?>, size: UInt32) {
             self.hidQueue = hidQueue
             
             let result = hidQueue.pointee?.pointee.create(hidQueue, 0, size)

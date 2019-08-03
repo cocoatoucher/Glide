@@ -74,8 +74,11 @@ extension USBGameController.Device: USBGameControllerEventQueueDelegate {
             } else if value == 0 {
                 delegate?.deviceDidReleaseButton(self, buttonIndex: buttonIndex)
             } else {
-                let element = elementsByCookie[UInt(event.elementCookie)]
-                print("Element not found \(element)")
+                #if DEBUG
+                if let element = elementsByCookie[UInt(event.elementCookie)] {
+                    print("Element that received value can not be found: \(element)")
+                }
+                #endif
             }
         }
     }
@@ -97,20 +100,32 @@ extension USBGameController.Device: USBGameControllerEventQueueDelegate {
         }
         return nil
     }
+    
+    private struct StickContext {
+        let stickIndex: Int
+        let element: Element
+        let axis: Int
+    }
+    
+    private struct POVContext {
+        let stickIndex: Int
+        let element: Element
+        let povNumber: Int
+    }
 
-    private func stickForOtherAxis(withCookie cookie: IOHIDElementCookie) -> (stickIndex: Int, element: Element, axis: Int)? {
+    private func stickForOtherAxis(withCookie cookie: IOHIDElementCookie) -> StickContext? {
         for (index, stick) in sticks.enumerated() {
             for (stickElementIndex, stickElement) in stick.stickElements.enumerated() where stickElement.cookie == cookie {
-                return (stickIndex: index, element: stickElement, axis: stickElementIndex)
+                return StickContext(stickIndex: index, element: stickElement, axis: stickElementIndex)
             }
         }
         return nil
     }
 
-    private func stickForPOVNumber(withCookie cookie: IOHIDElementCookie) -> (stickIndex: Int, element: Element, povNumber: Int)? {
+    private func stickForPOVNumber(withCookie cookie: IOHIDElementCookie) -> POVContext? {
         for (index, stick) in sticks.enumerated() {
             for (povElementIndex, povElement) in stick.povElements.enumerated() where povElement.cookie == cookie {
-                return (stickIndex: index, element: povElement, povNumber: povElementIndex)
+                return POVContext(stickIndex: index, element: povElement, povNumber: povElementIndex)
             }
         }
         return nil

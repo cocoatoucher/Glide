@@ -26,7 +26,6 @@
 import Foundation
 import GameController
 
-// swiftlint:disable file_length
 extension Input {
     func setupGameControllers() {
         gameControllerObserver.didConnectControllerHandler = { [weak self] connectedController in
