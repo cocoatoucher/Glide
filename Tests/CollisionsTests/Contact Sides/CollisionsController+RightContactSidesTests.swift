@@ -23,7 +23,7 @@
 //  SOFTWARE.
 //
 
-@testable import Glide
+@testable import GlideEngine
 import SpriteKit
 import XCTest
 
