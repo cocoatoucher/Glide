@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "Glide",
+    name: "GlideEngine",
     platforms: [
-        .macOS(.v10_14), .iOS(.v11), .tvOS(.v12)
+        .macOS(.v10_13), .iOS(.v11), .tvOS(.v12)
     ],
     products: [
-        .library(name: "Glide", targets: ["Glide"])
+        .library(name: "GlideEngine", targets: ["Glide"])
     ],
     dependencies: [],
     targets: [
