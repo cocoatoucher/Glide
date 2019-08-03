@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -464,6 +464,9 @@
 		4ED750812242DDE7004748B7 /* ParallaxBackgroundScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ED750802242DDE6004748B7 /* ParallaxBackgroundScene.json */; };
 		4ED750822242DDE7004748B7 /* ParallaxBackgroundScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ED750802242DDE6004748B7 /* ParallaxBackgroundScene.json */; };
 		4ED750832242DDE7004748B7 /* ParallaxBackgroundScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ED750802242DDE6004748B7 /* ParallaxBackgroundScene.json */; };
+		4EDFD5DC22F622DA00BE9306 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4EDFD5DB22F622DA00BE9306 /* GlideEngine */; };
+		4EDFD5DE22F622EA00BE9306 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4EDFD5DD22F622EA00BE9306 /* GlideEngine */; };
+		4EDFD5E022F622EE00BE9306 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4EDFD5DF22F622EE00BE9306 /* GlideEngine */; };
 		4EE0CF9A21FE6B15001B1CE7 /* SimpleAdventurerScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EE0CF9921FE6B14001B1CE7 /* SimpleAdventurerScene.json */; };
 		4EE0CF9B21FE6B15001B1CE7 /* SimpleAdventurerScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EE0CF9921FE6B14001B1CE7 /* SimpleAdventurerScene.json */; };
 		4EE0CF9C21FE6B15001B1CE7 /* SimpleAdventurerScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4EE0CF9921FE6B14001B1CE7 /* SimpleAdventurerScene.json */; };
@@ -771,6 +774,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDFD5DC22F622DA00BE9306 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +782,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDFD5E022F622EE00BE9306 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,6 +790,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDFD5DE22F622EA00BE9306 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1295,6 +1301,7 @@
 			);
 			name = GlideDemo_iOS;
 			packageProductDependencies = (
+				4EDFD5DB22F622DA00BE9306 /* GlideEngine */,
 			);
 			productName = DemoSideScrollerComponents;
 			productReference = 4E908C4D217DE46800D8B29D /* Glide Demo.app */;
@@ -1316,6 +1323,7 @@
 			);
 			name = GlideDemo_tvOS;
 			packageProductDependencies = (
+				4EDFD5DF22F622EE00BE9306 /* GlideEngine */,
 			);
 			productName = "SideScrollerDemo-tvOS";
 			productReference = 4E982A0E21F5E5DB00759A00 /* Glide Demo.app */;
@@ -1337,6 +1345,7 @@
 			);
 			name = GlideDemo_macOS;
 			packageProductDependencies = (
+				4EDFD5DD22F622EA00BE9306 /* GlideEngine */,
 			);
 			productName = DemoSideScrollerComponentsMac;
 			productReference = 4EC50D0C217DE4F5005D66FC /* Glide Demo.app */;
@@ -1376,6 +1385,7 @@
 			);
 			mainGroup = 4E908C44217DE46800D8B29D;
 			packageReferences = (
+				4EDFD5DA22F622DA00BE9306 /* XCRemoteSwiftPackageReference "Glide" */,
 			);
 			productRefGroup = 4E908C4E217DE46800D8B29D /* Products */;
 			projectDirPath = "";
@@ -2352,6 +2362,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4EDFD5DA22F622DA00BE9306 /* XCRemoteSwiftPackageReference "Glide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cocoatoucher/Glide.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4EDFD5DB22F622DA00BE9306 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EDFD5DA22F622DA00BE9306 /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+		4EDFD5DD22F622EA00BE9306 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EDFD5DA22F622DA00BE9306 /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+		4EDFD5DF22F622EE00BE9306 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EDFD5DA22F622DA00BE9306 /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E908C45217DE46800D8B29D /* Project object */;
 }

@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "Glide",
-        "repositoryURL": "https://github.com/cocoatoucher/Glide",
+        "package": "GlideEngine",
+        "repositoryURL": "https://github.com/cocoatoucher/Glide.git",
         "state": {
           "branch": null,
-          "revision": "aba9a96a5a9e4090327714a2b83378230a802bbf",
+          "revision": "dfbcd603729ea8c030fca621524d311eb7d9fdd6",
           "version": "1.0.4"
         }
       }
