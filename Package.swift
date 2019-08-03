@@ -11,6 +11,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "Glide", path: "Sources")
+        .target(name: "Glide", path: "Sources"),
+        .testTarget(name: "Glide-Tests", dependencies: ["Glide"], path: "Tests")
     ]
 )

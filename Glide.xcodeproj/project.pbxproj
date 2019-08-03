@@ -164,7 +164,6 @@
 		4E4E22D0217B831E009F5C3E /* JumpComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E22CF217B831E009F5C3E /* JumpComponent.swift */; };
 		4E4E22D2217B87BE009F5C3E /* WallJumpComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E22D1217B87BE009F5C3E /* WallJumpComponent.swift */; };
 		4E4E22D4217B8D08009F5C3E /* ParagliderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E22D3217B8D08009F5C3E /* ParagliderComponent.swift */; };
-		4E4E22EA217BA117009F5C3E /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4E22DC217BA117009F5C3E /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E4FA50F21E40AC3003E9E9D /* CircularMovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FA50E21E40AC3003E9E9D /* CircularMovementComponent.swift */; };
 		4E4FA51021E40AC5003E9E9D /* CircularMovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FA50E21E40AC3003E9E9D /* CircularMovementComponent.swift */; };
 		4E4FA51221E4C584003E9E9D /* OscillatingMovementComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4FA51121E4C584003E9E9D /* OscillatingMovementComponent.swift */; };
@@ -205,7 +204,6 @@
 		4E6CB13B22876DD90030CC4D /* GCController+DeviceHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */; };
 		4E6F2E5621F5D58D004BB1D6 /* Glide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4E22DA217BA117009F5C3E /* Glide.framework */; };
 		4E6F2E6821F5D71F004BB1D6 /* Glide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7515562179F7EA0066DA2F /* Glide.framework */; };
-		4E6F2E7721F5D75A004BB1D6 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6F2E7521F5D75A004BB1D6 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E6F2E8421F5D78E004BB1D6 /* Glide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6F2E7321F5D75A004BB1D6 /* Glide.framework */; };
 		4E6F2E8D21F5D82D004BB1D6 /* GlideScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A12217B34D90080394E /* GlideScene.swift */; };
 		4E6F2E8F21F5D832004BB1D6 /* ColliderTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A10217B13AC0080394E /* ColliderTile.swift */; };
@@ -291,7 +289,6 @@
 		4E73161A2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
 		4E73161B2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
 		4E73161C2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
-		4E7515672179F7EA0066DA2F /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7515592179F7EA0066DA2F /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E7515722179F8010066DA2F /* SpriteNodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7515712179F8010066DA2F /* SpriteNodeComponent.swift */; };
 		4E751575217A09FC0066DA2F /* TiledGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751574217A09FC0066DA2F /* TiledGeometry.swift */; };
 		4E751577217A0E550066DA2F /* KinematicsBodyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751576217A0E550066DA2F /* KinematicsBodyComponent.swift */; };
@@ -565,6 +562,9 @@
 		4ED8F1C522540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */; };
 		4ED8F1C622540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */; };
 		4ED8F1C722540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */; };
+		4EDFD5CC22F6064B00BE9306 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5CB22F6064B00BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDFD5D222F6066200BE9306 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5D022F6065B00BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDFD5D322F6066600BE9306 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5CD22F6065400BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EE856CE2232BDB700C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
 		4EE856CF2232BDB700C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
 		4EE856D02232BDB800C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
@@ -725,7 +725,6 @@
 		4E4E22D1217B87BE009F5C3E /* WallJumpComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallJumpComponent.swift; sourceTree = "<group>"; };
 		4E4E22D3217B8D08009F5C3E /* ParagliderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagliderComponent.swift; sourceTree = "<group>"; };
 		4E4E22DA217BA117009F5C3E /* Glide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Glide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E4E22DC217BA117009F5C3E /* Glide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		4E4E22E9217BA117009F5C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4FA50E21E40AC3003E9E9D /* CircularMovementComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularMovementComponent.swift; sourceTree = "<group>"; };
 		4E4FA51121E4C584003E9E9D /* OscillatingMovementComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OscillatingMovementComponent.swift; sourceTree = "<group>"; };
@@ -749,7 +748,6 @@
 		4E6F2E5121F5D58D004BB1D6 /* Glide_macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F2E6321F5D71E004BB1D6 /* Glide_iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F2E7321F5D75A004BB1D6 /* Glide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Glide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E6F2E7521F5D75A004BB1D6 /* Glide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		4E6F2E7F21F5D78E004BB1D6 /* Glide_tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E72C01A22F31E7200D68F52 /* USBGameControllerObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USBGameControllerObserver.swift; sourceTree = "<group>"; };
 		4E72C01B22F31E7200D68F52 /* USBGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USBGameController.swift; sourceTree = "<group>"; };
@@ -761,7 +759,6 @@
 		4E72C02222F31E7300D68F52 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		4E7316192239B4F0004FFDDB /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		4E7515562179F7EA0066DA2F /* Glide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Glide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E7515592179F7EA0066DA2F /* Glide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		4E7515712179F8010066DA2F /* SpriteNodeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteNodeComponent.swift; sourceTree = "<group>"; };
 		4E751574217A09FC0066DA2F /* TiledGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledGeometry.swift; sourceTree = "<group>"; };
 		4E751576217A0E550066DA2F /* KinematicsBodyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinematicsBodyComponent.swift; sourceTree = "<group>"; };
@@ -867,6 +864,9 @@
 		4ECFFD71224048B400525DE2 /* TalkerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkerComponent.swift; sourceTree = "<group>"; };
 		4ED750862242E4D7004748B7 /* InfiniteSpriteScrollerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSpriteScrollerComponent.swift; sourceTree = "<group>"; };
 		4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsEvaluatorComponent.swift; sourceTree = "<group>"; };
+		4EDFD5CB22F6064B00BE9306 /* Glide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
+		4EDFD5CD22F6065400BE9306 /* Glide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
+		4EDFD5D022F6065B00BE9306 /* Glide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		4EE856A92232778B00C2848A /* 2.righttop_frombottom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.righttop_frombottom.gif; sourceTree = "<group>"; };
 		4EE856AA2232778B00C2848A /* 5.rightbottom_fromtop_contactsbottom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.rightbottom_fromtop_contactsbottom.gif; sourceTree = "<group>"; };
 		4EE856AB2232778B00C2848A /* 4.rightbottom_fromtop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.rightbottom_fromtop.gif; sourceTree = "<group>"; };
@@ -987,6 +987,7 @@
 		4E1A654122F48DE10089BBBA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4EDFD5CB22F6064B00BE9306 /* Glide.h */,
 				4E9C7AD62261404200082C99 /* GlideEntity+TouchInput.swift */,
 				4EC8E4642256738A00218CFD /* TouchReceiverComponent.swift */,
 				4E1A654322F4939D0089BBBA /* GlideScene+TouchInput.swift */,
@@ -997,6 +998,7 @@
 		4E1A654222F48DF80089BBBA /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				4EDFD5CD22F6065400BE9306 /* Glide.h */,
 				4E3A4A9121F0CA72006C5916 /* InputResponder.swift */,
 				4EBF28702267B98400AE954B /* Input+KeyboardAndMouse.swift */,
 				4E1A654722F494110089BBBA /* GlideScene+KeyboardAndMouseInput.swift */,
@@ -1131,14 +1133,6 @@
 			path = "Gameplay UI";
 			sourceTree = "<group>";
 		};
-		4E4E22DB217BA117009F5C3E /* Glide_macOS */ = {
-			isa = PBXGroup;
-			children = (
-				4E4E22DC217BA117009F5C3E /* Glide.h */,
-			);
-			path = Glide_macOS;
-			sourceTree = "<group>";
-		};
 		4E4FA51421E4CF7D003E9E9D /* Movement */ = {
 			isa = PBXGroup;
 			children = (
@@ -1222,6 +1216,7 @@
 			children = (
 				4E1A654122F48DE10089BBBA /* iOS */,
 				4E1A654222F48DF80089BBBA /* macOS */,
+				4EDFD5CF22F6065B00BE9306 /* tvOS */,
 				4ECE2A2221B80ADA00C309A9 /* Input */,
 				4E6F2E4621F5BCA0004BB1D6 /* Scene */,
 				4E5D9EEC221B7E8500B62391 /* Collisions */,
@@ -1257,14 +1252,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		4E6F2E7421F5D75A004BB1D6 /* Glide_tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				4E6F2E7521F5D75A004BB1D6 /* Glide.h */,
-			);
-			path = Glide_tvOS;
-			sourceTree = "<group>";
-		};
 		4E72C01922F31E5900D68F52 /* USBGameController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1291,9 +1278,6 @@
 				4EBF28742267D48400AE954B /* GlideEngine.podspec */,
 				4E306B0822332DAB009E907D /* .swiftlint.yml */,
 				4E6F2E4521F5BBCE004BB1D6 /* Sources */,
-				4E7515582179F7EA0066DA2F /* Glide_iOS */,
-				4E4E22DB217BA117009F5C3E /* Glide_macOS */,
-				4E6F2E7421F5D75A004BB1D6 /* Glide_tvOS */,
 				4E6F2E4921F5C9D7004BB1D6 /* Tests */,
 				4E7515572179F7EA0066DA2F /* Products */,
 				4E982A5421F64A6800759A00 /* Frameworks */,
@@ -1311,14 +1295,6 @@
 				4E6F2E7F21F5D78E004BB1D6 /* Glide_tvOS Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4E7515582179F7EA0066DA2F /* Glide_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				4E7515592179F7EA0066DA2F /* Glide.h */,
-			);
-			path = Glide_iOS;
 			sourceTree = "<group>";
 		};
 		4E7515702179F7EF0066DA2F /* Components */ = {
@@ -1577,6 +1553,14 @@
 			path = Input;
 			sourceTree = "<group>";
 		};
+		4EDFD5CF22F6065B00BE9306 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EDFD5D022F6065B00BE9306 /* Glide.h */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
 		4EE856A322326D6D00C2848A /* Reference gifs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1675,7 +1659,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4E22EA217BA117009F5C3E /* Glide.h in Headers */,
+				4EDFD5D322F6066600BE9306 /* Glide.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1683,7 +1667,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E6F2E7721F5D75A004BB1D6 /* Glide.h in Headers */,
+				4EDFD5D222F6066200BE9306 /* Glide.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1691,7 +1675,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E7515672179F7EA0066DA2F /* Glide.h in Headers */,
+				4EDFD5CC22F6064B00BE9306 /* Glide.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2663,6 +2647,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2695,6 +2680,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
