@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -163,6 +163,9 @@
 		4E22D3422208B4100069BF95 /* BlinkingScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E22D3412208B4100069BF95 /* BlinkingScene.json */; };
 		4E22D3432208B4100069BF95 /* BlinkingScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E22D3412208B4100069BF95 /* BlinkingScene.json */; };
 		4E22D3442208B4100069BF95 /* BlinkingScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E22D3412208B4100069BF95 /* BlinkingScene.json */; };
+		4E2624F122F6377B008BEC4F /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4E2624F022F6377B008BEC4F /* GlideEngine */; };
+		4E2624F322F63786008BEC4F /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4E2624F222F63786008BEC4F /* GlideEngine */; };
+		4E2624F522F6378B008BEC4F /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4E2624F422F6378B008BEC4F /* GlideEngine */; };
 		4E2A24992200F86400D8605B /* WallJumpScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E2A24922200F86400D8605B /* WallJumpScene.json */; };
 		4E2A249A2200F86400D8605B /* WallJumpScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E2A24922200F86400D8605B /* WallJumpScene.json */; };
 		4E2A249B2200F86400D8605B /* WallJumpScene.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E2A24922200F86400D8605B /* WallJumpScene.json */; };
@@ -771,6 +774,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2624F122F6377B008BEC4F /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +782,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2624F522F6378B008BEC4F /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,6 +790,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2624F322F63786008BEC4F /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1295,6 +1301,7 @@
 			);
 			name = GlideDemo_iOS;
 			packageProductDependencies = (
+				4E2624F022F6377B008BEC4F /* GlideEngine */,
 			);
 			productName = DemoSideScrollerComponents;
 			productReference = 4E908C4D217DE46800D8B29D /* Glide Demo.app */;
@@ -1316,6 +1323,7 @@
 			);
 			name = GlideDemo_tvOS;
 			packageProductDependencies = (
+				4E2624F422F6378B008BEC4F /* GlideEngine */,
 			);
 			productName = "SideScrollerDemo-tvOS";
 			productReference = 4E982A0E21F5E5DB00759A00 /* Glide Demo.app */;
@@ -1337,6 +1345,7 @@
 			);
 			name = GlideDemo_macOS;
 			packageProductDependencies = (
+				4E2624F222F63786008BEC4F /* GlideEngine */,
 			);
 			productName = DemoSideScrollerComponentsMac;
 			productReference = 4EC50D0C217DE4F5005D66FC /* Glide Demo.app */;
@@ -1376,6 +1385,7 @@
 			);
 			mainGroup = 4E908C44217DE46800D8B29D;
 			packageReferences = (
+				4E2624EF22F6377B008BEC4F /* XCRemoteSwiftPackageReference "Glide" */,
 			);
 			productRefGroup = 4E908C4E217DE46800D8B29D /* Products */;
 			projectDirPath = "";
@@ -2352,6 +2362,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E2624EF22F6377B008BEC4F /* XCRemoteSwiftPackageReference "Glide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cocoatoucher/Glide.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E2624F022F6377B008BEC4F /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E2624EF22F6377B008BEC4F /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+		4E2624F222F63786008BEC4F /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E2624EF22F6377B008BEC4F /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+		4E2624F422F6378B008BEC4F /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E2624EF22F6377B008BEC4F /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E908C45217DE46800D8B29D /* Project object */;
 }
