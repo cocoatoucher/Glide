@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -412,6 +412,9 @@
 		4EBF28C8226E3DF100AE954B /* GameplayTipEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF28C7226E3DF100AE954B /* GameplayTipEntity.swift */; };
 		4EBF28C9226E3DF100AE954B /* GameplayTipEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF28C7226E3DF100AE954B /* GameplayTipEntity.swift */; };
 		4EBF28CA226E3DF100AE954B /* GameplayTipEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF28C7226E3DF100AE954B /* GameplayTipEntity.swift */; };
+		4EBF597322F6314900D0B4F7 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBF597222F6314900D0B4F7 /* GlideEngine */; };
+		4EBF597522F6314F00D0B4F7 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBF597422F6314F00D0B4F7 /* GlideEngine */; };
+		4EBF597722F6315300D0B4F7 /* GlideEngine in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBF597622F6315300D0B4F7 /* GlideEngine */; };
 		4EC2384E224D74DE00F4FC59 /* SKSLoadingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC2384D224D74DE00F4FC59 /* SKSLoadingScene.swift */; };
 		4EC23853224D750B00F4FC59 /* SKSLoadingScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4EC23852224D750B00F4FC59 /* SKSLoadingScene.sks */; };
 		4EC23856224D761000F4FC59 /* GlideColliderTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4EC23855224D761000F4FC59 /* GlideColliderTileSet.sks */; };
@@ -771,6 +774,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBF597322F6314900D0B4F7 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +782,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBF597722F6315300D0B4F7 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,6 +790,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBF597522F6314F00D0B4F7 /* GlideEngine in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1295,6 +1301,7 @@
 			);
 			name = GlideDemo_iOS;
 			packageProductDependencies = (
+				4EBF597222F6314900D0B4F7 /* GlideEngine */,
 			);
 			productName = DemoSideScrollerComponents;
 			productReference = 4E908C4D217DE46800D8B29D /* Glide Demo.app */;
@@ -1316,6 +1323,7 @@
 			);
 			name = GlideDemo_tvOS;
 			packageProductDependencies = (
+				4EBF597622F6315300D0B4F7 /* GlideEngine */,
 			);
 			productName = "SideScrollerDemo-tvOS";
 			productReference = 4E982A0E21F5E5DB00759A00 /* Glide Demo.app */;
@@ -1337,6 +1345,7 @@
 			);
 			name = GlideDemo_macOS;
 			packageProductDependencies = (
+				4EBF597422F6314F00D0B4F7 /* GlideEngine */,
 			);
 			productName = DemoSideScrollerComponentsMac;
 			productReference = 4EC50D0C217DE4F5005D66FC /* Glide Demo.app */;
@@ -1376,6 +1385,7 @@
 			);
 			mainGroup = 4E908C44217DE46800D8B29D;
 			packageReferences = (
+				4EBF597122F6314900D0B4F7 /* XCRemoteSwiftPackageReference "Glide" */,
 			);
 			productRefGroup = 4E908C4E217DE46800D8B29D /* Products */;
 			projectDirPath = "";
@@ -2352,6 +2362,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4EBF597122F6314900D0B4F7 /* XCRemoteSwiftPackageReference "Glide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cocoatoucher/Glide.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4EBF597222F6314900D0B4F7 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBF597122F6314900D0B4F7 /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+		4EBF597422F6314F00D0B4F7 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBF597122F6314900D0B4F7 /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+		4EBF597622F6315300D0B4F7 /* GlideEngine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EBF597122F6314900D0B4F7 /* XCRemoteSwiftPackageReference "Glide" */;
+			productName = GlideEngine;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E908C45217DE46800D8B29D /* Project object */;
 }
