@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E7515552179F7EA0066DA2F"
-               BuildableName = "Glide.framework"
+               BuildableName = "GlideEngine.framework"
                BlueprintName = "Glide_iOS"
                ReferencedContainer = "container:Glide.xcodeproj">
             </BuildableReference>
@@ -41,6 +41,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4E7515552179F7EA0066DA2F"
+            BuildableName = "GlideEngine.framework"
+            BlueprintName = "Glide_iOS"
+            ReferencedContainer = "container:Glide.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -53,17 +62,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E7515552179F7EA0066DA2F"
-            BuildableName = "Glide.framework"
-            BlueprintName = "Glide_iOS"
-            ReferencedContainer = "container:Glide.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -79,13 +77,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E7515552179F7EA0066DA2F"
-            BuildableName = "Glide.framework"
+            BuildableName = "GlideEngine.framework"
             BlueprintName = "Glide_iOS"
             ReferencedContainer = "container:Glide.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -97,7 +93,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E7515552179F7EA0066DA2F"
-            BuildableName = "Glide.framework"
+            BuildableName = "GlideEngine.framework"
             BlueprintName = "Glide_iOS"
             ReferencedContainer = "container:Glide.xcodeproj">
          </BuildableReference>

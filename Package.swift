@@ -7,11 +7,11 @@ let package = Package(
         .macOS(.v10_13), .iOS(.v11), .tvOS(.v12)
     ],
     products: [
-        .library(name: "GlideEngine", targets: ["Glide"])
+        .library(name: "GlideEngine", targets: ["GlideEngine"])
     ],
     dependencies: [],
     targets: [
-        .target(name: "Glide", path: "Sources"),
-        .testTarget(name: "Glide-Tests", dependencies: ["Glide"], path: "Tests")
+        .target(name: "GlideEngine", path: "Sources"),
+        .testTarget(name: "Glide-Tests", dependencies: ["GlideEngine"], path: "Tests")
     ]
 )
