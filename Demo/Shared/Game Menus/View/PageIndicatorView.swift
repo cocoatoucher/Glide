@@ -24,6 +24,14 @@
 //
 
 import GlideEngine
+import CoreGraphics
+import Foundation
+import QuartzCore
+#if os(OSX)
+import AppKit
+#else
+import UIKit
+#endif
 
 class PageIndicatorView: View {
     

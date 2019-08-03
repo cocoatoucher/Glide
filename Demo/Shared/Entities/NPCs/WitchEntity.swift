@@ -24,6 +24,8 @@
 //
 
 import GlideEngine
+import Foundation
+import CoreGraphics
 
 class WitchEntity: GlideEntity {
     

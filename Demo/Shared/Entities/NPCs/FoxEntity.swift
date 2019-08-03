@@ -24,6 +24,8 @@
 //
 
 import GlideEngine
+import CoreGraphics
+import Foundation
 
 class FoxEntity: GlideEntity {
     

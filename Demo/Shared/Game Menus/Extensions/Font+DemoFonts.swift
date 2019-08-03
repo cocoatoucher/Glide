@@ -24,6 +24,10 @@
 //
 
 import GlideEngine
+import CoreGraphics
+#if os(iOS)
+import UIKit
+#endif
 
 extension Font {
     static func headerTextFont(ofSize: CGFloat) -> Font {

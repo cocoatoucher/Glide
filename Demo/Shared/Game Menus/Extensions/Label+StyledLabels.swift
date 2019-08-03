@@ -24,6 +24,10 @@
 //
 
 import GlideEngine
+import Foundation
+#if os(OSX)
+import AppKit
+#endif
 
 extension Label {
     static func headerLabel(withText text: String) -> Label {

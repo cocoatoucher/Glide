@@ -24,6 +24,12 @@
 //
 
 import GlideEngine
+import Foundation
+#if os(OSX)
+import AppKit
+#else
+import UIKit
+#endif
 
 class ActionButtonContentView: SelectionButtonContentView {
     

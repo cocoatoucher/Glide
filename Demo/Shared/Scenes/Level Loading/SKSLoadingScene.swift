@@ -24,6 +24,7 @@
 //
 
 import GlideEngine
+import CoreGraphics
 
 class SKSLoadingScene: BaseLevelScene {
     

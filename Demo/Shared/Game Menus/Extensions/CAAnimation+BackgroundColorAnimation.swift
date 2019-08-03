@@ -24,6 +24,7 @@
 //
 
 import GlideEngine
+import QuartzCore
 
 extension CAAnimation {
     static func backgroundColorAnimation(from startColor: Color, to destinationColor: Color, middleColor: Color, repeatCount: Int) -> CAAnimation {

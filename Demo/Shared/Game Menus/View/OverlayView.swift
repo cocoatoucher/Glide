@@ -24,6 +24,11 @@
 //
 
 import GlideEngine
+import CoreGraphics
+import Foundation
+#if os(OSX)
+import AppKit
+#endif
 
 class OverlayView: View {
     
