@@ -56,10 +56,6 @@ class InteractionIndicatorEntity: GlideEntity {
         super.init(initialNodePosition: CGPoint.zero, positionOffset: CGPoint(x: 0, y: yOffset))
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         addComponent(spriteNodeComponent)
         addComponent(focusableComponent)

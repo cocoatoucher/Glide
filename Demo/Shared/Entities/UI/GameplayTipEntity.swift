@@ -37,10 +37,6 @@ class GameplayTipEntity: GlideEntity {
         super.init(initialNodePosition: initialNodePosition, positionOffset: .zero)
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         let spriteNodeComponent = SpriteNodeComponent(nodeSize: .zero)
         

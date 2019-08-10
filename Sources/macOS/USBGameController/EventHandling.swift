@@ -29,9 +29,9 @@
 import IOKit
 
 internal protocol USBGameControllerDeviceDelegate: class {
-    func deviceXAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int)
-    func deviceYAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int)
-    func deviceOtherAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int, otherAxisIndex: Int)
+    func deviceXAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int)
+    func deviceYAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int)
+    func deviceOtherAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int, otherAxisIndex: Int)
     func devicePovAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int, povNumber: Int)
     
     func deviceDidPressButton(_ device: USBGameController.Device, buttonIndex: Int)
@@ -46,26 +46,39 @@ extension USBGameController.Device: USBGameControllerEventQueueDelegate {
         }
     }
     
+    // swiftlint:disable:next function_body_length
     private func parseValueFromEvent(_ event: EventQueue.Event) {
         let cookie = event.elementCookie
         let value = event.value
 
         if let xAxisStick = stickForXAxis(withCookie: cookie) {
-            let normalizedValue = xAxisStick.element.normalizedValue(from: Int(value))
-
-            delegate?.deviceXAxisStickValueChanged(self, value: normalizedValue, stickIndex: xAxisStick.stickIndex)
+            delegate?.deviceXAxisStickValueChanged(
+                self,
+                value: Int(value),
+                baseValue: xAxisStick.element.baseValue,
+                threshold: xAxisStick.element.threshold,
+                stickIndex: xAxisStick.stickIndex)
         } else if let yAxisStick = stickForYAxis(withCookie: cookie) {
-            let normalizedValue = yAxisStick.element.normalizedValue(from: Int(value))
-
-            delegate?.deviceYAxisStickValueChanged(self, value: normalizedValue, stickIndex: yAxisStick.stickIndex)
+            delegate?.deviceYAxisStickValueChanged(
+                self,
+                value: Int(value),
+                baseValue: yAxisStick.element.baseValue,
+                threshold: yAxisStick.element.threshold,
+                stickIndex: yAxisStick.stickIndex)
         } else if let otherAxisStick = stickForOtherAxis(withCookie: cookie) {
-            let normalizedValue = otherAxisStick.element.normalizedValue(from: Int(value))
-
-            delegate?.deviceOtherAxisStickValueChanged(self, value: normalizedValue, stickIndex: otherAxisStick.stickIndex, otherAxisIndex: otherAxisStick.axis)
+            delegate?.deviceOtherAxisStickValueChanged(
+                self,
+                value: Int(value),
+                baseValue: otherAxisStick.element.baseValue,
+                threshold: otherAxisStick.element.threshold,
+                stickIndex: otherAxisStick.stickIndex,
+                otherAxisIndex: otherAxisStick.axis)
         } else if let povStick = stickForPOVNumber(withCookie: cookie) {
-            let normalizedValue = povStick.element.normalizedValue(from: Int(value))
-
-            delegate?.devicePovAxisStickValueChanged(self, value: normalizedValue, stickIndex: povStick.stickIndex, povNumber: povStick.povNumber)
+            delegate?.devicePovAxisStickValueChanged(
+                self,
+                value: Int(value),
+                stickIndex: povStick.stickIndex,
+                povNumber: povStick.povNumber)
         } else {
             let buttonIndex = buttons.firstIndex { cookie == $0.cookie } ?? 0
 

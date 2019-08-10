@@ -45,18 +45,11 @@ internal class USBGameControllerObserver {
         IOHIDManagerOpen(managerRef, IOOptionBits(kIOHIDOptionsTypeNone))
 
         let matchingCallback: IOHIDDeviceCallback = { inContext, _, _, inIOHIDDeviceRef in
-
-            print("added")
-            print(inIOHIDDeviceRef)
-
             let this: USBGameControllerObserver = unsafeBitCast(inContext, to: USBGameControllerObserver.self)
             this.didUpdateControllersHandler?(this.connectedControllers)
         }
 
         let removalCallback: IOHIDDeviceCallback = { inContext, _, _, _ in
-
-            print("removed")
-
             let this: USBGameControllerObserver = unsafeBitCast(inContext, to: USBGameControllerObserver.self)
             this.didUpdateControllersHandler?(this.connectedControllers)
         }

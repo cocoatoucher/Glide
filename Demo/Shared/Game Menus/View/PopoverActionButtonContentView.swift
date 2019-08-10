@@ -53,8 +53,4 @@ class PopoverActionButtonContentView: SelectionButtonContentView {
             label.bottomAnchor.constraint(equalTo: safeAreaGuide.bottomAnchor)
             ])
     }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
 }

@@ -35,10 +35,6 @@ class ProjectileWeaponEntity: GlideEntity {
         name = "Projectile Weapon"
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         let size = CGSize(width: 32, height: 32)
         

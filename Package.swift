@@ -12,6 +12,7 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(name: "GlideEngine", path: "Sources"),
-        .testTarget(name: "Glide-Tests", dependencies: ["GlideEngine"], path: "Tests")
-    ]
+        .testTarget(name: "GlideEngine-Tests", dependencies: ["GlideEngine"], path: "Tests")
+    ],
+    swiftLanguageVersions: [.v5]
 )

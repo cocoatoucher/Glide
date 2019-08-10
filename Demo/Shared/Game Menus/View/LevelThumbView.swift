@@ -83,9 +83,4 @@ class LevelThumbView: SelectionButtonContentView {
             label.trailingAnchor.constraint(equalTo: safeAreaGuide.trailingAnchor, constant: -5.0)
             ])
     }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
 }

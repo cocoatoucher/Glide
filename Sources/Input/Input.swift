@@ -208,7 +208,9 @@ public class Input {
         numer = UInt64(info.numer)
         denom = UInt64(info.denom)
         
-        setupGameControllers()
+        DispatchQueue.main.async {
+            self.setupGameControllers()
+        }
     }
     
     private func updateInputMethod() {

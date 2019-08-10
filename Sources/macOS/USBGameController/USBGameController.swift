@@ -52,62 +52,64 @@ internal class USBGameController {
 }
 
 extension USBGameController: USBGameControllerDeviceDelegate {
-    func deviceXAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int) {
+    
+    func deviceXAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int) {
         guard let dpad = extendedGamepad?.dpad else {
             return
         }
         
-        if value == -258 {
-            dpad.x = 0
-        } else if value < -258 {
-            dpad.x = -1
-        } else {
-            dpad.x = 1
-        }
-        
-        dpad.valueChangedHandler?(dpad, dpad.x, dpad.y)
+        dpad.rawX = value
+        notifyAxisValueOfDirectionPad(dpad, baseValue: baseValue, threshold: threshold)
     }
 
-    func deviceYAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int) {
+    func deviceYAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int) {
         guard let dpad = extendedGamepad?.dpad else {
             return
         }
         
-        if value == -258 {
-            dpad.y = 0
-        } else if value < -258 {
-            dpad.y = 1
-        } else {
-            dpad.y = -1
-        }
-        
-        dpad.valueChangedHandler?(dpad, dpad.x, dpad.y)
+        dpad.rawY = value
+        notifyAxisValueOfDirectionPad(dpad, baseValue: baseValue, threshold: threshold)
     }
+    
+    func deviceOtherAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int, otherAxisIndex: Int) {
+        guard let rightThumbstick = extendedGamepad?.rightThumbstick else {
+            return
+        }
 
-    func deviceOtherAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int, otherAxisIndex: Int) {
+        switch otherAxisIndex {
+        case 0:
+            rightThumbstick.rawX = value
+        case 1:
+            rightThumbstick.rawY = value
+        default:
+            break
+        }
+
+        notifyAxisValueOfDirectionPad(rightThumbstick, baseValue: baseValue, threshold: threshold)
     }
 
     func devicePovAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int, povNumber: Int) {
         guard let leftThumbstick = extendedGamepad?.leftThumbstick else {
             return
         }
-
-        // X
-        if value >= 4500 && value <= 13500 {
+        
+        if value / 2 == 0 {
+            leftThumbstick.y = 1
+            leftThumbstick.x = 0
+        } else if value / 2 == 1 {
             leftThumbstick.x = 1
-        } else if value >= 22500 && value <= 31500 {
+            leftThumbstick.y = 0
+        } else if value / 2 == 2 {
+            leftThumbstick.y = -1
+            leftThumbstick.x = 0
+        } else if value / 2 == 3 {
             leftThumbstick.x = -1
+            leftThumbstick.y = 0
         } else {
             leftThumbstick.x = 0
-        }
-        // Y
-        if (value >= 31500 || value <= 4500) && value != -1 {
-            leftThumbstick.y = 1
-        } else if value <= 22500 && value >= 13500 {
-            leftThumbstick.y = -1
-        } else {
             leftThumbstick.y = 0
         }
+        
         leftThumbstick.valueChangedHandler?(leftThumbstick, leftThumbstick.x, leftThumbstick.y)
     }
 
@@ -138,6 +140,14 @@ extension USBGameController: USBGameControllerDeviceDelegate {
             if let rightShoulder = extendedGamepad?.rightShoulder {
                 rightShoulder.pressedChangedHandler?(rightShoulder, 1.0, true)
             }
+        case 6:
+            if let leftTrigger = extendedGamepad?.leftTrigger {
+            leftTrigger.pressedChangedHandler?(leftTrigger, 1.0, true)
+        }
+        case 7:
+            if let rightTrigger = extendedGamepad?.rightTrigger {
+            rightTrigger.pressedChangedHandler?(rightTrigger, 1.0, true)
+        }
         case 9, 11:
             controllerPausedHandler?(self)
         default:
@@ -172,9 +182,45 @@ extension USBGameController: USBGameControllerDeviceDelegate {
             if let rightShoulder = extendedGamepad?.rightShoulder {
                 rightShoulder.pressedChangedHandler?(rightShoulder, 1.0, false)
             }
+        case 6:
+            if let leftTrigger = extendedGamepad?.leftTrigger {
+            leftTrigger.pressedChangedHandler?(leftTrigger, 1.0, false)
+        }
+        case 7:
+            if let rightTrigger = extendedGamepad?.rightTrigger {
+            rightTrigger.pressedChangedHandler?(rightTrigger, 1.0, false)
+        }
         default:
             break
         }
+    }
+    
+    private func notifyAxisValueOfDirectionPad(_ dpad: USBGameControllerDirectionPad, baseValue: Int, threshold: Int) {
+        let diffY = dpad.rawY - baseValue
+
+        if abs(diffY) <= 2 {
+            dpad.y = 0
+        } else if diffY < 0 && abs(diffY) >= threshold {
+            dpad.y = 1
+        } else if diffY > 0 && abs(diffY) >= threshold {
+            dpad.y = -1
+        } else {
+            dpad.y = 0
+        }
+
+        let diffX = dpad.rawX - baseValue
+
+        if abs(diffX) <= 2 {
+            dpad.x = 0
+        } else if diffX > 0 && abs(diffX) >= threshold {
+            dpad.x = 1
+        } else if diffX < 0 && abs(diffX) >= threshold {
+            dpad.x = -1
+        } else {
+            dpad.x = 0
+        }
+
+        dpad.valueChangedHandler?(dpad, dpad.x, dpad.y)
     }
 }
 #endif

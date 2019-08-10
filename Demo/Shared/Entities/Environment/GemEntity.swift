@@ -34,10 +34,6 @@ class GemEntity: GlideEntity {
         super.init(initialNodePosition: bottomLeftPosition, positionOffset: CGPoint(size: colliderSize / 2))
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         let collider = ColliderComponent(categoryMask: DemoCategoryMask.collectible,
                                          size: colliderSize,

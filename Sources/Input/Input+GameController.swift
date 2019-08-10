@@ -45,6 +45,8 @@ extension Input {
             
             self?.syncUSBGameControllers(with: connectedDevices)
         }
+        
+        syncUSBGameControllers(with: usbGameControllerObserver.connectedControllers)
         #endif
     }
     
@@ -375,15 +377,20 @@ extension Input {
     
     private func shouldConnectControllerAsGCController(_ controller: GCController) -> Bool {
         // This is a potential list for future.
-        // Joy-cons
+        // Joy-cons is not properly supported by GCController.
         if controller.vendorName?.hasPrefix("Joy-Con") == true {
             return false
         }
         
+        // Some Bluetooth capable controllers are seen with this
+        // title and are not properly supported by GCController.
+        // Those can be connected via USB and supported via USBGameController.
         if controller.vendorName?.hasPrefix("Wireless Controller") == true {
             return false
         }
         
+        // 8Bitdo is not properly supported by GCController.
+        // USB connected 8Bitdos are supported via USBGameController.
         if controller.vendorName?.hasPrefix("8Bitdo") == true {
             return false
         }
@@ -396,11 +403,6 @@ extension Input {
     
     private func shouldConnectDeviceAsUSBGameController(_ device: USBGameController.Device) -> Bool {
         // This is a potential list for future.
-        
-        // SteelSeries Nimbus
-//        if device.vendorId == 273 && device.productId == 5152 {
-//            return false
-//        }
         return true
     }
     

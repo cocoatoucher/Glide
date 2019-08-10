@@ -37,10 +37,6 @@ class CrusherEntity: GlideEntity {
         super.init(initialNodePosition: initialNodePosition, positionOffset: CGPoint(size: colliderSize / 2))
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         name = "Crusher"
         

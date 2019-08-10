@@ -334,6 +334,8 @@
 		4E87C6DC22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C6DB22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift */; };
 		4E87C6DD22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C6DB22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift */; };
 		4E87C6DE22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87C6DB22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift */; };
+		4E8C642E22F9F12700D69EFB /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5CB22F6064B00BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E8C642F22F9F12F00D69EFB /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5CB22F6064B00BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E8CCFCE221437C1005151D8 /* SelfFollowWaypointsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CCFCD221437C1005151D8 /* SelfFollowWaypointsComponent.swift */; };
 		4E8CCFD02214381D005151D8 /* SelfShootOnObserveComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CCFCF2214381D005151D8 /* SelfShootOnObserveComponent.swift */; };
 		4E8CCFD12214381D005151D8 /* SelfShootOnObserveComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8CCFCF2214381D005151D8 /* SelfShootOnObserveComponent.swift */; };
@@ -563,8 +565,6 @@
 		4ED8F1C622540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */; };
 		4ED8F1C722540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */; };
 		4EDFD5CC22F6064B00BE9306 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5CB22F6064B00BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EDFD5D222F6066200BE9306 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5D022F6065B00BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EDFD5D322F6066600BE9306 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5CD22F6065400BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EE856CE2232BDB700C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
 		4EE856CF2232BDB700C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
 		4EE856D02232BDB800C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
@@ -865,8 +865,6 @@
 		4ED750862242E4D7004748B7 /* InfiniteSpriteScrollerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSpriteScrollerComponent.swift; sourceTree = "<group>"; };
 		4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsEvaluatorComponent.swift; sourceTree = "<group>"; };
 		4EDFD5CB22F6064B00BE9306 /* Glide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
-		4EDFD5CD22F6065400BE9306 /* Glide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
-		4EDFD5D022F6065B00BE9306 /* Glide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glide.h; sourceTree = "<group>"; };
 		4EE856A92232778B00C2848A /* 2.righttop_frombottom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.righttop_frombottom.gif; sourceTree = "<group>"; };
 		4EE856AA2232778B00C2848A /* 5.rightbottom_fromtop_contactsbottom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.rightbottom_fromtop_contactsbottom.gif; sourceTree = "<group>"; };
 		4EE856AB2232778B00C2848A /* 4.rightbottom_fromtop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.rightbottom_fromtop.gif; sourceTree = "<group>"; };
@@ -987,7 +985,6 @@
 		4E1A654122F48DE10089BBBA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4EDFD5CB22F6064B00BE9306 /* Glide.h */,
 				4E9C7AD62261404200082C99 /* GlideEntity+TouchInput.swift */,
 				4EC8E4642256738A00218CFD /* TouchReceiverComponent.swift */,
 				4E1A654322F4939D0089BBBA /* GlideScene+TouchInput.swift */,
@@ -998,7 +995,6 @@
 		4E1A654222F48DF80089BBBA /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				4EDFD5CD22F6065400BE9306 /* Glide.h */,
 				4E3A4A9121F0CA72006C5916 /* InputResponder.swift */,
 				4EBF28702267B98400AE954B /* Input+KeyboardAndMouse.swift */,
 				4E1A654722F494110089BBBA /* GlideScene+KeyboardAndMouseInput.swift */,
@@ -1214,9 +1210,9 @@
 		4E6F2E4521F5BBCE004BB1D6 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4EDFD5CB22F6064B00BE9306 /* Glide.h */,
 				4E1A654122F48DE10089BBBA /* iOS */,
 				4E1A654222F48DF80089BBBA /* macOS */,
-				4EDFD5CF22F6065B00BE9306 /* tvOS */,
 				4ECE2A2221B80ADA00C309A9 /* Input */,
 				4E6F2E4621F5BCA0004BB1D6 /* Scene */,
 				4E5D9EEC221B7E8500B62391 /* Collisions */,
@@ -1553,14 +1549,6 @@
 			path = Input;
 			sourceTree = "<group>";
 		};
-		4EDFD5CF22F6065B00BE9306 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				4EDFD5D022F6065B00BE9306 /* Glide.h */,
-			);
-			path = tvOS;
-			sourceTree = "<group>";
-		};
 		4EE856A322326D6D00C2848A /* Reference gifs */ = {
 			isa = PBXGroup;
 			children = (
@@ -1659,7 +1647,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDFD5D322F6066600BE9306 /* Glide.h in Headers */,
+				4E8C642E22F9F12700D69EFB /* Glide.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1667,7 +1655,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDFD5D222F6066200BE9306 /* Glide.h in Headers */,
+				4E8C642F22F9F12F00D69EFB /* Glide.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

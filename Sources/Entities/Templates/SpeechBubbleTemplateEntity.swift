@@ -49,10 +49,6 @@ open class SpeechBubbleTemplateEntity: GlideEntity {
         super.init(initialNodePosition: initialNodePosition, positionOffset: .zero)
     }
     
-    public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     /// This function is called when the `SpeechFlowControllerComponent`
     /// controlling the `Speech` of this component proceeds from one text part
     /// of the speech to the next.

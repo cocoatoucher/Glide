@@ -79,6 +79,7 @@ public final class HealthComponent: GKComponent, GlideComponent {
         remainingHealth = maximumHealth
     }
     
+    @available(*, unavailable)
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

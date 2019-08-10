@@ -28,9 +28,6 @@
 #if os(macOS)
 import Foundation
 
-private let maxJoystickValue: Int = 65536
-private let minJoystickValue: Int = -65536
-
 extension USBGameController.Device {
     
     internal class Element {
@@ -49,6 +46,17 @@ extension USBGameController.Device {
         var minValue: Int {
             return (properties[kIOHIDElementMinKey] as? NSNumber)?.intValue ?? 0
         }
+        
+        var baseValue: Int {
+            var half = Float((maxValue - minValue) / 2)
+            half.round(.toNearestOrAwayFromZero)
+            let result = Int(half)
+            return result
+        }
+        
+        var threshold: Int {
+            return (maxValue - baseValue) / 2
+        }
 
         init(properties: [String: AnyObject]) {
             self.properties = properties
@@ -56,16 +64,6 @@ extension USBGameController.Device {
 
             let subElements = properties[kIOHIDElementKey] as? [[String: AnyObject]]
             self.subElements = subElements?.map { Element(properties: $0) } ?? []
-        }
-
-        func normalizedValue(from value: Int) -> Int {
-            let normalizedUnits = maxJoystickValue - minJoystickValue
-
-            let elementUnits = maxValue - minValue
-
-            let mid = (value - minValue) * normalizedUnits
-            let normalizedValue = (mid / elementUnits) + minJoystickValue
-            return normalizedValue
         }
     }
 }

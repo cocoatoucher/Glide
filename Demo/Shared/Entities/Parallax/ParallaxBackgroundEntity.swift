@@ -54,10 +54,6 @@ class ParallaxBackgroundEntity: GlideEntity {
         layoutSpriteNodeComponent.yOffsetConstraint = yOffsetConstraint
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         
         transform.usesProposedPosition = false

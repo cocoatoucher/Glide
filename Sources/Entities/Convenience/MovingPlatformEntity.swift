@@ -84,10 +84,6 @@ public class MovingPlatformEntity: GlideEntity {
         super.init(initialNodePosition: bottomLeftPosition.point(with: tileSize), positionOffset: offset)
     }
     
-    public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     public override func setup() {
         let colliderComponent = ColliderComponent(categoryMask: GlideCategoryMask.snappable,
                                                   size: colliderSize,

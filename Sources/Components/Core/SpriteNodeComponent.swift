@@ -62,6 +62,7 @@ public final class SpriteNodeComponent: GKSKNodeComponent, GlideComponent, ZPosi
         self.initialTiledNodeSize = tiledNodeSize
     }
     
+    @available(*, unavailable)
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

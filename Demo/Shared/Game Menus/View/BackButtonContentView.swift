@@ -62,9 +62,4 @@ class ActionButtonContentView: SelectionButtonContentView {
             imageView.centerYAnchor.constraint(equalTo: safeAreaGuide.centerYAnchor)
             ])
     }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
 }

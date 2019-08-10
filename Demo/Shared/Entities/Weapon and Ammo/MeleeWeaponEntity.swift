@@ -38,10 +38,6 @@ class MeleeWeaponEntity: GlideEntity {
         name = "MeleeWeapon"
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         var kinematicsBodyConfiguration = KinematicsBodyComponent.sharedConfiguration
         kinematicsBodyConfiguration.maximumVerticalVelocity = 20.0
@@ -83,6 +79,7 @@ class MeleeWeaponComponent: GKComponent, GlideComponent {
         super.init()
     }
     
+    @available(*, unavailable)
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

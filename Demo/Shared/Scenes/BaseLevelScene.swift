@@ -54,10 +54,6 @@ class BaseLevelScene: GlideScene {
         super.init(collisionTileMapNode: tileMaps.collisionTileMap, zPositionContainers: DemoZPositionContainer.allCases)
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setupScene() {
         
         cameraEntity.component(ofType: CameraComponent.self)?.configuration.fieldOfViewWidth = 300.0

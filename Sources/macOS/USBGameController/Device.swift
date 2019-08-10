@@ -89,13 +89,18 @@ extension USBGameController {
                 return nil
             }
             
-            self.properties = properties?.takeUnretainedValue() as? [String: AnyObject]
+            let propertiesAsDictionary = properties?.takeUnretainedValue() as? [String: AnyObject]
+            self.properties = propertiesAsDictionary
             
             guard let transport = self.properties?[kIOHIDTransportKey] as? String else {
                 return nil
             }
             
-            guard transport == "USB" else {
+            let vendorId = propertiesAsDictionary?[kIOHIDVendorIDKey] as? Int
+            let productId = propertiesAsDictionary?[kIOHIDProductIDKey] as? Int
+            // Making an exception for Joy-Cons 🧙🏼‍♂️🕹
+            let isJoyCon = transport == "Bluetooth" && vendorId == 1406 && (productId == 8198 || productId == 8199)
+            guard transport == "USB" || isJoyCon else {
                 return nil
             }
             
@@ -227,7 +232,9 @@ extension USBGameController {
                 if element.subElements.isEmpty == false {
                     setupJoystickElements(for: element.subElements)
                 } else if usagePage == kHIDPage_GenericDesktop && usageId == kHIDUsage_GD_Pointer {
+                    #if DEBUG
                     print("ignored")
+                    #endif
                 } else if currentStick.attemptToAddElement(element) == true {
                     stickHasElements = true
                 } else if usagePage == kHIDPage_Button && usageId > 0 {

@@ -39,19 +39,9 @@ extension GCController: GameControllerInterface {
             }
         }
     }
-    
-    typealias Controller = GCController
-    typealias ExtendedGamepad = GCExtendedGamepad
-    typealias MicroGamepad = GCMicroGamepad
 }
 
-extension GCExtendedGamepad: ExtendedGamepadInterface {
-    typealias Button = GCControllerButtonInput
-    typealias DirectionPad = GCControllerDirectionPad
-}
-
-extension GCMicroGamepad: MicroGamepadInterface {
-}
-
+extension GCExtendedGamepad: ExtendedGamepadInterface {}
+extension GCMicroGamepad: MicroGamepadInterface {}
 extension GCControllerButtonInput: GamepadButtonInterface {}
 extension GCControllerDirectionPad: GamepadDirectionPadInterface {}

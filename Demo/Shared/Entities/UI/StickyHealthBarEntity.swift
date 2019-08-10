@@ -36,10 +36,6 @@ class StickyHealthBarEntity: GlideEntity {
         super.init(initialNodePosition: .zero, positionOffset: .zero)
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         transform.usesProposedPosition = false
         

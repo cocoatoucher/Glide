@@ -26,17 +26,9 @@
 #if os(macOS)
 import Foundation
 
-extension USBGameController: GameControllerInterface {
-    typealias Controller = USBGameController
-    typealias ExtendedGamepad = USBExtendedGamepad
-    typealias MicroGamepad = USBMicroGamepad
-}
+extension USBGameController: GameControllerInterface {}
 
 class USBExtendedGamepad: ExtendedGamepadInterface {
-    
-    typealias Controller = USBGameController
-    typealias Button = USBGameControllerButton
-    typealias DirectionPad = USBGameControllerDirectionPad
     
     var controller: USBGameController?
 
@@ -60,16 +52,15 @@ class USBMicroGamepad: MicroGamepadInterface {
 }
 
 class USBGameControllerButton: GamepadButtonInterface {
-    typealias Button = USBGameControllerButton
-
     var pressedChangedHandler: ((USBGameControllerButton, Float, Bool) -> Void)?
 }
 
 class USBGameControllerDirectionPad: GamepadDirectionPadInterface {
-    typealias DirectionPad = USBGameControllerDirectionPad
-
     var valueChangedHandler: ((USBGameControllerDirectionPad, Float, Float) -> Void)?
     var x: Float = 0
     var y: Float = 0
+    
+    var rawX: Int = 0
+    var rawY: Int = 0
 }
 #endif

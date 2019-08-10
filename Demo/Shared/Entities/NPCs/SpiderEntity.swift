@@ -35,10 +35,6 @@ class SpiderEntity: GlideEntity {
         super.init(initialNodePosition: initialNodePosition, positionOffset: CGPoint(size: spriteSize / 2))
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     override func setup() {
         name = "Spider"
         
