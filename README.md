@@ -67,7 +67,7 @@ glide is developed with [Entity-Component-System architecture](https://en.wikipe
 glide has its own collision and contact algorithms which is more suitable for precise platformer mechanics compared to using SpriteKit's physicsBody.
 
 ### 3. Input 🎮⌨️🖱🔲
-Support for Bluetooth and USB game controllers, keyboard, mouse, and touch controls comes out of the box with glide and it is pretty intuitive to use them.
+Support for Bluetooth and USB game controllers, keyboard, mouse, and touch controls comes out of the box with glide and it is pretty intuitive to use them. Learn more about supported input methods [here.](https://github.com/cocoatoucher/Glide/blob/master/Docs/InputMethods.md)
 
 ### 4. Native game menus
 
