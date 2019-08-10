@@ -21,7 +21,7 @@ glide uses GameController framework of iOS and macOS SDKs to support those offic
 
 SteelSeries Nimbus | Siri Remote
 :-------------------------:|:-------------------------:
-![alt text](Controllers/steelSeries_nimbus.png "SteelSeries Nimbus")  |  ![alt text](Controllers/siri_remote.png "Siri Remote")
+![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/Controllers/steelSeries_nimbus.png "SteelSeries Nimbus")  |  ![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/Controllers/siri_remote.png "Siri Remote")
 
 **- Other controllers via USB on macOS**
 
@@ -29,7 +29,7 @@ glide includes an inner framework that communicates directly with non-MFI contro
 
 No Brand USB Controller | 8BitDo SN30 via USB | 8BitDo SN30 Pro via USB | Joy-Cons via Bluetooth**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![alt text](Controllers/generic_usb.png "No brand USB game controller")  |  ![alt text](Controllers/8BitDo_sn30.png "8BitDo SN30 connected via USB")  |  ![alt text](Controllers/8BitDo_sn30pro.png "8BitDo SN30 Pro connected via USB")  |  ![alt text](Controllers/nintendo_joyCons.png "Joy-Cons individually connected via Bluetooth")
+![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/Controllers/generic_usb.png "No brand USB game controller")  |  ![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/Controllers/8BitDo_sn30.png "8BitDo SN30 connected via USB")  |  ![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/Controllers/8BitDo_sn30pro.png "8BitDo SN30 Pro connected via USB")  |  ![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/Controllers/nintendo_joyCons.png "Joy-Cons individually connected via Bluetooth")
 
 \* You could notice that GameController framework of Apple, also attempts to support those controllers when they are connected over Bluetooth. However, that works only for a button or two of the controller. Access of GameController fwk to those controllers is therefore prevented for known brands within glide, in order to prevent conflicts.
 
