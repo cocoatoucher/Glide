@@ -51,6 +51,5 @@ On iOS devices, you can add SpriteKit nodes in your game scene and map them to y
 There is also a `NavigatableButton` of glide's game menu UI framework which supports touch inputs by default.
 
 
-> 
-### Keyboard on iPad / `UIKeyCommand`
+> ### Keyboard on iPad / `UIKeyCommand`
 Unfortunately iOS SDK, as of iOS 13, is missing some basic functionality of informing framework users with released key events. This is crucial for a game and without it UIKeyCommand support won't be there for glide. Some tried solutions like using js and a `WKWebView` introduces delays and not suitable for professional games. Let's hope that support will be there with upcoming iOS/iPadOS releases.
