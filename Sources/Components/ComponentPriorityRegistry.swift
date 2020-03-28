@@ -89,32 +89,24 @@ public class ComponentPriorityRegistry {
         
         didInitialize = true
         
-        var numClasses: Int32 = 0
-        var allClasses: AutoreleasingUnsafeMutablePointer<AnyClass>?
-        defer {
-            allClasses = nil
+        func allClassesOfType<R>(_ body: (UnsafeBufferPointer<AnyClass>) throws -> R) rethrows -> R {
+            
+            var count: UInt32 = 0
+            let classListPtr = objc_copyClassList(&count)
+            defer {
+                free(UnsafeMutableRawPointer(classListPtr))
+            }
+            let classListBuffer = UnsafeBufferPointer(
+                start: classListPtr, count: Int(count)
+            )
+            
+            return try body(classListBuffer)
         }
         
-        numClasses = objc_getClassList(nil, 0)
-        
-        if numClasses > 0 {
-            var ptr = UnsafeMutablePointer<AnyClass?>.allocate(capacity: Int(numClasses))
-            defer {
-                ptr.deinitialize(count: 1)
-                ptr.deallocate()
-            }
-            allClasses = AutoreleasingUnsafeMutablePointer<AnyClass>(ptr)
-            numClasses = objc_getClassList(allClasses, numClasses)
-            
-            for i in 0 ..< numClasses {
-                guard let currentClass: AnyClass = allClasses?[Int(i)] else {
-                    continue
-                }
-                if
-                    let glideComponentClass = currentClass as? GlideComponent.Type,
-                    let gkComponentClass = currentClass as? GKComponent.Type {
-                    setPriority(glideComponentClass.componentPriority, for: gkComponentClass)
-                }
+        let componentClasses = allClassesOfType { $0.compactMap { $0 as? GlideComponent.Type } }
+        for componentClass in componentClasses {
+            if let gkComponentClass = componentClass as? GKComponent.Type {
+                setPriority(componentClass.componentPriority, for: gkComponentClass)
             }
         }
     }
