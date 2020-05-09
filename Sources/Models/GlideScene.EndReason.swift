@@ -1,5 +1,5 @@
 //
-//  MovementAxes.swift
+//  GlideScene.EndReason.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -25,15 +25,13 @@
 
 import Foundation
 
-/// Represents different options for axes of movement.
-public struct MovementAxes: OptionSet, Sequence {
-    public let rawValue: Int
+public extension GlideScene {
     
-    public init(rawValue: Int) {
-        self.rawValue = rawValue
+    /// Represents predefined values on the reason for ending a scene.
+    enum EndReason {
+        /// There are no more entities with a `PlayableCharacterComponent` in the scene.
+        case hasNoMorePlayableEntities
+        /// A playable character has reached finish checkpoint.
+        case playableCharacterReachedFinishCheckpoint
     }
-    
-    public static let horizontal = MovementAxes(rawValue: 1 << 0)
-    public static let vertical = MovementAxes(rawValue: 1 << 1)
-    public static let circular = MovementAxes(rawValue: 1 << 2)
 }

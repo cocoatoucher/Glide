@@ -26,7 +26,7 @@
 import Foundation
 import CoreGraphics
 
-public extension CGPoint {
+extension CGPoint {
     
     /// Returns interpolated points from current point to the given destination.
     /// maximumDelta specifies maximum distance between each interpolated point.
@@ -48,6 +48,8 @@ public extension CGPoint {
     func lerp(destination: CGPoint, time: CGFloat) -> CGPoint {
         return self + ((destination - self) * time)
     }
+    
+    // MARK: - Private
     
     private func numberOfInterpolatedPoints(to destination: CGPoint, maximumDelta: CGFloat) -> Int {
         let yDiff = abs(destination.y - self.y)

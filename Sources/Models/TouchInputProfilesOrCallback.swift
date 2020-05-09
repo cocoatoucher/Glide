@@ -1,5 +1,5 @@
 //
-//  GlideSceneEndReason.swift
+//  TouchInputProfilesOrCallback.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -25,13 +25,8 @@
 
 import Foundation
 
-public extension GlideScene {
-    
-    /// Represents predefined values on the reason for ending a scene.
-    enum EndReason {
-        /// There are no more entities with a `PlayableCharacterComponent` in the scene.
-        case hasNoMorePlayableEntities
-        /// A playable character has reached finish checkpoint.
-        case playableCharacterReachedFinishCheckpoint
-    }
+/// Input variant used with `TouchReceiverComponent`.
+public enum TouchInputProfilesOrCallback {
+    case profiles([(name: String, isNegative: Bool)])
+    case callback(() -> Void)
 }

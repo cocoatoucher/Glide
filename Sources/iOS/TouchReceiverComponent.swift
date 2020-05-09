@@ -27,11 +27,6 @@
 import SpriteKit
 import GameplayKit
 
-public enum TouchInputProfilesOrCallback {
-    case profiles([(name: String, isNegative: Bool)])
-    case callback(() -> Void)
-}
-
 /// When adopted, component's entity will be able to manage touch inputs
 /// on an iOS device.
 public protocol TouchReceiverComponent: class {

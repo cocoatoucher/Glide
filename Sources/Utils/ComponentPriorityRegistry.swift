@@ -26,7 +26,7 @@
 import GameplayKit
 
 /// That class is a singleton used to keep a record of the priorities for each
-/// `GKComponent that adopts `GlideComponent`.
+/// `GKComponent` that adopts `GlideComponent`.
 public class ComponentPriorityRegistry {
     
     public static var shared = ComponentPriorityRegistry()

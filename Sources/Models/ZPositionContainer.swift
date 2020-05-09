@@ -25,7 +25,7 @@
 
 import Foundation
 
-/// Protocol that typically defines a container node in a scene.
+/// Protocol that is used to define a container node in a scene.
 public protocol ZPositionContainer {
     var rawValue: String { get }
 }

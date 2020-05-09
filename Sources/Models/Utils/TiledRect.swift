@@ -1,5 +1,5 @@
 //
-//  MovementAxes.swift
+//  TiledRect.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -23,17 +23,33 @@
 //  SOFTWARE.
 //
 
-import Foundation
+import CoreGraphics
 
-/// Represents different options for axes of movement.
-public struct MovementAxes: OptionSet, Sequence {
-    public let rawValue: Int
+/// Rectangle in tile units.
+public struct TiledRect: Equatable {
+    public var origin: TiledPoint
+    public var size: TiledSize
     
-    public init(rawValue: Int) {
-        self.rawValue = rawValue
+    public init(origin: TiledPoint, size: TiledSize) {
+        self.origin = origin
+        self.size = size
     }
+}
+
+extension TiledRect: CustomStringConvertible {
+    public var description: String {
+        return "origin: \(origin), size: \(size)"
+    }
+}
+
+extension TiledRect {
     
-    public static let horizontal = MovementAxes(rawValue: 1 << 0)
-    public static let vertical = MovementAxes(rawValue: 1 << 1)
-    public static let circular = MovementAxes(rawValue: 1 << 2)
+    /// Returns the CGRect equivalent of the current rect
+    /// calculated with given tile size.
+    public func rect(with tileSize: CGSize) -> CGRect {
+        return CGRect(x: CGFloat(origin.x) * tileSize.width,
+                      y: CGFloat(origin.y) * tileSize.height,
+                      width: CGFloat(size.width) * tileSize.width,
+                      height: CGFloat(size.height) * tileSize.height)
+    }
 }

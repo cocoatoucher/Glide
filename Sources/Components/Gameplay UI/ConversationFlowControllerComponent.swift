@@ -70,7 +70,7 @@ final class ConversationFlowControllerComponent: GKComponent, GlideComponent {
         proceedToNextSpeechIfNeeded()
     }
     
-    /// MARK: - Private
+    // MARK: - Private
     
     /// Speech that's being currently displayed.
     private var currentSpeech: Speech?

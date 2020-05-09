@@ -50,9 +50,8 @@ struct CollisionTileMapRepresentation {
     init(tileRepresentations: [[ColliderTileRepresentation?]], tileSize: CGSize) {
         let columnCount = tileRepresentations.count
         let rowCount = tileRepresentations.first?.count ?? 0
-        assert(tileRepresentations.reduce(true) { (result, row) -> Bool in
-            return result && (row.count == rowCount)
-        })
+        
+        assert(tileRepresentations.allSatisfy { $0.count == rowCount })
         
         self.mapSize = TiledSize(columnCount, rowCount).size(with: tileSize)
         self.tileSize = tileSize

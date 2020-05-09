@@ -26,16 +26,16 @@
 #if os(macOS)
 import AppKit
 
-public class InputResponder {
-    public static func keyDown(with event: NSEvent) {
+class InputResponder {
+    static func keyDown(with event: NSEvent) {
         Input.shared.keyDown(with: event.keyCode)
     }
     
-    public static func keyUp(with event: NSEvent) {
+    static func keyUp(with event: NSEvent) {
         Input.shared.keyUp(with: event.keyCode)
     }
     
-    public static func flagsChanged(with event: NSEvent) {
+    static func flagsChanged(with event: NSEvent) {
         // Caps lock
         if event.modifierFlags.contains(.capsLock) {
             Input.shared.keyDown(with: KeyCode.capsLock.rawValue)
@@ -96,11 +96,11 @@ public class InputResponder {
         }
     }
     
-    public static func mouseDown(with event: NSEvent) {
+    static func mouseDown(with event: NSEvent) {
         Input.shared.mouseDown(with: event)
     }
     
-    public static func mouseUp(with event: NSEvent) {
+    static func mouseUp(with event: NSEvent) {
         Input.shared.mouseUp(with: event)
     }
 }

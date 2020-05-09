@@ -25,7 +25,7 @@
 
 import Foundation
 
-public extension GlideScene {
+extension GlideScene {
     
     var startCheckpoint: Checkpoint? {
         return entities.compactMap {

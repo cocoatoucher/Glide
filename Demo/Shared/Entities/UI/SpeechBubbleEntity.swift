@@ -213,7 +213,7 @@ class SpeechBubbleEntity: SpeechBubbleTemplateEntity {
         let labelNode = labelNodeComponent.labelNode
         let spriteNode = spriteNodeComponent.spriteNode
         
-        /// Due to a bug with SpriteKit not respecting z positions of siblings added to camera node.
+        // Due to a bug with SpriteKit not respecting z positions of siblings added to camera node.
         labelNode.removeFromParent()
         spriteNode.addChild(labelNode)
         

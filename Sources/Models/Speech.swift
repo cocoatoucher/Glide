@@ -25,17 +25,6 @@
 
 import Foundation
 
-/// Represents options to choose from at the end of a speech.
-public struct SpeechOption {
-    public let text: String
-    public let targetSpeech: Speech
-    
-    public init(text: String, targetSpeech: Speech) {
-        self.text = text
-        self.targetSpeech = targetSpeech
-    }
-}
-
 /// Represents list of text chunks that is typically displayed in a visual speech bubble.
 /// A speech might contain one or more text blocks, whereas one or more speeches compose
 /// a conversation.

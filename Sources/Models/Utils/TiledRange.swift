@@ -1,5 +1,5 @@
 //
-//  CGFloat+Extensions.swift
+//  TiledRange.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -23,12 +23,12 @@
 //  SOFTWARE.
 //
 
-import CoreGraphics
+import Foundation
 
-extension CGFloat {
-    
-    /// Common way of rounding floating numbers in the framework.
-    public var glideRound: CGFloat {
-        return Darwin.round(self)
-    }
+/// Range in tile units.
+public struct TiledRange {
+    let left: Int
+    let right: Int
+    let top: Int
+    let bottom: Int
 }

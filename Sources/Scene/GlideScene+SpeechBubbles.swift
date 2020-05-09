@@ -1,5 +1,5 @@
 //
-//  MovementAxes.swift
+//  GlideScene+SpeechBubbles.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -23,17 +23,28 @@
 //  SOFTWARE.
 //
 
-import Foundation
+import SpriteKit
 
-/// Represents different options for axes of movement.
-public struct MovementAxes: OptionSet, Sequence {
-    public let rawValue: Int
+extension GlideScene {
     
-    public init(rawValue: Int) {
-        self.rawValue = rawValue
+    /// Call this function to start the flow of the speeches of a conversation.
+    /// After calling this function provided template entities in the `Speech` objects will be
+    /// initialized and added to the scene in accordance with the flow.
+    ///
+    /// - Parameters:
+    ///     - conversation: Conversation to start the flow for.
+    public func startFlowForConversation(_ conversation: Conversation) {
+        conversationFlowControllerEntity.component(ofType: ConversationFlowControllerComponent.self)?.conversation = conversation
     }
     
-    public static let horizontal = MovementAxes(rawValue: 1 << 0)
-    public static let vertical = MovementAxes(rawValue: 1 << 1)
-    public static let circular = MovementAxes(rawValue: 1 << 2)
+    // MARK: - End scene
+    
+    /// Informs `glideSceneDelegate` of this scene to end the scene.
+    ///
+    /// - Parameters:
+    ///     - reason: A predefined reason for ending the scene if any.
+    ///     - context: Additional information to be used in context of ending the scene.
+    public func endScene(reason: GlideScene.EndReason?, context: [String: Any]? = nil) {
+        glideSceneDelegate?.glideSceneDidEnd(self, reason: reason, context: context)
+    }
 }

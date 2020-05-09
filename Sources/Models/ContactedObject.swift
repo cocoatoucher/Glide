@@ -1,5 +1,5 @@
 //
-//  MovementAxes.swift
+//  ContactedObject.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -25,15 +25,37 @@
 
 import Foundation
 
-/// Represents different options for axes of movement.
-public struct MovementAxes: OptionSet, Sequence {
-    public let rawValue: Int
+/// Value that indicates different types of objects that was involed in a contact
+/// or collision.
+public enum ContactedObject: Equatable {
     
-    public init(rawValue: Int) {
-        self.rawValue = rawValue
+    /// Other object is collider component of another entity.
+    case collider(ColliderComponent)
+    /// Other object is a collider tile.
+    case colliderTile(isEmptyTile: Bool)
+    /// Other object is a slope collider tile.
+    case slope(SlopeContext)
+    
+    public static func == (lhs: ContactedObject, rhs: ContactedObject) -> Bool {
+        switch (lhs, rhs) {
+        case let (.collider(lhsCollider), .collider(rhsCollider)):
+            return lhsCollider === rhsCollider
+        case let (.colliderTile(isLhsEmpty), .colliderTile(isRhsEmpty)):
+            return isLhsEmpty == isRhsEmpty
+        case let (.slope(lhsSlopeContext), .slope(rhsSlopeContext)):
+            return lhsSlopeContext == rhsSlopeContext
+        default:
+            return false
+        }
     }
     
-    public static let horizontal = MovementAxes(rawValue: 1 << 0)
-    public static let vertical = MovementAxes(rawValue: 1 << 1)
-    public static let circular = MovementAxes(rawValue: 1 << 2)
+    /// Returns collider component of the other object if the other object is an entity.
+    public var colliderComponent: ColliderComponent? {
+        switch self {
+        case let .collider(collider):
+            return collider
+        default:
+            return nil
+        }
+    }
 }

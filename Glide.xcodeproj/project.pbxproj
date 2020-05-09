@@ -118,18 +118,15 @@
 		4E3A70CD223155EB0060AF20 /* CollisionsController+CombinedContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A70CC223155EB0060AF20 /* CollisionsController+CombinedContactSidesTests.swift */; };
 		4E3A70CE223155EB0060AF20 /* CollisionsController+CombinedContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A70CC223155EB0060AF20 /* CollisionsController+CombinedContactSidesTests.swift */; };
 		4E3A70CF223155EB0060AF20 /* CollisionsController+CombinedContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3A70CC223155EB0060AF20 /* CollisionsController+CombinedContactSidesTests.swift */; };
-		4E3BD8A62258CB5E00110861 /* TextureAnimationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8A52258CB5E00110861 /* TextureAnimationAction.swift */; };
-		4E3BD8A72258CB5E00110861 /* TextureAnimationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8A52258CB5E00110861 /* TextureAnimationAction.swift */; };
-		4E3BD8A82258CB5E00110861 /* TextureAnimationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8A52258CB5E00110861 /* TextureAnimationAction.swift */; };
 		4E3BD8AA2258E76000110861 /* MovementStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8A92258E76000110861 /* MovementStyle.swift */; };
 		4E3BD8AB2258E76000110861 /* MovementStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8A92258E76000110861 /* MovementStyle.swift */; };
 		4E3BD8AC2258E76000110861 /* MovementStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8A92258E76000110861 /* MovementStyle.swift */; };
 		4E3BD8AE2258FBFC00110861 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8AD2258FBFC00110861 /* Direction.swift */; };
 		4E3BD8AF2258FBFC00110861 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8AD2258FBFC00110861 /* Direction.swift */; };
 		4E3BD8B02258FBFC00110861 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8AD2258FBFC00110861 /* Direction.swift */; };
-		4E3BD8B222590AB800110861 /* CircularMovementDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B122590AB800110861 /* CircularMovementDirection.swift */; };
-		4E3BD8B322590AB800110861 /* CircularMovementDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B122590AB800110861 /* CircularMovementDirection.swift */; };
-		4E3BD8B422590AB800110861 /* CircularMovementDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B122590AB800110861 /* CircularMovementDirection.swift */; };
+		4E3BD8B222590AB800110861 /* CircularDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B122590AB800110861 /* CircularDirection.swift */; };
+		4E3BD8B322590AB800110861 /* CircularDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B122590AB800110861 /* CircularDirection.swift */; };
+		4E3BD8B422590AB800110861 /* CircularDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B122590AB800110861 /* CircularDirection.swift */; };
 		4E3BD8B7225A323C00110861 /* ProjectileTemplateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B6225A323C00110861 /* ProjectileTemplateEntity.swift */; };
 		4E3BD8B8225A323C00110861 /* ProjectileTemplateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B6225A323C00110861 /* ProjectileTemplateEntity.swift */; };
 		4E3BD8B9225A323C00110861 /* ProjectileTemplateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3BD8B6225A323C00110861 /* ProjectileTemplateEntity.swift */; };
@@ -142,9 +139,6 @@
 		4E47BEEE2276130C009ED639 /* Array+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEED2276130C009ED639 /* Array+Difference.swift */; };
 		4E47BEEF2276134E009ED639 /* Array+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEED2276130C009ED639 /* Array+Difference.swift */; };
 		4E47BEF12276134F009ED639 /* Array+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEED2276130C009ED639 /* Array+Difference.swift */; };
-		4E47BEF722762453009ED639 /* GlideSceneEndReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEF622762453009ED639 /* GlideSceneEndReason.swift */; };
-		4E47BEF8227624E1009ED639 /* GlideSceneEndReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEF622762453009ED639 /* GlideSceneEndReason.swift */; };
-		4E47BEF9227624E1009ED639 /* GlideSceneEndReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEF622762453009ED639 /* GlideSceneEndReason.swift */; };
 		4E47BEFB22762541009ED639 /* GlideSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEFA22762541009ED639 /* GlideSceneDelegate.swift */; };
 		4E47BEFC22762541009ED639 /* GlideSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEFA22762541009ED639 /* GlideSceneDelegate.swift */; };
 		4E47BEFD22762541009ED639 /* GlideSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E47BEFA22762541009ED639 /* GlideSceneDelegate.swift */; };
@@ -208,7 +202,6 @@
 		4E6F2E8D21F5D82D004BB1D6 /* GlideScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A12217B34D90080394E /* GlideScene.swift */; };
 		4E6F2E8F21F5D832004BB1D6 /* ColliderTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A10217B13AC0080394E /* ColliderTile.swift */; };
 		4E6F2E9021F5D834004BB1D6 /* GlideCategoryMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A0E217B11180080394E /* GlideCategoryMask.swift */; };
-		4E6F2E9321F5D83C004BB1D6 /* TiledGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751574217A09FC0066DA2F /* TiledGeometry.swift */; };
 		4E6F2E9421F5D840004BB1D6 /* CollisionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A06217A8ED80080394E /* CollisionsController.swift */; };
 		4E6F2E9521F5D844004BB1D6 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A14217B39700080394E /* Input.swift */; };
 		4E6F2E9621F5D844004BB1D6 /* GameControllerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A1A217B39C90080394E /* GameControllerObserver.swift */; };
@@ -278,6 +271,75 @@
 		4E6F2EDD21F5D8AA004BB1D6 /* Slope_3_0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E75159B217A2DAD0066DA2F /* Slope_3_0.swift */; };
 		4E6F2EDE21F5D8AA004BB1D6 /* Slope_0_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E75159C217A2DAD0066DA2F /* Slope_0_3.swift */; };
 		4E6F2EDF21F5D8AD004BB1D6 /* SlopeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751589217A2A4C0066DA2F /* SlopeContext.swift */; };
+		4E718F692465B9DE005057D7 /* CGPoint+Lerping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F682465B9DE005057D7 /* CGPoint+Lerping.swift */; };
+		4E718F6C2465B9F1005057D7 /* GlideScene.EndReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F6A2465B9F1005057D7 /* GlideScene.EndReason.swift */; };
+		4E718F6D2465B9F1005057D7 /* TextureAnimation.Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F6B2465B9F1005057D7 /* TextureAnimation.Action.swift */; };
+		4E718F6E2465BCB8005057D7 /* CGPoint+Lerping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F682465B9DE005057D7 /* CGPoint+Lerping.swift */; };
+		4E718F6F2465BCC4005057D7 /* CGPoint+Lerping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F682465B9DE005057D7 /* CGPoint+Lerping.swift */; };
+		4E718F702465BCD4005057D7 /* TextureAnimation.Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F6B2465B9F1005057D7 /* TextureAnimation.Action.swift */; };
+		4E718F712465BCF3005057D7 /* GlideScene.EndReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F6A2465B9F1005057D7 /* GlideScene.EndReason.swift */; };
+		4E718F722465BCF3005057D7 /* TextureAnimation.Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F6B2465B9F1005057D7 /* TextureAnimation.Action.swift */; };
+		4E718F732465BCFF005057D7 /* GlideScene.EndReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F6A2465B9F1005057D7 /* GlideScene.EndReason.swift */; };
+		4E718F752465CEA7005057D7 /* ContactSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F742465CEA7005057D7 /* ContactSide.swift */; };
+		4E718F772465D1E2005057D7 /* LightMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F762465D1E2005057D7 /* LightMask.swift */; };
+		4E718F782465D25B005057D7 /* LightMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F762465D1E2005057D7 /* LightMask.swift */; };
+		4E718F792465D25C005057D7 /* LightMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F762465D1E2005057D7 /* LightMask.swift */; };
+		4E718F7A2465D25F005057D7 /* ContactSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F742465CEA7005057D7 /* ContactSide.swift */; };
+		4E718F7B2465D25F005057D7 /* ContactSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F742465CEA7005057D7 /* ContactSide.swift */; };
+		4E718F7D2465D2C1005057D7 /* OptionSetIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F7C2465D2C1005057D7 /* OptionSetIterator.swift */; };
+		4E718F7E2465D2C6005057D7 /* OptionSetIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F7C2465D2C1005057D7 /* OptionSetIterator.swift */; };
+		4E718F7F2465D2C7005057D7 /* OptionSetIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F7C2465D2C1005057D7 /* OptionSetIterator.swift */; };
+		4E718F812465D739005057D7 /* SpeechOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F802465D739005057D7 /* SpeechOption.swift */; };
+		4E718F822465D73F005057D7 /* SpeechOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F802465D739005057D7 /* SpeechOption.swift */; };
+		4E718F832465D73F005057D7 /* SpeechOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F802465D739005057D7 /* SpeechOption.swift */; };
+		4E718F852465D79C005057D7 /* TiledPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F842465D79C005057D7 /* TiledPoint.swift */; };
+		4E718F862465D8A4005057D7 /* TiledPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F842465D79C005057D7 /* TiledPoint.swift */; };
+		4E718F872465D8A4005057D7 /* TiledPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F842465D79C005057D7 /* TiledPoint.swift */; };
+		4E718F892465D8C7005057D7 /* TiledSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F882465D8C7005057D7 /* TiledSize.swift */; };
+		4E718F8A2465D8C7005057D7 /* TiledSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F882465D8C7005057D7 /* TiledSize.swift */; };
+		4E718F8B2465D8C7005057D7 /* TiledSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F882465D8C7005057D7 /* TiledSize.swift */; };
+		4E718F8D2465D8FE005057D7 /* TiledRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F8C2465D8FE005057D7 /* TiledRect.swift */; };
+		4E718F8E2465D8FE005057D7 /* TiledRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F8C2465D8FE005057D7 /* TiledRect.swift */; };
+		4E718F8F2465D8FE005057D7 /* TiledRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F8C2465D8FE005057D7 /* TiledRect.swift */; };
+		4E718F912465DB33005057D7 /* TiledRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F902465DB33005057D7 /* TiledRange.swift */; };
+		4E718F922465DB33005057D7 /* TiledRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F902465DB33005057D7 /* TiledRange.swift */; };
+		4E718F932465DB33005057D7 /* TiledRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F902465DB33005057D7 /* TiledRange.swift */; };
+		4E718F952465DB93005057D7 /* CGRect+TiledRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F942465DB93005057D7 /* CGRect+TiledRect.swift */; };
+		4E718F962465DB93005057D7 /* CGRect+TiledRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F942465DB93005057D7 /* CGRect+TiledRect.swift */; };
+		4E718F972465DB93005057D7 /* CGRect+TiledRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F942465DB93005057D7 /* CGRect+TiledRect.swift */; };
+		4E718F992465E9B7005057D7 /* CGPoint+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F982465E9B7005057D7 /* CGPoint+Operators.swift */; };
+		4E718F9A2465E9B7005057D7 /* CGPoint+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F982465E9B7005057D7 /* CGPoint+Operators.swift */; };
+		4E718F9B2465E9B7005057D7 /* CGPoint+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F982465E9B7005057D7 /* CGPoint+Operators.swift */; };
+		4E718F9D2465E9F7005057D7 /* CGSize+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F9C2465E9F7005057D7 /* CGSize+Operators.swift */; };
+		4E718F9E2465E9F7005057D7 /* CGSize+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F9C2465E9F7005057D7 /* CGSize+Operators.swift */; };
+		4E718F9F2465E9F7005057D7 /* CGSize+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718F9C2465E9F7005057D7 /* CGSize+Operators.swift */; };
+		4E718FA62465EA98005057D7 /* CGVector+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FA52465EA98005057D7 /* CGVector+Operators.swift */; };
+		4E718FA72465EA98005057D7 /* CGVector+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FA52465EA98005057D7 /* CGVector+Operators.swift */; };
+		4E718FA82465EA98005057D7 /* CGVector+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FA52465EA98005057D7 /* CGVector+Operators.swift */; };
+		4E718FAA2465EF7C005057D7 /* ContactedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FA92465EF7C005057D7 /* ContactedObject.swift */; };
+		4E718FAB2465EF7C005057D7 /* ContactedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FA92465EF7C005057D7 /* ContactedObject.swift */; };
+		4E718FAC2465EF7C005057D7 /* ContactedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FA92465EF7C005057D7 /* ContactedObject.swift */; };
+		4E718FAE2465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FAD2465EFB1005057D7 /* NodeLayoutConstraint.swift */; };
+		4E718FAF2465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FAD2465EFB1005057D7 /* NodeLayoutConstraint.swift */; };
+		4E718FB02465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FAD2465EFB1005057D7 /* NodeLayoutConstraint.swift */; };
+		4E718FB22465EFEC005057D7 /* TouchInputProfilesOrCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FB12465EFEC005057D7 /* TouchInputProfilesOrCallback.swift */; };
+		4E718FB32465EFEC005057D7 /* TouchInputProfilesOrCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FB12465EFEC005057D7 /* TouchInputProfilesOrCallback.swift */; };
+		4E718FB42465EFEC005057D7 /* TouchInputProfilesOrCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FB12465EFEC005057D7 /* TouchInputProfilesOrCallback.swift */; };
+		4E718FB724673F03005057D7 /* GlideScene+SpeechBubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FB624673F03005057D7 /* GlideScene+SpeechBubbles.swift */; };
+		4E718FB824673F03005057D7 /* GlideScene+SpeechBubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FB624673F03005057D7 /* GlideScene+SpeechBubbles.swift */; };
+		4E718FB924673F03005057D7 /* GlideScene+SpeechBubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FB624673F03005057D7 /* GlideScene+SpeechBubbles.swift */; };
+		4E718FBB246741BE005057D7 /* GlideScene+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FBA246741BE005057D7 /* GlideScene+Camera.swift */; };
+		4E718FBC246741BE005057D7 /* GlideScene+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FBA246741BE005057D7 /* GlideScene+Camera.swift */; };
+		4E718FBD246741BE005057D7 /* GlideScene+Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FBA246741BE005057D7 /* GlideScene+Camera.swift */; };
+		4E718FBF2467425A005057D7 /* GlideScene+UpdateCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FBE2467425A005057D7 /* GlideScene+UpdateCycle.swift */; };
+		4E718FC02467425A005057D7 /* GlideScene+UpdateCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FBE2467425A005057D7 /* GlideScene+UpdateCycle.swift */; };
+		4E718FC12467425A005057D7 /* GlideScene+UpdateCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FBE2467425A005057D7 /* GlideScene+UpdateCycle.swift */; };
+		4E718FC3246742ED005057D7 /* GlideScene+EntityManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FC2246742ED005057D7 /* GlideScene+EntityManagement.swift */; };
+		4E718FC4246742ED005057D7 /* GlideScene+EntityManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FC2246742ED005057D7 /* GlideScene+EntityManagement.swift */; };
+		4E718FC5246742ED005057D7 /* GlideScene+EntityManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FC2246742ED005057D7 /* GlideScene+EntityManagement.swift */; };
+		4E718FC7246775B1005057D7 /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 4E718FC6246775B1005057D7 /* .jazzy.yaml */; };
+		4E718FC8246775B1005057D7 /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 4E718FC6246775B1005057D7 /* .jazzy.yaml */; };
+		4E718FC9246775B1005057D7 /* .jazzy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 4E718FC6246775B1005057D7 /* .jazzy.yaml */; };
 		4E72C02322F31E7300D68F52 /* USBGameControllerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01A22F31E7200D68F52 /* USBGameControllerObserver.swift */; };
 		4E72C02422F31E7300D68F52 /* USBGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01B22F31E7200D68F52 /* USBGameController.swift */; };
 		4E72C02522F31E7300D68F52 /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72C01C22F31E7200D68F52 /* Stick.swift */; };
@@ -290,7 +352,6 @@
 		4E73161B2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
 		4E73161C2239B4F0004FFDDB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7316192239B4F0004FFDDB /* Application.swift */; };
 		4E7515722179F8010066DA2F /* SpriteNodeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7515712179F8010066DA2F /* SpriteNodeComponent.swift */; };
-		4E751575217A09FC0066DA2F /* TiledGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751574217A09FC0066DA2F /* TiledGeometry.swift */; };
 		4E751577217A0E550066DA2F /* KinematicsBodyComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751576217A0E550066DA2F /* KinematicsBodyComponent.swift */; };
 		4E75158A217A2A4C0066DA2F /* SlopeContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751589217A2A4C0066DA2F /* SlopeContext.swift */; };
 		4E75159D217A2DAD0066DA2F /* Slope_0_15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E75158D217A2DAD0066DA2F /* Slope_0_15.swift */; };
@@ -391,9 +452,9 @@
 		4E9C7ACA22609E0600082C99 /* CategoryMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7AC922609E0600082C99 /* CategoryMask.swift */; };
 		4E9C7ACB22609E0600082C99 /* CategoryMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7AC922609E0600082C99 /* CategoryMask.swift */; };
 		4E9C7ACC22609E0600082C99 /* CategoryMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7AC922609E0600082C99 /* CategoryMask.swift */; };
-		4E9C7ACE22609E5400082C99 /* GlideScene+ContactTestMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7ACD22609E5400082C99 /* GlideScene+ContactTestMap.swift */; };
-		4E9C7ACF22609E5400082C99 /* GlideScene+ContactTestMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7ACD22609E5400082C99 /* GlideScene+ContactTestMap.swift */; };
-		4E9C7AD022609E5400082C99 /* GlideScene+ContactTestMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7ACD22609E5400082C99 /* GlideScene+ContactTestMap.swift */; };
+		4E9C7ACE22609E5400082C99 /* GlideScene+Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7ACD22609E5400082C99 /* GlideScene+Contacts.swift */; };
+		4E9C7ACF22609E5400082C99 /* GlideScene+Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7ACD22609E5400082C99 /* GlideScene+Contacts.swift */; };
+		4E9C7AD022609E5400082C99 /* GlideScene+Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7ACD22609E5400082C99 /* GlideScene+Contacts.swift */; };
 		4E9C7AD22260C27300082C99 /* SpeechBubbleTemplateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7AD12260C27300082C99 /* SpeechBubbleTemplateEntity.swift */; };
 		4E9C7AD32260C27300082C99 /* SpeechBubbleTemplateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7AD12260C27300082C99 /* SpeechBubbleTemplateEntity.swift */; };
 		4E9C7AD42260C27300082C99 /* SpeechBubbleTemplateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9C7AD12260C27300082C99 /* SpeechBubbleTemplateEntity.swift */; };
@@ -447,18 +508,15 @@
 		4EBF284B2264832900AE954B /* SceneTileMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284A2264832900AE954B /* SceneTileMaps.swift */; };
 		4EBF284C2264832900AE954B /* SceneTileMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284A2264832900AE954B /* SceneTileMaps.swift */; };
 		4EBF284D2264832900AE954B /* SceneTileMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284A2264832900AE954B /* SceneTileMaps.swift */; };
-		4EBF284F2265023600AE954B /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284E2265023600AE954B /* CGFloat+Extensions.swift */; };
-		4EBF28502265023600AE954B /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284E2265023600AE954B /* CGFloat+Extensions.swift */; };
-		4EBF28512265023600AE954B /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284E2265023600AE954B /* CGFloat+Extensions.swift */; };
-		4EBF2853226503A700AE954B /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2852226503A700AE954B /* CGSize+Extensions.swift */; };
-		4EBF2854226503A700AE954B /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2852226503A700AE954B /* CGSize+Extensions.swift */; };
-		4EBF2855226503A700AE954B /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2852226503A700AE954B /* CGSize+Extensions.swift */; };
-		4EBF28572265043300AE954B /* Lerping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF28562265043300AE954B /* Lerping.swift */; };
-		4EBF28582265043300AE954B /* Lerping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF28562265043300AE954B /* Lerping.swift */; };
-		4EBF28592265043300AE954B /* Lerping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF28562265043300AE954B /* Lerping.swift */; };
-		4EBF285B22651BCD00AE954B /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285A22651BCD00AE954B /* Int+Extensions.swift */; };
-		4EBF285C22651BCD00AE954B /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285A22651BCD00AE954B /* Int+Extensions.swift */; };
-		4EBF285D22651BCD00AE954B /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285A22651BCD00AE954B /* Int+Extensions.swift */; };
+		4EBF284F2265023600AE954B /* CGFloat+GlideRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284E2265023600AE954B /* CGFloat+GlideRound.swift */; };
+		4EBF28502265023600AE954B /* CGFloat+GlideRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284E2265023600AE954B /* CGFloat+GlideRound.swift */; };
+		4EBF28512265023600AE954B /* CGFloat+GlideRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF284E2265023600AE954B /* CGFloat+GlideRound.swift */; };
+		4EBF2853226503A700AE954B /* CGSize+TiledSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2852226503A700AE954B /* CGSize+TiledSize.swift */; };
+		4EBF2854226503A700AE954B /* CGSize+TiledSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2852226503A700AE954B /* CGSize+TiledSize.swift */; };
+		4EBF2855226503A700AE954B /* CGSize+TiledSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2852226503A700AE954B /* CGSize+TiledSize.swift */; };
+		4EBF285B22651BCD00AE954B /* Int+Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285A22651BCD00AE954B /* Int+Clamp.swift */; };
+		4EBF285C22651BCD00AE954B /* Int+Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285A22651BCD00AE954B /* Int+Clamp.swift */; };
+		4EBF285D22651BCD00AE954B /* Int+Clamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285A22651BCD00AE954B /* Int+Clamp.swift */; };
 		4EBF285F2265E62800AE954B /* ColliderTileRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285E2265E62800AE954B /* ColliderTileRepresentation.swift */; };
 		4EBF28602265E62800AE954B /* ColliderTileRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285E2265E62800AE954B /* ColliderTileRepresentation.swift */; };
 		4EBF28612265E62800AE954B /* ColliderTileRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF285E2265E62800AE954B /* ColliderTileRepresentation.swift */; };
@@ -491,7 +549,6 @@
 		4EC50D40217DEA99005D66FC /* ColliderTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A10217B13AC0080394E /* ColliderTile.swift */; };
 		4EC50D41217DEA99005D66FC /* GlideCategoryMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A0E217B11180080394E /* GlideCategoryMask.swift */; };
 		4EC50D71217DEABD005D66FC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A1D217B39F20080394E /* Color.swift */; };
-		4EC50D72217DEABD005D66FC /* TiledGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E751574217A09FC0066DA2F /* TiledGeometry.swift */; };
 		4EC50D73217DEABD005D66FC /* CollisionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A06217A8ED80080394E /* CollisionsController.swift */; };
 		4EC50D74217DEABD005D66FC /* GameControllerObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A1A217B39C90080394E /* GameControllerObserver.swift */; };
 		4EC50D75217DEABD005D66FC /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E867A14217B39700080394E /* Input.swift */; };
@@ -706,15 +763,13 @@
 		4E3A70AE22310E1E0060AF20 /* LightNodeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightNodeComponent.swift; sourceTree = "<group>"; };
 		4E3A70B3223123C50060AF20 /* SKTileMapNode+SetNormalTextures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTileMapNode+SetNormalTextures.swift"; sourceTree = "<group>"; };
 		4E3A70CC223155EB0060AF20 /* CollisionsController+CombinedContactSidesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollisionsController+CombinedContactSidesTests.swift"; sourceTree = "<group>"; };
-		4E3BD8A52258CB5E00110861 /* TextureAnimationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureAnimationAction.swift; sourceTree = "<group>"; };
 		4E3BD8A92258E76000110861 /* MovementStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementStyle.swift; sourceTree = "<group>"; };
 		4E3BD8AD2258FBFC00110861 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
-		4E3BD8B122590AB800110861 /* CircularMovementDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularMovementDirection.swift; sourceTree = "<group>"; };
+		4E3BD8B122590AB800110861 /* CircularDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularDirection.swift; sourceTree = "<group>"; };
 		4E3BD8B6225A323C00110861 /* ProjectileTemplateEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectileTemplateEntity.swift; sourceTree = "<group>"; };
 		4E47BEB122738F08009ED639 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 		4E47BEC122746C2F009ED639 /* GKEntity+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GKEntity+Name.swift"; sourceTree = "<group>"; };
 		4E47BEED2276130C009ED639 /* Array+Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Difference.swift"; sourceTree = "<group>"; };
-		4E47BEF622762453009ED639 /* GlideSceneEndReason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlideSceneEndReason.swift; sourceTree = "<group>"; };
 		4E47BEFA22762541009ED639 /* GlideSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlideSceneDelegate.swift; sourceTree = "<group>"; };
 		4E47D21E223EE8B6007F4306 /* SpeechFlowControllerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechFlowControllerComponent.swift; sourceTree = "<group>"; };
 		4E47D223223EE9F9007F4306 /* ConversationFlowControllerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationFlowControllerComponent.swift; sourceTree = "<group>"; };
@@ -749,6 +804,29 @@
 		4E6F2E6321F5D71E004BB1D6 /* Glide_iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F2E7321F5D75A004BB1D6 /* GlideEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlideEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6F2E7F21F5D78E004BB1D6 /* Glide_tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glide_tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E718F682465B9DE005057D7 /* CGPoint+Lerping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Lerping.swift"; sourceTree = "<group>"; };
+		4E718F6A2465B9F1005057D7 /* GlideScene.EndReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlideScene.EndReason.swift; sourceTree = "<group>"; };
+		4E718F6B2465B9F1005057D7 /* TextureAnimation.Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureAnimation.Action.swift; sourceTree = "<group>"; };
+		4E718F742465CEA7005057D7 /* ContactSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSide.swift; sourceTree = "<group>"; };
+		4E718F762465D1E2005057D7 /* LightMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMask.swift; sourceTree = "<group>"; };
+		4E718F7C2465D2C1005057D7 /* OptionSetIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSetIterator.swift; sourceTree = "<group>"; };
+		4E718F802465D739005057D7 /* SpeechOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechOption.swift; sourceTree = "<group>"; };
+		4E718F842465D79C005057D7 /* TiledPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledPoint.swift; sourceTree = "<group>"; };
+		4E718F882465D8C7005057D7 /* TiledSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledSize.swift; sourceTree = "<group>"; };
+		4E718F8C2465D8FE005057D7 /* TiledRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledRect.swift; sourceTree = "<group>"; };
+		4E718F902465DB33005057D7 /* TiledRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledRange.swift; sourceTree = "<group>"; };
+		4E718F942465DB93005057D7 /* CGRect+TiledRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+TiledRect.swift"; sourceTree = "<group>"; };
+		4E718F982465E9B7005057D7 /* CGPoint+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Operators.swift"; sourceTree = "<group>"; };
+		4E718F9C2465E9F7005057D7 /* CGSize+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Operators.swift"; sourceTree = "<group>"; };
+		4E718FA52465EA98005057D7 /* CGVector+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGVector+Operators.swift"; sourceTree = "<group>"; };
+		4E718FA92465EF7C005057D7 /* ContactedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactedObject.swift; sourceTree = "<group>"; };
+		4E718FAD2465EFB1005057D7 /* NodeLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeLayoutConstraint.swift; sourceTree = "<group>"; };
+		4E718FB12465EFEC005057D7 /* TouchInputProfilesOrCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchInputProfilesOrCallback.swift; sourceTree = "<group>"; };
+		4E718FB624673F03005057D7 /* GlideScene+SpeechBubbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlideScene+SpeechBubbles.swift"; sourceTree = "<group>"; };
+		4E718FBA246741BE005057D7 /* GlideScene+Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlideScene+Camera.swift"; sourceTree = "<group>"; };
+		4E718FBE2467425A005057D7 /* GlideScene+UpdateCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlideScene+UpdateCycle.swift"; sourceTree = "<group>"; };
+		4E718FC2246742ED005057D7 /* GlideScene+EntityManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlideScene+EntityManagement.swift"; sourceTree = "<group>"; };
+		4E718FC6246775B1005057D7 /* .jazzy.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .jazzy.yaml; sourceTree = "<group>"; };
 		4E72C01A22F31E7200D68F52 /* USBGameControllerObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USBGameControllerObserver.swift; sourceTree = "<group>"; };
 		4E72C01B22F31E7200D68F52 /* USBGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USBGameController.swift; sourceTree = "<group>"; };
 		4E72C01C22F31E7200D68F52 /* Stick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
@@ -760,7 +838,6 @@
 		4E7316192239B4F0004FFDDB /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		4E7515562179F7EA0066DA2F /* GlideEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GlideEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7515712179F8010066DA2F /* SpriteNodeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteNodeComponent.swift; sourceTree = "<group>"; };
-		4E751574217A09FC0066DA2F /* TiledGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledGeometry.swift; sourceTree = "<group>"; };
 		4E751576217A0E550066DA2F /* KinematicsBodyComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinematicsBodyComponent.swift; sourceTree = "<group>"; };
 		4E751589217A2A4C0066DA2F /* SlopeContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlopeContext.swift; sourceTree = "<group>"; };
 		4E75158D217A2DAD0066DA2F /* Slope_0_15.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slope_0_15.swift; sourceTree = "<group>"; };
@@ -819,7 +896,7 @@
 		4E9C1E6221948E170085B808 /* WallClingerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallClingerComponent.swift; sourceTree = "<group>"; };
 		4E9C7AC5226092ED00082C99 /* HitPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitPoints.swift; sourceTree = "<group>"; };
 		4E9C7AC922609E0600082C99 /* CategoryMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryMask.swift; sourceTree = "<group>"; };
-		4E9C7ACD22609E5400082C99 /* GlideScene+ContactTestMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlideScene+ContactTestMap.swift"; sourceTree = "<group>"; };
+		4E9C7ACD22609E5400082C99 /* GlideScene+Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlideScene+Contacts.swift"; sourceTree = "<group>"; };
 		4E9C7AD12260C27300082C99 /* SpeechBubbleTemplateEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubbleTemplateEntity.swift; sourceTree = "<group>"; };
 		4E9C7AD62261404200082C99 /* GlideEntity+TouchInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlideEntity+TouchInput.swift"; sourceTree = "<group>"; };
 		4E9C7AD82261C95C00082C99 /* ColliderComponent+Debuggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColliderComponent+Debuggable.swift"; sourceTree = "<group>"; };
@@ -840,10 +917,9 @@
 		4EBF28212263E3BF00AE954B /* TiledMapEditorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledMapEditorModels.swift; sourceTree = "<group>"; };
 		4EBF282F2263E47500AE954B /* ContactContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactContext.swift; sourceTree = "<group>"; };
 		4EBF284A2264832900AE954B /* SceneTileMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneTileMaps.swift; sourceTree = "<group>"; };
-		4EBF284E2265023600AE954B /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
-		4EBF2852226503A700AE954B /* CGSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
-		4EBF28562265043300AE954B /* Lerping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lerping.swift; sourceTree = "<group>"; };
-		4EBF285A22651BCD00AE954B /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		4EBF284E2265023600AE954B /* CGFloat+GlideRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+GlideRound.swift"; sourceTree = "<group>"; };
+		4EBF2852226503A700AE954B /* CGSize+TiledSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+TiledSize.swift"; sourceTree = "<group>"; };
+		4EBF285A22651BCD00AE954B /* Int+Clamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Clamp.swift"; sourceTree = "<group>"; };
 		4EBF285E2265E62800AE954B /* ColliderTileRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColliderTileRepresentation.swift; sourceTree = "<group>"; };
 		4EBF28622266700E00AE954B /* GlideZPositionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlideZPositionContainer.swift; sourceTree = "<group>"; };
 		4EBF28672267676F00AE954B /* NavigatableButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatableButtonContentView.swift; sourceTree = "<group>"; };
@@ -975,9 +1051,11 @@
 		4E002C51226F287000DE2357 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				4E751574217A09FC0066DA2F /* TiledGeometry.swift */,
-				4EBF28562265043300AE954B /* Lerping.swift */,
 				4EBF28BB226DEC9500AE954B /* RoundedAngle.swift */,
+				4E718F842465D79C005057D7 /* TiledPoint.swift */,
+				4E718F882465D8C7005057D7 /* TiledSize.swift */,
+				4E718F8C2465D8FE005057D7 /* TiledRect.swift */,
+				4E718F902465DB33005057D7 /* TiledRange.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -1223,6 +1301,7 @@
 				4EBF281F2263E37A00AE954B /* TiledMapEditorSceneLoader */,
 				4E3A498121F083C7006C5916 /* CrossPlatform */,
 				4E3A495C21F08341006C5916 /* UI */,
+				4E718FB52465F071005057D7 /* Utils */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -1231,10 +1310,14 @@
 			isa = PBXGroup;
 			children = (
 				4E867A12217B34D90080394E /* GlideScene.swift */,
-				4E47BEFA22762541009ED639 /* GlideSceneDelegate.swift */,
+				4E718FBE2467425A005057D7 /* GlideScene+UpdateCycle.swift */,
+				4E718FC2246742ED005057D7 /* GlideScene+EntityManagement.swift */,
 				4E8EF8D02226D8C7009077C9 /* GlideScene+Checkpoints.swift */,
-				4E9C7ACD22609E5400082C99 /* GlideScene+ContactTestMap.swift */,
+				4E9C7ACD22609E5400082C99 /* GlideScene+Contacts.swift */,
 				4E9C7ADC226266FA00082C99 /* GlideScene+ZPositionContainers.swift */,
+				4E47BEFA22762541009ED639 /* GlideSceneDelegate.swift */,
+				4E718FB624673F03005057D7 /* GlideScene+SpeechBubbles.swift */,
+				4E718FBA246741BE005057D7 /* GlideScene+Camera.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -1246,6 +1329,25 @@
 				4E4E22E9217BA117009F5C3E /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		4E718FA02465EA28005057D7 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				4E718F982465E9B7005057D7 /* CGPoint+Operators.swift */,
+				4E718F9C2465E9F7005057D7 /* CGSize+Operators.swift */,
+				4E718FA52465EA98005057D7 /* CGVector+Operators.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		4E718FB52465F071005057D7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4E8EF89022235A6A009077C9 /* DefaultInputProfiles.swift */,
+				4E8EF8C222254A35009077C9 /* ComponentPriorityRegistry.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		4E72C01922F31E5900D68F52 /* USBGameController */ = {
@@ -1273,6 +1375,7 @@
 				4E994EA222F47D6A00198216 /* Package.swift */,
 				4EBF28742267D48400AE954B /* GlideEngine.podspec */,
 				4E306B0822332DAB009E907D /* .swiftlint.yml */,
+				4E718FC6246775B1005057D7 /* .jazzy.yaml */,
 				4E6F2E4521F5BBCE004BB1D6 /* Sources */,
 				4E6F2E4921F5C9D7004BB1D6 /* Tests */,
 				4E7515572179F7EA0066DA2F /* Products */,
@@ -1296,7 +1399,6 @@
 		4E7515702179F7EF0066DA2F /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				4E8EF8C222254A35009077C9 /* ComponentPriorityRegistry.swift */,
 				4E867A29217B44F30080394E /* Component Protocols */,
 				4E9C1E5F2194825E0085B808 /* Core */,
 				4E4FA51421E4CF7D003E9E9D /* Movement */,
@@ -1317,23 +1419,30 @@
 				4E002C51226F287000DE2357 /* Utils */,
 				4EBF284A2264832900AE954B /* SceneTileMaps.swift */,
 				4E5D9EED221B7FE900B62391 /* Contact.swift */,
+				4E718F742465CEA7005057D7 /* ContactSide.swift */,
+				4E718FA92465EF7C005057D7 /* ContactedObject.swift */,
 				4E867A10217B13AC0080394E /* ColliderTile.swift */,
 				4E9C7AC922609E0600082C99 /* CategoryMask.swift */,
 				4E867A0E217B11180080394E /* GlideCategoryMask.swift */,
 				4E9C7AE02262781C00082C99 /* ZPositionContainer.swift */,
 				4EBF28622266700E00AE954B /* GlideZPositionContainer.swift */,
 				4EC50DBD217F2CB5005D66FC /* TextureAnimation.swift */,
-				4E3BD8A52258CB5E00110861 /* TextureAnimationAction.swift */,
 				4E867A2F217B4ACF0080394E /* Checkpoint.swift */,
 				4E3BD8A92258E76000110861 /* MovementStyle.swift */,
 				4E3BD8AD2258FBFC00110861 /* Direction.swift */,
-				4E3BD8B122590AB800110861 /* CircularMovementDirection.swift */,
+				4E3BD8B122590AB800110861 /* CircularDirection.swift */,
 				4E105419225C9B510059CFEE /* MovementAxes.swift */,
 				4E9C7AC5226092ED00082C99 /* HitPoints.swift */,
 				4E47BEB122738F08009ED639 /* Conversation.swift */,
 				4E1C0A76220B271600198B62 /* Speech.swift */,
+				4E718F802465D739005057D7 /* SpeechOption.swift */,
 				4E002C52226F28BF00DE2357 /* ProjectileShootingProperties.swift */,
-				4E47BEF622762453009ED639 /* GlideSceneEndReason.swift */,
+				4E718F6A2465B9F1005057D7 /* GlideScene.EndReason.swift */,
+				4E718F6B2465B9F1005057D7 /* TextureAnimation.Action.swift */,
+				4E718F762465D1E2005057D7 /* LightMask.swift */,
+				4E718F7C2465D2C1005057D7 /* OptionSetIterator.swift */,
+				4E718FAD2465EFB1005057D7 /* NodeLayoutConstraint.swift */,
+				4E718FB12465EFEC005057D7 /* TouchInputProfilesOrCallback.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1386,11 +1495,13 @@
 		4E7515AB217A2E390066DA2F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				4E718FA02465EA28005057D7 /* Operators */,
 				4E7515AD217A2EF40066DA2F /* CGPoint+Extensions.swift */,
-				4EBF2852226503A700AE954B /* CGSize+Extensions.swift */,
+				4EBF2852226503A700AE954B /* CGSize+TiledSize.swift */,
+				4E718F942465DB93005057D7 /* CGRect+TiledRect.swift */,
 				4E7515AE217A2EF40066DA2F /* CGVector+Extensions.swift */,
-				4EBF284E2265023600AE954B /* CGFloat+Extensions.swift */,
-				4EBF285A22651BCD00AE954B /* Int+Extensions.swift */,
+				4EBF284E2265023600AE954B /* CGFloat+GlideRound.swift */,
+				4EBF285A22651BCD00AE954B /* Int+Clamp.swift */,
 				4E7515AC217A2EF40066DA2F /* SKAction+TextureAnimation.swift */,
 				4E6A15422220465700744C87 /* SKTileMapNode+TileRepresentations.swift */,
 				4E3A70B3223123C50060AF20 /* SKTileMapNode+SetNormalTextures.swift */,
@@ -1399,6 +1510,7 @@
 				4E47BEED2276130C009ED639 /* Array+Difference.swift */,
 				4E6CB13822876DD60030CC4D /* GCController+DeviceHash.swift */,
 				4E6C4D5722F476C700530599 /* GCController+GameControllerInterface.swift */,
+				4E718F682465B9DE005057D7 /* CGPoint+Lerping.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1532,7 +1644,6 @@
 				4EBF28752268E5DC00AE954B /* GameControllerKeyGroup.swift */,
 				4EBF28792268E75400AE954B /* DefaultGameControllerKeyGroups.swift */,
 				4E2F22E721B5534700936E3E /* InputProfile.swift */,
-				4E8EF89022235A6A009077C9 /* DefaultInputProfiles.swift */,
 				4E6C4D6322F4778700530599 /* GameControllerInterface.swift */,
 			);
 			path = Models;
@@ -1845,6 +1956,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E718FC8246775B1005057D7 /* .jazzy.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1866,6 +1978,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E718FC9246775B1005057D7 /* .jazzy.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1880,6 +1993,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E718FC7246775B1005057D7 /* .jazzy.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1944,6 +2058,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E718F712465BCF3005057D7 /* GlideScene.EndReason.swift in Sources */,
+				4E718F722465BCF3005057D7 /* TextureAnimation.Action.swift in Sources */,
+				4E718F6E2465BCB8005057D7 /* CGPoint+Lerping.swift in Sources */,
 				4E87C6BA22074AE900F56FE7 /* RemovalControllingComponent.swift in Sources */,
 				4E9C7ACB22609E0600082C99 /* CategoryMask.swift in Sources */,
 				4EBF28AE226BB45300AE954B /* RespawnableEntityComponent.swift in Sources */,
@@ -1953,23 +2070,26 @@
 				4E6A1270225DEAEC00DDB847 /* EntityObserverComponent.swift in Sources */,
 				4EC50D7E217DEABD005D66FC /* JumpComponent.swift in Sources */,
 				4E3A70B5223123C50060AF20 /* SKTileMapNode+SetNormalTextures.swift in Sources */,
+				4E718F782465D25B005057D7 /* LightMask.swift in Sources */,
 				4EC50DC1217F2CCF005D66FC /* TextureAnimatorComponent.swift in Sources */,
 				4E9C1E6421948E5F0085B808 /* WallClingerComponent.swift in Sources */,
 				4E47D24E223FB121007F4306 /* ZPositionContainerIndicatorComponent.swift in Sources */,
 				4E2F22E921B5534A00936E3E /* InputProfile.swift in Sources */,
+				4E718FB824673F03005057D7 /* GlideScene+SpeechBubbles.swift in Sources */,
 				4E306B0222332B69009E907D /* ColliderTileIntersection.swift in Sources */,
 				4EF4535121E35D4400EF07EC /* UpwardsLookerComponent.swift in Sources */,
 				4EC50D40217DEA99005D66FC /* ColliderTile.swift in Sources */,
 				4E9C7AE22262781C00082C99 /* ZPositionContainer.swift in Sources */,
 				4E47BEB322738F09009ED639 /* Conversation.swift in Sources */,
 				4EC50D98217DEABD005D66FC /* Slope_11_8.swift in Sources */,
-				4E3BD8B322590AB800110861 /* CircularMovementDirection.swift in Sources */,
+				4E3BD8B322590AB800110861 /* CircularDirection.swift in Sources */,
 				4E47BEEF2276134E009ED639 /* Array+Difference.swift in Sources */,
 				4EC50D75217DEABD005D66FC /* Input.swift in Sources */,
 				4EF59863224193290028EF17 /* FocusableComponent.swift in Sources */,
 				4E105406225B38C70059CFEE /* CameraFocusingComponent.swift in Sources */,
 				4E9C7ADA2261C95C00082C99 /* ColliderComponent+Debuggable.swift in Sources */,
 				4EC50D78217DEABD005D66FC /* CameraComponent.swift in Sources */,
+				4E718FAB2465EF7C005057D7 /* ContactedObject.swift in Sources */,
 				4E47BEC322746C2F009ED639 /* GKEntity+Name.swift in Sources */,
 				4E3BD8AF2258FBFC00110861 /* Direction.swift in Sources */,
 				4EC50D88217DEABD005D66FC /* RespawnAtCheckpointOnRestartComponent.swift in Sources */,
@@ -1986,17 +2106,22 @@
 				4E5E8BE4218E0457002E183B /* TransformNodeComponent.swift in Sources */,
 				4EC50D9E217DEABD005D66FC /* SlopeContext.swift in Sources */,
 				4EC50D41217DEA99005D66FC /* GlideCategoryMask.swift in Sources */,
+				4E718FA72465EA98005057D7 /* CGVector+Operators.swift in Sources */,
 				4EF4533B21DF765900EF07EC /* SwingComponent.swift in Sources */,
 				4EBF28602265E62800AE954B /* ColliderTileRepresentation.swift in Sources */,
 				4E26AEFA22357D6700F313F3 /* SlopeBitmap.swift in Sources */,
+				4E718FC02467425A005057D7 /* GlideScene+UpdateCycle.swift in Sources */,
 				4EC50D95217DEABD005D66FC /* Slope_15_8.swift in Sources */,
 				4EC50D80217DEABD005D66FC /* ParagliderComponent.swift in Sources */,
 				4E3A70B022310E1E0060AF20 /* LightNodeComponent.swift in Sources */,
 				4E6C4D5922F476C700530599 /* GCController+GameControllerInterface.swift in Sources */,
+				4E718F9E2465E9F7005057D7 /* CGSize+Operators.swift in Sources */,
 				4E4FA56E21E92820003E9E9D /* ShakerComponent.swift in Sources */,
-				4EBF285C22651BCD00AE954B /* Int+Extensions.swift in Sources */,
+				4EBF285C22651BCD00AE954B /* Int+Clamp.swift in Sources */,
+				4E718F962465DB93005057D7 /* CGRect+TiledRect.swift in Sources */,
 				4EC81BD821A5A3980017C2E2 /* EntityFactory.swift in Sources */,
 				4EC50D99217DEABD005D66FC /* Slope_4_7.swift in Sources */,
+				4E718FB32465EFEC005057D7 /* TouchInputProfilesOrCallback.swift in Sources */,
 				4E2A24A02201C2BF00D8605B /* SnappableComponent.swift in Sources */,
 				4EBF284C2264832900AE954B /* SceneTileMaps.swift in Sources */,
 				4E3A499C21F083C7006C5916 /* Button.swift in Sources */,
@@ -2024,7 +2149,8 @@
 				4E978BD822456EBC0063951F /* CameraFocusAreaRecognizerComponent.swift in Sources */,
 				4EBF28B4226CDCD000AE954B /* ApproachingMovementComponent.swift in Sources */,
 				4E47D220223EE8C4007F4306 /* SpeechFlowControllerComponent.swift in Sources */,
-				4E9C7ACF22609E5400082C99 /* GlideScene+ContactTestMap.swift in Sources */,
+				4E9C7ACF22609E5400082C99 /* GlideScene+Contacts.swift in Sources */,
+				4E718F7E2465D2C6005057D7 /* OptionSetIterator.swift in Sources */,
 				4E8EF8DB22292DE8009077C9 /* CollisionsController+DefinedCollisions.swift in Sources */,
 				4E285F98221D8C43000F5ABA /* CollisionTileMapRepresentation.swift in Sources */,
 				4EC50D94217DEABD005D66FC /* Slope_8_15.swift in Sources */,
@@ -2035,14 +2161,19 @@
 				4EC50D7D217DEABD005D66FC /* PlayableCharacterComponent.swift in Sources */,
 				4EF4535721E35D6800EF07EC /* CroucherComponent.swift in Sources */,
 				4E1A654822F494110089BBBA /* GlideScene+KeyboardAndMouseInput.swift in Sources */,
+				4E718FAF2465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */,
 				4E1C0A85220B339700198B62 /* DisplayLinkObserver.swift in Sources */,
 				4E72C02522F31E7300D68F52 /* Stick.swift in Sources */,
 				4E72C02822F31E7300D68F52 /* Element.swift in Sources */,
+				4E718F9A2465E9B7005057D7 /* CGPoint+Operators.swift in Sources */,
 				4EB336BE224AB2C500326C44 /* SceneAnchoredSpriteLayoutComponent.swift in Sources */,
 				4E1F08CA2204780700255203 /* FallingPlatformComponent.swift in Sources */,
+				4E718F7A2465D25F005057D7 /* ContactSide.swift in Sources */,
 				4EB8007F2190AFB00079EBFD /* LadderComponent.swift in Sources */,
 				4E8CCFD12214381D005151D8 /* SelfShootOnObserveComponent.swift in Sources */,
 				4EF1DC9522F5D487009B7B12 /* TouchReceiverComponent.swift in Sources */,
+				4E718F862465D8A4005057D7 /* TiledPoint.swift in Sources */,
+				4E718F8E2465D8FE005057D7 /* TiledRect.swift in Sources */,
 				4EBF286E2267B74A00AE954B /* InputMethod.swift in Sources */,
 				4E73161B2239B4F0004FFDDB /* Application.swift in Sources */,
 				4EF4535C21E3CC0B00EF07EC /* InputControllingComponent.swift in Sources */,
@@ -2050,6 +2181,7 @@
 				4EBF28642266700E00AE954B /* GlideZPositionContainer.swift in Sources */,
 				4EC50D8D217DEABD005D66FC /* SKAction+TextureAnimation.swift in Sources */,
 				4EF42F972242529000D017B2 /* CameraFollowerComponent.swift in Sources */,
+				4E718F8A2465D8C7005057D7 /* TiledSize.swift in Sources */,
 				4E7D7BAF21C3A7A100D9E1BC /* SelfChangeDirectionComponent.swift in Sources */,
 				4EF1DC9422F5D487009B7B12 /* GlideEntity+TouchInput.swift in Sources */,
 				4EC50D83217DEABD005D66FC /* KinematicsBodyComponent.swift in Sources */,
@@ -2059,15 +2191,15 @@
 				4EB800822190B18B0079EBFD /* LadderClimberComponent.swift in Sources */,
 				4EBF28322263E47A00AE954B /* ContactContext.swift in Sources */,
 				4EC50D82217DEABD005D66FC /* SpriteNodeComponent.swift in Sources */,
-				4EBF28502265023600AE954B /* CGFloat+Extensions.swift in Sources */,
+				4EBF28502265023600AE954B /* CGFloat+GlideRound.swift in Sources */,
 				4E981B1022144B7200443910 /* SelfFollowWaypointsComponent.swift in Sources */,
 				4EC50DBF217F2CB5005D66FC /* TextureAnimation.swift in Sources */,
 				4E3A499821F083C7006C5916 /* ImageView.swift in Sources */,
 				4EF1DC9622F5D487009B7B12 /* GlideScene+TouchInput.swift in Sources */,
-				4EBF28582265043300AE954B /* Lerping.swift in Sources */,
 				4E3A499A21F083C7006C5916 /* Font.swift in Sources */,
 				4EC50D7F217DEABD005D66FC /* WallJumpComponent.swift in Sources */,
 				4EC50DD3217FBD21005D66FC /* PlatformComponent.swift in Sources */,
+				4E718F922465DB33005057D7 /* TiledRange.swift in Sources */,
 				4E8EF8BB22253316009077C9 /* Input+GameController.swift in Sources */,
 				4EB800952193993E0079EBFD /* HorizontalMovementComponent.swift in Sources */,
 				4E3A498C21F083C7006C5916 /* Label.swift in Sources */,
@@ -2076,11 +2208,12 @@
 				4E9C7AC7226092ED00082C99 /* HitPoints.swift in Sources */,
 				4E6A15442220469400744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */,
 				4E47BEFC22762541009ED639 /* GlideSceneDelegate.swift in Sources */,
+				4E718FC4246742ED005057D7 /* GlideScene+EntityManagement.swift in Sources */,
 				4E72C02322F31E7300D68F52 /* USBGameControllerObserver.swift in Sources */,
 				4E3A4AB521F1DB18006C5916 /* ViewController.swift in Sources */,
 				4EC50D79217DEABD005D66FC /* CheckpointComponent.swift in Sources */,
 				4EC50D71217DEABD005D66FC /* Color.swift in Sources */,
-				4EBF2854226503A700AE954B /* CGSize+Extensions.swift in Sources */,
+				4EBF2854226503A700AE954B /* CGSize+TiledSize.swift in Sources */,
 				4E3A499021F083C7006C5916 /* View.swift in Sources */,
 				4EC50D7B217DEABD005D66FC /* StateResettingComponent.swift in Sources */,
 				4EC50D84217DEABD005D66FC /* ColliderComponent.swift in Sources */,
@@ -2090,12 +2223,14 @@
 				4E306AF622332ADB009E907D /* ColliderMovement.swift in Sources */,
 				4E72C02422F31E7300D68F52 /* USBGameController.swift in Sources */,
 				4E4FA51721E4CF9E003E9E9D /* VerticalMovementComponent.swift in Sources */,
+				4E718F822465D73F005057D7 /* SpeechOption.swift in Sources */,
 				4E6C4D5D22F4773300530599 /* EventQueue.swift in Sources */,
 				4E1C0A78220B271600198B62 /* Speech.swift in Sources */,
 				4EBF2840226480D900AE954B /* TiledMapEditorModels.swift in Sources */,
 				4E8EF8CB22268F65009077C9 /* LerpingMovementComponent.swift in Sources */,
 				4E3A499221F083C7006C5916 /* StackView.swift in Sources */,
 				4EF4535921E3CAC900EF07EC /* BouncerComponent.swift in Sources */,
+				4E718FBC246741BE005057D7 /* GlideScene+Camera.swift in Sources */,
 				4E9C7AD32260C27300082C99 /* SpeechBubbleTemplateEntity.swift in Sources */,
 				4EC50D89217DEABD005D66FC /* BlinkerComponent.swift in Sources */,
 				4EC50D93217DEABD005D66FC /* Slope_0_7.swift in Sources */,
@@ -2109,12 +2244,10 @@
 				4E3A498021F08341006C5916 /* NavigatableButtonScrollViewController.swift in Sources */,
 				4ECFFD73224048B400525DE2 /* TalkerComponent.swift in Sources */,
 				4ECFFD6722401EE700525DE2 /* LabelNodeComponent.swift in Sources */,
-				4E47BEF8227624E1009ED639 /* GlideSceneEndReason.swift in Sources */,
 				4EC50D3F217DEA99005D66FC /* GlideScene.swift in Sources */,
 				4E8EF8C922268F5D009077C9 /* SelfSpawnEntitiesComponent.swift in Sources */,
 				4E5D9EEF221B7FEB00B62391 /* Contact.swift in Sources */,
 				4E3A4A4621F09DEA006C5916 /* ResponderView.swift in Sources */,
-				4EC50D72217DEABD005D66FC /* TiledGeometry.swift in Sources */,
 				4E72C02722F31E7300D68F52 /* Event.swift in Sources */,
 				4EC50D77217DEABD005D66FC /* GlideEntity.swift in Sources */,
 				4EB8009E2193A4270079EBFD /* HealthComponent.swift in Sources */,
@@ -2135,7 +2268,6 @@
 				4E1F08B82204604100255203 /* MovingPlatformEntity.swift in Sources */,
 				4EC50D74217DEABD005D66FC /* GameControllerObserver.swift in Sources */,
 				4EBF28772268E5DC00AE954B /* GameControllerKeyGroup.swift in Sources */,
-				4E3BD8A72258CB5E00110861 /* TextureAnimationAction.swift in Sources */,
 				4E47D225223EE9F9007F4306 /* ConversationFlowControllerComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2184,6 +2316,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E718F732465BCFF005057D7 /* GlideScene.EndReason.swift in Sources */,
+				4E718F702465BCD4005057D7 /* TextureAnimation.Action.swift in Sources */,
+				4E718F6F2465BCC4005057D7 /* CGPoint+Lerping.swift in Sources */,
 				4ECB199E222FBDA300C0C38C /* ImageView.swift in Sources */,
 				4E87C6DE22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift in Sources */,
 				4E6F2E9421F5D840004BB1D6 /* CollisionsController.swift in Sources */,
@@ -2193,10 +2328,12 @@
 				4ECB199B222FBD8600C0C38C /* Label.swift in Sources */,
 				4E9C7AD42260C27300082C99 /* SpeechBubbleTemplateEntity.swift in Sources */,
 				4E6F2E9521F5D844004BB1D6 /* Input.swift in Sources */,
+				4E718F792465D25C005057D7 /* LightMask.swift in Sources */,
 				4E981B1122144B7300443910 /* SelfFollowWaypointsComponent.swift in Sources */,
 				4E6F2EA421F5D85B004BB1D6 /* UpwardsLookerComponent.swift in Sources */,
 				4EF1DCAD22F5D6BA009B7B12 /* Usage.swift in Sources */,
 				4ECB199F222FBDA600C0C38C /* Font.swift in Sources */,
+				4E718FB924673F03005057D7 /* GlideScene+SpeechBubbles.swift in Sources */,
 				4ECB19A7222FC20700C0C38C /* NavigatableButtonScrollViewController.swift in Sources */,
 				4E6F2EA921F5D863004BB1D6 /* UpdateControllingComponent.swift in Sources */,
 				4E47BEFD22762541009ED639 /* GlideSceneDelegate.swift in Sources */,
@@ -2204,12 +2341,13 @@
 				4E6F2E9821F5D844004BB1D6 /* KeyCode.swift in Sources */,
 				4E47BEC422746C2F009ED639 /* GKEntity+Name.swift in Sources */,
 				4E6F2EBF21F5D87C004BB1D6 /* WallClingerComponent.swift in Sources */,
-				4EBF2855226503A700AE954B /* CGSize+Extensions.swift in Sources */,
+				4EBF2855226503A700AE954B /* CGSize+TiledSize.swift in Sources */,
 				4E26AEFF2235B54600F313F3 /* DebuggableComponent.swift in Sources */,
 				4E6F2ECD21F5D88D004BB1D6 /* SKAction+TextureAnimation.swift in Sources */,
 				4E6F2E9F21F5D850004BB1D6 /* BouncingPlatformComponent.swift in Sources */,
 				4E6F2EC121F5D87C004BB1D6 /* LadderClimberComponent.swift in Sources */,
 				4EBF287C2268E75400AE954B /* DefaultGameControllerKeyGroups.swift in Sources */,
+				4E718FAC2465EF7C005057D7 /* ContactedObject.swift in Sources */,
 				4E9C7ADF226266FA00082C99 /* GlideScene+ZPositionContainers.swift in Sources */,
 				4E6F2EAB21F5D863004BB1D6 /* InputControllingComponent.swift in Sources */,
 				4E9C7AC8226092ED00082C99 /* HitPoints.swift in Sources */,
@@ -2226,23 +2364,28 @@
 				4E8EF8C522254A35009077C9 /* ComponentPriorityRegistry.swift in Sources */,
 				4EBF286F2267B74A00AE954B /* InputMethod.swift in Sources */,
 				4E306AF722332ADB009E907D /* ColliderMovement.swift in Sources */,
+				4E718FA82465EA98005057D7 /* CGVector+Operators.swift in Sources */,
 				4E3BD8B02258FBFC00110861 /* Direction.swift in Sources */,
 				4E47D221223EE8C5007F4306 /* SpeechFlowControllerComponent.swift in Sources */,
 				4E6F2EB421F5D86F004BB1D6 /* PlayableCharacterComponent.swift in Sources */,
+				4E718FC12467425A005057D7 /* GlideScene+UpdateCycle.swift in Sources */,
 				4ECB199D222FBD8E00C0C38C /* Image.swift in Sources */,
 				4E3BD8B9225A323C00110861 /* ProjectileTemplateEntity.swift in Sources */,
 				4E6F2EDA21F5D8AA004BB1D6 /* Slope_4_7.swift in Sources */,
 				4E6F2EA221F5D85B004BB1D6 /* BouncerComponent.swift in Sources */,
+				4E718F9F2465E9F7005057D7 /* CGSize+Operators.swift in Sources */,
 				4E9ED37A21FB5E8000D59A68 /* View.swift in Sources */,
 				4E47BEB422738F09009ED639 /* Conversation.swift in Sources */,
+				4E718F972465DB93005057D7 /* CGRect+TiledRect.swift in Sources */,
 				4E6F2EB621F5D86F004BB1D6 /* ColliderTileHolderComponent.swift in Sources */,
 				4E6F2E9A21F5D849004BB1D6 /* EntityFactory.swift in Sources */,
+				4E718FB42465EFEC005057D7 /* TouchInputProfilesOrCallback.swift in Sources */,
 				4E6F2E8F21F5D832004BB1D6 /* ColliderTile.swift in Sources */,
 				4E6CB13B22876DD90030CC4D /* GCController+DeviceHash.swift in Sources */,
 				4E6F2EB221F5D86F004BB1D6 /* KinematicsBodyComponent.swift in Sources */,
 				4EBF28AF226BB45300AE954B /* RespawnableEntityComponent.swift in Sources */,
 				4E47D24F223FB121007F4306 /* ZPositionContainerIndicatorComponent.swift in Sources */,
-				4EBF28512265023600AE954B /* CGFloat+Extensions.swift in Sources */,
+				4EBF28512265023600AE954B /* CGFloat+GlideRound.swift in Sources */,
 				4ECB19A6222FC20400C0C38C /* NavigatablePopoverViewController.swift in Sources */,
 				4EF42F982242529000D017B2 /* CameraFollowerComponent.swift in Sources */,
 				4E4D61BB2237ACE0006BFDA7 /* ResponderView.swift in Sources */,
@@ -2265,6 +2408,7 @@
 				4EF1DCA622F5D6BA009B7B12 /* USBGameController+GameControllerInterface.swift in Sources */,
 				4E5D9EF0221B7FEC00B62391 /* Contact.swift in Sources */,
 				4E306B0322332B69009E907D /* ColliderTileIntersection.swift in Sources */,
+				4E718F7F2465D2C7005057D7 /* OptionSetIterator.swift in Sources */,
 				4E6F2EB921F5D877004BB1D6 /* VerticalMovementComponent.swift in Sources */,
 				4ECFFD74224048B400525DE2 /* TalkerComponent.swift in Sources */,
 				4EF598682241943F0028EF17 /* FocusableEntitiesControllerComponent.swift in Sources */,
@@ -2275,14 +2419,19 @@
 				4E6C4D5A22F476C700530599 /* GCController+GameControllerInterface.swift in Sources */,
 				4EBF28782268E5DC00AE954B /* GameControllerKeyGroup.swift in Sources */,
 				4E6F2EC421F5D87C004BB1D6 /* BlinkerComponent.swift in Sources */,
+				4E718FB02465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */,
 				4E6F2EC721F5D883004BB1D6 /* SelfChangeDirectionComponent.swift in Sources */,
 				4EF1DCAA22F5D6BA009B7B12 /* EventHandling.swift in Sources */,
 				4EB336B722476C4700326C44 /* NodeLayoutableComponent.swift in Sources */,
+				4E718F9B2465E9B7005057D7 /* CGPoint+Operators.swift in Sources */,
 				4E6F2EDC21F5D8AA004BB1D6 /* Slope_8_11.swift in Sources */,
 				4E9ED37E21FB5F4300D59A68 /* BezierPath.swift in Sources */,
+				4E718F7B2465D25F005057D7 /* ContactSide.swift in Sources */,
 				4EF1DCA822F5D6BA009B7B12 /* Element.swift in Sources */,
 				4E6F2EBB21F5D877004BB1D6 /* OscillatingMovementComponent.swift in Sources */,
 				4EBF28612265E62800AE954B /* ColliderTileRepresentation.swift in Sources */,
+				4E718F872465D8A4005057D7 /* TiledPoint.swift in Sources */,
+				4E718F8F2465D8FE005057D7 /* TiledRect.swift in Sources */,
 				4E6F2E9B21F5D849004BB1D6 /* GlideEntity.swift in Sources */,
 				4E285F9D221D93FC000F5ABA /* TiledMapEditorSceneLoader.swift in Sources */,
 				4E9C7ADB2261C95C00082C99 /* ColliderComponent+Debuggable.swift in Sources */,
@@ -2290,16 +2439,15 @@
 				4EF1DCAC22F5D6BA009B7B12 /* Stick.swift in Sources */,
 				4E6F2EAD21F5D868004BB1D6 /* CameraFocusAreaComponent.swift in Sources */,
 				4E6A1271225DEAEC00DDB847 /* EntityObserverComponent.swift in Sources */,
+				4E718F8B2465D8C7005057D7 /* TiledSize.swift in Sources */,
 				4ECFFD6822401EE700525DE2 /* LabelNodeComponent.swift in Sources */,
 				4E2A24A12201C2BF00D8605B /* SnappableComponent.swift in Sources */,
 				4E6F2EC621F5D87C004BB1D6 /* DasherComponent.swift in Sources */,
 				4EF1DCA922F5D6BA009B7B12 /* Event.swift in Sources */,
 				4E6F2EDE21F5D8AA004BB1D6 /* Slope_0_3.swift in Sources */,
 				4EF1DCAE22F5D6BD009B7B12 /* InputResponder.swift in Sources */,
-				4E6F2E9321F5D83C004BB1D6 /* TiledGeometry.swift in Sources */,
 				4E6F2EB021F5D86F004BB1D6 /* TileMapNodeComponent.swift in Sources */,
 				4E8EF8BC22253316009077C9 /* Input+GameController.swift in Sources */,
-				4E47BEF9227624E1009ED639 /* GlideSceneEndReason.swift in Sources */,
 				4ED750892242E4D7004748B7 /* InfiniteSpriteScrollerComponent.swift in Sources */,
 				4E105407225B38C70059CFEE /* CameraFocusingComponent.swift in Sources */,
 				4E002C55226F28BF00DE2357 /* ProjectileShootingProperties.swift in Sources */,
@@ -2308,16 +2456,17 @@
 				4ECB199C222FBD8B00C0C38C /* StackView.swift in Sources */,
 				4E6F2ED621F5D8A7004BB1D6 /* Slope_15_8.swift in Sources */,
 				4E6F2E9E21F5D850004BB1D6 /* SwingComponent.swift in Sources */,
+				4E718F932465DB33005057D7 /* TiledRange.swift in Sources */,
 				4E6F2EDB21F5D8AA004BB1D6 /* Slope_7_4.swift in Sources */,
 				4E9C7ACC22609E0600082C99 /* CategoryMask.swift in Sources */,
 				4E47BEF12276134F009ED639 /* Array+Difference.swift in Sources */,
 				4EF1DCAF22F5D6BD009B7B12 /* Input+KeyboardAndMouse.swift in Sources */,
 				4EBF28BE226DEC9500AE954B /* RoundedAngle.swift in Sources */,
 				4E6F2EC221F5D87C004BB1D6 /* SwingHolderComponent.swift in Sources */,
-				4EBF28592265043300AE954B /* Lerping.swift in Sources */,
 				4E6F2EAA21F5D863004BB1D6 /* DamageControllingComponent.swift in Sources */,
-				4E3BD8B422590AB800110861 /* CircularMovementDirection.swift in Sources */,
+				4E3BD8B422590AB800110861 /* CircularDirection.swift in Sources */,
 				4E6F2EA021F5D856004BB1D6 /* CameraComponent.swift in Sources */,
+				4E718FC5246742ED005057D7 /* GlideScene+EntityManagement.swift in Sources */,
 				4EBF284D2264832900AE954B /* SceneTileMaps.swift in Sources */,
 				4E6F2EBA21F5D877004BB1D6 /* CircularMovementComponent.swift in Sources */,
 				4E8EF89322235A80009077C9 /* DefaultInputProfiles.swift in Sources */,
@@ -2331,6 +2480,7 @@
 				4EF1DCA522F5D6BA009B7B12 /* USBGameController.swift in Sources */,
 				4E6F2EB321F5D86F004BB1D6 /* ColliderComponent.swift in Sources */,
 				4EF1DCAB22F5D6BA009B7B12 /* EventQueue.swift in Sources */,
+				4E718F832465D73F005057D7 /* SpeechOption.swift in Sources */,
 				4E6F2E9921F5D844004BB1D6 /* InputProfile.swift in Sources */,
 				4EB336BF224AB2C500326C44 /* SceneAnchoredSpriteLayoutComponent.swift in Sources */,
 				4EF59864224193290028EF17 /* FocusableComponent.swift in Sources */,
@@ -2338,6 +2488,7 @@
 				4E73161C2239B4F0004FFDDB /* Application.swift in Sources */,
 				4E6A15452220469400744C87 /* SKTileMapNode+TileRepresentations.swift in Sources */,
 				4E6F2ECB21F5D88D004BB1D6 /* CGPoint+Extensions.swift in Sources */,
+				4E718FBD246741BE005057D7 /* GlideScene+Camera.swift in Sources */,
 				4EBF28652266700E00AE954B /* GlideZPositionContainer.swift in Sources */,
 				4E9C7AE32262781C00082C99 /* ZPositionContainer.swift in Sources */,
 				4E9ED37521FB5B8E00D59A68 /* LayoutGuide.swift in Sources */,
@@ -2348,7 +2499,7 @@
 				4E6F2ED321F5D8A7004BB1D6 /* Slope_7_0.swift in Sources */,
 				4E6F2EAE21F5D86F004BB1D6 /* TransformNodeComponent.swift in Sources */,
 				4ECB19A0222FBDA800C0C38C /* Button.swift in Sources */,
-				4E9C7AD022609E5400082C99 /* GlideScene+ContactTestMap.swift in Sources */,
+				4E9C7AD022609E5400082C99 /* GlideScene+Contacts.swift in Sources */,
 				4E6F2ED921F5D8AA004BB1D6 /* Slope_11_8.swift in Sources */,
 				4E6F2ED421F5D8A7004BB1D6 /* Slope_0_7.swift in Sources */,
 				4EF1DCA722F5D6BA009B7B12 /* Device.swift in Sources */,
@@ -2359,13 +2510,12 @@
 				4E6F2E9D21F5D850004BB1D6 /* LadderComponent.swift in Sources */,
 				4E6F2E9021F5D834004BB1D6 /* GlideCategoryMask.swift in Sources */,
 				4E26AEFB22357D6700F313F3 /* SlopeBitmap.swift in Sources */,
-				4EBF285D22651BCD00AE954B /* Int+Extensions.swift in Sources */,
+				4EBF285D22651BCD00AE954B /* Int+Clamp.swift in Sources */,
 				4E6F2EB821F5D877004BB1D6 /* HorizontalMovementComponent.swift in Sources */,
 				4E6F2EBC21F5D87C004BB1D6 /* RespawnAtCheckpointOnRestartComponent.swift in Sources */,
 				4E47D226223EE9F9007F4306 /* ConversationFlowControllerComponent.swift in Sources */,
 				4E6F2ED721F5D8AA004BB1D6 /* Slope_15_12.swift in Sources */,
 				4E6F2EDF21F5D8AD004BB1D6 /* SlopeContext.swift in Sources */,
-				4E3BD8A82258CB5E00110861 /* TextureAnimationAction.swift in Sources */,
 				4EBF28B5226CDCD000AE954B /* ApproachingMovementComponent.swift in Sources */,
 				4EF1DCB022F5D6BD009B7B12 /* GlideScene+KeyboardAndMouseInput.swift in Sources */,
 				4EF1DCA422F5D6BA009B7B12 /* USBGameControllerObserver.swift in Sources */,
@@ -2404,12 +2554,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E718F912465DB33005057D7 /* TiledRange.swift in Sources */,
 				4E47BEEE2276130C009ED639 /* Array+Difference.swift in Sources */,
 				4E978BD722456EBC0063951F /* CameraFocusAreaRecognizerComponent.swift in Sources */,
 				4E7515A5217A2DAD0066DA2F /* Slope_11_8.swift in Sources */,
 				4E3A499121F083C7006C5916 /* StackView.swift in Sources */,
 				4EA1AFB92209916800A71FDF /* LerpingMovementComponent.swift in Sources */,
-				4EBF2853226503A700AE954B /* CGSize+Extensions.swift in Sources */,
+				4EBF2853226503A700AE954B /* CGSize+TiledSize.swift in Sources */,
 				4EF4535B21E3CC0B00EF07EC /* InputControllingComponent.swift in Sources */,
 				4E9C1E6321948E170085B808 /* WallClingerComponent.swift in Sources */,
 				4E75159E217A2DAD0066DA2F /* Slope_15_0.swift in Sources */,
@@ -2420,6 +2571,7 @@
 				4E2F22E821B5534700936E3E /* InputProfile.swift in Sources */,
 				4EB336BD224AB2C500326C44 /* SceneAnchoredSpriteLayoutComponent.swift in Sources */,
 				4E7515AA217A2DAD0066DA2F /* Slope_0_3.swift in Sources */,
+				4E718FAE2465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */,
 				4E75159D217A2DAD0066DA2F /* Slope_0_15.swift in Sources */,
 				4EF42F962242529000D017B2 /* CameraFollowerComponent.swift in Sources */,
 				4E285F97221D8C43000F5ABA /* CollisionTileMapRepresentation.swift in Sources */,
@@ -2427,6 +2579,7 @@
 				4E306AF522332ADB009E907D /* ColliderMovement.swift in Sources */,
 				4E4E22D4217B8D08009F5C3E /* ParagliderComponent.swift in Sources */,
 				4E3A498F21F083C7006C5916 /* View.swift in Sources */,
+				4E718F892465D8C7005057D7 /* TiledSize.swift in Sources */,
 				4E7515B0217A2EF40066DA2F /* CGPoint+Extensions.swift in Sources */,
 				4E7515A2217A2DAD0066DA2F /* Slope_15_8.swift in Sources */,
 				4E8EF8C322254A35009077C9 /* ComponentPriorityRegistry.swift in Sources */,
@@ -2449,6 +2602,7 @@
 				4E3BD8AA2258E76000110861 /* MovementStyle.swift in Sources */,
 				4E4FA51A21E5E790003E9E9D /* SelfMoveComponent.swift in Sources */,
 				4EF85468219EFC8200744807 /* GlideComponent.swift in Sources */,
+				4E718F6D2465B9F1005057D7 /* TextureAnimation.Action.swift in Sources */,
 				4EF1DC9D22F5D6B9009B7B12 /* Device.swift in Sources */,
 				4EF4534D21E359B800EF07EC /* DasherComponent.swift in Sources */,
 				4EBF28762268E5DC00AE954B /* GameControllerKeyGroup.swift in Sources */,
@@ -2470,7 +2624,7 @@
 				4EC50DBE217F2CB5005D66FC /* TextureAnimation.swift in Sources */,
 				4E8EF8DE22292F98009077C9 /* SnapperComponent.swift in Sources */,
 				4EF59862224193290028EF17 /* FocusableComponent.swift in Sources */,
-				4EBF284F2265023600AE954B /* CGFloat+Extensions.swift in Sources */,
+				4EBF284F2265023600AE954B /* CGFloat+GlideRound.swift in Sources */,
 				4E47BEFB22762541009ED639 /* GlideSceneDelegate.swift in Sources */,
 				4EF4534721E348D800EF07EC /* ColliderTileHolderComponent.swift in Sources */,
 				4E47D24D223FB112007F4306 /* ZPositionContainerIndicatorComponent.swift in Sources */,
@@ -2480,6 +2634,7 @@
 				4E285F9B221D93FC000F5ABA /* TiledMapEditorSceneLoader.swift in Sources */,
 				4E3BD8B7225A323C00110861 /* ProjectileTemplateEntity.swift in Sources */,
 				4E7515A0217A2DAD0066DA2F /* Slope_0_7.swift in Sources */,
+				4E718FC3246742ED005057D7 /* GlideScene+EntityManagement.swift in Sources */,
 				4EBF28222263E3BF00AE954B /* TiledMapEditorModels.swift in Sources */,
 				4E6A126F225DEAEC00DDB847 /* EntityObserverComponent.swift in Sources */,
 				4E87C6B922074AE600F56FE7 /* RemovalControllingComponent.swift in Sources */,
@@ -2490,19 +2645,20 @@
 				4E4FA51221E4C584003E9E9D /* OscillatingMovementComponent.swift in Sources */,
 				4E1F08B722045F4600255203 /* MovingPlatformEntity.swift in Sources */,
 				4E7515AF217A2EF40066DA2F /* SKAction+TextureAnimation.swift in Sources */,
-				4E751575217A09FC0066DA2F /* TiledGeometry.swift in Sources */,
 				4E9C7ADD226266FA00082C99 /* GlideScene+ZPositionContainers.swift in Sources */,
 				4E75159F217A2DAD0066DA2F /* Slope_7_0.swift in Sources */,
 				4E6CB13922876DD60030CC4D /* GCController+DeviceHash.swift in Sources */,
 				4E9C7ACA22609E0600082C99 /* CategoryMask.swift in Sources */,
 				4E867A38217B4F010080394E /* CameraFocusAreaComponent.swift in Sources */,
-				4E3BD8B222590AB800110861 /* CircularMovementDirection.swift in Sources */,
+				4E3BD8B222590AB800110861 /* CircularDirection.swift in Sources */,
 				4EF1DC9E22F5D6B9009B7B12 /* Element.swift in Sources */,
 				4E0E375121A9A3A20004CD64 /* KeyCode.swift in Sources */,
 				4EF1DCB222F5D6BE009B7B12 /* Input+KeyboardAndMouse.swift in Sources */,
+				4E718F992465E9B7005057D7 /* CGPoint+Operators.swift in Sources */,
 				4E47BEB222738F08009ED639 /* Conversation.swift in Sources */,
 				4E47BEC222746C2F009ED639 /* GKEntity+Name.swift in Sources */,
 				4E105405225B38C70059CFEE /* CameraFocusingComponent.swift in Sources */,
+				4E718F752465CEA7005057D7 /* ContactSide.swift in Sources */,
 				4E7515A1217A2DAD0066DA2F /* Slope_8_15.swift in Sources */,
 				4E9C1E4B219439780085B808 /* TileMapNodeComponent.swift in Sources */,
 				4E867A15217B39700080394E /* Input.swift in Sources */,
@@ -2513,12 +2669,15 @@
 				4EF1DCA222F5D6B9009B7B12 /* Stick.swift in Sources */,
 				4EB336B522476C4700326C44 /* NodeLayoutableComponent.swift in Sources */,
 				4E47D21F223EE8B6007F4306 /* SpeechFlowControllerComponent.swift in Sources */,
+				4E718FB724673F03005057D7 /* GlideScene+SpeechBubbles.swift in Sources */,
 				4E1C0A77220B271600198B62 /* Speech.swift in Sources */,
 				4EBF286D2267B74A00AE954B /* InputMethod.swift in Sources */,
+				4E718F852465D79C005057D7 /* TiledPoint.swift in Sources */,
 				4E3A497D21F08341006C5916 /* NavigatablePopoverViewController.swift in Sources */,
 				4E9C7AD72261404200082C99 /* GlideEntity+TouchInput.swift in Sources */,
 				4E55A50721EDEFC70091378B /* BouncingPlatformComponent.swift in Sources */,
 				4EF1DC9C22F5D6B9009B7B12 /* USBGameController+GameControllerInterface.swift in Sources */,
+				4E718FAA2465EF7C005057D7 /* ContactedObject.swift in Sources */,
 				4EF1DCB122F5D6BE009B7B12 /* InputResponder.swift in Sources */,
 				4E3A4AB421F1DB18006C5916 /* ViewController.swift in Sources */,
 				4EBF28682267676F00AE954B /* NavigatableButtonContentView.swift in Sources */,
@@ -2532,19 +2691,24 @@
 				4E867A13217B34D90080394E /* GlideScene.swift in Sources */,
 				4E867A28217B447D0080394E /* GlideEntity.swift in Sources */,
 				4E3A499321F083C7006C5916 /* Image.swift in Sources */,
+				4E718F772465D1E2005057D7 /* LightMask.swift in Sources */,
 				4EF1DCA122F5D6B9009B7B12 /* EventQueue.swift in Sources */,
 				4E7515A8217A2DAD0066DA2F /* Slope_8_11.swift in Sources */,
 				4EB800812190B18B0079EBFD /* LadderClimberComponent.swift in Sources */,
 				4E4FA51621E4CF9E003E9E9D /* VerticalMovementComponent.swift in Sources */,
 				4E867A2D217B46FC0080394E /* UpdateControllingComponent.swift in Sources */,
 				4E4E22D2217B87BE009F5C3E /* WallJumpComponent.swift in Sources */,
-				4E9C7ACE22609E5400082C99 /* GlideScene+ContactTestMap.swift in Sources */,
+				4E9C7ACE22609E5400082C99 /* GlideScene+Contacts.swift in Sources */,
 				4EBF28302263E47500AE954B /* ContactContext.swift in Sources */,
 				4E002C53226F28BF00DE2357 /* ProjectileShootingProperties.swift in Sources */,
+				4E718F8D2465D8FE005057D7 /* TiledRect.swift in Sources */,
+				4E718F952465DB93005057D7 /* CGRect+TiledRect.swift in Sources */,
 				4E1F08C92204780700255203 /* FallingPlatformComponent.swift in Sources */,
 				4E3A497F21F08341006C5916 /* NavigatableButtonScrollViewController.swift in Sources */,
 				4EBF287A2268E75400AE954B /* DefaultGameControllerKeyGroups.swift in Sources */,
 				4E3A497B21F08341006C5916 /* NavigatableViewController.swift in Sources */,
+				4E718F7D2465D2C1005057D7 /* OptionSetIterator.swift in Sources */,
+				4E718FA62465EA98005057D7 /* CGVector+Operators.swift in Sources */,
 				4E867A31217B4ACF0080394E /* Checkpoint.swift in Sources */,
 				4E9ED37321FB5B8B00D59A68 /* LayoutGuide.swift in Sources */,
 				4EF4535021E35D4400EF07EC /* UpwardsLookerComponent.swift in Sources */,
@@ -2556,12 +2720,14 @@
 				4EC50DD2217FBD21005D66FC /* PlatformComponent.swift in Sources */,
 				4EF1DC9F22F5D6B9009B7B12 /* Event.swift in Sources */,
 				4E8EF8BA22253316009077C9 /* Input+GameController.swift in Sources */,
+				4E718FBB246741BE005057D7 /* GlideScene+Camera.swift in Sources */,
 				4E1A654422F4939D0089BBBA /* GlideScene+TouchInput.swift in Sources */,
 				4E8EF8DA22292DE8009077C9 /* CollisionsController+DefinedCollisions.swift in Sources */,
 				4E26AEFD2235B54600F313F3 /* DebuggableComponent.swift in Sources */,
 				4E8EF8D12226D8C7009077C9 /* GlideScene+Checkpoints.swift in Sources */,
 				4E867A21217B3A410080394E /* CameraComponent.swift in Sources */,
 				4E3A499921F083C7006C5916 /* Font.swift in Sources */,
+				4E718FB22465EFEC005057D7 /* TouchInputProfilesOrCallback.swift in Sources */,
 				4EB800942193993E0079EBFD /* HorizontalMovementComponent.swift in Sources */,
 				4E9C7AE12262781C00082C99 /* ZPositionContainer.swift in Sources */,
 				4E26AEF922357D6700F313F3 /* SlopeBitmap.swift in Sources */,
@@ -2571,32 +2737,34 @@
 				4E87C6DC22078D4F00F56FE7 /* CheckpointRecognizerComponent.swift in Sources */,
 				4E2A249F2201C2BF00D8605B /* SnappableComponent.swift in Sources */,
 				4EF1DCA322F5D6B9009B7B12 /* Usage.swift in Sources */,
+				4E718F6C2465B9F1005057D7 /* GlideScene.EndReason.swift in Sources */,
 				4E6C4D6422F4778700530599 /* GameControllerInterface.swift in Sources */,
-				4EBF28572265043300AE954B /* Lerping.swift in Sources */,
 				4E8CCFCE221437C1005151D8 /* SelfFollowWaypointsComponent.swift in Sources */,
 				4E7515B3217A2F2F0066DA2F /* ColliderComponent.swift in Sources */,
+				4E718F9D2465E9F7005057D7 /* CGSize+Operators.swift in Sources */,
 				4E7515A7217A2DAD0066DA2F /* Slope_7_4.swift in Sources */,
 				4E8CCFD02214381D005151D8 /* SelfShootOnObserveComponent.swift in Sources */,
 				4E867A11217B13AC0080394E /* ColliderTile.swift in Sources */,
+				4E718FBF2467425A005057D7 /* GlideScene+UpdateCycle.swift in Sources */,
 				4E867A34217B4AE70080394E /* CheckpointComponent.swift in Sources */,
 				4E10541A225C9B510059CFEE /* MovementAxes.swift in Sources */,
 				4E002C6C22708EC600DE2357 /* SKTexture+NearestFilteringMode.swift in Sources */,
 				4EBF284B2264832900AE954B /* SceneTileMaps.swift in Sources */,
 				4E3A497121F08341006C5916 /* NavigatableButton.swift in Sources */,
-				4E47BEF722762453009ED639 /* GlideSceneEndReason.swift in Sources */,
 				4E66E90F21FBDD070048E058 /* SelfSpawnEntitiesComponent.swift in Sources */,
 				4E3A70B4223123C50060AF20 /* SKTileMapNode+SetNormalTextures.swift in Sources */,
 				4E867A1B217B39C90080394E /* GameControllerObserver.swift in Sources */,
 				4E7515A6217A2DAD0066DA2F /* Slope_4_7.swift in Sources */,
 				4EBF28632266700E00AE954B /* GlideZPositionContainer.swift in Sources */,
 				4EB8009D2193A4270079EBFD /* HealthComponent.swift in Sources */,
-				4E3BD8A62258CB5E00110861 /* TextureAnimationAction.swift in Sources */,
-				4EBF285B22651BCD00AE954B /* Int+Extensions.swift in Sources */,
+				4EBF285B22651BCD00AE954B /* Int+Clamp.swift in Sources */,
+				4E718F692465B9DE005057D7 /* CGPoint+Lerping.swift in Sources */,
 				4E7515B1217A2EF40066DA2F /* CGVector+Extensions.swift in Sources */,
 				4E751577217A0E550066DA2F /* KinematicsBodyComponent.swift in Sources */,
 				4EF598662241943F0028EF17 /* FocusableEntitiesControllerComponent.swift in Sources */,
 				4E4E22C7217B54B8009F5C3E /* RespawnAtCheckpointOnRestartComponent.swift in Sources */,
 				4EBF28BC226DEC9500AE954B /* RoundedAngle.swift in Sources */,
+				4E718F812465D739005057D7 /* SpeechOption.swift in Sources */,
 				4E5D9EEE221B7FE900B62391 /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3010,6 +3178,7 @@
 				PRODUCT_NAME = GlideEngine;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3039,6 +3208,7 @@
 				PRODUCT_NAME = GlideEngine;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

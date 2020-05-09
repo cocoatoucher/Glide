@@ -1,5 +1,5 @@
 //
-//  MovementAxes.swift
+//  ContactSide.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -25,15 +25,26 @@
 
 import Foundation
 
-/// Represents different options for axes of movement.
-public struct MovementAxes: OptionSet, Sequence {
-    public let rawValue: Int
+/// Value that indicates the side of the contact area for entity's collision box.
+public enum ContactSide: CaseIterable {
+    case top
+    case bottom
+    case left
+    case right
+    case unspecified
     
-    public init(rawValue: Int) {
-        self.rawValue = rawValue
+    public static prefix func ! (side: ContactSide) -> ContactSide {
+        switch side {
+        case .top:
+            return .bottom
+        case .bottom:
+            return .top
+        case .left:
+            return .right
+        case .right:
+            return .left
+        case .unspecified:
+            return .unspecified
+        }
     }
-    
-    public static let horizontal = MovementAxes(rawValue: 1 << 0)
-    public static let vertical = MovementAxes(rawValue: 1 << 1)
-    public static let circular = MovementAxes(rawValue: 1 << 2)
 }

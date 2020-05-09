@@ -97,48 +97,49 @@ open class GlideEntity: GKEntity {
         })
     }
     
-    /// MARK: - Update control
+    // MARK: - Update control
     
     /// `true` if the entity's update methods should be called.
     public var shouldBeUpdated: Bool {
         guard willBeRemoved == false else {
             return false
         }
-        return components.reduce(true) { result, component in
-            if let managing = component as? UpdateControllingComponent {
-                return result && managing.shouldEntityBeUpdated
+        
+        return components.allSatisfy {
+            if let managing = $0 as? UpdateControllingComponent {
+                return managing.shouldEntityBeUpdated
             }
-            return result && true
+            return true
         }
     }
     
     /// `true` if the entity can take damage.
     public var canTakeDamage: Bool {
-        return components.reduce(true) { result, component in
-            if let managing = component as? DamageControllingComponent {
-                return result && managing.canEntityTakeDamage
+        return components.allSatisfy {
+            if let managing = $0 as? DamageControllingComponent {
+                return managing.canEntityTakeDamage
             }
-            return result && true
+            return true
         }
     }
     
     /// `true` if the entity's transform can be removed from the scene.
     public var canBeRemoved: Bool {
-        return components.reduce(false) { result, component in
-            if let managing = component as? RemovalControllingComponent {
-                return result || managing.canEntityBeRemoved
+        return components.contains {
+            if let managing = $0 as? RemovalControllingComponent {
+                return managing.canEntityBeRemoved
             }
-            return result || false
+            return false
         }
     }
     
     /// `true` if the entity's components should process user input.
     public var shouldBlockInputs: Bool {
-        return components.reduce(false) { result, component in
-            if let managing = component as? InputControllingComponent {
-                return result || managing.shouldBlockInputs
+        return components.contains {
+            if let managing = $0 as? InputControllingComponent {
+                return managing.shouldBlockInputs
             }
-            return result || false
+            return false
         }
     }
     

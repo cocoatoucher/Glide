@@ -25,7 +25,7 @@
 
 import SpriteKit
 
-extension SKAction {
+public extension SKAction {
     
     /// Creates an `SKAction` with given animation values.
     ///
@@ -38,13 +38,13 @@ extension SKAction {
     ///     - loops: `true` if the animation should repeat forever.
     ///     - isReverse: `true` if the textures should be placed in reverse order.
     ///     - textureAtlas: Texture atlas in which to look for texture images. Default value is `nil`.
-    public class func textureAnimation(textureFormat: String,
-                                       numberOfFrames: Int,
-                                       timePerFrame: TimeInterval,
-                                       loops: Bool,
-                                       isReverse: Bool = false,
-                                       textureAtlas: SKTextureAtlas? = nil,
-                                       shouldGenerateNormalMaps: Bool = false) -> SKAction {
+    class func textureAnimation(textureFormat: String,
+                                numberOfFrames: Int,
+                                timePerFrame: TimeInterval,
+                                loops: Bool,
+                                isReverse: Bool = false,
+                                textureAtlas: SKTextureAtlas? = nil,
+                                shouldGenerateNormalMaps: Bool = false) -> SKAction {
         var textures: [SKTexture] = []
         var strided = stride(from: 0, through: numberOfFrames - 1, by: 1)
         if isReverse {
@@ -76,12 +76,12 @@ extension SKAction {
     ///     - timePerFrame: Time per frame of animation in seconds.
     ///     - loops: `true` if the animation should repeat forever.
     ///     - textureAtlas: Texture atlas in which to look for texture images. Default value is `nil`.
-    public class func textureAnimation(textureFormat: String,
-                                       range: NSRange,
-                                       timePerFrame: TimeInterval,
-                                       loops: Bool,
-                                       textureAtlas: SKTextureAtlas? = nil,
-                                       shouldGenerateNormalMaps: Bool = false) -> SKAction {
+    class func textureAnimation(textureFormat: String,
+                                range: NSRange,
+                                timePerFrame: TimeInterval,
+                                loops: Bool,
+                                textureAtlas: SKTextureAtlas? = nil,
+                                shouldGenerateNormalMaps: Bool = false) -> SKAction {
         var textures: [SKTexture] = []
         var strided = stride(from: range.location, through: range.location + range.length - 1, by: 1)
         if range.length < 0 {
@@ -114,12 +114,12 @@ extension SKAction {
     ///     - timePerFrame: Time per frame of animation in seconds.
     ///     - loops: `true` if the animation should repeat forever.
     ///     - textureAtlas: Texture atlas in which to look for texture images. Default value is `nil`.
-    public class func textureAnimation(textureFormat: String,
-                                       indexSet: [Int],
-                                       timePerFrame: TimeInterval,
-                                       loops: Bool,
-                                       textureAtlas: SKTextureAtlas? = nil,
-                                       shouldGenerateNormalMaps: Bool = false) -> SKAction {
+    class func textureAnimation(textureFormat: String,
+                                indexSet: [Int],
+                                timePerFrame: TimeInterval,
+                                loops: Bool,
+                                textureAtlas: SKTextureAtlas? = nil,
+                                shouldGenerateNormalMaps: Bool = false) -> SKAction {
         var textures: [SKTexture] = []
         for index in indexSet {
             let textureName = String(format: textureFormat, index)

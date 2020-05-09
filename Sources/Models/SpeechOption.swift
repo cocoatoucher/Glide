@@ -1,5 +1,5 @@
 //
-//  MovementAxes.swift
+//  SpeechOption.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -25,15 +25,13 @@
 
 import Foundation
 
-/// Represents different options for axes of movement.
-public struct MovementAxes: OptionSet, Sequence {
-    public let rawValue: Int
+/// Represents options to choose from at the end of a speech.
+public struct SpeechOption {
+    public let text: String
+    public let targetSpeech: Speech
     
-    public init(rawValue: Int) {
-        self.rawValue = rawValue
+    public init(text: String, targetSpeech: Speech) {
+        self.text = text
+        self.targetSpeech = targetSpeech
     }
-    
-    public static let horizontal = MovementAxes(rawValue: 1 << 0)
-    public static let vertical = MovementAxes(rawValue: 1 << 1)
-    public static let circular = MovementAxes(rawValue: 1 << 2)
 }

@@ -25,12 +25,6 @@
 
 import GameplayKit
 
-/// Protocol to adopt to for light mask types.
-/// This is used for the `lightingBitMask` of `LightNodeComponent`'s node.
-public protocol LightMask {
-    var rawValue: UInt32 { get }
-}
-
 /// Component that renders a light node as a child of its entity's transform node.
 public final class LightNodeComponent: GKSKNodeComponent, GlideComponent, ZPositionContainerIndicatorComponent {
     

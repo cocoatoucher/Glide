@@ -1,5 +1,5 @@
 //
-//  Int+Extensions.swift
+//  CGSize+TiledSize.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -23,29 +23,15 @@
 //  SOFTWARE.
 //
 
-import Foundation
+import CoreGraphics
+import SpriteKit
 
-extension Int {
+extension CGSize {
     
-    /// Clamps current integer bound by the values of a range.
-    public func clamped(_ range: Range<Int>) -> Int {
-        if self < range.lowerBound {
-            return range.lowerBound
-        }
-        if self >= range.upperBound {
-            return range.upperBound - 1
-        }
-        return self
-    }
-    
-    /// Clamps current integer bound by the values of a closed range.
-    public func clamped(_ range: ClosedRange<Int>) -> Int {
-        if self < range.lowerBound {
-            return range.lowerBound
-        }
-        if self > range.upperBound {
-            return range.upperBound
-        }
-        return self
+    /// Returns the tiled size equivalent of the current size
+    /// calculated with given tile size.
+    public func tiledSize(with tileSize: CGSize) -> TiledSize {
+        return TiledSize(width: Int(width / tileSize.width),
+                         height: Int(height / tileSize.height))
     }
 }

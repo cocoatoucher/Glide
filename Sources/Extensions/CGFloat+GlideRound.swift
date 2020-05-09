@@ -1,5 +1,5 @@
 //
-//  MovementAxes.swift
+//  CGFloat+GlideRound.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -23,17 +23,12 @@
 //  SOFTWARE.
 //
 
-import Foundation
+import CoreGraphics
 
-/// Represents different options for axes of movement.
-public struct MovementAxes: OptionSet, Sequence {
-    public let rawValue: Int
+extension CGFloat {
     
-    public init(rawValue: Int) {
-        self.rawValue = rawValue
+    /// Common way of rounding floating numbers in the framework.
+    public var glideRound: CGFloat {
+        return Darwin.round(self)
     }
-    
-    public static let horizontal = MovementAxes(rawValue: 1 << 0)
-    public static let vertical = MovementAxes(rawValue: 1 << 1)
-    public static let circular = MovementAxes(rawValue: 1 << 2)
 }

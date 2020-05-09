@@ -1,6 +1,8 @@
 //
-//  CGSize+Extensions.swift
+//  CGSize+Operators.swift
 //  glide
+//
+//  Based on https://github.com/raywenderlich/SKTUtils
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
 //
@@ -24,9 +26,6 @@
 //
 
 import CoreGraphics
-import SpriteKit
-
-// MARK: - CGSize & CGFloat
 
 /// Divides the size fields by a given scalar.
 public func / (size: CGSize, scalar: CGFloat) -> CGSize {

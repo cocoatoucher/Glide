@@ -1,0 +1,193 @@
+custom_categories:
+  - name: Getting Started 
+    children:
+    - README
+    - Components
+    - InputMethods
+    - QuickStartGuide
+    - TiledMapEditorMaps
+    - SpriteKitMaps
+    - AssetCredits
+
+  - name: Scene
+    children:
+    - GlideScene
+    - GlideSceneDelegate
+
+  - name: Entities
+    children:
+    - GlideEntity
+    - EntityFactory
+    - MovingPlatformEntity
+    - ProjectileTemplateEntity
+    - SpeechBubbleTemplateEntity
+
+  - name: Core Components
+    children:
+    - ColliderComponent
+    - ColliderTileHolderComponent
+    - KinematicsBodyComponent
+    - LabelNodeComponent
+    - SnapperComponent
+    - SpriteNodeComponent
+    - TextureAnimatorComponent
+    - TileMapNodeComponent
+    - TransformNodeComponent
+  - name: Component Protocols
+    children:
+    - ActionsEvaluatorComponent
+    - CameraFocusingComponent
+    - DamageControllingComponent
+    - DebuggableComponent
+    - GlideComponent
+    - InputControllingComponent
+    - NodeLayoutableComponent
+    - RemovalControllingComponent
+    - RespawnableEntityComponent
+    - StateResettingComponent
+    - UpdateControllingComponent
+    - ZPositionContainerIndicatorComponent
+  - name: Ability Components
+    children:
+    - BlinkerComponent
+    - BouncerComponent
+    - CameraFocusAreaRecognizerComponent
+    - CheckpointRecognizerComponent
+    - CroucherComponent
+    - DasherComponent
+    - EntityObserverComponent
+    - HealthComponent
+    - JetpackOperatorComponent
+    - JumpComponent
+    - LadderClimberComponent
+    - ParagliderComponent
+    - PlayableCharacterComponent
+    - ProjectileShooterComponent
+    - RespawnAtCheckpointOnRestartComponent
+    - ShakerComponent
+    - SwingHolderComponent
+    - TalkerComponent
+    - UpwardsLookerComponent
+    - WallClingerComponent
+    - WallJumpComponent
+  - name: Autonomous Components
+    children:
+    - SelfChangeDirectionComponent
+    - SelfFollowWaypointsComponent
+    - SelfMoveComponent
+    - SelfShootOnObserveComponent
+    - SelfSpawnEntitiesComponent
+  - name: Environment Components
+    children:
+    - CameraFocusAreaComponent
+    - CheckpointComponent
+    - LightNodeComponent
+  - name: Gameplay UI Components
+    children:
+    - FocusableComponent
+    - FocusableEntitiesControllerComponent
+    - SpeechFlowControllerComponent
+  - name: Movement Components
+    children:
+    - ApproachingMovementComponent
+    - CircularMovementComponent
+    - HorizontalMovementComponent
+    - LerpingMovementComponent
+    - OscillatingMovementComponent
+    - VerticalMovementComponent
+  - name: Scene Components
+    children:
+    - CameraComponent
+    - CameraFollowerComponent
+    - InfiniteSpriteScrollerComponent
+    - SceneAnchoredSpriteLayoutComponent
+  - name: Snappable Components
+    children:
+    - BouncingPlatformComponent
+    - FallingPlatformComponent
+    - LadderComponent
+    - PlatformComponent
+    - SnappableComponent
+    - SwingComponent
+  - name: Utility Components
+    children:
+    - RemoveAfterTimeIntervalComponent
+    - TouchReceiverComponent
+
+  - name: Models
+    children:
+    - CategoryMask
+    - Checkpoint
+    - CircularDirection
+    - ColliderTile
+    - Contact
+    - ContactSide
+    - ContactedObject
+    - Conversation
+    - Direction
+    - GlideCategoryMask
+    - GlideScene.EndReason
+    - GlideZPositionContainer
+    - MovementAxes
+    - MovementStyle
+    - ProjectileShootingProperties
+    - SceneTileMaps
+    - Speech
+    - SpeechOption
+    - TextureAnimation
+    - TextureAnimation.Action
+    - ZPositionContainer
+    - RoundedAngle
+    - TiledGeometry
+    - LightMask
+    - SlopeContext
+    - OptionSetIterator
+    - TiledPoint
+    - TiledRange
+    - TiledRect
+    - TiledSize
+    - NodeLayoutConstraint
+    - TouchInputProfilesOrCallback
+
+  - name: Input
+    children:
+    - Input
+    - KeyCode
+    - InputProfile
+    - DefaultInputProfiles
+    - InputMethod
+
+  - name: TiledMapEditorSceneLoader
+    children:
+    - TiledMapEditorSceneLoader
+
+  - name: UI
+    children:
+    - NavigatableElement
+    - NavigatableButton
+    - NavigatableButtonContentView
+    - NavigatableButtonScrollViewController
+    - NavigatablePopoverViewController
+    - NavigatableViewController
+
+  - name: Utils
+    children:
+    - ComponentPriorityRegistry
+
+exclude:
+  - "Demo/*"
+  - "Sources/CrossPlatform/*"
+  - "Sources/Extensions/Operators/*"
+  - "Sources/iOS/GlideScene+TouchInput.swift"
+
+theme: fullwidth 
+skip_undocumented: true
+readme: README.md
+documentation: Docs/*.md
+clean: true
+xcodebuild_arguments:
+  - -scheme
+  - Glide_macOS
+author: Glide Engine
+author_url: https://github.com/cocoatoucher/Glide/
+github_url: https://github.com/cocoatoucher/Glide/

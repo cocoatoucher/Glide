@@ -1,5 +1,5 @@
 //
-//  GlideScene+ContactTestMap.swift
+//  OptionSetIterator.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
@@ -25,37 +25,31 @@
 
 import Foundation
 
-extension GlideScene {
+/// From https://stackoverflow.com/questions/32102936/how-do-you-enumerate-optionsettype-in-swift
+public struct OptionSetIterator<Element: OptionSet>: IteratorProtocol where Element.RawValue == Int {
+    private let value: Element
     
-    public func mapContact(between mask: CategoryMask, and otherMask: CategoryMask) {
-        if let mapped = contactTestMap[mask.rawValue] {
-            contactTestMap[mask.rawValue] = mapped | otherMask.rawValue
-        } else {
-            contactTestMap[mask.rawValue] = otherMask.rawValue
-        }
+    public init(element: Element) {
+        self.value = element
     }
     
-    public func canHaveContact(between mask: CategoryMask, and otherMask: CategoryMask) -> Bool {
-        if let mapped = contactTestMap[mask.rawValue] {
-            if mapped & otherMask.rawValue == otherMask.rawValue {
-                return true
+    private lazy var remainingBits = value.rawValue
+    private var bitMask = 1
+    
+    public mutating func next() -> Element? {
+        while remainingBits != 0 {
+            defer { bitMask = bitMask &* 2 }
+            if remainingBits & bitMask != 0 {
+                remainingBits = remainingBits & ~bitMask
+                return Element(rawValue: bitMask)
             }
         }
-        
-        if let mapped = contactTestMap[otherMask.rawValue] {
-            if mapped & mask.rawValue == mask.rawValue {
-                return true
-            }
-        }
-        
-        return false
+        return nil
     }
-    
-    public func unregisterContacts(for mask: CategoryMask) {
-        contactTestMap[mask.rawValue] = nil
-    }
-    
-    public func reset() {
-        contactTestMap = [:]
+}
+
+extension OptionSet where Self.RawValue == Int {
+    public func makeIterator() -> OptionSetIterator<Self> {
+        return OptionSetIterator(element: self)
     }
 }

@@ -1,5 +1,5 @@
 //
-//  TextureAnimationAction.swift
+//  TextureAnimation.Action.swift
 //  glide
 //
 //  Copyright (c) 2019 cocoatoucher user on github.com (https://github.com/cocoatoucher/)
