@@ -2,12 +2,11 @@ custom_categories:
   - name: Getting Started 
     children:
     - README
+    - QuickStartGuide
     - Components
     - InputMethods
-    - QuickStartGuide
     - TiledMapEditorMaps
     - SpriteKitMaps
-    - AssetCredits
 
   - name: Scene
     children:
@@ -183,8 +182,8 @@ exclude:
 theme: fullwidth 
 skip_undocumented: true
 readme: README.md
-documentation: Docs/*.md
 clean: true
+hide_documentation_coverage: true
 xcodebuild_arguments:
   - -scheme
   - Glide_macOS
