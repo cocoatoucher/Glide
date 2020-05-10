@@ -7,6 +7,9 @@ custom_categories:
     - InputMethods
     - TiledMapEditorMaps
     - SpriteKitMaps
+    - UpdateLoopScene
+    - UpdateLoopEntity
+    - UpdateLoopComponent
 
   - name: Scene
     children:
@@ -182,6 +185,7 @@ exclude:
 theme: fullwidth 
 skip_undocumented: true
 readme: README.md
+documentation: Docs/*.md
 clean: true
 hide_documentation_coverage: true
 xcodebuild_arguments:

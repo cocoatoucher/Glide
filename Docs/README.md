@@ -9,3 +9,6 @@
 ### [- Input methods](https://github.com/cocoatoucher/Glide/blob/master/Docs/InputMethods.md)
 ### [- Map files with Tiled Map Editor](https://github.com/cocoatoucher/Glide/blob/master/Docs/TiledMapEditorMaps.md)
 ### [- Map files with SpriteKit](https://github.com/cocoatoucher/Glide/blob/master/Docs/SpriteKitMaps.md)
+### [- Update loop - Scene](https://github.com/cocoatoucher/Glide/blob/master/Docs/UpdateLoopScene.md)
+### [- Update loop - Entity](https://github.com/cocoatoucher/Glide/blob/master/Docs/UpdateLoopEntity.md)
+### [- Update loop - Component](https://github.com/cocoatoucher/Glide/blob/master/Docs/UpdateLoopComponent.md)

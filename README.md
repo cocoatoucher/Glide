@@ -2,9 +2,9 @@
 <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/glide_logo_transparent.png" width="128" max-width="80%" alt="glide"/>
 </p>
 
-# glide engine
+# Glide Engine
 
-glide is a SpriteKit and GameplayKit based engine for building 2d games easily, with a focus on side scrollers. glide is developed with Swift and works on iOS, macOS and tvOS. 
+Glide is a SpriteKit and GameplayKit based engine for building 2d games easily, with a focus on side scrollers. Glide is developed with Swift and works on iOS, macOS and tvOS.
 
 <p align="center">
 <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/devices.png" max-width="80%" alt="glide devices"/>
@@ -15,7 +15,7 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 
 <p align="center">
 <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/334243593">
-<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/jump.gif" width="400" max-width="80%" alt="A glimpse of the glide's features">
+<img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/jump.gif" width="400" max-width="80%" alt="A glimpse of the Glide's features">
 </a>
 </p>
 
@@ -56,18 +56,18 @@ glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 
 - More tutorials are on the way! Stay tuned for updates in a couple of weeks. (Updated 3rd June 2019) [Follow on YouTube](https://www.youtube.com/channel/UCKB7inlaMD2CvyaQKQ2snZw)
 
-## What is in glide?
+## What is in Glide?
 
 ### 1. Entity component system
-glide is developed with [Entity-Component-System architecture](https://en.wikipedia.org/wiki/Entity_component_system). In short, this makes it easy to manage the code of your game, which might quickly get messy as you add more stuff. In addition to that, loads of building components common to 2d platformers that will get you quickly started is also included in the engine. 
+Glide is developed with [Entity-Component-System architecture](https://en.wikipedia.org/wiki/Entity_component_system). In short, this makes it easy to manage the code of your game, which might quickly get messy as you add more stuff. In addition to that, loads of building components common to 2d platformers that will get you quickly started is also included in the engine. 
 
 #### See all the components [here](https://github.com/cocoatoucher/Glide/blob/master/Docs/Components.md). 👾
 
 ### 2. Tight collisions and contacts
-glide has its own collision and contact algorithms which is more suitable for precise platformer mechanics compared to using SpriteKit's physicsBody.
+Glide has its own collision and contact algorithms which is more suitable for precise platformer mechanics compared to using SpriteKit's physicsBody.
 
 ### 3. Input 🎮⌨️🖱🔲
-Support for Bluetooth and USB game controllers, keyboard, mouse, and touch controls comes out of the box with glide and it is pretty intuitive to use them. Learn more about supported input methods [here.](https://github.com/cocoatoucher/Glide/blob/master/Docs/InputMethods.md)
+Support for Bluetooth and USB game controllers, keyboard, mouse, and touch controls comes out of the box with Glide and it is pretty intuitive to use them. Learn more about supported input methods [here.](https://github.com/cocoatoucher/Glide/blob/master/Docs/InputMethods.md)
 
 ### 4. Native game menus
 
@@ -75,34 +75,34 @@ Support for Bluetooth and USB game controllers, keyboard, mouse, and touch contr
 <img src="https://github.com/cocoatoucher/Glide/raw/master/Docs/navigatable.gif" width="444" max-width="80%"/>
 </p>
 
-You can't imagine a game without menus in most cases. A UIKit / AppKit based user interface library for making game menus is included in glide, so you don't have to give up from native Apple components in your games. Of course, those menus are controllable via game controllers on iOS, macOS and tvOS 🎮💃
+You can't imagine a game without menus in most cases. A UIKit / AppKit based user interface library for making game menus is included in Glide, so you don't have to give up from native Apple components in your games. Of course, those menus are controllable via game controllers on iOS, macOS and tvOS 🎮💃
 
 ### 5. Audio and music 🔊
-There is currently a work in progress for playing audio and music with ready made components in glide. In the mean time, you can go ahead and use `SKAudioNode`s directly with your entities and components as glide is seamlessly integrated with SpriteKit.
+There is currently a work in progress for playing audio and music with ready made components in Glide. In the mean time, you can go ahead and use `SKAudioNode`s directly with your entities and components as Glide is seamlessly integrated with SpriteKit.
 
 ## Inspiration
-glide naturally draws inspiration from the approaches of other popular and smaller game engines on different platforms. Those inspirations are also rooted in the usage of certain architectural patterns like entity-component-system. On top of that, glide has a bunch of tailored solutions towards making it easier to create more professional platformers and 2d games in general on Apple platforms.
+Glide naturally draws inspiration from the approaches of other popular and smaller game engines on different platforms. Those inspirations are also rooted in the usage of certain architectural patterns like entity-component-system. On top of that, Glide has a bunch of tailored solutions towards making it easier to create more professional platformers and 2d games in general on Apple platforms.
 
-## Get your hands on glide
+## Get your hands on Glide
 
 ### Demo scenes
-glide comes with a fully fledged demo project. Download this repository and run it in your favorite platform. Running on release configuration with a real device is recommended for experiencing the actual performance.
+Glide comes with a fully fledged demo project. Download this repository and run it in your favorite platform. Running on release configuration with a real device is recommended for experiencing the actual performance.
 
 ### Quick start guide
 Create your first scene with your first entity [here.](https://github.com/cocoatoucher/Glide/blob/master/Docs/QuickStartGuide.md)
 
 ### Update loops
-Here are the update loop charts of glide that you might need as a handy reference.
+Here are the update loop charts of Glide that you might need as a handy reference.
 
 Scene update loop       |  Entity update loop     |  Component update loop
 :-------------------------:|:-------------------------:|:-------------------------:
 ![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/glide-update-cycle-scene.png "Update cycle of a scene")  |  ![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/glide-update-cycle-entity.png "Update cycle of an entity")  |  ![alt text](https://github.com/cocoatoucher/Glide/raw/master/Docs/glide-update-cycle-component.png "Update cycle of a component")
 
 ### Game genres
-Supporting other types of 2d games(e.g. top down) with glide is totally possible. However, that is not tested with enough demos yet, and side scrollers are the initial focus for the engine. Please feel free to contribute with your own demos and changes to glide for supporting other genres.
+Supporting other types of 2d games(e.g. top down) with Glide is totally possible. However, that is not tested with enough demos yet, and side scrollers are the initial focus for the engine. Please feel free to contribute with your own demos and changes to Glide for supporting other genres.
 
 ### 🐞🐜
-Bugs are expected since glide is in its early days and this is currently a solo developer project. Please report the bugs you find and give some patience 🙏
+Bugs are expected since Glide is in its early days and this is currently a solo developer project. Please report the bugs you find and give some patience 🙏
 
 ### Credits:
 
