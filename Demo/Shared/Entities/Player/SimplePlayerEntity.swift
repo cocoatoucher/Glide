@@ -80,6 +80,8 @@ class SimplePlayerEntity: GlideEntity {
         addComponent(colliderTileHolderComponent)
         
         setupTextureAnimations()
+        
+        setupAudio()
     }
     
     // swiftlint:disable:next function_body_length
@@ -135,6 +137,32 @@ class SimplePlayerEntity: GlideEntity {
         animatorComponent.addAnimation(onAirAnimation)
     }
     
+    func setupAudio() {
+        let audioPlayerComponent = AudioPlayerComponent()
+        addComponent(audioPlayerComponent)
+        
+        let runClip = AudioClip(triggerName: "Run",
+                                fileName: "runcycle",
+                                fileExtension: "aif",
+                                loops: true,
+                                isPositional: true)
+        audioPlayerComponent.addClip(runClip)
+        
+        let jumpClip = AudioClip(triggerName: "Jump",
+                                 fileName: "jumping",
+                                 fileExtension: "aif",
+                                 loops: false,
+                                 isPositional: true)
+        audioPlayerComponent.addClip(jumpClip)
+        
+        let landClip = AudioClip(triggerName: "Land",
+                                 fileName: "landing",
+                                 fileExtension: "aif",
+                                 loops: false,
+                                 isPositional: true)
+        audioPlayerComponent.addClip(landClip)
+    }
+    
 }
 
 class SimplePlayerComponent: GKComponent, GlideComponent {
@@ -153,6 +181,7 @@ class SimplePlayerComponent: GKComponent, GlideComponent {
     
     func didUpdate(deltaTime seconds: TimeInterval) {
         let textureAnimatorComponent = entity?.component(ofType: TextureAnimatorComponent.self)
+        let audioPlayerComponent = entity?.component(ofType: AudioPlayerComponent.self)
         
         let collider = entity?.component(ofType: ColliderComponent.self)
         let jumpComponent = entity?.component(ofType: JumpComponent.self)
@@ -168,15 +197,26 @@ class SimplePlayerComponent: GKComponent, GlideComponent {
             horizontalMovementComponent?.movementDirection != .stationary &&
             jumpComponent?.jumps == false {
             textureAnimatorComponent?.enableAnimation(with: "Run")
+            audioPlayerComponent?.enableClip(with: "Run")
         }
         
         if jumpComponent?.jumps == true {
             textureAnimatorComponent?.enableAnimation(with: "Jump")
+            audioPlayerComponent?.enableClip(with: "Jump")
         }
         
         if collider?.isOnAir == true &&
             jumpComponent?.jumps == false {
             textureAnimatorComponent?.enableAnimation(with: "OnAir")
+        }
+        
+        if collider?.wasOnAir == true && collider?.isOnAir == false {
+            audioPlayerComponent?.enableClip(with: "Land")
+        }
+        
+        let projectileShooter = entity?.component(ofType: ProjectileShooterComponent.self)
+        if projectileShooter?.shoots == true {
+            audioPlayerComponent?.enableClip(with: "Shoot")
         }
     }
     

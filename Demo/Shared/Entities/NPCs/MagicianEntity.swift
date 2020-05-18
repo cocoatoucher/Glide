@@ -72,6 +72,8 @@ class MagicianEntity: GlideEntity {
         setupShooterComponents()
         
         setupTextureAnimations()
+        
+        setupAudio()
     }
     
     func setupShooterComponents() {
@@ -152,11 +154,25 @@ class MagicianEntity: GlideEntity {
         animatorComponent.addAnimation(attackAnimation)
     }
     
+    func setupAudio() {
+        let audioPlayerComponent = AudioPlayerComponent()
+        addComponent(audioPlayerComponent)
+        
+        let shootClip = AudioClip(triggerName: "Shoot",
+                                  fileName: "shoot",
+                                  fileExtension: "wav",
+                                  loops: false,
+                                  isPositional: true)
+        audioPlayerComponent.addClip(shootClip)
+    }
+    
     override func didUpdateComponents(currentTime: TimeInterval, deltaTime: TimeInterval) {
         let textureAnimator = component(ofType: TextureAnimatorComponent.self)
+        let audioPlayer = component(ofType: AudioPlayerComponent.self)
         if component(ofType: ProjectileShooterComponent.self)?.shoots == true {
             if couldShoot {
                 textureAnimator?.enableAnimation(with: "Attack")
+                audioPlayer?.enableClip(with: "Shoot")
             } else {
                 textureAnimator?.enableAnimation(with: "Idle")
             }

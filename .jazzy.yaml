@@ -33,6 +33,7 @@ custom_categories:
     - SnapperComponent
     - SpriteNodeComponent
     - TextureAnimatorComponent
+    - AudioPlayerComponent
     - TileMapNodeComponent
     - TransformNodeComponent
   - name: Component Protocols

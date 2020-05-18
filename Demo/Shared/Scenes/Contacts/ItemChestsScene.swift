@@ -103,6 +103,15 @@ class ItemChestsScene: BaseLevelScene {
         })
         entity.addComponent(chestItemPickerComponent)
         
+        let audioPlayerComponent = entity.component(ofType: AudioPlayerComponent.self)
+        
+        let shootClip = AudioClip(triggerName: "Shoot",
+                                  fileName: "shoot",
+                                  fileExtension: "wav",
+                                  loops: false,
+                                  isPositional: true)
+        audioPlayerComponent?.addClip(shootClip)
+        
         return entity
     }()
     

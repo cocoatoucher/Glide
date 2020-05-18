@@ -12,6 +12,7 @@ Glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 
 - Download the macOS demo app [here](https://github.com/cocoatoucher/Glide/raw/master/Docs/GlideDemo.zip) to give it a try. 
 - or watch a video of the features [here](https://vimeo.com/334243593). 
+- [Documentation](https://cocoatoucher.github.io/Glide/index.html)
 
 <p align="center">
 <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/334243593">
@@ -76,9 +77,6 @@ Support for Bluetooth and USB game controllers, keyboard, mouse, and touch contr
 </p>
 
 You can't imagine a game without menus in most cases. A UIKit / AppKit based user interface library for making game menus is included in Glide, so you don't have to give up from native Apple components in your games. Of course, those menus are controllable via game controllers on iOS, macOS and tvOS 🎮💃
-
-### 5. Audio and music 🔊
-There is currently a work in progress for playing audio and music with ready made components in Glide. In the mean time, you can go ahead and use `SKAudioNode`s directly with your entities and components as Glide is seamlessly integrated with SpriteKit.
 
 ## Inspiration
 Glide naturally draws inspiration from the approaches of other popular and smaller game engines on different platforms. Those inspirations are also rooted in the usage of certain architectural patterns like entity-component-system. On top of that, Glide has a bunch of tailored solutions towards making it easier to create more professional platformers and 2d games in general on Apple platforms.

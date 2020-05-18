@@ -26,6 +26,7 @@
 import Foundation
 import GameController
 
+// swiftlint:disable file_length
 extension Input {
     func setupGameControllers() {
         gameControllerObserver.didConnectControllerHandler = { [weak self] connectedController in
@@ -262,13 +263,33 @@ extension Input {
             }
         }
         
-        microGamepad.controller?.controllerPausedHandler = { [weak self] _ in
-            guard let self = self else {
-                return
+        configureMicroGamepadMenuButton(microGamepad)
+    }
+    
+    private func configureMicroGamepadMenuButton(_ microGamepad: GCMicroGamepad) {
+        
+        if #available(OSX 10.15, iOS 13.0, tvOS 13.0, *) {
+            microGamepad.buttonMenu.pressedChangedHandler = { [weak self] _, value, pressed in
+                guard let self = self else {
+                    return
+                }
+                if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
+                    if pressed {
+                        self.addKey(keyGroup.menu, value: value)
+                    } else {
+                        self.removeKey(keyGroup.menu)
+                    }
+                }
             }
-            
-            if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
-                self.addKey(keyGroup.menu, removeAtNextUpdate: true)
+        } else {
+            microGamepad.controller?.controllerPausedHandler = { [weak self] _ in
+                guard let self = self else {
+                    return
+                }
+                
+                if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
+                    self.addKey(keyGroup.menu, removeAtNextUpdate: true)
+                }
             }
         }
     }

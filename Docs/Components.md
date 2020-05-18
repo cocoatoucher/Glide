@@ -33,6 +33,9 @@ Component that is used to establish collisions with snappable objects like platf
 ##### - TextureAnimator Component
 Component that is used to play texture animation actions on the entity's sprite node. Uses `SKAction`s for the actual animations and uses predefined trigger ids to switch between playing animations.
 
+##### - AudioPlayer Component
+Component that is used to add and play audio effects on the entity's sprite node. Uses `SKAudioNodes`s as clips for playing audio and uses predefined trigger ids to play/stop associated clips.
+
 ## Movement related components
 
 ##### - HorizontalMovement Component

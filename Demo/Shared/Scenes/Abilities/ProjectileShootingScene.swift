@@ -71,6 +71,15 @@ class ProjectileShootingScene: BaseLevelScene {
         })
         playerEntity.addComponent(projectileShooterComponent)
         
+        let audioPlayerComponent = playerEntity.component(ofType: AudioPlayerComponent.self)
+        
+        let shootClip = AudioClip(triggerName: "Shoot",
+                                  fileName: "shoot",
+                                  fileExtension: "wav",
+                                  loops: false,
+                                  isPositional: true)
+        audioPlayerComponent?.addClip(shootClip)
+        
         return playerEntity
     }()
     

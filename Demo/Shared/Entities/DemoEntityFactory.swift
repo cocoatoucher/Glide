@@ -61,7 +61,20 @@ class DemoEntityFactory {
     }
     
     static func explosionAnimationEntity(at position: CGPoint) -> GlideEntity {
-        return DemoEntityFactory.animationEntity(position: position, textureFormat: "explosion_%d", numberOfFrame: 59, offset: CGPoint(x: 0, y: 10))
+        let entity = DemoEntityFactory.animationEntity(position: position, textureFormat: "explosion_%d", numberOfFrame: 59, offset: CGPoint(x: 0, y: 10))
+        
+        let audioPlayerComponent = AudioPlayerComponent()
+        entity.addComponent(audioPlayerComponent)
+        
+        let explodeClip = AudioClip(triggerName: "Explode",
+                                    fileName: "explosion",
+                                    fileExtension: "wav",
+                                    loops: false,
+                                    isPositional: true)
+        audioPlayerComponent.addClip(explodeClip)
+        audioPlayerComponent.enableClip(with: "Explode")
+        
+        return entity
     }
     
     static func magicAnimationEntity(at position: CGPoint) -> GlideEntity {

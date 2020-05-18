@@ -25,7 +25,7 @@
 
 import SpriteKit
 
-/// Represents an animation object that control animations actions for its given textures.
+/// Represents an animation object that control animation actions for its given textures.
 public class TextureAnimation {
     
     /// Id that will be used to trigger playing this animation.
@@ -151,6 +151,7 @@ public class TextureAnimation {
     let id: String
     let baseAction: SKAction
     /// Whether that animation is currently triggered.
+    /// Will be reset to `false` in next update cycle.
     var isTriggerEnabled: Bool = false
     /// Whether another animation could start while this animation is playing.
     var allowsTransition: Bool {
