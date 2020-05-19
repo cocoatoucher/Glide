@@ -139,6 +139,7 @@ custom_categories:
     - SpeechOption
     - TextureAnimation
     - TextureAnimation.Action
+    - AudioClip
     - ZPositionContainer
     - RoundedAngle
     - TiledGeometry

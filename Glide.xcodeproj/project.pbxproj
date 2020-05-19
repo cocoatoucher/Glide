@@ -626,6 +626,8 @@
 		4ED8F1C622540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */; };
 		4ED8F1C722540B9F00661601 /* ActionsEvaluatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED8F1C422540B9F00661601 /* ActionsEvaluatorComponent.swift */; };
 		4EDFD5CC22F6064B00BE9306 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EDFD5CB22F6064B00BE9306 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EDFD5EB24743ABC00CCBF86 /* AudioPlayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FCA24682239005057D7 /* AudioPlayerComponent.swift */; };
+		4EDFD5EC24743ABE00CCBF86 /* AudioPlayerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E718FCA24682239005057D7 /* AudioPlayerComponent.swift */; };
 		4EE856CE2232BDB700C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
 		4EE856CF2232BDB700C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
 		4EE856D02232BDB800C2848A /* CollisionsController+ContactSidesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE856CC2232BC8B00C2848A /* CollisionsController+ContactSidesTests.swift */; };
@@ -2170,6 +2172,7 @@
 				4EF4535721E35D6800EF07EC /* CroucherComponent.swift in Sources */,
 				4E1A654822F494110089BBBA /* GlideScene+KeyboardAndMouseInput.swift in Sources */,
 				4E718FAF2465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */,
+				4EDFD5EB24743ABC00CCBF86 /* AudioPlayerComponent.swift in Sources */,
 				4E1C0A85220B339700198B62 /* DisplayLinkObserver.swift in Sources */,
 				4E72C02522F31E7300D68F52 /* Stick.swift in Sources */,
 				4E72C02822F31E7300D68F52 /* Element.swift in Sources */,
@@ -2429,6 +2432,7 @@
 				4EBF28782268E5DC00AE954B /* GameControllerKeyGroup.swift in Sources */,
 				4E6F2EC421F5D87C004BB1D6 /* BlinkerComponent.swift in Sources */,
 				4E718FB02465EFB1005057D7 /* NodeLayoutConstraint.swift in Sources */,
+				4EDFD5EC24743ABE00CCBF86 /* AudioPlayerComponent.swift in Sources */,
 				4E6F2EC721F5D883004BB1D6 /* SelfChangeDirectionComponent.swift in Sources */,
 				4EF1DCAA22F5D6BA009B7B12 /* EventHandling.swift in Sources */,
 				4EB336B722476C4700326C44 /* NodeLayoutableComponent.swift in Sources */,

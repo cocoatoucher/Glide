@@ -33,9 +33,7 @@ import SpriteKit
 /// Required components: `SpriteNodeComponent`
 public final class AudioPlayerComponent: GKComponent, GlideComponent {
     
-    public static let componentPriority: Int = 920
-    
-    private var clips: [AudioClip] = []
+    public static let componentPriority: Int = 925
     
     /// Add an audio clip which can be triggered at a later time.
     ///
@@ -73,6 +71,8 @@ public final class AudioPlayerComponent: GKComponent, GlideComponent {
     }
     
     // MARK: - Private
+    
+    private var clips: [AudioClip] = []
     
     private func playClips() {
         let activatedClips = clips.filter { $0.isTriggerEnabled }
