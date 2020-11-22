@@ -26,12 +26,10 @@
 import Foundation
 
 protocol GameControllerInterface: class {
-    associatedtype Controller: GameControllerInterface
     associatedtype ExtendedGamepad: ExtendedGamepadInterface
     associatedtype MicroGamepad: MicroGamepadInterface
 
     var playerIdx: Int? { get set }
-    var controllerPausedHandler: ((Controller) -> Void)? { get set }
     var extendedGamepad: ExtendedGamepad? { get }
     var microGamepad: MicroGamepad? { get }
 }
@@ -39,11 +37,8 @@ protocol GameControllerInterface: class {
 protocol MicroGamepadInterface {}
 
 protocol ExtendedGamepadInterface {
-    associatedtype Controller: GameControllerInterface
     associatedtype Button: GamepadButtonInterface
     associatedtype DirectionPad: GamepadDirectionPadInterface
-
-    var controller: Controller? { get }
     
     var buttonA: Button { get }
     var buttonB: Button { get }
@@ -56,6 +51,7 @@ protocol ExtendedGamepadInterface {
     var rightShoulder: Button { get }
     var leftTrigger: Button { get }
     var rightTrigger: Button { get }
+    var buttonMenu: Button { get }
 }
 
 protocol GamepadButtonInterface: class {

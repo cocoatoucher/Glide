@@ -26,7 +26,6 @@
 import Foundation
 import GameController
 
-// swiftlint:disable file_length
 extension Input {
     func setupGameControllers() {
         gameControllerObserver.didConnectControllerHandler = { [weak self] connectedController in
@@ -53,189 +52,220 @@ extension Input {
     
     // MARK: - Game controller callback setup
     
-    private func configureExtendedGamepadButtonA<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadButtonA<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.buttonA.pressedChangedHandler = { [weak self] _, value, pressed in
             guard let self = self else { return }
             
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.buttonA, value: value)
-                } else {
-                    self.removeKey(keyGroup.buttonA)
-                }
+            if pressed {
+                self.addKey(keyGroup.buttonA, value: value)
+            } else {
+                self.removeKey(keyGroup.buttonA)
             }
         }
     }
     
-    private func configureExtendedGamepadButtonB<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadButtonB<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.buttonB.pressedChangedHandler = { [weak self] _, value, pressed in
             guard let self = self else { return }
             
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.buttonB, value: value)
-                } else {
-                    self.removeKey(keyGroup.buttonB)
-                }
+            if pressed {
+                self.addKey(keyGroup.buttonB, value: value)
+            } else {
+                self.removeKey(keyGroup.buttonB)
             }
         }
     }
     
-    private func configureExtendedGamepadButtonY<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadButtonY<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.buttonY.pressedChangedHandler = { [weak self] _, value, pressed in
             guard let self = self else { return }
             
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.buttonY, value: value)
-                } else {
-                    self.removeKey(keyGroup.buttonY)
-                }
+            if pressed {
+                self.addKey(keyGroup.buttonY, value: value)
+            } else {
+                self.removeKey(keyGroup.buttonY)
             }
         }
     }
     
-    private func configureExtendedGamepadButtonX<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadButtonX<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.buttonX.pressedChangedHandler = { [weak self] _, value, pressed in
             guard let self = self else { return }
             
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.buttonX, value: value)
-                } else {
-                    self.removeKey(keyGroup.buttonX)
-                }
+            if pressed {
+                self.addKey(keyGroup.buttonX, value: value)
+            } else {
+                self.removeKey(keyGroup.buttonX)
             }
         }
     }
     
-    private func configureExtendedGamepadDpad<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadDpad<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.dpad.valueChangedHandler = { [weak self] _, xValue, yValue in
             guard let self = self else { return }
             
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                self.handleGameControllerDirectionInput(directionKeys: keyGroup.dpadKeys,
-                                                        xValue: xValue,
-                                                        yValue: yValue)
-            }
+            self.handleGameControllerDirectionInput(directionKeys: keyGroup.dpadKeys,
+                                                    xValue: xValue,
+                                                    yValue: yValue)
         }
     }
     
-    private func configureExtendedGamepadLeftThumbstick<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadLeftThumbstick<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.leftThumbstick.valueChangedHandler = { [weak self] _, xValue, yValue in
             guard let self = self else { return }
             
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                self.handleGameControllerDirectionInput(directionKeys: keyGroup.leftThumbstickKeys,
-                                                        xValue: xValue,
-                                                        yValue: yValue)
-            }
+            self.handleGameControllerDirectionInput(directionKeys: keyGroup.leftThumbstickKeys,
+                                                    xValue: xValue,
+                                                    yValue: yValue)
         }
     }
     
-    private func configureExtendedGamepadRightThumbstick<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadRightThumbstick<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.rightThumbstick.valueChangedHandler = { [weak self] _, xValue, yValue in
             guard let self = self else { return }
             
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                self.handleGameControllerDirectionInput(directionKeys: keyGroup.rightThumbstickKeys,
-                                                        xValue: xValue,
-                                                        yValue: yValue)
-            }
+            self.handleGameControllerDirectionInput(directionKeys: keyGroup.rightThumbstickKeys,
+                                                    xValue: xValue,
+                                                    yValue: yValue)
         }
     }
     
-    private func configureExtendedGamepadLeftShoulder<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadLeftShoulder<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.leftShoulder.pressedChangedHandler = { [weak self] _, value, pressed in
             guard let self = self else { return }
 
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.leftShoulder, value: value)
-                } else {
-                    self.removeKey(keyGroup.leftShoulder)
-                }
+            if pressed {
+                self.addKey(keyGroup.leftShoulder, value: value)
+            } else {
+                self.removeKey(keyGroup.leftShoulder)
             }
         }
     }
     
-    private func configureExtendedGamepadRightShoulder<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
+    private func configureExtendedGamepadRightShoulder<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
         extendedGamepad.rightShoulder.pressedChangedHandler = { [weak self] _, value, pressed in
             guard let self = self else { return }
 
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.rightShoulder, value: value)
-                } else {
-                    self.removeKey(keyGroup.rightShoulder)
-                }
+            if pressed {
+                self.addKey(keyGroup.rightShoulder, value: value)
+            } else {
+                self.removeKey(keyGroup.rightShoulder)
             }
         }
     }
     
-    private func configureExtendedGamepadLeftTrigger<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
-        extendedGamepad.leftTrigger.pressedChangedHandler = { [weak self] _, value, pressed in
-            guard let self = self else { return }
-
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.leftTrigger, value: value)
-                } else {
-                    self.removeKey(keyGroup.leftTrigger)
-                }
-            }
-        }
-    }
-    
-    private func configureExtendedGamepadRightTrigger<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
-        extendedGamepad.leftTrigger.pressedChangedHandler = { [weak self] _, value, pressed in
-            guard let self = self else { return }
-
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.rightTrigger, value: value)
-                } else {
-                    self.removeKey(keyGroup.rightTrigger)
-                }
-            }
-        }
-    }
-    
-    private func configureExtendedGamepad<T: ExtendedGamepadInterface>(_ extendedGamepad: T) {
-        configureExtendedGamepadButtonA(extendedGamepad)
-        configureExtendedGamepadButtonB(extendedGamepad)
-        configureExtendedGamepadButtonY(extendedGamepad)
-        configureExtendedGamepadButtonX(extendedGamepad)
-        configureExtendedGamepadDpad(extendedGamepad)
-        configureExtendedGamepadLeftThumbstick(extendedGamepad)
-        configureExtendedGamepadRightThumbstick(extendedGamepad)
-        configureExtendedGamepadLeftTrigger(extendedGamepad)
-        configureExtendedGamepadRightTrigger(extendedGamepad)
-        configureExtendedGamepadLeftShoulder(extendedGamepad)
-        configureExtendedGamepadRightShoulder(extendedGamepad)
+    private func configureExtendedGamepadLeftTrigger<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
         
-        extendedGamepad.controller?.controllerPausedHandler = { [weak self] _ in
-            guard let self = self else {
-                return
-            }
-            
-            if let keyGroup = self.controllerKeyGroup(for: extendedGamepad.controller) {
-                self.addKey(keyGroup.menu, removeAtNextUpdate: true)
+        extendedGamepad.leftTrigger.pressedChangedHandler = { [weak self] _, value, pressed in
+            guard let self = self else { return }
+
+            if pressed {
+                self.addKey(keyGroup.leftTrigger, value: value)
+            } else {
+                self.removeKey(keyGroup.leftTrigger)
             }
         }
     }
     
-    private func configureMicroGamepad(_ microGamepad: GCMicroGamepad) {
+    private func configureExtendedGamepadRightTrigger<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
+        extendedGamepad.rightTrigger.pressedChangedHandler = { [weak self] _, value, pressed in
+            guard let self = self else { return }
+
+            if pressed {
+                self.addKey(keyGroup.rightTrigger, value: value)
+            } else {
+                self.removeKey(keyGroup.rightTrigger)
+            }
+        }
+    }
+    
+    private func configureExtendedGamepadButtonMenu<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        keyGroup: GameControllerKeyGroup) {
+        
+        extendedGamepad.buttonMenu.pressedChangedHandler = { [weak self] _, value, pressed in
+            guard let self = self else { return }
+
+            if pressed {
+                self.addKey(keyGroup.menu, value: value)
+            } else {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    self.removeKey(keyGroup.menu)
+                }
+            }
+        }
+    }
+    
+    private func configureExtendedGamepad<T: ExtendedGamepadInterface>(
+        _ extendedGamepad: T,
+        playerIndex: Int) {
+        
+        guard let keyGroup = controllerKeyGroup(for: playerIndex) else {
+            return
+        }
+        
+        configureExtendedGamepadButtonA(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadButtonB(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadButtonY(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadButtonX(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadDpad(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadLeftThumbstick(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadRightThumbstick(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadLeftTrigger(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadRightTrigger(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadLeftShoulder(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadRightShoulder(extendedGamepad, keyGroup: keyGroup)
+        configureExtendedGamepadButtonMenu(extendedGamepad, keyGroup: keyGroup)
+    }
+    
+    private func configureMicroGamepad(
+        _ microGamepad: GCMicroGamepad,
+        controller: GCController) {
+        
+        guard let keyGroup = controllerKeyGroup(for: controller.playerIdx) else {
+            return
+        }
+        
         microGamepad.buttonA.pressedChangedHandler = { [weak self] _, value, pressed in
             guard let self = self else {
                 return
             }
-            if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.buttonA, value: value)
-                } else {
-                    self.removeKey(keyGroup.buttonA)
-                }
+            if pressed {
+                self.addKey(keyGroup.buttonA, value: value)
+            } else {
+                self.removeKey(keyGroup.buttonA)
             }
         }
         
@@ -243,12 +273,10 @@ extension Input {
             guard let self = self else {
                 return
             }
-            if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
-                if pressed {
-                    self.addKey(keyGroup.buttonX, value: value)
-                } else {
-                    self.removeKey(keyGroup.buttonX)
-                }
+            if pressed {
+                self.addKey(keyGroup.buttonX, value: value)
+            } else {
+                self.removeKey(keyGroup.buttonX)
             }
         }
         
@@ -256,39 +284,20 @@ extension Input {
             guard let self = self else {
                 return
             }
-            if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
-                self.handleGameControllerDirectionInput(directionKeys: keyGroup.dpadKeys,
-                                                        xValue: xValue,
-                                                        yValue: yValue)
-            }
+            self.handleGameControllerDirectionInput(directionKeys: keyGroup.dpadKeys,
+                                                    xValue: xValue,
+                                                    yValue: yValue)
         }
         
-        configureMicroGamepadMenuButton(microGamepad)
-    }
-    
-    private func configureMicroGamepadMenuButton(_ microGamepad: GCMicroGamepad) {
-        
-        if #available(OSX 10.15, iOS 13.0, tvOS 13.0, *) {
-            microGamepad.buttonMenu.pressedChangedHandler = { [weak self] _, value, pressed in
-                guard let self = self else {
-                    return
-                }
-                if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
-                    if pressed {
-                        self.addKey(keyGroup.menu, value: value)
-                    } else {
-                        self.removeKey(keyGroup.menu)
-                    }
-                }
+        microGamepad.buttonMenu.pressedChangedHandler = { [weak self] _, value, pressed in
+            guard let self = self else {
+                return
             }
-        } else {
-            microGamepad.controller?.controllerPausedHandler = { [weak self] _ in
-                guard let self = self else {
-                    return
-                }
-                
-                if let keyGroup = self.controllerKeyGroup(for: microGamepad.controller) {
-                    self.addKey(keyGroup.menu, removeAtNextUpdate: true)
+            if pressed {
+                self.addKey(keyGroup.menu, value: value)
+            } else {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    self.removeKey(keyGroup.menu)
                 }
             }
         }
@@ -313,35 +322,6 @@ extension Input {
         } else {
             removeKey(directionKeys.up)
             removeKey(directionKeys.down)
-        }
-    }
-    
-    // MARK: - Controller index
-    
-    private var nextAvailableGameControllerPlayerIndex: Int? {
-        return availableControllerPlayerIndices.first
-    }
-    
-    private func consumeControllerPlayerIndex(playerIndex: Int) {
-        if let idx = availableControllerPlayerIndices.firstIndex(of: playerIndex) {
-            availableControllerPlayerIndices.remove(at: idx)
-            connectedControllerPlayerIndices.append(playerIndex)
-        }
-    }
-    
-    private func recollectGCControllerPlayerIndex(playerIndex: GCControllerPlayerIndex) {
-        connectedGCControllerPlayerIndices[playerIndex] = nil
-        availableGCControllerPlayerIndices.append(playerIndex)
-        availableGCControllerPlayerIndices.sort { (leftIndex, rightIndex) -> Bool in
-            leftIndex.rawValue < rightIndex.rawValue
-        }
-    }
-    
-    private func recollectControllerPlayerIndex(playerIndex: Int) {
-        if let idx = connectedControllerPlayerIndices.firstIndex(of: playerIndex) {
-            connectedControllerPlayerIndices.remove(at: idx)
-            availableControllerPlayerIndices.append(playerIndex)
-            availableControllerPlayerIndices.sort()
         }
     }
     
@@ -374,9 +354,10 @@ extension Input {
         }
         
         if let extendedGamepad = controller.extendedGamepad {
-            configureExtendedGamepad(extendedGamepad)
+            guard let playerIndex = controller.playerIdx else { return }
+            configureExtendedGamepad(extendedGamepad, playerIndex: playerIndex)
         } else if let microGamepad = controller.microGamepad {
-            configureMicroGamepad(microGamepad)
+            configureMicroGamepad(microGamepad, controller: controller)
         }
     }
     
@@ -402,14 +383,14 @@ extension Input {
         if controller.vendorName?.hasPrefix("Joy-Con") == true {
             return false
         }
-        
+
         // Some Bluetooth capable controllers are seen with this
         // title and are not properly supported by GCController.
         // Those can be connected via USB and supported via USBGameController.
         if controller.vendorName?.hasPrefix("Wireless Controller") == true {
             return false
         }
-        
+
         // 8Bitdo is not properly supported by GCController.
         // USB connected 8Bitdos are supported via USBGameController.
         if controller.vendorName?.hasPrefix("8Bitdo") == true {
@@ -464,7 +445,7 @@ extension Input {
         connectedUSBGameControllers.append(usbGameController)
         
         if let extendedGamepad = usbGameController.extendedGamepad {
-            configureExtendedGamepad(extendedGamepad)
+            configureExtendedGamepad(extendedGamepad, playerIndex: playerIndex)
         }
     }
     
@@ -503,12 +484,5 @@ extension Input {
             }
         }
         return keyGroup
-    }
-    
-    private func controllerKeyGroup<T: GameControllerInterface>(for gameController: T?) -> GameControllerKeyGroup? {
-        guard let playerIndex = gameController?.playerIdx else {
-            return nil
-        }
-        return controllerKeyGroup(for: playerIndex)
     }
 }

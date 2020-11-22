@@ -92,14 +92,11 @@ public final class AudioPlayerComponent: GKComponent, GlideComponent {
         }
         
         for clip in activatedClips {
-            if clip.audioNode.autoplayLooped {
-                if clip.audioNode.parent == nil {
-                    node?.addChild(clip.audioNode)
-                }
-            } else {
-                if clip.audioNode.parent == nil {
-                    node?.addChild(clip.audioNode)
-                }
+            if clip.audioNode.parent == nil {
+                node?.addChild(clip.audioNode)
+            }
+            
+            if clip.audioNode.autoplayLooped == false {
                 clip.play()
             }
         }

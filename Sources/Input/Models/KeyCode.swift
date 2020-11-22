@@ -40,12 +40,12 @@ public enum KeyCode: UInt16, CaseIterable, Equatable {
     case alpha9 = 0x19
     
     case keypadPeriod = 0x41
-    case keypadDivide = 0x4B
-    case keypadMultiply = 0x43
-    case keypadMinus = 0x4E
+    case keypadSlash = 0x4B
+    case keypadAsterisk = 0x43
+    case keypadHyphen = 0x4E
     case keypadPlus = 0x45
     case keypadEnter = 0x4C
-    case keypadEquals = 0x51
+    case keypadEqualSign = 0x51
     
     case keypad0 = 0x52
     case keypad1 = 0x53
@@ -126,8 +126,10 @@ public enum KeyCode: UInt16, CaseIterable, Equatable {
     case z = 0x6
     
     case capsLock = 0xFFF
-    case mouse0 = 0x2BC
-    case mouse1 = 0x2BD
+    
+    case mouseLeft = 0x2BC
+    case mouseRight = 0x2BD
+    case mouseMiddle = 0x2BE
     
     case controller1ButtonA = 0x3E8
     case controller1ButtonB = 0x3E9

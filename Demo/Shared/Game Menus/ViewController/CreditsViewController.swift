@@ -60,7 +60,7 @@ class CreditsViewController: NavigatableViewController {
         """
         Just an example navigation screen...
         cocoatoucher
-        © 2019
+        © 2020
         """
         
         view.addSubview(label)

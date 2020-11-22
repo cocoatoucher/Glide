@@ -35,12 +35,12 @@ No Brand USB Controller | 8BitDo SN30 via USB | 8BitDo SN30 Pro via USB | Joy-Co
 
 \** Although the support is intended only for USB controllers, there is an exception made for Joy-Cons when they are connected separately via Bluetooth, as they behave pretty much like USB controllers.
 
-### ⌨️ Keyboard on macOS
+### ⌨️ Keyboard on macOS & iPadOS
 
-Keyboard is supported on macOS in both gameplay and game menus. You can map keyboard keys using predefined key codes to different input profiles, or just use the existing profiles. There is no known unsupported capabilities of keyboard as of now.
+Keyboard is supported on macOS and iPadOS in both gameplay and game menus via GCController framework. You can map keyboard keys using predefined key codes to different input profiles, or just use the existing profiles. There is no known unsupported capabilities of keyboard as of now.
 
-### 🖱 Mouse on macOS
-Currently there is some basic support for reading mouse position and delta on Mac screens. As glide engine is currently focused on 2d platformer games, and those games are usually not controlled via mouse, support could be expanded via introduction of other game genres to the engine. Feel free to create issues for support requests.
+### 🖱 Mouse on macOS & iPadOS
+Currently there is some basic support for reading mouse position and delta. As glide engine is currently focused on 2d platformer games, and those games are usually not controlled via mouse, support could be expanded via introduction of other game genres to the engine. Feel free to create issues for support requests.
 
 In your game menu buttons made with glide's `NavigatableButton`s, selection with mouse clicks are supported by default.
 
@@ -49,7 +49,3 @@ In your game menu buttons made with glide's `NavigatableButton`s, selection with
 On iOS devices, you can add SpriteKit nodes in your game scene and map them to your preferred input profiles. 
 
 There is also a `NavigatableButton` of glide's game menu UI framework which supports touch inputs by default.
-
-
-> ### Keyboard on iPad / `UIKeyCommand`
-Unfortunately iOS SDK, as of iOS 13, is missing some basic functionality of informing framework users with released key events. This is crucial for a game and without it UIKeyCommand support won't be there for glide. Some tried solutions like using js and a `WKWebView` introduces delays and not suitable for professional games. Let's hope that support will be there with upcoming iOS/iPadOS releases.

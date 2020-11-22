@@ -39,14 +39,11 @@ private func displayLinkCallback(displayLink: CVDisplayLink,
 #endif
 
 class DisplayLinkObserver {
+    
     var updateHandler: () -> Void = {}
-    #if os(OSX)
-    private var displayLink: CVDisplayLink?
-    #else
-    private var displayLink: CADisplayLink?
-    #endif
     
     func start() {
+        stop()
         #if os(OSX)
         CVDisplayLinkCreateWithActiveCGDisplays(&displayLink)
         
@@ -84,6 +81,14 @@ class DisplayLinkObserver {
         updateHandler()
         #endif
     }
+    
+    // MARK: - Private
+    
+    #if os(OSX)
+    private var displayLink: CVDisplayLink?
+    #else
+    private var displayLink: CADisplayLink?
+    #endif
     
     deinit {
         guard let displayLink = displayLink else { return }

@@ -31,29 +31,11 @@ import UIKit
 
 public class ResponderView: View {
     #if os(OSX)
-    public override func keyDown(with event: NSEvent) {
-        InputResponder.keyDown(with: event)
-    }
-    
-    public override func keyUp(with event: NSEvent) {
-        InputResponder.keyUp(with: event)
-    }
-    
-    open override func flagsChanged(with event: NSEvent) {
-        InputResponder.flagsChanged(with: event)
-    }
-    
-    open override func mouseDown(with event: NSEvent) {
-        InputResponder.mouseDown(with: event)
-    }
-    
-    open override func mouseUp(with event: NSEvent) {
-        InputResponder.mouseUp(with: event)
-    }
-    
-    public override var canBecomeKeyView: Bool {
-        return true
-    }
+    // This is to prevent beep sounds heard when keyboard is
+    // only handled via GCKeyboard.
+    public override func keyDown(with event: NSEvent) {}
+    public override func keyUp(with event: NSEvent) {}
+    open override func flagsChanged(with event: NSEvent) {}
     #elseif os(tvOS) && targetEnvironment(simulator)
     func addGestureRecognizers() {
         

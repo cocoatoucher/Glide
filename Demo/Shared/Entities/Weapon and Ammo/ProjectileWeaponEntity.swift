@@ -197,19 +197,16 @@ class ProjectileWeaponComponent: GKComponent, GlideComponent {
         if Input.shared.inputMethod != .native {
             processInput()
         } else {
-            #if os(OSX)
-            let diff = Input.shared.mousePosition - lastMousePosition
+            let diff = lastMousePosition - Input.shared.mousePosition
             
             if diff.y < -30 {
                 rotateWeaponCounterclockwise()
             } else if diff.y > 30 {
                 rotateWeaponClockwise()
             }
-            #endif
         }
     }
     
-    #if os(OSX)
     private func rotateWeaponClockwise() {
         weaponPosition = weaponPosition.nextClockwise
         lastMousePosition = Input.shared.mousePosition
@@ -219,7 +216,6 @@ class ProjectileWeaponComponent: GKComponent, GlideComponent {
         weaponPosition = weaponPosition.nextCounterclockwise
         lastMousePosition = Input.shared.mousePosition
     }
-    #endif
     
     private func processInput() {
         let horizontalProfile = "Player1_Horizontal_Alt"

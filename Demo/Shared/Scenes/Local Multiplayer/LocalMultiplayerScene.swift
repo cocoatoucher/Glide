@@ -34,7 +34,7 @@ class LocalMultiplayerScene: BaseLevelScene {
         #if os(tvOS)
         Input.shared.removeInputProfilesNamed("Player1_Shoot")
         let player1ShootProfile = InputProfile(name: "Player1_Shoot") { profile in
-            profile.positiveKeys = [.e, .mouse0, .controller1ButtonX, .controller1ButtonY]
+            profile.positiveKeys = [.e, .mouseLeft, .controller1ButtonX, .controller1ButtonY]
         }
         Input.shared.addInputProfile(player1ShootProfile)
         #endif
@@ -139,7 +139,7 @@ class LocalMultiplayerScene: BaseLevelScene {
         #if os(tvOS)
         Input.shared.removeInputProfilesNamed("Player1_Shoot")
         let player1ShootProfile = InputProfile(name: "Player1_Shoot") { profile in
-            profile.positiveKeys = [.e, .mouse0, .controller1ButtonY]
+            profile.positiveKeys = [.e, .mouseLeft, .controller1ButtonY]
         }
         Input.shared.addInputProfile(player1ShootProfile)
         #endif

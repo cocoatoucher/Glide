@@ -27,24 +27,12 @@
 import AppKit
 
 extension GlideScene {
-    open override func keyDown(with event: NSEvent) {
-        InputResponder.keyDown(with: event)
-    }
+    // This is to prevent beep sounds heard when keyboard is
+    // only handled via GCKeyboard.
+    open override func keyDown(with event: NSEvent) {}
     
-    open override func keyUp(with event: NSEvent) {
-        InputResponder.keyUp(with: event)
-    }
+    open override func keyUp(with event: NSEvent) {}
     
-    open override func flagsChanged(with event: NSEvent) {
-        InputResponder.flagsChanged(with: event)
-    }
-    
-    open override func mouseDown(with event: NSEvent) {
-        InputResponder.mouseDown(with: event)
-    }
-    
-    open override func mouseUp(with event: NSEvent) {
-        InputResponder.mouseUp(with: event)
-    }
+    open override func flagsChanged(with event: NSEvent) {}
 }
 #endif

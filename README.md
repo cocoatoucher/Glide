@@ -28,9 +28,9 @@ Glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 <img src="https://app.bitrise.io/app/a302dd2ce8710bf2/status.svg?token=I5JPNr5-g_hAj2kR6mtZaA" alt="macOS Build status"/>
 </a>
 <img src="https://img.shields.io/badge/Swift-5.0-orange.svg"/>
-<a href="https://cocoapods.org/pods/GlideEngine">
-<img src="https://img.shields.io/cocoapods/v/GlideEngine.svg" alt="cocoapods"/>
-</a>
+</p>
+<p align="center">
+iOS 13, 
 </p>
 <p align="center">
 <a href="https://twitter.com/intent/follow?screen_name=glideengine">

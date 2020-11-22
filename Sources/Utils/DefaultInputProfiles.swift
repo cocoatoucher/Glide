@@ -189,7 +189,7 @@ public internal(set) var inputProfiles = [
     },
     
     InputProfile(name: "Player1_Shoot") { profile in
-        profile.positiveKeys = [.e, .mouse0, .controller1ButtonY]
+        profile.positiveKeys = [.e, .mouseLeft, .controller1ButtonY]
     },
     InputProfile(name: "Player2_Shoot") { profile in
         profile.positiveKeys = [.v, .controller2ButtonY]
@@ -202,7 +202,7 @@ public internal(set) var inputProfiles = [
     },
     
     InputProfile(name: "Player1_Jetpack") { profile in
-        profile.positiveKeys = [.leftControl, .mouse0, .controller1ButtonB]
+        profile.positiveKeys = [.leftControl, .mouseLeft, .controller1ButtonB]
     },
     InputProfile(name: "Player2_Jetpack") { profile in
         profile.positiveKeys = [.c, .controller2ButtonB]

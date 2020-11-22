@@ -29,8 +29,6 @@ import Foundation
 extension USBGameController: GameControllerInterface {}
 
 class USBExtendedGamepad: ExtendedGamepadInterface {
-    
-    var controller: USBGameController?
 
     var buttonA = USBGameControllerButton()
     var buttonB = USBGameControllerButton()
@@ -43,6 +41,7 @@ class USBExtendedGamepad: ExtendedGamepadInterface {
     var rightShoulder = USBGameControllerButton()
     var leftTrigger = USBGameControllerButton()
     var rightTrigger = USBGameControllerButton()
+    var buttonMenu = USBGameControllerButton()
 }
 
 class USBMicroGamepad: MicroGamepadInterface {

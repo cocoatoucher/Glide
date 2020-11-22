@@ -43,29 +43,8 @@ public class Input {
         }
     }
     
-    #if os(OSX)
-    
     /// Current mouse position in screen coordinates.
     public internal(set) var mousePosition: CGPoint = .zero
-    
-    /// Set to `true` if the mouse delta should be tracked.
-    /// If cursor is visible, this will stop the cursor from moving on the screen
-    /// which in turn provides delta values independent of cursor's position on the
-    /// screen.
-    public var shouldObserveMouseAxis: Bool = false {
-        didSet {
-            if shouldObserveMouseAxis {
-                NSEvent.addLocalMonitorForEvents(matching: NSEvent.EventTypeMask.mouseMoved) { event in
-                    Input.shared.mouseMoved(with: event)
-                    return event
-                }
-                CGAssociateMouseAndMouseCursorPosition(0)
-            } else {
-                CGAssociateMouseAndMouseCursorPosition(1)
-            }
-        }
-    }
-    #endif
     
     /// Returns input profile with the given name.
     public func profileValue(_ named: String) -> CGFloat {
@@ -191,6 +170,18 @@ public class Input {
         }
     }
     
+    var connectedKeyboard: GCKeyboard? {
+        didSet {
+            updateInputMethod()
+        }
+    }
+    
+    var connectedMouse: GCMouse? {
+        didSet {
+            updateInputMethod()
+        }
+    }
+    
     #if os(OSX)
     // USBController
     let usbGameControllerObserver = USBGameControllerObserver()
@@ -209,11 +200,13 @@ public class Input {
         denom = UInt64(info.denom)
         
         DispatchQueue.main.async {
+            self.setupKeyboard()
+            self.setupMouse()
             self.setupGameControllers()
         }
     }
     
-    private func updateInputMethod() {
+    func updateInputMethod() {
         var hasCustomControllers: Bool = false
         #if os(OSX)
         hasCustomControllers = connectedUSBGameControllers.isEmpty == false

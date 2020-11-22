@@ -32,16 +32,14 @@ internal class USBGameController {
     
     var extendedGamepad: USBExtendedGamepad? = USBExtendedGamepad()
     var microGamepad: USBMicroGamepad?
-    var controllerPausedHandler: ((USBGameController) -> Void)?
-
+    
     let device: Device
     var playerIdx: Int?
-
+    
     init(device: Device, playerIdx: Int) {
         self.device = device
         self.playerIdx = playerIdx
-
-        extendedGamepad?.controller = self
+        
         device.delegate = self
         device.startListening()
     }
@@ -61,7 +59,7 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         dpad.rawX = value
         notifyAxisValueOfDirectionPad(dpad, baseValue: baseValue, threshold: threshold)
     }
-
+    
     func deviceYAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int) {
         guard let dpad = extendedGamepad?.dpad else {
             return
@@ -75,7 +73,7 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         guard let rightThumbstick = extendedGamepad?.rightThumbstick else {
             return
         }
-
+        
         switch otherAxisIndex {
         case 0:
             rightThumbstick.rawX = value
@@ -84,10 +82,10 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         default:
             break
         }
-
+        
         notifyAxisValueOfDirectionPad(rightThumbstick, baseValue: baseValue, threshold: threshold)
     }
-
+    
     func devicePovAxisStickValueChanged(_ device: USBGameController.Device, value: Int, stickIndex: Int, povNumber: Int) {
         guard let leftThumbstick = extendedGamepad?.leftThumbstick else {
             return
@@ -112,7 +110,7 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         
         leftThumbstick.valueChangedHandler?(leftThumbstick, leftThumbstick.x, leftThumbstick.y)
     }
-
+    
     // swiftlint:disable:next cyclomatic_complexity
     func deviceDidPressButton(_ device: USBGameController.Device, buttonIndex: Int) {
         switch buttonIndex {
@@ -142,19 +140,21 @@ extension USBGameController: USBGameControllerDeviceDelegate {
             }
         case 6:
             if let leftTrigger = extendedGamepad?.leftTrigger {
-            leftTrigger.pressedChangedHandler?(leftTrigger, 1.0, true)
-        }
+                leftTrigger.pressedChangedHandler?(leftTrigger, 1.0, true)
+            }
         case 7:
             if let rightTrigger = extendedGamepad?.rightTrigger {
-            rightTrigger.pressedChangedHandler?(rightTrigger, 1.0, true)
-        }
+                rightTrigger.pressedChangedHandler?(rightTrigger, 1.0, true)
+            }
         case 9, 11:
-            controllerPausedHandler?(self)
+            if let buttonMenu = extendedGamepad?.buttonMenu {
+                buttonMenu.pressedChangedHandler?(buttonMenu, 1.0, true)
+            }
         default:
             break
         }
     }
-
+    
     // swiftlint:disable:next cyclomatic_complexity
     func deviceDidReleaseButton(_ device: USBGameController.Device, buttonIndex: Int) {
         switch buttonIndex {
@@ -184,12 +184,12 @@ extension USBGameController: USBGameControllerDeviceDelegate {
             }
         case 6:
             if let leftTrigger = extendedGamepad?.leftTrigger {
-            leftTrigger.pressedChangedHandler?(leftTrigger, 1.0, false)
-        }
+                leftTrigger.pressedChangedHandler?(leftTrigger, 1.0, false)
+            }
         case 7:
             if let rightTrigger = extendedGamepad?.rightTrigger {
-            rightTrigger.pressedChangedHandler?(rightTrigger, 1.0, false)
-        }
+                rightTrigger.pressedChangedHandler?(rightTrigger, 1.0, false)
+            }
         default:
             break
         }
@@ -197,7 +197,7 @@ extension USBGameController: USBGameControllerDeviceDelegate {
     
     private func notifyAxisValueOfDirectionPad(_ dpad: USBGameControllerDirectionPad, baseValue: Int, threshold: Int) {
         let diffY = dpad.rawY - baseValue
-
+        
         if abs(diffY) <= 2 {
             dpad.y = 0
         } else if diffY < 0 && abs(diffY) >= threshold {
@@ -207,9 +207,9 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         } else {
             dpad.y = 0
         }
-
+        
         let diffX = dpad.rawX - baseValue
-
+        
         if abs(diffX) <= 2 {
             dpad.x = 0
         } else if diffX > 0 && abs(diffX) >= threshold {
@@ -219,7 +219,7 @@ extension USBGameController: USBGameControllerDeviceDelegate {
         } else {
             dpad.x = 0
         }
-
+        
         dpad.valueChangedHandler?(dpad, dpad.x, dpad.y)
     }
 }

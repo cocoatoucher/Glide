@@ -39,7 +39,7 @@ class ProjectileWeaponsScene: BaseLevelScene {
         #elseif os(tvOS)
         Input.shared.removeInputProfilesNamed("Player1_Shoot")
         let player1ShootProfile = InputProfile(name: "Player1_Shoot") { profile in
-            profile.positiveKeys = [.e, .mouse0, .controller1ButtonX, .controller1ButtonY]
+            profile.positiveKeys = [.e, .mouseLeft, .controller1ButtonX, .controller1ButtonY]
         }
         Input.shared.addInputProfile(player1ShootProfile)
         #endif
@@ -66,10 +66,6 @@ class ProjectileWeaponsScene: BaseLevelScene {
         addEntity(crateEntity(at: TiledPoint(19, 10)))
         addEntity(crateEntity(at: TiledPoint(22, 10)))
         addEntity(crateEntity(at: TiledPoint(25, 10)))
-        
-        #if os(OSX)
-        Input.shared.shouldObserveMouseAxis = true
-        #endif
         
         setupTips()
     }
@@ -149,12 +145,10 @@ class ProjectileWeaponsScene: BaseLevelScene {
     }
     
     deinit {
-        #if os(OSX)
-        Input.shared.shouldObserveMouseAxis = false
-        #elseif os(tvOS)
+        #if os(tvOS)
         Input.shared.removeInputProfilesNamed("Player1_Shoot")
         let player1ShootProfile = InputProfile(name: "Player1_Shoot") { profile in
-            profile.positiveKeys = [.e, .mouse0, .controller1ButtonY]
+            profile.positiveKeys = [.e, .mouseLeft, .controller1ButtonY]
         }
         Input.shared.addInputProfile(player1ShootProfile)
         #endif

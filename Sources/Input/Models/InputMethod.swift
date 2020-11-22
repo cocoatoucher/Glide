@@ -43,12 +43,7 @@ public enum InputMethod {
     #if os(iOS)
     /// `true` if the touch inputs are enabled.
     public var isTouchesEnabled: Bool {
-        switch self {
-        case .gameController:
-            return false
-        case .native:
-            return true
-        }
+        return Input.shared.connectedKeyboard == nil
     }
     #endif
     
@@ -59,7 +54,7 @@ public enum InputMethod {
             return true
         case .native:
             #if os(iOS)
-            return false
+            return !isTouchesEnabled
             #else
             return true
             #endif

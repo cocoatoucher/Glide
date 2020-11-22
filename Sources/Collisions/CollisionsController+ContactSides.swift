@@ -94,7 +94,7 @@ extension CollisionsController {
     }
     
     func leftContactSides(intersection: CGRect,
-                          hitPointsOffsets: (top: CGFloat, bottom: CGFloat),
+                          hitPointsOffsets: (bottom: CGFloat, top: CGFloat),
                           currentHitPoints: HitPoints,
                           proposedHitPoints: HitPoints,
                           colliderContactsBottom: Bool,
@@ -128,7 +128,7 @@ extension CollisionsController {
     }
     
     func rightContactSides(intersection: CGRect,
-                           hitPointsOffsets: (top: CGFloat, bottom: CGFloat),
+                           hitPointsOffsets: (bottom: CGFloat, top: CGFloat),
                            currentHitPoints: HitPoints,
                            proposedHitPoints: HitPoints,
                            colliderContactsBottom: Bool,
@@ -207,20 +207,24 @@ extension CollisionsController {
         
         let colliderContactsBottom = result.contains(where: { $0.contactSide == .bottom })
         
-        let leftContactSides = self.leftContactSides(intersection: intersection,
-                                                     hitPointsOffsets: collider.leftHitPointsOffsets,
-                                                     currentHitPoints: currentHitPoints,
-                                                     proposedHitPoints: proposedHitPoints,
-                                                     colliderContactsBottom: colliderContactsBottom,
-                                                     otherObjectFrame: otherObjectFrame)
+        let leftContactSides = self.leftContactSides(
+            intersection: intersection,
+            hitPointsOffsets: collider.leftHitPointsOffsets,
+            currentHitPoints: currentHitPoints,
+            proposedHitPoints: proposedHitPoints,
+            colliderContactsBottom: colliderContactsBottom,
+            otherObjectFrame: otherObjectFrame
+        )
         result.append(contentsOf: leftContactSides)
         
-        let rightContactSides = self.rightContactSides(intersection: intersection,
-                                                       hitPointsOffsets: collider.rightHitPointsOffsets,
-                                                       currentHitPoints: currentHitPoints,
-                                                       proposedHitPoints: proposedHitPoints,
-                                                       colliderContactsBottom: colliderContactsBottom,
-                                                       otherObjectFrame: otherObjectFrame)
+        let rightContactSides = self.rightContactSides(
+            intersection: intersection,
+            hitPointsOffsets: collider.rightHitPointsOffsets,
+            currentHitPoints: currentHitPoints,
+            proposedHitPoints: proposedHitPoints,
+            colliderContactsBottom: colliderContactsBottom,
+            otherObjectFrame: otherObjectFrame
+        )
         result.append(contentsOf: rightContactSides)
         
         return filteredContactSidesAndOffsets(from: result)
