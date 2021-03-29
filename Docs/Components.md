@@ -85,9 +85,6 @@ Component that makes an entity be able to shoot projectile entities with the giv
 ##### - Health Component
 Component that gives an entity health and life properties, e.g. number of lives. This also gives ability to get damaged and die.
 
-##### - Health Component
-Component that gives an entity health and life properties, e.g. number of lives. This also gives ability to get damaged and die.
-
 ##### - UpwardsLooker Component
 Component that gives an entity the ability to adjust the camera to focus it above the entity's node, if camera is already focused on this entity's transform.
 
