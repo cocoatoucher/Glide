@@ -176,7 +176,7 @@ class BaseLevelScene: GlideScene {
         let touchButtonComponent = TouchButtonComponent(size: CGSize(width: 44, height: 44),
                                                         triggersOnTouchUpInside: false,
                                                         input: .callback({ [weak self] in
-                                                            self?.isPaused = true
+                                                            self?.isPaused.toggle()
                                                         }))
         touchButtonComponent.zPositionContainer = GlideZPositionContainer.camera
         touchButtonComponent.normalTexture = SKTexture(nearestFilteredImageName: "touchbutton_pause")
