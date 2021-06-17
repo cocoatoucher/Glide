@@ -1,0 +1,3407 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/BlinkerComponent.swift",
+      "line": 66,
+      "symbol": "BlinkerComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/BouncerComponent.swift",
+      "line": 52,
+      "symbol": "BouncerComponent.bounce(withImpactSides:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/BouncerComponent.swift",
+      "line": 59,
+      "symbol": "BouncerComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/BouncerComponent.swift",
+      "line": 91,
+      "symbol": "BouncerComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/CroucherComponent.swift",
+      "line": 42,
+      "symbol": "CroucherComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/DasherComponent.swift",
+      "line": 67,
+      "symbol": "DasherComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/EntityObserverComponent.swift",
+      "line": 49,
+      "symbol": "EntityObserverComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/EntityObserverComponent.swift",
+      "line": 83,
+      "symbol": "EntityObserverComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/EntityObserverComponent.swift",
+      "line": 184,
+      "symbol": "EntityObserverComponent.ObservingArea.frameInScene(_:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/HealthComponent.swift",
+      "line": 56,
+      "symbol": "HealthComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/JetpackOperatorComponent.swift",
+      "line": 47,
+      "symbol": "JetpackOperatorComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/JetpackOperatorComponent.swift",
+      "line": 77,
+      "symbol": "JetpackOperatorComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/JumpComponent.swift",
+      "line": 58,
+      "symbol": "JumpComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/JumpComponent.swift",
+      "line": 87,
+      "symbol": "JumpComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/LadderClimberComponent.swift",
+      "line": 29,
+      "symbol": "LadderClimberComponent.MovingDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/LadderClimberComponent.swift",
+      "line": 63,
+      "symbol": "LadderClimberComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/LadderClimberComponent.swift",
+      "line": 89,
+      "symbol": "LadderClimberComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/ParagliderComponent.swift",
+      "line": 54,
+      "symbol": "ParagliderComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/ParagliderComponent.swift",
+      "line": 82,
+      "symbol": "ParagliderComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/PlayableCharacterComponent.swift",
+      "line": 71,
+      "symbol": "PlayableCharacterComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/ProjectileShooterComponent.swift",
+      "line": 51,
+      "symbol": "ProjectileShooterComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/ProjectileShooterComponent.swift",
+      "line": 86,
+      "symbol": "ProjectileShooterComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/ShakerComponent.swift",
+      "line": 45,
+      "symbol": "ShakerComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/SwingHolderComponent.swift",
+      "line": 54,
+      "symbol": "SwingHolderComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/SwingHolderComponent.swift",
+      "line": 80,
+      "symbol": "SwingHolderComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/UpwardsLookerComponent.swift",
+      "line": 41,
+      "symbol": "UpwardsLookerComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/WallClingerComponent.swift",
+      "line": 51,
+      "symbol": "WallClingerComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/WallClingerComponent.swift",
+      "line": 81,
+      "symbol": "WallClingerComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/WallJumpComponent.swift",
+      "line": 56,
+      "symbol": "WallJumpComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Ability/WallJumpComponent.swift",
+      "line": 84,
+      "symbol": "WallJumpComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Autonomous/SelfFollowWaypointsComponent.swift",
+      "line": 69,
+      "symbol": "SelfFollowWaypointsComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Autonomous/SelfMoveComponent.swift",
+      "line": 94,
+      "symbol": "SelfMoveComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Autonomous/SelfShootOnObserveComponent.swift",
+      "line": 64,
+      "symbol": "SelfShootOnObserveComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Autonomous/SelfSpawnEntitiesComponent.swift",
+      "line": 49,
+      "symbol": "SelfSpawnEntitiesComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Autonomous/SelfSpawnEntitiesComponent.swift",
+      "line": 83,
+      "symbol": "SelfSpawnEntitiesComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/ColliderComponent.swift",
+      "line": 209,
+      "symbol": "ColliderComponent.finishGroundContact()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/ColliderComponent.swift",
+      "line": 362,
+      "symbol": "ColliderComponent.isDebugEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/ColliderComponent.swift",
+      "line": 363,
+      "symbol": "ColliderComponent.isDebugEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/KinematicsBodyComponent.swift",
+      "line": 50,
+      "symbol": "KinematicsBodyComponent.previousVelocity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/KinematicsBodyComponent.swift",
+      "line": 56,
+      "symbol": "KinematicsBodyComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/KinematicsBodyComponent.swift",
+      "line": 90,
+      "symbol": "KinematicsBodyComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/KinematicsBodyComponent.swift",
+      "line": 95,
+      "symbol": "KinematicsBodyComponent.resetMaximumVerticalVelocity()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/LabelNodeComponent.swift",
+      "line": 48,
+      "symbol": "LabelNodeComponent.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/LabelNodeComponent.swift",
+      "line": 62,
+      "symbol": "LabelNodeComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/SnapperComponent.swift",
+      "line": 35,
+      "symbol": "SnapperComponent.wasSnapping",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/SpriteNodeComponent.swift",
+      "line": 85,
+      "symbol": "SpriteNodeComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/TileMapNodeComponent.swift",
+      "line": 90,
+      "symbol": "TileMapNodeComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/TransformNodeComponent.swift",
+      "line": 30,
+      "symbol": "TransformNodeComponent.HeadingDirection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Core/TransformNodeComponent.swift",
+      "line": 105,
+      "symbol": "TransformNodeComponent.previousHeadingDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Environment/CheckpointComponent.swift",
+      "line": 62,
+      "symbol": "CheckpointComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Environment/LightNodeComponent.swift",
+      "line": 67,
+      "symbol": "LightNodeComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Gameplay UI/ConversationFlowControllerComponent.swift",
+      "line": 29,
+      "symbol": "Notification.Name.ConversationDidStart",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Gameplay UI/ConversationFlowControllerComponent.swift",
+      "line": 30,
+      "symbol": "Notification.Name.ConversationDidEnd",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Gameplay UI/SpeechFlowControllerComponent.swift",
+      "line": 47,
+      "symbol": "SpeechFlowControllerComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Gameplay UI/SpeechFlowControllerComponent.swift",
+      "line": 87,
+      "symbol": "SpeechFlowControllerComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/ApproachingMovementComponent.swift",
+      "line": 39,
+      "symbol": "ApproachingMovementComponent.init(speed:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/CircularMovementComponent.swift",
+      "line": 39,
+      "symbol": "CircularMovementComponent.movementStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/CircularMovementComponent.swift",
+      "line": 44,
+      "symbol": "CircularMovementComponent.previousMovementDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/CircularMovementComponent.swift",
+      "line": 45,
+      "symbol": "CircularMovementComponent.movementDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/CircularMovementComponent.swift",
+      "line": 49,
+      "symbol": "CircularMovementComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/CircularMovementComponent.swift",
+      "line": 87,
+      "symbol": "CircularMovementComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/HorizontalMovementComponent.swift",
+      "line": 36,
+      "symbol": "HorizontalMovementComponent.movementStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/HorizontalMovementComponent.swift",
+      "line": 38,
+      "symbol": "HorizontalMovementComponent.previousMovementDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/HorizontalMovementComponent.swift",
+      "line": 39,
+      "symbol": "HorizontalMovementComponent.movementDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/HorizontalMovementComponent.swift",
+      "line": 43,
+      "symbol": "HorizontalMovementComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/HorizontalMovementComponent.swift",
+      "line": 78,
+      "symbol": "HorizontalMovementComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/LerpingMovementComponent.swift",
+      "line": 40,
+      "symbol": "LerpingMovementComponent.init(speed:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/VerticalMovementComponent.swift",
+      "line": 36,
+      "symbol": "VerticalMovementComponent.movementStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/VerticalMovementComponent.swift",
+      "line": 38,
+      "symbol": "VerticalMovementComponent.previousMovementDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/VerticalMovementComponent.swift",
+      "line": 39,
+      "symbol": "VerticalMovementComponent.movementDirection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/VerticalMovementComponent.swift",
+      "line": 43,
+      "symbol": "VerticalMovementComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Movement/VerticalMovementComponent.swift",
+      "line": 78,
+      "symbol": "VerticalMovementComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Scene/CameraComponent.swift",
+      "line": 34,
+      "symbol": "CameraComponent.cameraNode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Scene/CameraComponent.swift",
+      "line": 44,
+      "symbol": "CameraComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Scene/CameraComponent.swift",
+      "line": 83,
+      "symbol": "CameraComponent.configuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Scene/CameraComponent.swift",
+      "line": 129,
+      "symbol": "CameraComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Scene/InfiniteSpriteScrollerComponent.swift",
+      "line": 39,
+      "symbol": "InfiniteSpriteScrollerComponent.ScrollAxis",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Scene/InfiniteSpriteScrollerComponent.swift",
+      "line": 75,
+      "symbol": "InfiniteSpriteScrollerComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Snappable/BouncingPlatformComponent.swift",
+      "line": 38,
+      "symbol": "BouncingPlatformComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Snappable/FallingPlatformComponent.swift",
+      "line": 40,
+      "symbol": "FallingPlatformComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Snappable/FallingPlatformComponent.swift",
+      "line": 67,
+      "symbol": "FallingPlatformComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Snappable/PlatformComponent.swift",
+      "line": 35,
+      "symbol": "PlatformComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Snappable/SwingComponent.swift",
+      "line": 49,
+      "symbol": "SwingComponent.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Snappable/SwingComponent.swift",
+      "line": 87,
+      "symbol": "SwingComponent.applyPush(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Snappable/SwingComponent.swift",
+      "line": 269,
+      "symbol": "SwingComponent.SwingPush",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Components/Utility/RemoveAfterTimeIntervalComponent.swift",
+      "line": 62,
+      "symbol": "RemoveAfterTimeIntervalComponent.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Entities/Convenience/MovingPlatformEntity.swift",
+      "line": 41,
+      "symbol": "MovingPlatformEntity.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Entities/GlideEntity.swift",
+      "line": 175,
+      "symbol": "GlideEntity.addComponent(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Entities/GlideEntity.swift",
+      "line": 221,
+      "symbol": "GlideEntity.update(deltaTime:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Extensions/CGPoint+Extensions.swift",
+      "line": 49,
+      "symbol": "CGPoint.glideRound",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/InputProfile.swift",
+      "line": 43,
+      "symbol": "InputProfile.init(name:configure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 31,
+      "symbol": "KeyCode.alpha0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 32,
+      "symbol": "KeyCode.alpha1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 33,
+      "symbol": "KeyCode.alpha2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 34,
+      "symbol": "KeyCode.alpha3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 35,
+      "symbol": "KeyCode.alpha4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 36,
+      "symbol": "KeyCode.alpha5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 37,
+      "symbol": "KeyCode.alpha6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 38,
+      "symbol": "KeyCode.alpha7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 39,
+      "symbol": "KeyCode.alpha8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 40,
+      "symbol": "KeyCode.alpha9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 42,
+      "symbol": "KeyCode.keypadPeriod",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 43,
+      "symbol": "KeyCode.keypadSlash",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 44,
+      "symbol": "KeyCode.keypadAsterisk",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 45,
+      "symbol": "KeyCode.keypadHyphen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 46,
+      "symbol": "KeyCode.keypadPlus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 47,
+      "symbol": "KeyCode.keypadEnter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 48,
+      "symbol": "KeyCode.keypadEqualSign",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 50,
+      "symbol": "KeyCode.keypad0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 51,
+      "symbol": "KeyCode.keypad1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 52,
+      "symbol": "KeyCode.keypad2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 53,
+      "symbol": "KeyCode.keypad3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 54,
+      "symbol": "KeyCode.keypad4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 55,
+      "symbol": "KeyCode.keypad5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 56,
+      "symbol": "KeyCode.keypad6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 57,
+      "symbol": "KeyCode.keypad7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 58,
+      "symbol": "KeyCode.keypad8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 59,
+      "symbol": "KeyCode.keypad9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 61,
+      "symbol": "KeyCode.f1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 62,
+      "symbol": "KeyCode.f2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 63,
+      "symbol": "KeyCode.f3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 64,
+      "symbol": "KeyCode.f4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 65,
+      "symbol": "KeyCode.f5",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 66,
+      "symbol": "KeyCode.f6",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 67,
+      "symbol": "KeyCode.f7",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 68,
+      "symbol": "KeyCode.f8",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 69,
+      "symbol": "KeyCode.f9",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 70,
+      "symbol": "KeyCode.f10",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 71,
+      "symbol": "KeyCode.f11",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 72,
+      "symbol": "KeyCode.f12",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 73,
+      "symbol": "KeyCode.f13",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 74,
+      "symbol": "KeyCode.f14",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 75,
+      "symbol": "KeyCode.f15",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 77,
+      "symbol": "KeyCode.returnEnter",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 78,
+      "symbol": "KeyCode.tab",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 79,
+      "symbol": "KeyCode.space",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 80,
+      "symbol": "KeyCode.escape",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 81,
+      "symbol": "KeyCode.leftCommand",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 82,
+      "symbol": "KeyCode.rightCommand",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 83,
+      "symbol": "KeyCode.leftShift",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 84,
+      "symbol": "KeyCode.leftAlt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 85,
+      "symbol": "KeyCode.leftControl",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 86,
+      "symbol": "KeyCode.rightShift",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 87,
+      "symbol": "KeyCode.rightAlt",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 88,
+      "symbol": "KeyCode.rightControl",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 89,
+      "symbol": "KeyCode.clear",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 90,
+      "symbol": "KeyCode.home",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 91,
+      "symbol": "KeyCode.pageUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 92,
+      "symbol": "KeyCode.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 93,
+      "symbol": "KeyCode.end",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 94,
+      "symbol": "KeyCode.pageDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 95,
+      "symbol": "KeyCode.leftArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 96,
+      "symbol": "KeyCode.rightArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 97,
+      "symbol": "KeyCode.downArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 98,
+      "symbol": "KeyCode.upArrow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 99,
+      "symbol": "KeyCode.backspace",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 101,
+      "symbol": "KeyCode.a",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 102,
+      "symbol": "KeyCode.b",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 103,
+      "symbol": "KeyCode.c",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 104,
+      "symbol": "KeyCode.d",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 105,
+      "symbol": "KeyCode.e",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 106,
+      "symbol": "KeyCode.f",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 107,
+      "symbol": "KeyCode.g",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 108,
+      "symbol": "KeyCode.h",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 109,
+      "symbol": "KeyCode.i",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 110,
+      "symbol": "KeyCode.j",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 111,
+      "symbol": "KeyCode.k",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 112,
+      "symbol": "KeyCode.l",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 113,
+      "symbol": "KeyCode.m",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 114,
+      "symbol": "KeyCode.n",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 115,
+      "symbol": "KeyCode.o",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 116,
+      "symbol": "KeyCode.p",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 117,
+      "symbol": "KeyCode.q",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 118,
+      "symbol": "KeyCode.r",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 119,
+      "symbol": "KeyCode.s",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 120,
+      "symbol": "KeyCode.t",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 121,
+      "symbol": "KeyCode.u",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 122,
+      "symbol": "KeyCode.v",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 123,
+      "symbol": "KeyCode.w",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 124,
+      "symbol": "KeyCode.x",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 125,
+      "symbol": "KeyCode.y",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 126,
+      "symbol": "KeyCode.z",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 128,
+      "symbol": "KeyCode.capsLock",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 130,
+      "symbol": "KeyCode.mouseLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 131,
+      "symbol": "KeyCode.mouseRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 132,
+      "symbol": "KeyCode.mouseMiddle",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 134,
+      "symbol": "KeyCode.controller1ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 135,
+      "symbol": "KeyCode.controller1ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 136,
+      "symbol": "KeyCode.controller1ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 137,
+      "symbol": "KeyCode.controller1ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 138,
+      "symbol": "KeyCode.controller1DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 139,
+      "symbol": "KeyCode.controller1DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 140,
+      "symbol": "KeyCode.controller1DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 141,
+      "symbol": "KeyCode.controller1DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 142,
+      "symbol": "KeyCode.controller1LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 143,
+      "symbol": "KeyCode.controller1LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 144,
+      "symbol": "KeyCode.controller1LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 145,
+      "symbol": "KeyCode.controller1LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 146,
+      "symbol": "KeyCode.controller1RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 147,
+      "symbol": "KeyCode.controller1RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 148,
+      "symbol": "KeyCode.controller1RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 149,
+      "symbol": "KeyCode.controller1RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 150,
+      "symbol": "KeyCode.controller1LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 151,
+      "symbol": "KeyCode.controller1RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 152,
+      "symbol": "KeyCode.controller1LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 153,
+      "symbol": "KeyCode.controller1RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 154,
+      "symbol": "KeyCode.controller1Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 156,
+      "symbol": "KeyCode.controller2ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 157,
+      "symbol": "KeyCode.controller2ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 158,
+      "symbol": "KeyCode.controller2ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 159,
+      "symbol": "KeyCode.controller2ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 160,
+      "symbol": "KeyCode.controller2DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 161,
+      "symbol": "KeyCode.controller2DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 162,
+      "symbol": "KeyCode.controller2DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 163,
+      "symbol": "KeyCode.controller2DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 164,
+      "symbol": "KeyCode.controller2LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 165,
+      "symbol": "KeyCode.controller2LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 166,
+      "symbol": "KeyCode.controller2LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 167,
+      "symbol": "KeyCode.controller2LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 168,
+      "symbol": "KeyCode.controller2RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 169,
+      "symbol": "KeyCode.controller2RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 170,
+      "symbol": "KeyCode.controller2RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 171,
+      "symbol": "KeyCode.controller2RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 172,
+      "symbol": "KeyCode.controller2LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 173,
+      "symbol": "KeyCode.controller2RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 174,
+      "symbol": "KeyCode.controller2LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 175,
+      "symbol": "KeyCode.controller2RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 176,
+      "symbol": "KeyCode.controller2Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 178,
+      "symbol": "KeyCode.controller3ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 179,
+      "symbol": "KeyCode.controller3ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 180,
+      "symbol": "KeyCode.controller3ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 181,
+      "symbol": "KeyCode.controller3ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 182,
+      "symbol": "KeyCode.controller3DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 183,
+      "symbol": "KeyCode.controller3DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 184,
+      "symbol": "KeyCode.controller3DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 185,
+      "symbol": "KeyCode.controller3DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 186,
+      "symbol": "KeyCode.controller3LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 187,
+      "symbol": "KeyCode.controller3LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 188,
+      "symbol": "KeyCode.controller3LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 189,
+      "symbol": "KeyCode.controller3LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 190,
+      "symbol": "KeyCode.controller3RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 191,
+      "symbol": "KeyCode.controller3RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 192,
+      "symbol": "KeyCode.controller3RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 193,
+      "symbol": "KeyCode.controller3RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 194,
+      "symbol": "KeyCode.controller3LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 195,
+      "symbol": "KeyCode.controller3RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 196,
+      "symbol": "KeyCode.controller3LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 197,
+      "symbol": "KeyCode.controller3RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 198,
+      "symbol": "KeyCode.controller3Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 200,
+      "symbol": "KeyCode.controller4ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 201,
+      "symbol": "KeyCode.controller4ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 202,
+      "symbol": "KeyCode.controller4ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 203,
+      "symbol": "KeyCode.controller4ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 204,
+      "symbol": "KeyCode.controller4DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 205,
+      "symbol": "KeyCode.controller4DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 206,
+      "symbol": "KeyCode.controller4DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 207,
+      "symbol": "KeyCode.controller4DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 208,
+      "symbol": "KeyCode.controller4LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 209,
+      "symbol": "KeyCode.controller4LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 210,
+      "symbol": "KeyCode.controller4LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 211,
+      "symbol": "KeyCode.controller4LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 212,
+      "symbol": "KeyCode.controller4RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 213,
+      "symbol": "KeyCode.controller4RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 214,
+      "symbol": "KeyCode.controller4RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 215,
+      "symbol": "KeyCode.controller4RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 216,
+      "symbol": "KeyCode.controller4LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 217,
+      "symbol": "KeyCode.controller4RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 218,
+      "symbol": "KeyCode.controller4LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 219,
+      "symbol": "KeyCode.controller4RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 220,
+      "symbol": "KeyCode.controller4Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 222,
+      "symbol": "KeyCode.controller5ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 223,
+      "symbol": "KeyCode.controller5ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 224,
+      "symbol": "KeyCode.controller5ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 225,
+      "symbol": "KeyCode.controller5ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 226,
+      "symbol": "KeyCode.controller5DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 227,
+      "symbol": "KeyCode.controller5DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 228,
+      "symbol": "KeyCode.controller5DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 229,
+      "symbol": "KeyCode.controller5DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 230,
+      "symbol": "KeyCode.controller5LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 231,
+      "symbol": "KeyCode.controller5LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 232,
+      "symbol": "KeyCode.controller5LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 233,
+      "symbol": "KeyCode.controller5LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 234,
+      "symbol": "KeyCode.controller5RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 235,
+      "symbol": "KeyCode.controller5RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 236,
+      "symbol": "KeyCode.controller5RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 237,
+      "symbol": "KeyCode.controller5RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 238,
+      "symbol": "KeyCode.controller5LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 239,
+      "symbol": "KeyCode.controller5RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 240,
+      "symbol": "KeyCode.controller5LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 241,
+      "symbol": "KeyCode.controller5RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 242,
+      "symbol": "KeyCode.controller5Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 244,
+      "symbol": "KeyCode.controller6ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 245,
+      "symbol": "KeyCode.controller6ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 246,
+      "symbol": "KeyCode.controller6ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 247,
+      "symbol": "KeyCode.controller6ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 248,
+      "symbol": "KeyCode.controller6DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 249,
+      "symbol": "KeyCode.controller6DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 250,
+      "symbol": "KeyCode.controller6DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 251,
+      "symbol": "KeyCode.controller6DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 252,
+      "symbol": "KeyCode.controller6LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 253,
+      "symbol": "KeyCode.controller6LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 254,
+      "symbol": "KeyCode.controller6LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 255,
+      "symbol": "KeyCode.controller6LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 256,
+      "symbol": "KeyCode.controller6RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 257,
+      "symbol": "KeyCode.controller6RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 258,
+      "symbol": "KeyCode.controller6RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 259,
+      "symbol": "KeyCode.controller6RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 260,
+      "symbol": "KeyCode.controller6LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 261,
+      "symbol": "KeyCode.controller6RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 262,
+      "symbol": "KeyCode.controller6LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 263,
+      "symbol": "KeyCode.controller6RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 264,
+      "symbol": "KeyCode.controller6Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 266,
+      "symbol": "KeyCode.controller7ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 267,
+      "symbol": "KeyCode.controller7ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 268,
+      "symbol": "KeyCode.controller7ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 269,
+      "symbol": "KeyCode.controller7ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 270,
+      "symbol": "KeyCode.controller7DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 271,
+      "symbol": "KeyCode.controller7DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 272,
+      "symbol": "KeyCode.controller7DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 273,
+      "symbol": "KeyCode.controller7DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 274,
+      "symbol": "KeyCode.controller7LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 275,
+      "symbol": "KeyCode.controller7LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 276,
+      "symbol": "KeyCode.controller7LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 277,
+      "symbol": "KeyCode.controller7LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 278,
+      "symbol": "KeyCode.controller7RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 279,
+      "symbol": "KeyCode.controller7RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 280,
+      "symbol": "KeyCode.controller7RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 281,
+      "symbol": "KeyCode.controller7RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 282,
+      "symbol": "KeyCode.controller7LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 283,
+      "symbol": "KeyCode.controller7RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 284,
+      "symbol": "KeyCode.controller7LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 285,
+      "symbol": "KeyCode.controller7RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 286,
+      "symbol": "KeyCode.controller7Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 288,
+      "symbol": "KeyCode.controller8ButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 289,
+      "symbol": "KeyCode.controller8ButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 290,
+      "symbol": "KeyCode.controller8ButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 291,
+      "symbol": "KeyCode.controller8ButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 292,
+      "symbol": "KeyCode.controller8DpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 293,
+      "symbol": "KeyCode.controller8DpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 294,
+      "symbol": "KeyCode.controller8DpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 295,
+      "symbol": "KeyCode.controller8DpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 296,
+      "symbol": "KeyCode.controller8LeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 297,
+      "symbol": "KeyCode.controller8LeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 298,
+      "symbol": "KeyCode.controller8LeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 299,
+      "symbol": "KeyCode.controller8LeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 300,
+      "symbol": "KeyCode.controller8RightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 301,
+      "symbol": "KeyCode.controller8RightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 302,
+      "symbol": "KeyCode.controller8RightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 303,
+      "symbol": "KeyCode.controller8RightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 304,
+      "symbol": "KeyCode.controller8LeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 305,
+      "symbol": "KeyCode.controller8RightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 306,
+      "symbol": "KeyCode.controller8LeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 307,
+      "symbol": "KeyCode.controller8RightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 308,
+      "symbol": "KeyCode.controller8Menu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 310,
+      "symbol": "KeyCode.allControllersButtonA",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 311,
+      "symbol": "KeyCode.allControllersButtonB",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 312,
+      "symbol": "KeyCode.allControllersButtonY",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 313,
+      "symbol": "KeyCode.allControllersButtonX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 314,
+      "symbol": "KeyCode.allControllersDpadLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 315,
+      "symbol": "KeyCode.allControllersDpadRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 316,
+      "symbol": "KeyCode.allControllersDpadUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 317,
+      "symbol": "KeyCode.allControllersDpadDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 318,
+      "symbol": "KeyCode.allControllersLeftThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 319,
+      "symbol": "KeyCode.allControllersLeftThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 320,
+      "symbol": "KeyCode.allControllersLeftThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 321,
+      "symbol": "KeyCode.allControllersLeftThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 322,
+      "symbol": "KeyCode.allControllersRightThumbstickLeft",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 323,
+      "symbol": "KeyCode.allControllersRightThumbstickRight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 324,
+      "symbol": "KeyCode.allControllersRightThumbstickUp",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 325,
+      "symbol": "KeyCode.allControllersRightThumbstickDown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 326,
+      "symbol": "KeyCode.allControllersLeftShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 327,
+      "symbol": "KeyCode.allControllersRightShoulder",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 328,
+      "symbol": "KeyCode.allControllersLeftTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 329,
+      "symbol": "KeyCode.allControllersRightTrigger",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 330,
+      "symbol": "KeyCode.allControllersMenu",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 332,
+      "symbol": "KeyCode.touchPositive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Input/Models/KeyCode.swift",
+      "line": 333,
+      "symbol": "KeyCode.touchNegative",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/CategoryMask.swift",
+      "line": 30,
+      "symbol": "CategoryMask.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/CategoryMask.swift",
+      "line": 33,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Checkpoint.swift",
+      "line": 79,
+      "symbol": "Checkpoint.Location",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/CircularDirection.swift",
+      "line": 30,
+      "symbol": "CircularDirection.stationary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/CircularDirection.swift",
+      "line": 31,
+      "symbol": "CircularDirection.clockwise",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/CircularDirection.swift",
+      "line": 32,
+      "symbol": "CircularDirection.counterClockwise",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/CircularDirection.swift",
+      "line": 34,
+      "symbol": "CircularDirection.!(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ContactSide.swift",
+      "line": 30,
+      "symbol": "ContactSide.top",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ContactSide.swift",
+      "line": 31,
+      "symbol": "ContactSide.bottom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ContactSide.swift",
+      "line": 32,
+      "symbol": "ContactSide.left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ContactSide.swift",
+      "line": 33,
+      "symbol": "ContactSide.right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ContactSide.swift",
+      "line": 34,
+      "symbol": "ContactSide.unspecified",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ContactSide.swift",
+      "line": 36,
+      "symbol": "ContactSide.!(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Conversation.swift",
+      "line": 50,
+      "symbol": "Conversation.containsTalker(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Direction.swift",
+      "line": 32,
+      "symbol": "Direction.positive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Direction.swift",
+      "line": 33,
+      "symbol": "Direction.negative",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Direction.swift",
+      "line": 35,
+      "symbol": "Direction.!(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/GlideCategoryMask.swift",
+      "line": 30,
+      "symbol": "GlideCategoryMask.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/GlideCategoryMask.swift",
+      "line": 31,
+      "symbol": "GlideCategoryMask.player",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/GlideCategoryMask.swift",
+      "line": 32,
+      "symbol": "GlideCategoryMask.colliderTile",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/GlideZPositionContainer.swift",
+      "line": 30,
+      "symbol": "GlideZPositionContainer.default",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/GlideZPositionContainer.swift",
+      "line": 31,
+      "symbol": "GlideZPositionContainer.camera",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/GlideZPositionContainer.swift",
+      "line": 33,
+      "symbol": "GlideZPositionContainer.debug",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/LightMask.swift",
+      "line": 31,
+      "symbol": "LightMask.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/MovementAxes.swift",
+      "line": 36,
+      "symbol": "MovementAxes.horizontal",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/MovementAxes.swift",
+      "line": 37,
+      "symbol": "MovementAxes.vertical",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/MovementAxes.swift",
+      "line": 38,
+      "symbol": "MovementAxes.circular",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/OptionSetIterator.swift",
+      "line": 32,
+      "symbol": "OptionSetIterator.init(element:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/OptionSetIterator.swift",
+      "line": 52,
+      "symbol": "OptionSet.makeIterator()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ProjectileShootingProperties.swift",
+      "line": 31,
+      "symbol": "ProjectileShootingProperties.position",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ProjectileShootingProperties.swift",
+      "line": 32,
+      "symbol": "ProjectileShootingProperties.sourceAngle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ProjectileShootingProperties.swift",
+      "line": 33,
+      "symbol": "ProjectileShootingProperties.velocity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ProjectileShootingProperties.swift",
+      "line": 35,
+      "symbol": "ProjectileShootingProperties.init(position:sourceAngle:velocity:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/SpeechOption.swift",
+      "line": 30,
+      "symbol": "SpeechOption.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/SpeechOption.swift",
+      "line": 31,
+      "symbol": "SpeechOption.targetSpeech",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/SpeechOption.swift",
+      "line": 33,
+      "symbol": "SpeechOption.init(text:targetSpeech:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TextureAnimation.Action.swift",
+      "line": 32,
+      "symbol": "TextureAnimation.Action.textureFormat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TextureAnimation.Action.swift",
+      "line": 33,
+      "symbol": "TextureAnimation.Action.numberOfFrames",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TextureAnimation.Action.swift",
+      "line": 34,
+      "symbol": "TextureAnimation.Action.timePerFrame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TextureAnimation.Action.swift",
+      "line": 35,
+      "symbol": "TextureAnimation.Action.isReverse",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TextureAnimation.Action.swift",
+      "line": 36,
+      "symbol": "TextureAnimation.Action.textureAtlas",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TextureAnimation.Action.swift",
+      "line": 37,
+      "symbol": "TextureAnimation.Action.shouldGenerateNormalMaps",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TouchInputProfilesOrCallback.swift",
+      "line": 30,
+      "symbol": "TouchInputProfilesOrCallback.profiles(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/TouchInputProfilesOrCallback.swift",
+      "line": 31,
+      "symbol": "TouchInputProfilesOrCallback.callback(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 31,
+      "symbol": "RoundedAngle.angle0",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 32,
+      "symbol": "RoundedAngle.angle45",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 33,
+      "symbol": "RoundedAngle.angle90",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 34,
+      "symbol": "RoundedAngle.angle135",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 35,
+      "symbol": "RoundedAngle.angle180",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 36,
+      "symbol": "RoundedAngle.angle225",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 37,
+      "symbol": "RoundedAngle.angle270",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 38,
+      "symbol": "RoundedAngle.angle315",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 39,
+      "symbol": "RoundedAngle.other(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 41,
+      "symbol": "RoundedAngle.init(degrees:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 67,
+      "symbol": "RoundedAngle.degrees",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 90,
+      "symbol": "RoundedAngle.stringValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 113,
+      "symbol": "RoundedAngle.horizontalMirrored",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 136,
+      "symbol": "RoundedAngle.nextCounterclockwise",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 159,
+      "symbol": "RoundedAngle.nextClockwise",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/RoundedAngle.swift",
+      "line": 182,
+      "symbol": "RoundedAngle.direction",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledPoint.swift",
+      "line": 30,
+      "symbol": "TiledPoint.x",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledPoint.swift",
+      "line": 31,
+      "symbol": "TiledPoint.y",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledPoint.swift",
+      "line": 33,
+      "symbol": "TiledPoint.init(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledPoint.swift",
+      "line": 37,
+      "symbol": "TiledPoint.init(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledPoint.swift",
+      "line": 44,
+      "symbol": "TiledPoint.zero",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledRect.swift",
+      "line": 30,
+      "symbol": "TiledRect.origin",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledRect.swift",
+      "line": 31,
+      "symbol": "TiledRect.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledRect.swift",
+      "line": 33,
+      "symbol": "TiledRect.init(origin:size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledSize.swift",
+      "line": 30,
+      "symbol": "TiledSize.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledSize.swift",
+      "line": 31,
+      "symbol": "TiledSize.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledSize.swift",
+      "line": 33,
+      "symbol": "TiledSize.init(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/Utils/TiledSize.swift",
+      "line": 37,
+      "symbol": "TiledSize.init(width:height:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Models/ZPositionContainer.swift",
+      "line": 30,
+      "symbol": "ZPositionContainer.rawValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+Contacts.swift",
+      "line": 30,
+      "symbol": "GlideScene.mapContact(between:and:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+Contacts.swift",
+      "line": 38,
+      "symbol": "GlideScene.canHaveContact(between:and:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+Contacts.swift",
+      "line": 54,
+      "symbol": "GlideScene.unregisterContacts(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+Contacts.swift",
+      "line": 58,
+      "symbol": "GlideScene.reset()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+UpdateCycle.swift",
+      "line": 30,
+      "symbol": "GlideScene.sceneDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+UpdateCycle.swift",
+      "line": 54,
+      "symbol": "GlideScene.didMove(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+UpdateCycle.swift",
+      "line": 86,
+      "symbol": "GlideScene.didChangeSize(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+UpdateCycle.swift",
+      "line": 98,
+      "symbol": "GlideScene.update(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+UpdateCycle.swift",
+      "line": 244,
+      "symbol": "GlideScene.didEvaluateActions()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene+UpdateCycle.swift",
+      "line": 260,
+      "symbol": "GlideScene.didFinishUpdate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene.swift",
+      "line": 32,
+      "symbol": "GlideScene.glideSceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene.swift",
+      "line": 38,
+      "symbol": "GlideScene.tileSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideScene.swift",
+      "line": 84,
+      "symbol": "GlideScene.isPaused",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Scene/GlideSceneDelegate.swift",
+      "line": 28,
+      "symbol": "GlideSceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/View/NavigatableButton.swift",
+      "line": 73,
+      "symbol": "NavigatableButton.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/View/NavigatableButtonContentView.swift",
+      "line": 30,
+      "symbol": "NavigatableButtonContentView.isSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/View/NavigatableButtonContentView.swift",
+      "line": 31,
+      "symbol": "NavigatableButtonContentView.isFocusedElement",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/View/NavigatableButtonContentView.swift",
+      "line": 32,
+      "symbol": "NavigatableButtonContentView.isTouchedDown",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/View/NavigatableButtonContentView.swift",
+      "line": 33,
+      "symbol": "NavigatableButtonContentView.animateSelect(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableButtonScrollViewController.swift",
+      "line": 33,
+      "symbol": "Notification.Name.NavigatableButtonScrollViewDidScrollToNextPage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableButtonScrollViewController.swift",
+      "line": 34,
+      "symbol": "Notification.Name.NavigatableButtonScrollViewDidScrollToPreviousPage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableButtonScrollViewController.swift",
+      "line": 116,
+      "symbol": "NavigatableButtonScrollViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableButtonScrollViewController.swift",
+      "line": 120,
+      "symbol": "NavigatableButtonScrollViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableButtonScrollViewController.swift",
+      "line": 138,
+      "symbol": "NavigatableButtonScrollViewController.viewDidLayout()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatablePopoverViewController.swift",
+      "line": 36,
+      "symbol": "NavigatablePopoverViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatablePopoverViewController.swift",
+      "line": 41,
+      "symbol": "NavigatablePopoverViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableViewController.swift",
+      "line": 49,
+      "symbol": "NavigatableViewController.selectHandler",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableViewController.swift",
+      "line": 50,
+      "symbol": "NavigatableViewController.cancelHandler",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableViewController.swift",
+      "line": 56,
+      "symbol": "NavigatableViewController.loadView()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableViewController.swift",
+      "line": 72,
+      "symbol": "NavigatableViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableViewController.swift",
+      "line": 111,
+      "symbol": "NavigatableViewController.viewDidAppear()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/UI/ViewController/NavigatableViewController.swift",
+      "line": 117,
+      "symbol": "NavigatableViewController.viewWillDisappear()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/Utils/ComponentPriorityRegistry.swift",
+      "line": 32,
+      "symbol": "ComponentPriorityRegistry.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/macOS/USBGameController/Device.swift",
+      "line": 41,
+      "symbol": "USBGameController.Device",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/macOS/USBGameController/USBGameController.swift",
+      "line": 29,
+      "symbol": "USBGameController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/Glide/Glide/Sources/macOS/USBGameController/USBGameController.swift",
+      "line": 52,
+      "symbol": "USBGameController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/Glide/Glide"
+}

@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Component Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Section/Component Protocols" class="dashAnchor"></a>
+
+    <a title="Component Protocols  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+           Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/cocoatoucher/Glide/">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html"> Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Component Protocols  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Getting%20Started.html">Getting Started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="readme.html">README</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="quickstartguide.html">QuickStartGuide</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="components.html">Components</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="inputmethods.html">InputMethods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="tiledmapeditormaps.html">TiledMapEditorMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="spritekitmaps.html">SpriteKitMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="updateloopscene.html">UpdateLoopScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="updateloopentity.html">UpdateLoopEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="updateloopcomponent.html">UpdateLoopComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Scene.html">Scene</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/GlideScene.html">GlideScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/GlideScene/EndReason.html">– EndReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Entities.html">Entities</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/GlideEntity.html">GlideEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/EntityFactory.html">EntityFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MovingPlatformEntity.html">MovingPlatformEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ProjectileTemplateEntity.html">ProjectileTemplateEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SpeechBubbleTemplateEntity.html">SpeechBubbleTemplateEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Core%20Components.html">Core Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ColliderComponent.html">ColliderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ColliderTileHolderComponent.html">ColliderTileHolderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/KinematicsBodyComponent.html">KinematicsBodyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/LabelNodeComponent.html">LabelNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SnapperComponent.html">SnapperComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SpriteNodeComponent.html">SpriteNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TextureAnimatorComponent.html">TextureAnimatorComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/AudioPlayerComponent.html">AudioPlayerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TileMapNodeComponent.html">TileMapNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TransformNodeComponent.html">TransformNodeComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Component%20Protocols.html">Component Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/CameraFocusingComponent.html">CameraFocusingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/DebuggableComponent.html">DebuggableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/GlideComponent.html">GlideComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/InputControllingComponent.html">InputControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/NodeLayoutableComponent.html">NodeLayoutableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/RemovalControllingComponent.html">RemovalControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/RespawnableEntityComponent.html">RespawnableEntityComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/StateResettingComponent.html">StateResettingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/UpdateControllingComponent.html">UpdateControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ZPositionContainerIndicatorComponent.html">ZPositionContainerIndicatorComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Ability%20Components.html">Ability Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/BlinkerComponent.html">BlinkerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/BouncerComponent.html">BouncerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CameraFocusAreaRecognizerComponent.html">CameraFocusAreaRecognizerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CheckpointRecognizerComponent.html">CheckpointRecognizerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CroucherComponent.html">CroucherComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/DasherComponent.html">DasherComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/EntityObserverComponent.html">EntityObserverComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/EntityObserverComponent/ObservingArea.html">– ObservingArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/HealthComponent.html">HealthComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/JetpackOperatorComponent.html">JetpackOperatorComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/JumpComponent.html">JumpComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/LadderClimberComponent.html">LadderClimberComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ParagliderComponent.html">ParagliderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/PlayableCharacterComponent.html">PlayableCharacterComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ProjectileShooterComponent.html">ProjectileShooterComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/RespawnAtCheckpointOnRestartComponent.html">RespawnAtCheckpointOnRestartComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ShakerComponent.html">ShakerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SwingHolderComponent.html">SwingHolderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TalkerComponent.html">TalkerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/UpwardsLookerComponent.html">UpwardsLookerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/WallClingerComponent.html">WallClingerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/WallJumpComponent.html">WallJumpComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Autonomous%20Components.html">Autonomous Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfChangeDirectionComponent.html">SelfChangeDirectionComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfChangeDirectionComponent/Condition.html">– Condition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfChangeDirectionComponent/Profile.html">– Profile</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfFollowWaypointsComponent.html">SelfFollowWaypointsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfFollowWaypointsComponent/MovementStyle.html">– MovementStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfMoveComponent.html">SelfMoveComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfShootOnObserveComponent.html">SelfShootOnObserveComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfSpawnEntitiesComponent.html">SelfSpawnEntitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SelfSpawnEntitiesComponent/SpawnMethod.html">– SpawnMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Environment%20Components.html">Environment Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CameraFocusAreaComponent.html">CameraFocusAreaComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CheckpointComponent.html">CheckpointComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/LightNodeComponent.html">LightNodeComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Gameplay%20UI%20Components.html">Gameplay UI Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/FocusableComponent.html">FocusableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SpeechFlowControllerComponent.html">SpeechFlowControllerComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Movement%20Components.html">Movement Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ApproachingMovementComponent.html">ApproachingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CircularMovementComponent.html">CircularMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/HorizontalMovementComponent.html">HorizontalMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/LerpingMovementComponent.html">LerpingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/OscillatingMovementComponent.html">OscillatingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/VerticalMovementComponent.html">VerticalMovementComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Scene%20Components.html">Scene Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CameraComponent.html">CameraComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CameraFollowerComponent.html">CameraFollowerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/CameraFollowerComponent/PositionUpdateMethod.html">– PositionUpdateMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/InfiniteSpriteScrollerComponent.html">InfiniteSpriteScrollerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SceneAnchoredSpriteLayoutComponent.html">SceneAnchoredSpriteLayoutComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Snappable%20Components.html">Snappable Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/BouncingPlatformComponent.html">BouncingPlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/FallingPlatformComponent.html">FallingPlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/LadderComponent.html">LadderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/PlatformComponent.html">PlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SnappableComponent.html">SnappableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/SwingComponent.html">SwingComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Utility%20Components.html">Utility Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/RemoveAfterTimeIntervalComponent.html">RemoveAfterTimeIntervalComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/TouchReceiverComponent.html">TouchReceiverComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Models.html">Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine12CategoryMaskP">CategoryMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Checkpoint.html">Checkpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine17CircularDirectionO">CircularDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/Contact.html">Contact</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine11ContactSideO">ContactSide</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/ContactedObject.html">ContactedObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/Direction.html">Direction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/GlideCategoryMask.html">GlideCategoryMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine0A18ZPositionContainerO">GlideZPositionContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/MovementAxes.html">MovementAxes</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MovementStyle.html">MovementStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine28ProjectileShootingPropertiesV">ProjectileShootingProperties</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SceneTileMaps.html">SceneTileMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Speech.html">Speech</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine12SpeechOptionV">SpeechOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TextureAnimation.html">TextureAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TextureAnimation/Action.html">– Action</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/AudioClip.html">AudioClip</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine18ZPositionContainerP">ZPositionContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine12RoundedAngleO">RoundedAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine9LightMaskP">LightMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/SlopeContext.html">SlopeContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/OptionSetIterator.html">OptionSetIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/TiledPoint.html">TiledPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine10TiledRangeV">TiledRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/TiledRect.html">TiledRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/TiledSize.html">TiledSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/NodeLayoutConstraint.html">NodeLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Models.html#/s:11GlideEngine28TouchInputProfilesOrCallbackO">TouchInputProfilesOrCallback</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Input.html">Input</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Input.html">Input</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Input.html#/s:11GlideEngine7KeyCodeO">KeyCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/InputProfile.html">InputProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/InputMethod.html">InputMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="TiledMapEditorSceneLoader.html">TiledMapEditorSceneLoader</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/TiledMapEditorSceneLoader.html">TiledMapEditorSceneLoader</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="UI.html">UI</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/NavigatableElement.html">NavigatableElement</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/NavigatableButton.html">NavigatableButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="UI.html#/s:11GlideEngine28NavigatableButtonContentViewP">NavigatableButtonContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/NavigatableButtonScrollViewController.html">NavigatableButtonScrollViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/NavigatablePopoverViewController.html">NavigatablePopoverViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/NavigatableViewController.html">NavigatableViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Utils.html">Utils</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/ComponentPriorityRegistry.html">ComponentPriorityRegistry</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Guides.html">Other Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="assetcredits.html">AssetCredits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Global%20Variables.html#/s:11GlideEngine13inputProfilesSayAA12InputProfileCGvp">inputProfiles</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/CGVector.html">CGVector</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/GKEntity.html">GKEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Extensions.html#/NavigatableButtonScrollView">NavigatableButtonScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/SKAction.html">SKAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/SKTexture.html">SKTexture</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/SKTileMapNode.html">SKTileMapNode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Other%20Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Functions.html#/s:11GlideEngine1poiyAA10TiledPointVAD_ADtF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Other%20Functions.html#/s:11GlideEngine1soiyAA10TiledPointVAD_ADtF">-(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>Component Protocols</h1>
+            
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine23CameraFocusingComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/CameraFocusingComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine23CameraFocusingComponentP">CameraFocusingComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, a component can specify an offset value from its transform&rsquo;s
+position when the camera of the scene is focused on that transform.</p>
+
+                        <a href="Protocols/CameraFocusingComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">CameraFocusingComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine19DebuggableComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/DebuggableComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine19DebuggableComponentP">DebuggableComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, an entity can manage its debug elements(e.g. debug nodes)
+in a more structured way.
+Note that functionality related to this component is only enabled if <code>DEBUG</code>
+flag is on during compile time.</p>
+
+                        <a href="Protocols/DebuggableComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">DebuggableComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A9ComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/GlideComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A9ComponentP">GlideComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Basic component protocol that should be adopted by all components
+for full compatibility of features.</p>
+
+                        <a href="Protocols/GlideComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">GlideComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine25InputControllingComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/InputControllingComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine25InputControllingComponentP">InputControllingComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, a component can decide if its entity&rsquo;s components are
+allowed to process inputs.
+<code>shouldBlockInputs</code> property of the entity should be used by each
+component that want to skip processing inputs.</p>
+
+                        <a href="Protocols/InputControllingComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">InputControllingComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine23NodeLayoutableComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/NodeLayoutableComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine23NodeLayoutableComponentP">NodeLayoutableComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, layout method in this protocol is called for the component
+to layout its rendered nodes in respect to scene size.</p>
+
+                        <a href="Protocols/NodeLayoutableComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">NodeLayoutableComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine27RemovalControllingComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/RemovalControllingComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine27RemovalControllingComponentP">RemovalControllingComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, a component can decide if its entity can be removed
+by the scene as a result of a removal event.
+Entity will be removed if at least one of its <code>RemovalControllingComponent</code>s
+return <code>true</code> for its <code>canEntityBeRemoved</code> value.
+An example scenario where this might be useful is, an entity needs
+to be removed but there needs to be an explosion animation played.
+Adoption of this protocol by the component which will play this
+animation ensures that the entity will not be removed until the
+animation is done playing.</p>
+
+                        <a href="Protocols/RemovalControllingComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">RemovalControllingComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine26RespawnableEntityComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/RespawnableEntityComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine26RespawnableEntityComponentP">RespawnableEntityComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, a component can specify an offset value from its transform&rsquo;s
+position when the camera of the scene is focused on that transform.</p>
+
+                        <a href="Protocols/RespawnableEntityComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">RespawnableEntityComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine23StateResettingComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/StateResettingComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine23StateResettingComponentP">StateResettingComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adopted by components to prepare their states for use in the rest of
+their scene&rsquo;s update cycle. This preparation happens after the component&rsquo;s
+update methods are called.
+This is useful behavior for some components to interpret what has
+changed since the update in the last frame to the current frame and prepare
+this change information to be used by other elements of the scene in the
+same frame.
+<code>CollisionsController</code> of scene is an example element which gets use of
+such information from <code><a href="Classes/ColliderComponent.html">ColliderComponent</a></code>s.</p>
+
+                        <a href="Protocols/StateResettingComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">StateResettingComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine26UpdateControllingComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/UpdateControllingComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine26UpdateControllingComponentP">UpdateControllingComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, a component can decide if its entity should be updated
+by the scene.
+Entity&rsquo;s <code>didSkipUpdate()</code> will be called in the next frame if at least one of its
+<code>UpdateControllingComponent</code>s return <code>false</code> for its <code>shouldEntityBeUpdated</code> value.</p>
+
+                        <a href="Protocols/UpdateControllingComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">UpdateControllingComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine36ZPositionContainerIndicatorComponentP"></a>
+                    <a name="//apple_ref/swift/Protocol/ZPositionContainerIndicatorComponent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine36ZPositionContainerIndicatorComponentP">ZPositionContainerIndicatorComponent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When adopted, a component can specify which z position container
+its entity&rsquo;s transform node should use as a parent.
+If multiple components of an entity specify a z position container
+only the container specified by the component with the lowest
+<code>componentPriority</code> is taken into account.</p>
+
+                        <a href="Protocols/ZPositionContainerIndicatorComponent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ZPositionContainerIndicatorComponent</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="https://github.com/cocoatoucher/Glide/" target="_blank" rel="external">Glide Engine</a>. All rights reserved. (Last updated: 2021-06-17)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

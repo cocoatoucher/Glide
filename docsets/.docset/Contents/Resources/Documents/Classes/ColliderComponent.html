@@ -1,0 +1,1913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ColliderComponent Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/ColliderComponent" class="dashAnchor"></a>
+
+    <a title="ColliderComponent Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/cocoatoucher/Glide/">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      ColliderComponent Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Getting%20Started.html">Getting Started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../readme.html">README</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../quickstartguide.html">QuickStartGuide</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../components.html">Components</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../inputmethods.html">InputMethods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../tiledmapeditormaps.html">TiledMapEditorMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../spritekitmaps.html">SpriteKitMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../updateloopscene.html">UpdateLoopScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../updateloopentity.html">UpdateLoopEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../updateloopcomponent.html">UpdateLoopComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Scene.html">Scene</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/GlideScene.html">GlideScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/GlideScene/EndReason.html">– EndReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Entities.html">Entities</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/GlideEntity.html">GlideEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/EntityFactory.html">EntityFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MovingPlatformEntity.html">MovingPlatformEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ProjectileTemplateEntity.html">ProjectileTemplateEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SpeechBubbleTemplateEntity.html">SpeechBubbleTemplateEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Core%20Components.html">Core Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ColliderComponent.html">ColliderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ColliderTileHolderComponent.html">ColliderTileHolderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/KinematicsBodyComponent.html">KinematicsBodyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LabelNodeComponent.html">LabelNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SnapperComponent.html">SnapperComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SpriteNodeComponent.html">SpriteNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TextureAnimatorComponent.html">TextureAnimatorComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AudioPlayerComponent.html">AudioPlayerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TileMapNodeComponent.html">TileMapNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TransformNodeComponent.html">TransformNodeComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Component%20Protocols.html">Component Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/CameraFocusingComponent.html">CameraFocusingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DebuggableComponent.html">DebuggableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/GlideComponent.html">GlideComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/InputControllingComponent.html">InputControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/NodeLayoutableComponent.html">NodeLayoutableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RemovalControllingComponent.html">RemovalControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RespawnableEntityComponent.html">RespawnableEntityComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/StateResettingComponent.html">StateResettingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/UpdateControllingComponent.html">UpdateControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ZPositionContainerIndicatorComponent.html">ZPositionContainerIndicatorComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Ability%20Components.html">Ability Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BlinkerComponent.html">BlinkerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BouncerComponent.html">BouncerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFocusAreaRecognizerComponent.html">CameraFocusAreaRecognizerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CheckpointRecognizerComponent.html">CheckpointRecognizerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CroucherComponent.html">CroucherComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DasherComponent.html">DasherComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/EntityObserverComponent.html">EntityObserverComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/EntityObserverComponent/ObservingArea.html">– ObservingArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/HealthComponent.html">HealthComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/JetpackOperatorComponent.html">JetpackOperatorComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/JumpComponent.html">JumpComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LadderClimberComponent.html">LadderClimberComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ParagliderComponent.html">ParagliderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/PlayableCharacterComponent.html">PlayableCharacterComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ProjectileShooterComponent.html">ProjectileShooterComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RespawnAtCheckpointOnRestartComponent.html">RespawnAtCheckpointOnRestartComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ShakerComponent.html">ShakerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SwingHolderComponent.html">SwingHolderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TalkerComponent.html">TalkerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UpwardsLookerComponent.html">UpwardsLookerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/WallClingerComponent.html">WallClingerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/WallJumpComponent.html">WallJumpComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Autonomous%20Components.html">Autonomous Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfChangeDirectionComponent.html">SelfChangeDirectionComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfChangeDirectionComponent/Condition.html">– Condition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfChangeDirectionComponent/Profile.html">– Profile</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfFollowWaypointsComponent.html">SelfFollowWaypointsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfFollowWaypointsComponent/MovementStyle.html">– MovementStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfMoveComponent.html">SelfMoveComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfShootOnObserveComponent.html">SelfShootOnObserveComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfSpawnEntitiesComponent.html">SelfSpawnEntitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfSpawnEntitiesComponent/SpawnMethod.html">– SpawnMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Environment%20Components.html">Environment Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFocusAreaComponent.html">CameraFocusAreaComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CheckpointComponent.html">CheckpointComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LightNodeComponent.html">LightNodeComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Gameplay%20UI%20Components.html">Gameplay UI Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/FocusableComponent.html">FocusableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SpeechFlowControllerComponent.html">SpeechFlowControllerComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Movement%20Components.html">Movement Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ApproachingMovementComponent.html">ApproachingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CircularMovementComponent.html">CircularMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/HorizontalMovementComponent.html">HorizontalMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LerpingMovementComponent.html">LerpingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/OscillatingMovementComponent.html">OscillatingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/VerticalMovementComponent.html">VerticalMovementComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Scene%20Components.html">Scene Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraComponent.html">CameraComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFollowerComponent.html">CameraFollowerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFollowerComponent/PositionUpdateMethod.html">– PositionUpdateMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InfiniteSpriteScrollerComponent.html">InfiniteSpriteScrollerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SceneAnchoredSpriteLayoutComponent.html">SceneAnchoredSpriteLayoutComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Snappable%20Components.html">Snappable Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BouncingPlatformComponent.html">BouncingPlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/FallingPlatformComponent.html">FallingPlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LadderComponent.html">LadderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/PlatformComponent.html">PlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SnappableComponent.html">SnappableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SwingComponent.html">SwingComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Utility%20Components.html">Utility Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RemoveAfterTimeIntervalComponent.html">RemoveAfterTimeIntervalComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TouchReceiverComponent.html">TouchReceiverComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Models.html">Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine12CategoryMaskP">CategoryMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Checkpoint.html">Checkpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine17CircularDirectionO">CircularDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Contact.html">Contact</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine11ContactSideO">ContactSide</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ContactedObject.html">ContactedObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Direction.html">Direction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/GlideCategoryMask.html">GlideCategoryMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine0A18ZPositionContainerO">GlideZPositionContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MovementAxes.html">MovementAxes</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MovementStyle.html">MovementStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine28ProjectileShootingPropertiesV">ProjectileShootingProperties</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SceneTileMaps.html">SceneTileMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Speech.html">Speech</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine12SpeechOptionV">SpeechOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TextureAnimation.html">TextureAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TextureAnimation/Action.html">– Action</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AudioClip.html">AudioClip</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine18ZPositionContainerP">ZPositionContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine12RoundedAngleO">RoundedAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine9LightMaskP">LightMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SlopeContext.html">SlopeContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/OptionSetIterator.html">OptionSetIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TiledPoint.html">TiledPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine10TiledRangeV">TiledRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TiledRect.html">TiledRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TiledSize.html">TiledSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/NodeLayoutConstraint.html">NodeLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine28TouchInputProfilesOrCallbackO">TouchInputProfilesOrCallback</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Input.html">Input</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Input.html">Input</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Input.html#/s:11GlideEngine7KeyCodeO">KeyCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InputProfile.html">InputProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/InputMethod.html">InputMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../TiledMapEditorSceneLoader.html">TiledMapEditorSceneLoader</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TiledMapEditorSceneLoader.html">TiledMapEditorSceneLoader</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../UI.html">UI</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/NavigatableElement.html">NavigatableElement</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatableButton.html">NavigatableButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../UI.html#/s:11GlideEngine28NavigatableButtonContentViewP">NavigatableButtonContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatableButtonScrollViewController.html">NavigatableButtonScrollViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatablePopoverViewController.html">NavigatablePopoverViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatableViewController.html">NavigatableViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Utils.html">Utils</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ComponentPriorityRegistry.html">ComponentPriorityRegistry</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Guides.html">Other Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../assetcredits.html">AssetCredits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Global%20Variables.html#/s:11GlideEngine13inputProfilesSayAA12InputProfileCGvp">inputProfiles</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGVector.html">CGVector</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/GKEntity.html">GKEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Extensions.html#/NavigatableButtonScrollView">NavigatableButtonScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/SKAction.html">SKAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/SKTexture.html">SKTexture</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/SKTileMapNode.html">SKTileMapNode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Functions.html#/s:11GlideEngine1poiyAA10TiledPointVAD_ADtF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Functions.html#/s:11GlideEngine1soiyAA10TiledPointVAD_ADtF">-(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>ColliderComponent</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ColliderComponent</span> <span class="p">:</span> <span class="kt">GKComponent</span><span class="p">,</span> <span class="kt"><a href="../Protocols/GlideComponent.html">GlideComponent</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ColliderComponent</span><span class="p">:</span> <span class="kt"><a href="../Protocols/DebuggableComponent.html">DebuggableComponent</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ColliderComponent</span><span class="p">:</span> <span class="kt"><a href="../Protocols/StateResettingComponent.html">StateResettingComponent</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">ColliderComponent</span><span class="p">:</span> <span class="kt"><a href="../Protocols/UpdateControllingComponent.html">UpdateControllingComponent</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Component that handles the collisions and controls the collider box of an entity.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A9ComponentP17componentPrioritySivpZ"></a>
+                    <a name="//apple_ref/swift/Variable/componentPriority" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A9ComponentP17componentPrioritySivpZ">componentPriority</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">componentPriority</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC12categoryMaskAA08CategoryF0_pvp"></a>
+                    <a name="//apple_ref/swift/Property/categoryMask" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC12categoryMaskAA08CategoryF0_pvp">categoryMask</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Value used to check for non-collision contacts with other objects.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">categoryMask</span><span class="p">:</span> <span class="kt"><a href="../Models.html#/s:11GlideEngine12CategoryMaskP">CategoryMask</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC9isEnabledSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isEnabled" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC9isEnabledSbvp">isEnabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if component is enabled. Entity won&rsquo;t collide with other objects and
+won&rsquo;t non-collision contacts if the value of this property is set to <code>false</code>.
+Default value is <code>true</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isEnabled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC4sizeSo6CGSizeVvp"></a>
+                    <a name="//apple_ref/swift/Property/size" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC4sizeSo6CGSizeVvp">size</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Size of the collider box.
+It&rsquo;s not supported to set this after initializing the collider component
+if the entity has one of the components below:</p>
+
+<ul>
+<li><code><a href="../Classes/SnapperComponent.html">SnapperComponent</a></code></li>
+<li><code><a href="../Classes/ColliderTileHolderComponent.html">ColliderTileHolderComponent</a></code></li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC6offsetSo7CGPointVvp"></a>
+                    <a name="//apple_ref/swift/Property/offset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC6offsetSo7CGPointVvp">offset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Position of the collider box.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGPoint</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC20leftHitPointsOffsets12CoreGraphics7CGFloatV6bottom_AG3toptvp"></a>
+                    <a name="//apple_ref/swift/Property/leftHitPointsOffsets" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC20leftHitPointsOffsets12CoreGraphics7CGFloatV6bottom_AG3toptvp">leftHitPointsOffsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Locations of collider points on the bottom left and top left of the collider box.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">leftHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC21rightHitPointsOffsets12CoreGraphics7CGFloatV6bottom_AG3toptvp"></a>
+                    <a name="//apple_ref/swift/Property/rightHitPointsOffsets" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC21rightHitPointsOffsets12CoreGraphics7CGFloatV6bottom_AG3toptvp">rightHitPointsOffsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Locations of collider points on the bottom right and top right of the collider box.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">rightHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC19topHitPointsOffsets12CoreGraphics7CGFloatV4left_AG5righttvp"></a>
+                    <a name="//apple_ref/swift/Property/topHitPointsOffsets" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC19topHitPointsOffsets12CoreGraphics7CGFloatV4left_AG5righttvp">topHitPointsOffsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Locations of collider points on the top left and top right of the collider box.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">topHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC22bottomHitPointsOffsets12CoreGraphics7CGFloatV4left_AG5righttvp"></a>
+                    <a name="//apple_ref/swift/Property/bottomHitPointsOffsets" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC22bottomHitPointsOffsets12CoreGraphics7CGFloatV4left_AG5righttvp">bottomHitPointsOffsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Locations of collider points on the bottom left and bottom right of the collider box.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">bottomHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/States"></a>
+                <a name="//apple_ref/swift/Section/States" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/States"></a>
+                  <h3 class="section-name"><p>States</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC16didPushRightWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/didPushRightWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC16didPushRightWallSbvp">didPushRightWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s right side was contacting a collidable object in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">didPushRightWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC15pushesRightWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/pushesRightWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC15pushesRightWallSbvp">pushesRightWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s right side is contacting a collidable object in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">pushesRightWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC15didPushLeftWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/didPushLeftWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC15didPushLeftWallSbvp">didPushLeftWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s left side was contacting a collidable object in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">didPushLeftWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC14pushesLeftWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/pushesLeftWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC14pushesLeftWallSbvp">pushesLeftWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s left side is contacting a collidable object in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">pushesLeftWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC11wasOnGroundSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasOnGround" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC11wasOnGroundSbvp">wasOnGround</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s bottom was contacting a collidable object in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">wasOnGround</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC8onGroundSbvp"></a>
+                    <a name="//apple_ref/swift/Property/onGround" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC8onGroundSbvp">onGround</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s top is contacting a collidable object in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">onGround</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC12wasAtCeilingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasAtCeiling" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC12wasAtCeilingSbvp">wasAtCeiling</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s top was contacting a collidable object in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">wasAtCeiling</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC9atCeilingSbvp"></a>
+                    <a name="//apple_ref/swift/Property/atCeiling" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC9atCeilingSbvp">atCeiling</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider&rsquo;s top is contacting a collidable object in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">atCeiling</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC11didPushDownSbvp"></a>
+                    <a name="//apple_ref/swift/Property/didPushDown" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC11didPushDownSbvp">didPushDown</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider applied a virtual force towards the ground in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">didPushDown</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC10pushesDownSbvp"></a>
+                    <a name="//apple_ref/swift/Property/pushesDown" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC10pushesDownSbvp">pushesDown</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider applies a virtual force towards the ground in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">pushesDown</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC8wasOnGapSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasOnGap" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC8wasOnGapSbvp">wasOnGap</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider was contacting a gap in the collision map of the scene
+in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">wasOnGap</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC5onGapSbvp"></a>
+                    <a name="//apple_ref/swift/Property/onGap" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC5onGapSbvp">onGap</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider is contacting a gap in the collision map of the scene
+in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">onGap</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC15wasOnCornerJumpSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasOnCornerJump" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC15wasOnCornerJumpSbvp">wasOnCornerJump</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider was contacting a corner jump area in the collision map of
+the scene in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">wasOnCornerJump</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC12onCornerJumpSbvp"></a>
+                    <a name="//apple_ref/swift/Property/onCornerJump" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC12onCornerJumpSbvp">onCornerJump</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider is contacting a corner jump area in the collision map of
+the scene in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">onCornerJump</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC10wasOnSlopeSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasOnSlope" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC10wasOnSlopeSbvp">wasOnSlope</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider is contacting a slope tile in the collision map of
+the scene in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">wasOnSlope</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC7onSlopeSbvp"></a>
+                    <a name="//apple_ref/swift/Property/onSlope" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC7onSlopeSbvp">onSlope</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider is contacting a slope tile in the collision map of
+the scene in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">onSlope</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC12slopeContextAA05SlopeF0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/slopeContext" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC12slopeContextAA05SlopeF0VSgvp">slopeContext</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Information about slope tile group that the collider is contacting in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">slopeContext</span><span class="p">:</span> <span class="kt"><a href="../Structs/SlopeContext.html">SlopeContext</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC20didPushRightJumpWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/didPushRightJumpWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC20didPushRightJumpWallSbvp">didPushRightJumpWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider was contacting a right side jump wall tile in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">didPushRightJumpWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC19pushesRightJumpWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/pushesRightJumpWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC19pushesRightJumpWallSbvp">pushesRightJumpWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider is contacting a right side jump wall tile in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">pushesRightJumpWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC19didPushLeftJumpWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/didPushLeftJumpWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC19didPushLeftJumpWallSbvp">didPushLeftJumpWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider is contacting a left side jump wall tile in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">didPushLeftJumpWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC18pushesLeftJumpWallSbvp"></a>
+                    <a name="//apple_ref/swift/Property/pushesLeftJumpWall" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC18pushesLeftJumpWallSbvp">pushesLeftJumpWall</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the collider is contacting a left side jump wall tile in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">pushesLeftJumpWall</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC8wasOnAirSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasOnAir" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC8wasOnAirSbvp">wasOnAir</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the the bottom of the collider was not touching anywhere in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">wasOnAir</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC7isOnAirSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isOnAir" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC7isOnAirSbvp">isOnAir</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the the bottom of the collider if not touching anywhere in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isOnAir</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC20wasKilledByCollisionSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasKilledByCollision" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC20wasKilledByCollisionSbvp">wasKilledByCollision</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity was destroyed as a result of unresolved collision in the last frame.
+e.g. top and bottom hit points collide at the same time.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">wasKilledByCollision</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC19isKilledByCollisionSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isKilledByCollision" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC19isKilledByCollisionSbvp">isKilledByCollision</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity is destroyed as a result of unresolved collision in the current frame.
+e.g. top and bottom hit points collide at the same time.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">isKilledByCollision</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC28wasOutsideCollisionMapBoundsSbvp"></a>
+                    <a name="//apple_ref/swift/Property/wasOutsideCollisionMapBounds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC28wasOutsideCollisionMapBoundsSbvp">wasOutsideCollisionMapBounds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity was outside of collision map of the scene in the last frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">wasOutsideCollisionMapBounds</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC27isOutsideCollisionMapBoundsSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isOutsideCollisionMapBounds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC27isOutsideCollisionMapBoundsSbvp">isOutsideCollisionMapBounds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity is outside of collision map of the scene in the current frame.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">isOutsideCollisionMapBounds</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC12categoryMask4size6offset20leftHitPointsOffsets05rightjkL003topjkL006bottomjkL0AcA08CategoryF0_p_So6CGSizeVSo7CGPointV12CoreGraphics7CGFloatV0O0_AR0N0tArS_ArTtAR0I0_AR0M0tArU_ArVttcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(categoryMask:size:offset:leftHitPointsOffsets:rightHitPointsOffsets:topHitPointsOffsets:bottomHitPointsOffsets:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC12categoryMask4size6offset20leftHitPointsOffsets05rightjkL003topjkL006bottomjkL0AcA08CategoryF0_p_So6CGSizeVSo7CGPointV12CoreGraphics7CGFloatV0O0_AR0N0tArS_ArTtAR0I0_AR0M0tArU_ArVttcfc">init(categoryMask:<wbr>size:<wbr>offset:<wbr>leftHitPointsOffsets:<wbr>rightHitPointsOffsets:<wbr>topHitPointsOffsets:<wbr>bottomHitPointsOffsets:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a collider component.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">categoryMask</span><span class="p">:</span> <span class="kt"><a href="../Models.html#/s:11GlideEngine12CategoryMaskP">CategoryMask</a></span><span class="p">,</span>
+            <span class="nv">size</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">,</span>
+            <span class="nv">offset</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span>
+            <span class="nv">leftHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">),</span>
+            <span class="nv">rightHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">bottom</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">top</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">),</span>
+            <span class="nv">topHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">),</span>
+            <span class="nv">bottomHitPointsOffsets</span><span class="p">:</span> <span class="p">(</span><span class="nv">left</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>categoryMask</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Mask to establish and check for non-collision contacts
+with other entities.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>size</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Size of the collider box.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>offset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Positon of the collider box.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>leftHitPointsOffsets</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Locations of collider points on the bottom left
+and top left of the collider box.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rightHitPointsOffsets</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Locations of collider points on the bottom left
+and top left of the collider box.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>topHitPointsOffsets</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Locations of collider points on the top left and
+top right of the collider box.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>bottomHitPointsOffsets</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Locations of collider points on the bottom left
+and bottom right of the collider box.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A9ComponentP9didUpdate9deltaTimeySd_tF"></a>
+                    <a name="//apple_ref/swift/Method/didUpdate(deltaTime:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A9ComponentP9didUpdate9deltaTimeySd_tF">didUpdate(deltaTime:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">didUpdate</span><span class="p">(</span><span class="n">deltaTime</span> <span class="nv">seconds</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine19DebuggableComponentP19updateDebugElementsyyF"></a>
+                    <a name="//apple_ref/swift/Method/updateDebugElements()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine19DebuggableComponentP19updateDebugElementsyyF">updateDebugElements()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateDebugElements</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine19DebuggableComponentP18cleanDebugElementsyyF"></a>
+                    <a name="//apple_ref/swift/Method/cleanDebugElements()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine19DebuggableComponentP18cleanDebugElementsyyF">cleanDebugElements()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">cleanDebugElements</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine23StateResettingComponentP11resetStatesyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetStates()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine23StateResettingComponentP11resetStatesyyF">resetStates()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetStates</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine17ColliderComponentC21shouldEntityBeUpdatedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/shouldEntityBeUpdated" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine17ColliderComponentC21shouldEntityBeUpdatedSbvp">shouldEntityBeUpdated</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Collider stops updates of entity when there is an unresolved collision</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldEntityBeUpdated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="https://github.com/cocoatoucher/Glide/" target="_blank" rel="external">Glide Engine</a>. All rights reserved. (Last updated: 2021-06-17)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

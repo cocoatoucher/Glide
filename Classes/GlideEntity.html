@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GlideEntity Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/GlideEntity" class="dashAnchor"></a>
+
+    <a title="GlideEntity Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/cocoatoucher/Glide/">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      GlideEntity Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Getting%20Started.html">Getting Started</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../readme.html">README</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../quickstartguide.html">QuickStartGuide</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../components.html">Components</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../inputmethods.html">InputMethods</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../tiledmapeditormaps.html">TiledMapEditorMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../spritekitmaps.html">SpriteKitMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../updateloopscene.html">UpdateLoopScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../updateloopentity.html">UpdateLoopEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../updateloopcomponent.html">UpdateLoopComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Scene.html">Scene</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/GlideScene.html">GlideScene</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/GlideScene/EndReason.html">– EndReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Entities.html">Entities</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/GlideEntity.html">GlideEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/EntityFactory.html">EntityFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MovingPlatformEntity.html">MovingPlatformEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ProjectileTemplateEntity.html">ProjectileTemplateEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SpeechBubbleTemplateEntity.html">SpeechBubbleTemplateEntity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Core%20Components.html">Core Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ColliderComponent.html">ColliderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ColliderTileHolderComponent.html">ColliderTileHolderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/KinematicsBodyComponent.html">KinematicsBodyComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LabelNodeComponent.html">LabelNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SnapperComponent.html">SnapperComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SpriteNodeComponent.html">SpriteNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TextureAnimatorComponent.html">TextureAnimatorComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AudioPlayerComponent.html">AudioPlayerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TileMapNodeComponent.html">TileMapNodeComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TransformNodeComponent.html">TransformNodeComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Component%20Protocols.html">Component Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/CameraFocusingComponent.html">CameraFocusingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/DebuggableComponent.html">DebuggableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/GlideComponent.html">GlideComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/InputControllingComponent.html">InputControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/NodeLayoutableComponent.html">NodeLayoutableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RemovalControllingComponent.html">RemovalControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RespawnableEntityComponent.html">RespawnableEntityComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/StateResettingComponent.html">StateResettingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/UpdateControllingComponent.html">UpdateControllingComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ZPositionContainerIndicatorComponent.html">ZPositionContainerIndicatorComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Ability%20Components.html">Ability Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BlinkerComponent.html">BlinkerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BouncerComponent.html">BouncerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFocusAreaRecognizerComponent.html">CameraFocusAreaRecognizerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CheckpointRecognizerComponent.html">CheckpointRecognizerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CroucherComponent.html">CroucherComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/DasherComponent.html">DasherComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/EntityObserverComponent.html">EntityObserverComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/EntityObserverComponent/ObservingArea.html">– ObservingArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/HealthComponent.html">HealthComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/JetpackOperatorComponent.html">JetpackOperatorComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/JumpComponent.html">JumpComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LadderClimberComponent.html">LadderClimberComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ParagliderComponent.html">ParagliderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/PlayableCharacterComponent.html">PlayableCharacterComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ProjectileShooterComponent.html">ProjectileShooterComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RespawnAtCheckpointOnRestartComponent.html">RespawnAtCheckpointOnRestartComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ShakerComponent.html">ShakerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SwingHolderComponent.html">SwingHolderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TalkerComponent.html">TalkerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/UpwardsLookerComponent.html">UpwardsLookerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/WallClingerComponent.html">WallClingerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/WallJumpComponent.html">WallJumpComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Autonomous%20Components.html">Autonomous Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfChangeDirectionComponent.html">SelfChangeDirectionComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfChangeDirectionComponent/Condition.html">– Condition</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfChangeDirectionComponent/Profile.html">– Profile</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfFollowWaypointsComponent.html">SelfFollowWaypointsComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfFollowWaypointsComponent/MovementStyle.html">– MovementStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfMoveComponent.html">SelfMoveComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfShootOnObserveComponent.html">SelfShootOnObserveComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfSpawnEntitiesComponent.html">SelfSpawnEntitiesComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SelfSpawnEntitiesComponent/SpawnMethod.html">– SpawnMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Environment%20Components.html">Environment Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFocusAreaComponent.html">CameraFocusAreaComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CheckpointComponent.html">CheckpointComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LightNodeComponent.html">LightNodeComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Gameplay%20UI%20Components.html">Gameplay UI Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/FocusableComponent.html">FocusableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SpeechFlowControllerComponent.html">SpeechFlowControllerComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Movement%20Components.html">Movement Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ApproachingMovementComponent.html">ApproachingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CircularMovementComponent.html">CircularMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/HorizontalMovementComponent.html">HorizontalMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LerpingMovementComponent.html">LerpingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/OscillatingMovementComponent.html">OscillatingMovementComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/VerticalMovementComponent.html">VerticalMovementComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Scene%20Components.html">Scene Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraComponent.html">CameraComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFollowerComponent.html">CameraFollowerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/CameraFollowerComponent/PositionUpdateMethod.html">– PositionUpdateMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InfiniteSpriteScrollerComponent.html">InfiniteSpriteScrollerComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SceneAnchoredSpriteLayoutComponent.html">SceneAnchoredSpriteLayoutComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Snappable%20Components.html">Snappable Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/BouncingPlatformComponent.html">BouncingPlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/FallingPlatformComponent.html">FallingPlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/LadderComponent.html">LadderComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/PlatformComponent.html">PlatformComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SnappableComponent.html">SnappableComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SwingComponent.html">SwingComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Utility%20Components.html">Utility Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RemoveAfterTimeIntervalComponent.html">RemoveAfterTimeIntervalComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/TouchReceiverComponent.html">TouchReceiverComponent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Models.html">Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine12CategoryMaskP">CategoryMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Checkpoint.html">Checkpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine17CircularDirectionO">CircularDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/Contact.html">Contact</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine11ContactSideO">ContactSide</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ContactedObject.html">ContactedObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Conversation.html">Conversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/Direction.html">Direction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/GlideCategoryMask.html">GlideCategoryMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine0A18ZPositionContainerO">GlideZPositionContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/MovementAxes.html">MovementAxes</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MovementStyle.html">MovementStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine28ProjectileShootingPropertiesV">ProjectileShootingProperties</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SceneTileMaps.html">SceneTileMaps</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Speech.html">Speech</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine12SpeechOptionV">SpeechOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TextureAnimation.html">TextureAnimation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TextureAnimation/Action.html">– Action</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AudioClip.html">AudioClip</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine18ZPositionContainerP">ZPositionContainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine12RoundedAngleO">RoundedAngle</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine9LightMaskP">LightMask</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/SlopeContext.html">SlopeContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/OptionSetIterator.html">OptionSetIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TiledPoint.html">TiledPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine10TiledRangeV">TiledRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TiledRect.html">TiledRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/TiledSize.html">TiledSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/NodeLayoutConstraint.html">NodeLayoutConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Models.html#/s:11GlideEngine28TouchInputProfilesOrCallbackO">TouchInputProfilesOrCallback</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Input.html">Input</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Input.html">Input</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Input.html#/s:11GlideEngine7KeyCodeO">KeyCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/InputProfile.html">InputProfile</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/InputMethod.html">InputMethod</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../TiledMapEditorSceneLoader.html">TiledMapEditorSceneLoader</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/TiledMapEditorSceneLoader.html">TiledMapEditorSceneLoader</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../UI.html">UI</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/NavigatableElement.html">NavigatableElement</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatableButton.html">NavigatableButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../UI.html#/s:11GlideEngine28NavigatableButtonContentViewP">NavigatableButtonContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatableButtonScrollViewController.html">NavigatableButtonScrollViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatablePopoverViewController.html">NavigatablePopoverViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NavigatableViewController.html">NavigatableViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Utils.html">Utils</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ComponentPriorityRegistry.html">ComponentPriorityRegistry</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Guides.html">Other Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../assetcredits.html">AssetCredits</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Global%20Variables.html#/s:11GlideEngine13inputProfilesSayAA12InputProfileCGvp">inputProfiles</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGFloat.html">CGFloat</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CGVector.html">CGVector</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/GKEntity.html">GKEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Extensions.html#/NavigatableButtonScrollView">NavigatableButtonScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Notification.html">Notification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Notification/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/SKAction.html">SKAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/SKTexture.html">SKTexture</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/SKTileMapNode.html">SKTileMapNode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Other%20Functions.html">Other Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Functions.html#/s:11GlideEngine1poiyAA10TiledPointVAD_ADtF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Other%20Functions.html#/s:11GlideEngine1soiyAA10TiledPointVAD_ADtF">-(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content top-matter">
+            <h1>GlideEntity</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">GlideEntity</span> <span class="p">:</span> <span class="kt">GKEntity</span></code></pre>
+
+                </div>
+              </div>
+            <p>Basic entity which coordinates added <code><a href="../Protocols/GlideComponent.html">GlideComponent</a></code>s to itself.
+Although it&rsquo;s technically possible to add <code>GKComponent</code>s that do not
+conform to <code><a href="../Protocols/GlideComponent.html">GlideComponent</a></code>, it is recommended to add components
+which conform to this protocol to get full advantage from this entity
+and its components.
+Initialize this class and add your custom components in your entity
+initializer method or subclass to have more flexibility with your
+custom entity class.
+Since, entities are basically a collection of components with most of the use cases,
+consider implementing a factory class with static functions which creates direct instances
+of <code>GlideEntity</code> and adds custom components to this instance, instead of creating
+separate <code>GlideEntity</code> subclasses for each of your entities.</p>
+
+<p>One thing to note is, it is not supported to use <code>GKEntity</code>&lsquo;s
+<code>removeComponent(ofType:)</code> method, as this is not an open function
+and it is not possible to clean up component related properties
+from the entity through overriding this method.
+Therefore, Use <code>removeGlideComponent(ofType:)</code> method of this class instead.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@GlideEngine@objc(cs)GlideEntity(py)name"></a>
+                    <a name="//apple_ref/swift/Property/name" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@GlideEngine@objc(cs)GlideEntity(py)name">name</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Same as the name of the node of this entity&rsquo;s <code><a href="../Classes/TransformNodeComponent.html">TransformNodeComponent</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC3tagSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/tag" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC3tagSSSgvp">tag</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tag for this entity. Can be used to filter entities in the scene.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tag</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC11currentTimeSdvp"></a>
+                    <a name="//apple_ref/swift/Property/currentTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC11currentTimeSdvp">currentTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This entity&rsquo;s scene&rsquo;s current time in seconds.
+Returns <code>0</code> if the entity doesn&rsquo;t have a scene.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentTime</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC9transformAA22TransformNodeComponentCvp"></a>
+                    <a name="//apple_ref/swift/Property/transform" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC9transformAA22TransformNodeComponentCvp">transform</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Transform node component for this entity.
+Returns same value as calling <code>component(ofType: TransformNodeComponent.self)</code>
+on the entity.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">transform</span><span class="p">:</span> <span class="kt"><a href="../Classes/TransformNodeComponent.html">TransformNodeComponent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC5sceneAA0A5SceneCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/scene" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC5sceneAA0A5SceneCSgvp">scene</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Scene to which this entity belongs.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt"><a href="../Classes/GlideScene.html">GlideScene</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC18zPositionContainerAA09ZPositionE0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/zPositionContainer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC18zPositionContainerAA09ZPositionE0_pSgvp">zPositionContainer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Represents the first found <code>zPositionContainer</code> amound this entity&rsquo;s
+<code><a href="../Protocols/ZPositionContainerIndicatorComponent.html">ZPositionContainerIndicatorComponent</a></code>s <code>zPositionContainer</code>s.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">zPositionContainer</span><span class="p">:</span> <span class="kt"><a href="../Models.html#/s:11GlideEngine18ZPositionContainerP">ZPositionContainer</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC17isCameraFocusableSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isCameraFocusable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC17isCameraFocusableSbvp">isCameraFocusable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if any of this entity&rsquo;s components conforms to <code><a href="../Protocols/CameraFocusingComponent.html">CameraFocusingComponent</a></code> protocol.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isCameraFocusable</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC17cameraFocusOffsetSo7CGPointVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cameraFocusOffset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC17cameraFocusOffsetSo7CGPointVSgvp">cameraFocusOffset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Accumulated <code>focusOffset</code> from this entity&rsquo;s <code><a href="../Protocols/CameraFocusingComponent.html">CameraFocusingComponent</a></code>s.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cameraFocusOffset</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Update%20control"></a>
+                <a name="//apple_ref/swift/Section/Update control" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Update%20control"></a>
+                  <h3 class="section-name"><p>Update control</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC15shouldBeUpdatedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/shouldBeUpdated" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC15shouldBeUpdatedSbvp">shouldBeUpdated</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity&rsquo;s update methods should be called.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldBeUpdated</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC13canTakeDamageSbvp"></a>
+                    <a name="//apple_ref/swift/Property/canTakeDamage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC13canTakeDamageSbvp">canTakeDamage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity can take damage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">canTakeDamage</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC12canBeRemovedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/canBeRemoved" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC12canBeRemovedSbvp">canBeRemoved</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity&rsquo;s transform can be removed from the scene.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">canBeRemoved</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC17shouldBlockInputsSbvp"></a>
+                    <a name="//apple_ref/swift/Property/shouldBlockInputs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC17shouldBlockInputsSbvp">shouldBlockInputs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>true</code> if the entity&rsquo;s components should process user input.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldBlockInputs</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialize"></a>
+                <a name="//apple_ref/swift/Section/Initialize" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initialize"></a>
+                  <h3 class="section-name"><p>Initialize</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC19initialNodePositionACSo7CGPointV_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(initialNodePosition:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC19initialNodePositionACSo7CGPointV_tcfc">init(initialNodePosition:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create an entity.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="n">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">initialNodePosition</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>initialNodePosition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Position for the transform node of this entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC19initialNodePosition14positionOffsetACSo7CGPointV_AGtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(initialNodePosition:positionOffset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC19initialNodePosition14positionOffsetACSo7CGPointV_AGtcfc">init(initialNodePosition:<wbr>positionOffset:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create an entity.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">initialNodePosition</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">positionOffset</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>initialNodePosition</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Position for the transform node of this entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>positionOffset</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Offset for transform node position from the given
+<code>initialNodePosition</code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC06removeA9Component6ofTypeyxm_tSo11GKComponentCRbzAA0aE0RzlF"></a>
+                    <a name="//apple_ref/swift/Method/removeGlideComponent(ofType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC06removeA9Component6ofTypeyxm_tSo11GKComponentCRbzAA0aE0RzlF">removeGlideComponent(ofType:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Use this method to remove components from your entity.
+Since <code>removeComponent(ofType:)</code> method of <code>GKEntity</code> is not implemented with an open
+modifier, this method is implemented as a replacement.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">removeGlideComponent</span><span class="o">&lt;</span><span class="kt">ComponentType</span><span class="o">&gt;</span><span class="p">(</span><span class="n">ofType</span> <span class="nv">componentClass</span><span class="p">:</span> <span class="kt">ComponentType</span><span class="o">.</span><span class="k">Type</span><span class="p">)</span> <span class="k">where</span> <span class="kt">ComponentType</span> <span class="p">:</span> <span class="kt">GKComponent</span><span class="p">,</span> <span class="kt">ComponentType</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/GlideComponent.html">GlideComponent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Setup"></a>
+                <a name="//apple_ref/swift/Section/Setup" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Setup"></a>
+                  <h3 class="section-name"><p>Setup</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC5setupyyF"></a>
+                    <a name="//apple_ref/swift/Method/setup()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC5setupyyF">setup()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Can be used as a place for initialization of components.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setup</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC14didMoveToSceneyyAA0aG0CF"></a>
+                    <a name="//apple_ref/swift/Method/didMoveToScene(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC14didMoveToSceneyyAA0aG0CF">didMoveToScene(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called right after transform node of entity is added to a scene.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">didMoveToScene</span><span class="p">(</span><span class="n">_</span> <span class="nv">scene</span><span class="p">:</span> <span class="kt"><a href="../Classes/GlideScene.html">GlideScene</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Scene that the entity&rsquo;s transform node has as a parent.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC20willUpdateComponents11currentTime05deltaH0ySd_SdtF"></a>
+                    <a name="//apple_ref/swift/Method/willUpdateComponents(currentTime:deltaTime:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC20willUpdateComponents11currentTime05deltaH0ySd_SdtF">willUpdateComponents(currentTime:<wbr>deltaTime:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called right before updating components of the entity.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">willUpdateComponents</span><span class="p">(</span><span class="nv">currentTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">deltaTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currentTime</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Current time in the frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Seconds passed since the last frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC19didUpdateComponents11currentTime05deltaH0ySd_SdtF"></a>
+                    <a name="//apple_ref/swift/Method/didUpdateComponents(currentTime:deltaTime:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC19didUpdateComponents11currentTime05deltaH0ySd_SdtF">didUpdateComponents(currentTime:<wbr>deltaTime:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called right before calling <code>didUpdate(deltaTime:)</code> of each component.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">didUpdateComponents</span><span class="p">(</span><span class="nv">currentTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">deltaTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currentTime</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Current time in the frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Seconds passed since the last frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC11resetStates11currentTime05deltaG0ySd_SdtF"></a>
+                    <a name="//apple_ref/swift/Method/resetStates(currentTime:deltaTime:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC11resetStates11currentTime05deltaG0ySd_SdtF">resetStates(currentTime:<wbr>deltaTime:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called after <code><a href="../Classes/GlideEntity.html#/s:11GlideEngine0A6EntityC19didUpdateComponents11currentTime05deltaH0ySd_SdtF">didUpdateComponents(currentTime:deltaTime:)</a></code> of <code>GlideEntity</code>.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">resetStates</span><span class="p">(</span><span class="nv">currentTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">deltaTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>currentTime</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Current time in the frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Seconds passed since the last frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC23updateAfterCameraUpdate9deltaTime15cameraComponentySd_AA0fK0CtF"></a>
+                    <a name="//apple_ref/swift/Method/updateAfterCameraUpdate(deltaTime:cameraComponent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC23updateAfterCameraUpdate9deltaTime15cameraComponentySd_AA0fK0CtF">updateAfterCameraUpdate(deltaTime:<wbr>cameraComponent:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called after scene of the entity updates its camera entity.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateAfterCameraUpdate</span><span class="p">(</span><span class="n">deltaTime</span> <span class="nv">seconds</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">cameraComponent</span><span class="p">:</span> <span class="kt"><a href="../Classes/CameraComponent.html">CameraComponent</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Seconds passed since the last frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>cameraComponent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Camera component of the scene&rsquo;s camera entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC6layout5scene17previousSceneSizeyAA0aG0C_So6CGSizeVtF"></a>
+                    <a name="//apple_ref/swift/Method/layout(scene:previousSceneSize:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC6layout5scene17previousSceneSizeyAA0aG0C_So6CGSizeVtF">layout(scene:<wbr>previousSceneSize:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called in each frame to inform entities about size changes of the scene.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">layout</span><span class="p">(</span><span class="nv">scene</span><span class="p">:</span> <span class="kt"><a href="../Classes/GlideScene.html">GlideScene</a></span><span class="p">,</span> <span class="nv">previousSceneSize</span><span class="p">:</span> <span class="kt">CGSize</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>scene</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Scene of the entity.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>previousSceneSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Size of the scene before in the last frame.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC13didSkipUpdateyyF"></a>
+                    <a name="//apple_ref/swift/Method/didSkipUpdate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC13didSkipUpdateyyF">didSkipUpdate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called for an entity in each frame as long as its <code><a href="../Classes/GlideEntity.html#/s:11GlideEngine0A6EntityC15shouldBeUpdatedSbvp">shouldBeUpdated</a></code> is <code>true</code>.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">didSkipUpdate</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC23sceneDidEvaluateActionsyyF"></a>
+                    <a name="//apple_ref/swift/Method/sceneDidEvaluateActions()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC23sceneDidEvaluateActionsyyF">sceneDidEvaluateActions()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">sceneDidEvaluateActions</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC15didFinishUpdateyyF"></a>
+                    <a name="//apple_ref/swift/Method/didFinishUpdate()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC15didFinishUpdateyyF">didFinishUpdate()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">didFinishUpdate</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11GlideEngine0A6EntityC17prepareForRemovalyyF"></a>
+                    <a name="//apple_ref/swift/Method/prepareForRemoval()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11GlideEngine0A6EntityC17prepareForRemovalyyF">prepareForRemoval()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called for an entity right before its transform node is removed from the scene.
+After that call, the entity gets out of update loop until added back to the
+scene.
+Implementation of <code>super</code> does nothing.
+Don&rsquo;t call this method directly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">prepareForRemoval</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2021 <a class="link" href="https://github.com/cocoatoucher/Glide/" target="_blank" rel="external">Glide Engine</a>. All rights reserved. (Last updated: 2021-06-17)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
