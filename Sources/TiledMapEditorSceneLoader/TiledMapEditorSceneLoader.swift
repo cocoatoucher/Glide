@@ -210,7 +210,11 @@ public class TiledMapEditorSceneLoader {
                     continue
                 }
                 let textureName = String(rawTextureName)
-                let textureFromAtlas = collisionTilesTextureAtlas?.textureNamed(textureName) ?? decorationTilesTextureAtlas?.textureNamed(textureName)
+                
+                var textureFromAtlas = collisionTilesTextureAtlas?.textureNames.contains(textureName) == true ? collisionTilesTextureAtlas?.textureNamed(textureName) : nil
+                if textureFromAtlas == nil {
+                    textureFromAtlas = decorationTilesTextureAtlas?.textureNames.contains(textureName) == true ? decorationTilesTextureAtlas?.textureNamed(textureName) : nil
+                }
                 let texture = textureFromAtlas ?? SKTexture(imageNamed: textureName)
                 texture.filteringMode = .nearest
                 
@@ -272,8 +276,7 @@ public class TiledMapEditorSceneLoader {
         
         var matchingTileSet: LoadedTileSet?
         for tileSet in tileSets {
-            let tileIndex = firstNonEmptyTileIndex - tileSet.firstGid
-            if case tileSet.range = tileIndex {
+            if firstNonEmptyTileIndex < tileSet.range.endIndex {
                 matchingTileSet = tileSet
                 break
             }

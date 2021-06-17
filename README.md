@@ -32,11 +32,20 @@ Glide is a SpriteKit and GameplayKit based engine for building 2d games easily, 
 <p align="center">
 iOS 14.0 / macOS 11.0 / tvOS 14.0
 </p>
+
 <p align="center">
+
+<img src="https://img.shields.io/discord/846858340243865610?style=flat"/>
+
+</p>
+
+<p align="center">
+
 <a href="https://twitter.com/intent/follow?screen_name=glideengine">
 <img src="https://img.shields.io/twitter/follow/glideengine.svg?label=Follow"/>
 </a>
-<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat"/>
 </p>
 
 - Make a simple 2d platformer in half an hour, tutorial on YouTube:

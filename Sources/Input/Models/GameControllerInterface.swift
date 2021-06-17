@@ -25,7 +25,7 @@
 
 import Foundation
 
-protocol GameControllerInterface: class {
+protocol GameControllerInterface: AnyObject {
     associatedtype ExtendedGamepad: ExtendedGamepadInterface
     associatedtype MicroGamepad: MicroGamepadInterface
 
@@ -54,13 +54,13 @@ protocol ExtendedGamepadInterface {
     var buttonMenu: Button { get }
 }
 
-protocol GamepadButtonInterface: class {
+protocol GamepadButtonInterface: AnyObject {
     associatedtype Button
 
     var pressedChangedHandler: ((Button, Float, Bool) -> Void)? { get set }
 }
 
-protocol GamepadDirectionPadInterface: class {
+protocol GamepadDirectionPadInterface: AnyObject {
     associatedtype DirectionPad
 
     var valueChangedHandler: ((DirectionPad, Float, Float) -> Void)? { get set }

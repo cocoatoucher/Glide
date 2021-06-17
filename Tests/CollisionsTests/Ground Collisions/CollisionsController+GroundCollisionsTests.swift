@@ -164,7 +164,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
             return
         }
 
-        _ = collisionsController.handleJumpWallTileContact(colliderMovement: colliderMovement, isJumpWallLeft: true, shouldCollideGround: true, tileIntersection: jumpWallIntersection)
+        collisionsController.handleJumpWallTileContact(colliderMovement: colliderMovement, isJumpWallLeft: true, shouldCollideGround: true, tileIntersection: jumpWallIntersection)
         XCTAssertTrue(colliderMovement.collider.pushesLeftJumpWall)
     }
     
@@ -186,7 +186,7 @@ class CollisionsControllerGroundCollisionsTests: XCTestCase {
             return
         }
         
-        _ = collisionsController.handleJumpWallTileContact(colliderMovement: colliderMovement, isJumpWallLeft: false, shouldCollideGround: true, tileIntersection: jumpWallIntersection)
+        collisionsController.handleJumpWallTileContact(colliderMovement: colliderMovement, isJumpWallLeft: false, shouldCollideGround: true, tileIntersection: jumpWallIntersection)
         XCTAssertTrue(colliderMovement.collider.pushesRightJumpWall)
     }
 }

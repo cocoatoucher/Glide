@@ -165,7 +165,12 @@ open class GlideScene: SKScene {
         return node
     }()
     
-    var isDebuggingCollisionTileMapNode: Bool = false {
+    /// Whether the collision tile map should be drawn or not.
+    /// Default value is `false`.
+    /// Compiler `DEBUG` flag should on for this to work.
+    /// A texture atlas for collision tiles should be provided
+    /// for loading collider tile map from a Tiled Map Editor file.
+    public var isDebuggingCollisionTileMapNode: Bool = false {
         didSet {
             updateCollisionTileMapNodeDebug()
         }

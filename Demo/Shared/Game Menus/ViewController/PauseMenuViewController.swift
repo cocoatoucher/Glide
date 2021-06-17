@@ -30,7 +30,7 @@ import AppKit
 import UIKit
 #endif
 
-protocol PauseMenuViewControllerDelegate: class {
+protocol PauseMenuViewControllerDelegate: AnyObject {
     func pauseMenuViewControllerDidSelectResume(_ pauseMenuViewController: PauseMenuViewController)
     func pauseMenuViewControllerDidSelectRestart(_ pauseMenuViewController: PauseMenuViewController)
     func pauseMenuViewControllerDidSelectMainMenu(_ pauseMenuViewController: PauseMenuViewController)

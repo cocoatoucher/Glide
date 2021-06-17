@@ -25,7 +25,7 @@
 
 import Foundation
 
-public protocol GlideSceneDelegate: class {
+public protocol GlideSceneDelegate: AnyObject {
     
     /// Called when the paused states of the scene changes.
     func glideScene(_ scene: GlideScene, didChangePaused paused: Bool)

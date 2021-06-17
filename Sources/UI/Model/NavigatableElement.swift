@@ -26,7 +26,7 @@
 import Foundation
 
 /// Protocol to adopt for custom navigatable view classes.
-public protocol NavigatableElement: class {
+public protocol NavigatableElement: AnyObject {
     /// Navigatable sibling element that's positioned above this element.
     var upElement: NavigatableElement? { get set }
     /// Navigatable sibling element that's positioned below this element.

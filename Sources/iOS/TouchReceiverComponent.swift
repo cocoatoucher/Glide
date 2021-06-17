@@ -29,7 +29,7 @@ import GameplayKit
 
 /// When adopted, component's entity will be able to manage touch inputs
 /// on an iOS device.
-public protocol TouchReceiverComponent: class {
+public protocol TouchReceiverComponent: AnyObject {
     
     /// Node for testing the hits of touches from the screen.
     /// This should be a node with a non empty parent.
