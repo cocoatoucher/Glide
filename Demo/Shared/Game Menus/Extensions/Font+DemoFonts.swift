@@ -61,7 +61,7 @@ extension Font {
 
 var menuHeaderFontSize: CGFloat {
     #if os(OSX)
-    return 64.0
+    return 52.0
     #elseif os(iOS)
     if UIDevice.current.userInterfaceIdiom == .pad {
         return 48.0

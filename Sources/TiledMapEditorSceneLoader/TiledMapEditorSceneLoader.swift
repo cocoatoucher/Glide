@@ -71,10 +71,12 @@ public class TiledMapEditorSceneLoader {
     /// collision tile map. This is typically loaded from an assets folder of an app.
     ///     - decorationTilesTextureAtlas: Texture atlas to be used to create the tile set of
     /// decoration tile maps. This is typically loaded from an assets folder of an app.
-    public init(fileName: String,
-                bundle: Bundle,
-                collisionTilesTextureAtlas: SKTextureAtlas?,
-                decorationTilesTextureAtlas: SKTextureAtlas?) {
+    public init(
+        fileName: String,
+        bundle: Bundle,
+        collisionTilesTextureAtlas: SKTextureAtlas?,
+        decorationTilesTextureAtlas: SKTextureAtlas?
+    ) {
         self.bundle = bundle
         self.collisionTilesTextureAtlas = collisionTilesTextureAtlas
         self.decorationTilesTextureAtlas = decorationTilesTextureAtlas
@@ -109,7 +111,12 @@ public class TiledMapEditorSceneLoader {
             let tileSets = loadTileSets(map.tilesets)
             
             let tileSize = CGSize(width: CGFloat(map.tilewidth), height: CGFloat(map.tileheight))
-            let loadedTileMaps = tileMapNodes(from: map, tileSets: tileSets, tileSize: tileSize)
+            let loadedTileMaps = tileMapNodes(
+                from: map,
+                fileName: fileName,
+                tileSets: tileSets,
+                tileSize: tileSize
+            )
             
             let collisionTileMap = loadedTileMaps.filter { $0.name == collisionTileMapLayerName }.first
             guard let collisionMap = collisionTileMap else {
@@ -126,7 +133,12 @@ public class TiledMapEditorSceneLoader {
     }
     
     /// Create `SKTileMapNode`s from the loaded map with given tile sets.
-    private func tileMapNodes(from map: Map, tileSets: [LoadedTileSet], tileSize: CGSize) -> [(name: String, node: SKTileMapNode)] {
+    private func tileMapNodes(
+        from map: Map,
+        fileName: String,
+        tileSets: [LoadedTileSet],
+        tileSize: CGSize
+    ) -> [(name: String, node: SKTileMapNode)] {
         var result: [(String, SKTileMapNode)] = []
         
         for layer in map.layers {
@@ -163,7 +175,12 @@ public class TiledMapEditorSceneLoader {
                 }
             }
             
-            if let tileMap = tileMap(with: layer, tileSets: tileSets, tileSize: tileSize) {
+            if let tileMap = tileMap(
+                with: layer,
+                fileName: fileName,
+                tileSets: tileSets,
+                tileSize: tileSize
+            ) {
                 result.append((layer.name, tileMap))
             }
         }
@@ -261,7 +278,12 @@ public class TiledMapEditorSceneLoader {
     }
     
     /// Create `SKTileMapNode` for a given layer with provided tile sets in the map file.
-    private func tileMap(with layer: Map.Layer, tileSets: [LoadedTileSet], tileSize: CGSize) -> SKTileMapNode? {
+    private func tileMap(
+        with layer: Map.Layer,
+        fileName: String,
+        tileSets: [LoadedTileSet],
+        tileSize: CGSize
+    ) -> SKTileMapNode? {
         guard let layerData = layer.data else {
             return nil
         }
@@ -293,18 +315,24 @@ public class TiledMapEditorSceneLoader {
                                     rows: mapHeight,
                                     tileSize: tileSize)
         
-        populateTileGroups(for: tileMap,
-                           layer: layer,
-                           tileSet: tileSet)
+        populateTileGroups(
+            for: tileMap,
+               fileName: fileName,
+               layer: layer,
+               tileSet: tileSet
+        )
         
         tileMap.name = layer.name
         
         return tileMap
     }
     
-    private func populateTileGroups(for tileMap: SKTileMapNode,
-                                    layer: Map.Layer,
-                                    tileSet: LoadedTileSet) {
+    private func populateTileGroups(
+        for tileMap: SKTileMapNode,
+        fileName: String,
+        layer: Map.Layer,
+        tileSet: LoadedTileSet
+    ) {
         var currentRow = 0
         var currentColumn = 0
         
@@ -328,6 +356,7 @@ public class TiledMapEditorSceneLoader {
                 
                 let mappedTileId = tileId - tileSet.firstGid
                 guard let tileGroupIndex = tileSet.tileIdToTileGroupIndex[mappedTileId] else {
+                    fatalError("Map: \(fileName), Layer: \(layer.name), Mixed tile texture(texture from another TileSet) found at column: \(currentColumn) - row: \(currentRow)")
                     continue
                 }
                 let tileGroup = tileSet.tileSet.tileGroups[tileGroupIndex]

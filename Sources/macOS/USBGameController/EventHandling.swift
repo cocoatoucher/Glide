@@ -28,7 +28,7 @@
 #if os(macOS)
 import IOKit
 
-internal protocol USBGameControllerDeviceDelegate: class {
+internal protocol USBGameControllerDeviceDelegate: AnyObject {
     func deviceXAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int)
     func deviceYAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int)
     func deviceOtherAxisStickValueChanged(_ device: USBGameController.Device, value: Int, baseValue: Int, threshold: Int, stickIndex: Int, otherAxisIndex: Int)

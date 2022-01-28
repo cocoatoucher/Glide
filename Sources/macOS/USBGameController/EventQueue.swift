@@ -31,7 +31,7 @@ import Dispatch
 import Foundation
 import IOKit
 
-internal protocol USBGameControllerEventQueueDelegate: class {
+internal protocol USBGameControllerEventQueueDelegate: AnyObject {
     func queueDidReceiveEvents(_ queue: USBGameController.Device.EventQueue)
 }
 
