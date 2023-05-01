@@ -112,17 +112,19 @@ public class EntityFactory {
     ///     - tileSize: Tile size of the scene.
     public static func checkpointEntity(checkpoint: Checkpoint,
                                         checkpointWidthInTiles: Int,
-                                        tileSize: CGSize) -> GlideEntity {
+                                        tileSize: CGSize,
+                                        isFinish: Bool = false) -> GlideEntity {
         let entity = GlideEntity(initialNodePosition: checkpoint.bottomLeftPosition.point(with: tileSize))
         entity.name = "Checkpoint-\(checkpoint.id)"
         entity.transform.usesProposedPosition = false
         
-        let checkpointComponent = CheckpointComponent(checkpoint: checkpoint)
+        let checkpointComponent = CheckpointComponent(checkpoint: checkpoint, adjustsColliderSize: !isFinish)
         entity.addComponent(checkpointComponent)
         
         let colliderWidth = CGFloat(checkpointWidthInTiles) * tileSize.width
+        let colliderHeight = isFinish ? CGFloat(checkpointWidthInTiles) * tileSize.height : 0
         let colliderComponent = ColliderComponent(categoryMask: GlideCategoryMask.snappable,
-                                                  size: CGSize(width: colliderWidth, height: 0),
+                                                  size: CGSize(width: colliderWidth, height: colliderHeight),
                                                   offset: .zero,
                                                   leftHitPointsOffsets: (0, 0),
                                                   rightHitPointsOffsets: (0, 0),
