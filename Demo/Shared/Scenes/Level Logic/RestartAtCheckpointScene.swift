@@ -59,7 +59,7 @@ class RestartAtCheckpointScene: BaseLevelScene {
         let finishCheckpointEntity = EntityFactory.checkpointEntity(checkpoint: finishCheckpoint,
                                                                     checkpointWidthInTiles: 3,
                                                                     tileSize: tileSize,
-                                                                    isFinish: true)
+                                                                    stretchesToTop: true)
         addEntity(finishCheckpointEntity)
         
         addEntity(gemCounterEntity)
