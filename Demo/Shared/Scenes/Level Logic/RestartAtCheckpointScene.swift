@@ -58,7 +58,8 @@ class RestartAtCheckpointScene: BaseLevelScene {
                                           spawnDirection: TransformNodeComponent.HeadingDirection.right)
         let finishCheckpointEntity = EntityFactory.checkpointEntity(checkpoint: finishCheckpoint,
                                                                     checkpointWidthInTiles: 3,
-                                                                    tileSize: tileSize)
+                                                                    tileSize: tileSize,
+                                                                    stretchesToTop: true)
         addEntity(finishCheckpointEntity)
         
         addEntity(gemCounterEntity)
